@@ -2,7 +2,8 @@
 layout: post
 title:  "Set up docker on Ruby on Rails application"
 date:   2018-07-25 09:23:58 +0545
-categories: tutorials
+categories: [Docker, Ruby on Rails]
+tags: [docker, ruby on rails]
 ---
 
 First you need to install docker, docker-compose, docker-machine, on your system.

@@ -2,7 +2,8 @@
 layout: post
 title:  "Ruby Variables!"
 date:   2018-08-29 09:23:58 +0545
-categories: tutorials
+categories: [Ruby, Variable]
+tags: [ruby, variable]
 ---
 
 #### What is Ruby variables?

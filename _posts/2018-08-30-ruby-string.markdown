@@ -2,7 +2,8 @@
 layout: post
 title:  "Ruby String !"
 date:   2018-08-30 09:23:58 +0545
-categories: tutorials
+categories: [Ruby, String]
+tags: [ruby, string]
 ---
 
 #### About String

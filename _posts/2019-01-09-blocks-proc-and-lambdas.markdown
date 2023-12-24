@@ -2,7 +2,8 @@
 layout: post
 title:  "Blocks, Lambdas and Proc"
 date:   2019-01-07 08:01:18 +0545
-categories: tutorials
+categories: [Ruby, Block Lambda Proc]
+tags: [ruby, block, lambda, proc]
 ---
 
 # Lambdas and Proc

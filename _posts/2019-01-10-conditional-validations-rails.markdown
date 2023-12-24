@@ -2,7 +2,8 @@
 layout: post
 title:  "Conditional Validations"
 date:   2019-01-07 08:01:18 +0545
-categories: tutorials
+categories: [Ruby on Rails, Conditional Validations]
+tags: [ruby on rails, validation]
 ---
 
 Senerio:

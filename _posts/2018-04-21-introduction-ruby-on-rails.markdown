@@ -2,7 +2,8 @@
 layout: post
 title:  "Introduction - Ruby on Rails!"
 date:   2018-04-21 09:23:58 +0545
-categories: tutorials
+categories: [Ruby on Rails, Introduction]
+tags: [ruby on rails, introduction]
 ---
 Rails is a server-side web application development framework written in the Ruby programming language. Ruby on Rails help developer to write small to large web applications quickly.
 

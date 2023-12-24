@@ -2,7 +2,8 @@
 layout: post
 title:  "Write Comments on Ruby!"
 date:   2018-08-28 09:23:58 +0545
-categories: tutorials
+categories: [Ruby, Comments]
+tags: [ruby, comments]
 ---
 
 #### How to write comments on Ruby

@@ -2,7 +2,8 @@
 layout: post
 title:  "How to create Rails application with MongoDB?"
 date:   2019-08-30 09:23:58 +0545
-categories: tutorials
+categories: [MongoDB, Ruby on Rails]
+tags: [mongodb, rails_setup]
 ---
 
 # Setup Rails 5 with mongoid gem

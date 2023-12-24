@@ -2,7 +2,8 @@
 layout: post
 title:  "Ruby - Arrays !"
 date:   2018-09-02 09:01:18 +0545
-categories: tutorials
+categories: [Ruby, Arrays]
+tags: [ruby, arrays]
 ---
 
 An array is an ordered collection of elements that can be of any type. Each element in an array is referred to by an index. Array can have objects like integer, string, float, Fixnum, Hash, Symbol.

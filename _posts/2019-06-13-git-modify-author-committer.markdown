@@ -2,7 +2,8 @@
 layout: post
 title:  "Git Modify Author and Committer"
 date:   2019-06-13 07:23:58 +0545
-categories: tutorials
+categories: [Git, Modify Author And Committer]
+tags: [git]
 ---
 
 # How to change all commits to have the same newly added author and committer?

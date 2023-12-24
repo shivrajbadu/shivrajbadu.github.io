@@ -2,7 +2,8 @@
 layout: post
 title:  "Introduction - Ruby!"
 date:   2018-04-23 09:23:58 +0545
-categories: tutorials
+categories: [Ruby, Introduction]
+tags: [ruby, introduction]
 ---
 Ruby is a dynamic, open source, server-side scripting, interpreted, reflective, object-oriented, general purpose programming language. It was designed by Yukihiro Matsumato in Japan in the mid-1990s. 
 

@@ -2,7 +2,8 @@
 layout: post
 title:  "Sql Having & GroupBy!"
 date:   2018-08-29 09:23:58 +0545
-categories: tutorials
+categories: [SQL, Having - Group by]
+tags: [sql, having_group_by]
 ---
 
 #### Having & Group Clause

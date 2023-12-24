@@ -2,7 +2,8 @@
 layout: post
 title:  "How to install Ruby on Windows?"
 date:   2018-08-6 04:23:58 +0545
-categories: tutorials
+categories: [Ruby, Operate on WindowsOS]
+tags: [ruby, windowsOS]
 ---
 
 ### When you are on Windows machine

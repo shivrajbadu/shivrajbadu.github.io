@@ -2,7 +2,8 @@
 layout: post
 title:  "How to install MongoDB on Ubuntu 18.04?"
 date:   2019-08-29 09:23:58 +0545
-categories: tutorials
+categories: [MongoDB, Installation]
+tags: [mongodb, installation]
 ---
 
 ## Install MongoDB Community Edition on Unbuntu 18.04 (Bionic)

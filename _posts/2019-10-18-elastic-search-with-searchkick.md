@@ -2,7 +2,8 @@
 layout: post
 title:  "Elastic Search with Searchkick"
 date:   2019-10-18 08:01:18 +0545
-categories: tutorials
+categories: [Ruby on Rails, Elastic search Searchkick]
+tags: [elastic_search, searchkick, ruby on rails]
 ---
 
 # What is Searchkick?

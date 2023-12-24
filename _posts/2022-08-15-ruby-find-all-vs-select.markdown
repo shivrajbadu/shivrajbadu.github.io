@@ -2,7 +2,8 @@
 layout: post
 title:  "Ruby find_all vs. select"
 date:   2022-08-15 10:40:18 +0545
-categories: tutorials
+categories: [Ruby, select vs. find_all]
+tags: [ruby, find_all, select]
 ---
 
 ## About find_all vs. select Ruby method

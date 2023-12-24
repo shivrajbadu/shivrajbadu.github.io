@@ -2,7 +2,8 @@
 layout: post
 title:  "Ruby Put and Print Commands !"
 date:   2018-08-30 05:12:38 +0545
-categories: tutorials
+categories: [Ruby, Puts vs. Print]
+tags: [ruby, print]
 ---
 
 #### puts vs print

@@ -2,7 +2,8 @@
 layout: post
 title:  "Metaprogramming in Ruby"
 date:   2019-09-02 09:23:58 +0545
-categories: tutorials
+categories: [Ruby, Metaprogramming]
+tags: [ruby, metaprogramming]
 ---
 
 ## Metaprogramming in Ruby

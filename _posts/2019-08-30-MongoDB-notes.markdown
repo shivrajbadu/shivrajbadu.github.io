@@ -2,7 +2,8 @@
 layout: post
 title:  "Notes on MongoDB"
 date:   2019-08-30 09:23:58 +0545
-categories: tutorials
+categories: [MongoDB, Data Operation]
+tags: [mongodb, data_operation]
 ---
 
 #### Introduction to MongoDB

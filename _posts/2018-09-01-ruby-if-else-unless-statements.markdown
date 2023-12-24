@@ -2,7 +2,8 @@
 layout: post
 title:  "Ruby - Control Flow Statement !"
 date:   2018-08-30 09:23:58 +0545
-categories: tutorials
+categories: [Ruby, Control Statement]
+tags: [ruby, control_structure]
 ---
 
 #### if Statement in Ruby

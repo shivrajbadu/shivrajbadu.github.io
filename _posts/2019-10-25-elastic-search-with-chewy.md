@@ -2,7 +2,8 @@
 layout: post
 title:  "Elastic Search with Chewy"
 date:   2019-10-25 07:01:18 +0545
-categories: linux
+categories: [Ruby on Rails, Elastic search Chewy]
+tags: [elastic_search, chewy]
 ---
 
 Chewy is one of the elastic search Ruby client.

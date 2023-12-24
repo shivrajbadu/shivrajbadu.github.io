@@ -2,7 +2,8 @@
 layout: post
 title:  "Polymorphism in Ruby"
 date:   2019-08-28 09:23:58 +0545
-categories: tutorials
+categories: [Ruby, Polymorphism]
+tags: [ruby, polymorphism]
 ---
 
 ### Polymorphism in Ruby

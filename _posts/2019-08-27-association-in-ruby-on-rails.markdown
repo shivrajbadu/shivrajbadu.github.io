@@ -2,7 +2,8 @@
 layout: post
 title:  "Association in Ruby on Rails!"
 date:   2018-04-21 09:23:58 +0545
-categories: tutorials
+categories: [Ruby on Rails, Association]
+tags: [ruby on rails, association]
 ---
 
 # Ruby on Rails Association

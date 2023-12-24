@@ -2,7 +2,8 @@
 layout: post
 title:  "Engine on Rails"
 date:   2019-01-07 08:01:18 +0545
-categories: tutorials
+categories: [Ruby on Rails, Engines]
+tags: [ruby on rails, engines]
 ---
 
 Engines are small applications which provides functionality to their host applications. A Rails application is a engine with `Rails::Application` class inheriting a lot of behaviour from `Rails::Engine`. So Rails application and engine are alomost same thing and share common structure with slight differences.

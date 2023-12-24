@@ -2,7 +2,8 @@
 layout: post
 title:  "Webpacker in Rails6"
 date:   2020-06-05 01:45:18 +0545
-categories: tutorials
+categories: [Ruby on Rails, Webpacker]
+tags: [ruby on rails, webpacker]
 ---
 
 ### Webpacker

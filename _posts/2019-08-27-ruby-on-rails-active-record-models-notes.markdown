@@ -2,7 +2,8 @@
 layout: post
 title:  "Features and functions of Active Record Model"
 date:   2019-08-27 07:12:58 +0545
-categories: tutorials
+categories: [Ruby on Rails, Active Record cheatsheet]
+tags: [ruby on rails, active_record]
 ---
 
 ## Notes on various features and functions of Active Record Model

@@ -2,7 +2,8 @@
 layout: post
 title:  "JQuery"
 date:   2019-10-13 08:01:18 +0545
-categories: jquery
+categories: [JQuery, Cheatsheet]
+tags: [jquery]
 ---
 
 # Introduction

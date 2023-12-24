@@ -2,7 +2,8 @@
 layout: post
 title:  "Elastic Search"
 date:   2019-10-18 08:01:18 +0545
-categories: linux
+categories: [Ruby on Rails, Elastic search]
+tags: [elastic_search]
 ---
 
 # Introduction to Elastic Search

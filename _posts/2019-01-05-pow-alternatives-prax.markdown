@@ -2,7 +2,8 @@
 layout: post
 title:  "Pow alternatives prax !"
 date:   2019-01-05 09:01:18 +0545
-categories: tutorials
+categories: [Ruby, Pow Alternatives Prax]
+tags: [ruby, linux, prax, pow_alternate, rack gem]
 ---
 
 Pow is zero-config Rack server for Mac OS X. Your application will run on myapp.test without modifying /etc/hosts.
