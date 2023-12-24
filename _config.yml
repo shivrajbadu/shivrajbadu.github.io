@@ -51,6 +51,8 @@ google_site_verification: 1V6mjFi-H5goXTGWpdsB7z6Mcve5NUvIpvzaQJGxOtA# fill in t
 
 google_analytics:
   id: UA-141224442-1 # fill in your Google Analytics ID
+google_adsense:
+  client: ca-pub-6361630351328078
 # Prefer color scheme setting.
 #
 # Note: Keep empty will follow the system prefer color by default,
