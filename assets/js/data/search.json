@@ -3,8 +3,8 @@
   {
     "title": "Ruby find_all vs. select",
     "url": "/posts/ruby-find-all-vs-select/",
-    "categories": "tutorials",
-    "tags": "",
+    "categories": "Ruby, select vs. find_all",
+    "tags": "ruby, find_all, select",
     "date": "2022-08-15 10:40:18 +0545",
     
 
@@ -20,8 +20,8 @@
   {
     "title": "Webpacker in Rails6",
     "url": "/posts/rails6-webpacker/",
-    "categories": "tutorials",
-    "tags": "",
+    "categories": "Ruby on Rails, Webpacker",
+    "tags": "ruby on rails, webpacker",
     "date": "2020-06-05 01:45:18 +0545",
     
 
@@ -37,8 +37,8 @@
   {
     "title": "Elastic Search with Chewy",
     "url": "/posts/elastic-search-with-chewy/",
-    "categories": "linux",
-    "tags": "",
+    "categories": "Ruby on Rails, Elastic search Chewy",
+    "tags": "elastic_search, chewy",
     "date": "2019-10-25 07:01:18 +0545",
     
 
@@ -54,8 +54,8 @@
   {
     "title": "Elastic Search",
     "url": "/posts/elastic-search/",
-    "categories": "linux",
-    "tags": "",
+    "categories": "Ruby on Rails, Elastic search",
+    "tags": "elastic_search",
     "date": "2019-10-18 08:01:18 +0545",
     
 
@@ -71,8 +71,8 @@
   {
     "title": "Elastic Search with Searchkick",
     "url": "/posts/elastic-search-with-searchkick/",
-    "categories": "tutorials",
-    "tags": "",
+    "categories": "Ruby on Rails, Elastic search Searchkick",
+    "tags": "elastic_search, searchkick, ruby on rails",
     "date": "2019-10-18 08:01:18 +0545",
     
 
@@ -88,8 +88,8 @@
   {
     "title": "JQuery",
     "url": "/posts/jquery/",
-    "categories": "jquery",
-    "tags": "",
+    "categories": "JQuery, Cheatsheet",
+    "tags": "jquery",
     "date": "2019-10-13 08:01:18 +0545",
     
 
@@ -105,8 +105,8 @@
   {
     "title": "Metaprogramming in Ruby",
     "url": "/posts/metaprogramming-in-ruby/",
-    "categories": "tutorials",
-    "tags": "",
+    "categories": "Ruby, Metaprogramming",
+    "tags": "ruby, metaprogramming",
     "date": "2019-09-02 09:23:58 +0545",
     
 
@@ -122,8 +122,8 @@
   {
     "title": "How to create Rails application with MongoDB?",
     "url": "/posts/Rails-app-with-MongoDB/",
-    "categories": "tutorials",
-    "tags": "",
+    "categories": "MongoDB, Ruby on Rails",
+    "tags": "mongodb, rails_setup",
     "date": "2019-08-30 09:23:58 +0545",
     
 
@@ -139,8 +139,8 @@
   {
     "title": "Notes on MongoDB",
     "url": "/posts/MongoDB-notes/",
-    "categories": "tutorials",
-    "tags": "",
+    "categories": "MongoDB, Data Operation",
+    "tags": "mongodb, data_operation",
     "date": "2019-08-30 09:23:58 +0545",
     
 
@@ -156,8 +156,8 @@
   {
     "title": "How to install MongoDB on Ubuntu 18.04?",
     "url": "/posts/MongoDB-installation/",
-    "categories": "tutorials",
-    "tags": "",
+    "categories": "MongoDB, Installation",
+    "tags": "mongodb, installation",
     "date": "2019-08-29 09:23:58 +0545",
     
 
@@ -173,8 +173,8 @@
   {
     "title": "Polymorphism in Ruby",
     "url": "/posts/polymorphism-in-ruby/",
-    "categories": "tutorials",
-    "tags": "",
+    "categories": "Ruby, Polymorphism",
+    "tags": "ruby, polymorphism",
     "date": "2019-08-28 09:23:58 +0545",
     
 
@@ -190,8 +190,8 @@
   {
     "title": "Inheritance in Ruby",
     "url": "/posts/inheritance-in-ruby/",
-    "categories": "tutorials",
-    "tags": "",
+    "categories": "Ruby, Inheritance",
+    "tags": "ruby, inheritance",
     "date": "2019-08-28 09:23:58 +0545",
     
 
@@ -207,8 +207,8 @@
   {
     "title": "Features and functions of Active Record Model",
     "url": "/posts/ruby-on-rails-active-record-models-notes/",
-    "categories": "tutorials",
-    "tags": "",
+    "categories": "Ruby on Rails, Active Record cheatsheet",
+    "tags": "ruby on rails, active_record",
     "date": "2019-08-27 07:12:58 +0545",
     
 
@@ -224,8 +224,8 @@
   {
     "title": "Git Modify Author and Committer",
     "url": "/posts/git-modify-author-committer/",
-    "categories": "tutorials",
-    "tags": "",
+    "categories": "Git, Modify Author And Committer",
+    "tags": "git",
     "date": "2019-06-13 07:23:58 +0545",
     
 
@@ -241,8 +241,8 @@
   {
     "title": "Conditional Validations",
     "url": "/posts/conditional-validations-rails/",
-    "categories": "tutorials",
-    "tags": "",
+    "categories": "Ruby on Rails, Conditional Validations",
+    "tags": "ruby on rails, validation",
     "date": "2019-01-07 08:01:18 +0545",
     
 
@@ -258,8 +258,8 @@
   {
     "title": "Blocks, Lambdas and Proc",
     "url": "/posts/blocks-proc-and-lambdas/",
-    "categories": "tutorials",
-    "tags": "",
+    "categories": "Ruby, Block Lambda Proc",
+    "tags": "ruby, block, lambda, proc",
     "date": "2019-01-07 08:01:18 +0545",
     
 
@@ -275,8 +275,8 @@
   {
     "title": "Engine on Rails",
     "url": "/posts/engines-on-rails/",
-    "categories": "tutorials",
-    "tags": "",
+    "categories": "Ruby on Rails, Engines",
+    "tags": "ruby on rails, engines",
     "date": "2019-01-07 08:01:18 +0545",
     
 
@@ -292,8 +292,8 @@
   {
     "title": "Pow alternatives prax !",
     "url": "/posts/pow-alternatives-prax/",
-    "categories": "tutorials",
-    "tags": "",
+    "categories": "Ruby, Pow Alternatives Prax",
+    "tags": "ruby, linux, prax, pow_alternate, rack gem",
     "date": "2019-01-05 09:01:18 +0545",
     
 
@@ -309,8 +309,8 @@
   {
     "title": "Ruby - Arrays !",
     "url": "/posts/ruby-arrays/",
-    "categories": "tutorials",
-    "tags": "",
+    "categories": "Ruby, Arrays",
+    "tags": "ruby, arrays",
     "date": "2018-09-02 09:01:18 +0545",
     
 
@@ -326,8 +326,8 @@
   {
     "title": "Ruby - Switch Case Statement !",
     "url": "/posts/ruby-switch-case/",
-    "categories": "tutorials",
-    "tags": "",
+    "categories": "Ruby, Swith Case",
+    "tags": "ruby, switch_case",
     "date": "2018-09-01 07:12:18 +0545",
     
 
@@ -343,8 +343,8 @@
   {
     "title": "Ruby - Loops & Iterators !",
     "url": "/posts/ruby-loops-and-iterators/",
-    "categories": "tutorials",
-    "tags": "",
+    "categories": "Ruby, Loops & iterators",
+    "tags": "ruby, loops",
     "date": "2018-09-01 04:19:12 +0545",
     
 
@@ -360,8 +360,8 @@
   {
     "title": "Ruby - Control Flow Statement !",
     "url": "/posts/ruby-if-else-unless-statements/",
-    "categories": "tutorials",
-    "tags": "",
+    "categories": "Ruby, Control Statement",
+    "tags": "ruby, control_structure",
     "date": "2018-08-30 09:23:58 +0545",
     
 
@@ -377,8 +377,8 @@
   {
     "title": "Ruby String !",
     "url": "/posts/ruby-string/",
-    "categories": "tutorials",
-    "tags": "",
+    "categories": "Ruby, String",
+    "tags": "ruby, string",
     "date": "2018-08-30 09:23:58 +0545",
     
 
@@ -394,8 +394,8 @@
   {
     "title": "Get user input in Ruby!",
     "url": "/posts/ruby-get-user-input/",
-    "categories": "tutorials",
-    "tags": "",
+    "categories": "Ruby, Get user input",
+    "tags": "ruby, get_user_input",
     "date": "2018-08-30 09:23:58 +0545",
     
 
@@ -411,8 +411,8 @@
   {
     "title": "Ruby Put and Print Commands !",
     "url": "/posts/ruby-puts-print-command/",
-    "categories": "tutorials",
-    "tags": "",
+    "categories": "Ruby, Puts vs. Print",
+    "tags": "ruby, print",
     "date": "2018-08-30 05:12:38 +0545",
     
 
@@ -428,8 +428,8 @@
   {
     "title": "Sql Having & GroupBy!",
     "url": "/posts/sql-having/",
-    "categories": "tutorials",
-    "tags": "",
+    "categories": "SQL, Having - Group by",
+    "tags": "sql, having_group_by",
     "date": "2018-08-29 09:23:58 +0545",
     
 
@@ -445,8 +445,8 @@
   {
     "title": "Ruby Variables!",
     "url": "/posts/Ruby-variables/",
-    "categories": "tutorials",
-    "tags": "",
+    "categories": "Ruby, Variable",
+    "tags": "ruby, variable",
     "date": "2018-08-29 09:23:58 +0545",
     
 
@@ -462,8 +462,8 @@
   {
     "title": "Ruby Variables Scope!",
     "url": "/posts/Ruby-variables-scope/",
-    "categories": "tutorials",
-    "tags": "",
+    "categories": "Ruby, Variable Scope",
+    "tags": "ruby, variable",
     "date": "2018-08-29 09:23:58 +0545",
     
 
@@ -479,8 +479,8 @@
   {
     "title": "Write Comments on Ruby!",
     "url": "/posts/Comments-in-Ruby/",
-    "categories": "tutorials",
-    "tags": "",
+    "categories": "Ruby, Comments",
+    "tags": "ruby, comments",
     "date": "2018-08-28 09:23:58 +0545",
     
 
@@ -496,8 +496,8 @@
   {
     "title": "Backup and Restore PostgreSQL Database",
     "url": "/posts/backup-and-restore-postgresql-databases-on-ubuntu-16-04/",
-    "categories": "tutorials",
-    "tags": "",
+    "categories": "PostgreSQL, Backup Restore",
+    "tags": "postgres, backup_restore",
     "date": "2018-08-27 09:23:58 +0545",
     
 
@@ -513,8 +513,8 @@
   {
     "title": "How to install Ruby on Windows?",
     "url": "/posts/Ruby-Install-Win-And_Run_App/",
-    "categories": "tutorials",
-    "tags": "",
+    "categories": "Ruby, Operate on WindowsOS",
+    "tags": "ruby, windowsOS",
     "date": "2018-08-06 04:23:58 +0545",
     
 
@@ -530,8 +530,8 @@
   {
     "title": "Set up docker on Ruby on Rails application",
     "url": "/posts/setup-docker-on-ror/",
-    "categories": "tutorials",
-    "tags": "",
+    "categories": "Docker, Ruby on Rails",
+    "tags": "docker, ruby on rails",
     "date": "2018-07-25 09:23:58 +0545",
     
 
@@ -547,8 +547,8 @@
   {
     "title": "Introduction - Ruby!",
     "url": "/posts/introduction-ruby/",
-    "categories": "tutorials",
-    "tags": "",
+    "categories": "Ruby, Introduction",
+    "tags": "ruby, introduction",
     "date": "2018-04-23 09:23:58 +0545",
     
 
@@ -564,8 +564,8 @@
   {
     "title": "Association in Ruby on Rails!",
     "url": "/posts/association-in-ruby-on-rails/",
-    "categories": "tutorials",
-    "tags": "",
+    "categories": "Ruby on Rails, Association",
+    "tags": "ruby on rails, association",
     "date": "2018-04-21 09:23:58 +0545",
     
 
@@ -581,8 +581,8 @@
   {
     "title": "Introduction - Ruby on Rails!",
     "url": "/posts/introduction-ruby-on-rails/",
-    "categories": "tutorials",
-    "tags": "",
+    "categories": "Ruby on Rails, Introduction",
+    "tags": "ruby on rails, introduction",
     "date": "2018-04-21 09:23:58 +0545",
     
 

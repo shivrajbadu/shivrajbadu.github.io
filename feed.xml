@@ -1,17 +1,17 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>http://shivrajbadu.com.np/</id>
+  <id>http://localhost:4000/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2023-12-24T23:08:56+05:45</updated>
+  <updated>2023-12-25T01:27:52+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
-    <uri>http://shivrajbadu.com.np/</uri>
+    <uri>http://localhost:4000/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="http://shivrajbadu.com.np/feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
-    href="http://shivrajbadu.com.np/"/>
+    href="http://localhost:4000/"/>
   <generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator>
   <rights> © 2023 Shivraj Badu </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
@@ -21,20 +21,22 @@
   
   <entry>
     <title>Ruby find_all vs. select</title>
-    <link href="http://shivrajbadu.com.np/posts/ruby-find-all-vs-select/" rel="alternate" type="text/html" title="Ruby find_all vs. select" />
+    <link href="http://localhost:4000/posts/ruby-find-all-vs-select/" rel="alternate" type="text/html" title="Ruby find_all vs. select" />
     <published>2022-08-15T10:40:18+05:45</published>
   
-    <updated>2022-08-15T10:40:18+05:45</updated>
+    <updated>2023-12-25T01:01:47+05:45</updated>
   
-    <id>http://shivrajbadu.com.np/posts/ruby-find-all-vs-select/</id>
-    <content src="http://shivrajbadu.com.np/posts/ruby-find-all-vs-select/" />
+    <id>http://localhost:4000/posts/ruby-find-all-vs-select/</id>
+    <content src="http://localhost:4000/posts/ruby-find-all-vs-select/" />
     <author>
       <name>Shivraj Badu</name>
     </author>
 
   
     
-    <category term="tutorials" />
+    <category term="Ruby" />
+    
+    <category term="select vs. find_all" />
     
   
 
@@ -68,20 +70,22 @@ a.find_all{|x| x.even?} # =&amp;gt; [2, 4, 6, 8]
   
   <entry>
     <title>Webpacker in Rails6</title>
-    <link href="http://shivrajbadu.com.np/posts/rails6-webpacker/" rel="alternate" type="text/html" title="Webpacker in Rails6" />
+    <link href="http://localhost:4000/posts/rails6-webpacker/" rel="alternate" type="text/html" title="Webpacker in Rails6" />
     <published>2020-06-05T01:45:18+05:45</published>
   
-    <updated>2020-06-05T01:45:18+05:45</updated>
+    <updated>2023-12-25T01:01:47+05:45</updated>
   
-    <id>http://shivrajbadu.com.np/posts/rails6-webpacker/</id>
-    <content src="http://shivrajbadu.com.np/posts/rails6-webpacker/" />
+    <id>http://localhost:4000/posts/rails6-webpacker/</id>
+    <content src="http://localhost:4000/posts/rails6-webpacker/" />
     <author>
       <name>Shivraj Badu</name>
     </author>
 
   
     
-    <category term="tutorials" />
+    <category term="Ruby on Rails" />
+    
+    <category term="Webpacker" />
     
   
 
@@ -108,20 +112,22 @@ a.find_all{|x| x.even?} # =&amp;gt; [2, 4, 6, 8]
   
   <entry>
     <title>Elastic Search with Chewy</title>
-    <link href="http://shivrajbadu.com.np/posts/elastic-search-with-chewy/" rel="alternate" type="text/html" title="Elastic Search with Chewy" />
+    <link href="http://localhost:4000/posts/elastic-search-with-chewy/" rel="alternate" type="text/html" title="Elastic Search with Chewy" />
     <published>2019-10-25T07:01:18+05:45</published>
   
-    <updated>2019-10-25T07:01:18+05:45</updated>
+    <updated>2023-12-25T01:01:47+05:45</updated>
   
-    <id>http://shivrajbadu.com.np/posts/elastic-search-with-chewy/</id>
-    <content src="http://shivrajbadu.com.np/posts/elastic-search-with-chewy/" />
+    <id>http://localhost:4000/posts/elastic-search-with-chewy/</id>
+    <content src="http://localhost:4000/posts/elastic-search-with-chewy/" />
     <author>
       <name>Shivraj Badu</name>
     </author>
 
   
     
-    <category term="linux" />
+    <category term="Ruby on Rails" />
+    
+    <category term="Elastic search Chewy" />
     
   
 
@@ -153,20 +159,22 @@ Most of the indexed models are related to other and it is necessary to denormali
   
   <entry>
     <title>Elastic Search</title>
-    <link href="http://shivrajbadu.com.np/posts/elastic-search/" rel="alternate" type="text/html" title="Elastic Search" />
+    <link href="http://localhost:4000/posts/elastic-search/" rel="alternate" type="text/html" title="Elastic Search" />
     <published>2019-10-18T08:01:18+05:45</published>
   
-    <updated>2019-10-18T08:01:18+05:45</updated>
+    <updated>2023-12-25T01:01:47+05:45</updated>
   
-    <id>http://shivrajbadu.com.np/posts/elastic-search/</id>
-    <content src="http://shivrajbadu.com.np/posts/elastic-search/" />
+    <id>http://localhost:4000/posts/elastic-search/</id>
+    <content src="http://localhost:4000/posts/elastic-search/" />
     <author>
       <name>Shivraj Badu</name>
     </author>
 
   
     
-    <category term="linux" />
+    <category term="Ruby on Rails" />
+    
+    <category term="Elastic search" />
     
   
 
@@ -192,20 +200,22 @@ Elastic search is used as primary backend of your web application which can be a
   
   <entry>
     <title>Elastic Search with Searchkick</title>
-    <link href="http://shivrajbadu.com.np/posts/elastic-search-with-searchkick/" rel="alternate" type="text/html" title="Elastic Search with Searchkick" />
+    <link href="http://localhost:4000/posts/elastic-search-with-searchkick/" rel="alternate" type="text/html" title="Elastic Search with Searchkick" />
     <published>2019-10-18T08:01:18+05:45</published>
   
-    <updated>2019-10-18T08:01:18+05:45</updated>
+    <updated>2023-12-25T01:01:47+05:45</updated>
   
-    <id>http://shivrajbadu.com.np/posts/elastic-search-with-searchkick/</id>
-    <content src="http://shivrajbadu.com.np/posts/elastic-search-with-searchkick/" />
+    <id>http://localhost:4000/posts/elastic-search-with-searchkick/</id>
+    <content src="http://localhost:4000/posts/elastic-search-with-searchkick/" />
     <author>
       <name>Shivraj Badu</name>
     </author>
 
   
     
-    <category term="tutorials" />
+    <category term="Ruby on Rails" />
+    
+    <category term="Elastic search Searchkick" />
     
   
 
