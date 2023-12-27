@@ -97,10 +97,12 @@
         enable_page_level_ads: true
     });
   </script>  
+  {% include adsblockrecovery.html %}
 
   {% unless site.theme_mode %}
     {% include mode-toggle.html %}
   {% endunless %}
 
   {% include metadata-hook.html %}
+
 </head>
