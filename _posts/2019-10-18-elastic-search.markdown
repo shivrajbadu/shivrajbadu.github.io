@@ -197,3 +197,5 @@ Restart the Elasticsearch service and now connection to Elasticsearch server fro
 ```Ruby
 sudo systemctl restart elasticsearch
 ```
+
+{% include inarticle-adsense.html %}

@@ -25,3 +25,5 @@ tags: [git]
 Rewrite cd130b5306f93f52a1ef7cce7fd8c25ad5a68b14 (1/1) (0 seconds passed, remaining 0 predicted)    
 Ref 'refs/heads/master' was rewritten
 ```
+
+{% include inarticle-adsense.html %}

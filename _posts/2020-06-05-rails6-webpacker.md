@@ -50,3 +50,5 @@ we can use the helper method `javascript_pack_tag` to include the webpacker pack
 ```
 
 * Prior to Rails 6 application do not install `gem webpacker` by default, include it in Gemfile, and run the command `rake webpacker:install`
+
+{% include inarticle-adsense.html %}

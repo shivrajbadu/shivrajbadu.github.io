@@ -89,3 +89,5 @@ Ruby constant are the values whose value cannot be changed once it is assigned. 
 ```ruby
 PROJECT_VALUE=100
 ```
+
+{% include inarticle-adsense.html %}

@@ -100,3 +100,5 @@ end
 
 block_fun { puts "Block is executing" }
 ```
+
+{% include inarticle-adsense.html %}

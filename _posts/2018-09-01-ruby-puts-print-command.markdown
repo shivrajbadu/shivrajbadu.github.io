@@ -28,3 +28,5 @@ puts [1,2,nil]
 
 => nil 
 ```
+
+{% include inarticle-adsense.html %}

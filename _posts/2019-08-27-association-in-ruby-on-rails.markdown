@@ -188,3 +188,5 @@ class CreateVideos < ActiveRecord::Migration
   end
 end
 ```
+
+{% include inarticle-adsense.html %}

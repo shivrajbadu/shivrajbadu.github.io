@@ -114,3 +114,5 @@ arr.each do |el|
   puts el
 end
 ```
+
+{% include inarticle-adsense.html %}

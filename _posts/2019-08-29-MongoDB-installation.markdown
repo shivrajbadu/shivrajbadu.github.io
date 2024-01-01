@@ -80,3 +80,5 @@ sudo apt-get purge mongodb-org* # remove mongoDB packages
 sudo rm -r /var/log/mongodb 
 sudo rm -r /var/lib/mongodb
 ```
+
+{% include inarticle-adsense.html %}

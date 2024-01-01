@@ -69,3 +69,5 @@ cd example.dev
 # for first time run the command `prax start`, later you can restart it
 prax restart
 ```
+
+{% include inarticle-adsense.html %}

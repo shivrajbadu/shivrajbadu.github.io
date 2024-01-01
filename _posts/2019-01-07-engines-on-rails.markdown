@@ -118,3 +118,5 @@ Gem::Specification.new do |s|
   s.add_dependency 'authority', '~> 3.1'
 end
 ```
+
+{% include inarticle-adsense.html %}

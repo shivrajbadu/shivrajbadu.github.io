@@ -31,3 +31,5 @@ postgres@usr-Aspire-E5-575G:~$ psql
 postgres=# CREATE DATABASE new_database_name TEMPLATE template0;
 postgres@usr-Aspire-E5-575G:~$ psql new_database_name < /home/siv/name-of-backup-file
 ```
+
+{% include inarticle-adsense.html %}

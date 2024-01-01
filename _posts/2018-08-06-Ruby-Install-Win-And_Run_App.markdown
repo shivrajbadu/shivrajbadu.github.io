@@ -59,3 +59,5 @@ Please add the following to your Gemfile to avoid polling for changes:
 ```ruby
 gem 'wdm', '>= 0.1.0' if Gem.win_platform?
 ```
+
+{% include inarticle-adsense.html %}

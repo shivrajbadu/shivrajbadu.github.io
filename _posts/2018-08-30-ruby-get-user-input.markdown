@@ -19,3 +19,5 @@ puts "How are you #{name}"
 ```
 
 String#chomp method returns string after removing extra line.
+
+{% include inarticle-adsense.html %}

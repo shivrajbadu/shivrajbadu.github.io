@@ -185,3 +185,5 @@ class Student < ApplicationRecord
   }
 end
 ```
+
+{% include inarticle-adsense.html %}

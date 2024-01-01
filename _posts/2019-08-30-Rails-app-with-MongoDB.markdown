@@ -100,3 +100,5 @@ end
 
 In this senario, the records are saved inside two independed mongoDB collection Articles and Comments. And inside Comment Document we will have article_id whose value is the corressponding Article Id. But in embeds_many technique the child records do not save inside the Comment collection but inside Article Collection included inside Article document.
 ```
+
+{% include inarticle-adsense.html %}

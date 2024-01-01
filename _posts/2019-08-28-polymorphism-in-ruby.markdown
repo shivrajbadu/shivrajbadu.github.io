@@ -43,3 +43,5 @@ animal = Cow.new
 animal.eat
 => Cow eats grasses & water
 ```
+
+{% include inarticle-adsense.html %}

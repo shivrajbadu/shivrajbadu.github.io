@@ -52,3 +52,5 @@ Institution.first.items.includes(:vendor).group_by{|item| item.vendor.name}.tran
  "Vendor 5"=>10
  }
 ```
+
+{% include inarticle-adsense.html %}

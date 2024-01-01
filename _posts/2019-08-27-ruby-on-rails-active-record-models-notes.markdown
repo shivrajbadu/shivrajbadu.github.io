@@ -385,3 +385,5 @@ class Song < ActiveRecord::Base
   end
 end
 ```
+
+{% include inarticle-adsense.html %}

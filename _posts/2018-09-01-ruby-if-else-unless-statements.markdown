@@ -39,3 +39,5 @@ Ternary operator is short hand for if else expression. Two symbols ? : are used.
 x = 2
 x > 5 ? 'Greater' : 'Smaller' 
 ```
+
+{% include inarticle-adsense.html %}

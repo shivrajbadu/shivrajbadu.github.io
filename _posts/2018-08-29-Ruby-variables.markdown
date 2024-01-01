@@ -69,3 +69,5 @@ x.to_s(16) # convert to hexadecimal
 x.to_s(8) # convert to octal
 => "12"
 ```
+
+{% include inarticle-adsense.html %}

@@ -52,3 +52,5 @@ Pass field value as
 ```Ruby
 <%= f.hidden_field :stu_field_validate, :value => "no_of_students" %>
 ```
+
+{% include inarticle-adsense.html %}

@@ -29,3 +29,5 @@ Multiline comments starts with =begin and ends with =end
   One can write number of lines as per need.
 =end
 ```
+
+{% include inarticle-adsense.html %}

@@ -322,3 +322,5 @@ search.html.erb
     <p>No users found.</p>
 <% end %>
 ```
+
+{% include inarticle-adsense.html %}

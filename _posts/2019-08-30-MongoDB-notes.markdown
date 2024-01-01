@@ -443,3 +443,5 @@ When implement one to many relationships, many child records will have many chil
     ]
 }
 ```
+
+{% include inarticle-adsense.html %}

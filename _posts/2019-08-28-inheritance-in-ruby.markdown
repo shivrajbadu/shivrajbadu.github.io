@@ -112,3 +112,5 @@ obj = ClassName.new
 obj.module_method
 # => I am a module method
 ```
+
+{% include inarticle-adsense.html %}

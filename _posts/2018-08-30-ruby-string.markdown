@@ -268,3 +268,5 @@ output:
 "Count of r = 1"
 "Count of d = 1"
 ```
+
+{% include inarticle-adsense.html %}

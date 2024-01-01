@@ -28,3 +28,5 @@ On hash select returns hash and find_all returns array.
 h.select { |k, v| v.even? }   # => {:b=>2, :d=>4, :f=>6, :h=>8}
 h.find_all { |k, v| v.even? } # => [[:b, 2], [:d, 4], [:f, 6], [:h, 8]]
 ```
+
+{% include inarticle-adsense.html %}

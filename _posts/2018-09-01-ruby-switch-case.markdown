@@ -19,3 +19,5 @@ else
   puts 'You have entered number other than 1 & 2'
 end
 ```
+
+{% include inarticle-adsense.html %}

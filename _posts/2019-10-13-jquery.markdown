@@ -699,3 +699,5 @@ Usage
 </body>
 </html>
 ```
+
+{% include inarticle-adsense.html %}

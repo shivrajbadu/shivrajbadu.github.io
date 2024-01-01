@@ -53,3 +53,5 @@ docker-machine ip “${DOCKER_MACHINE_NAME}”
 
 # To run rails console
 docker-compose exec website rails console
+ 
+{% include inarticle-adsense.html %}

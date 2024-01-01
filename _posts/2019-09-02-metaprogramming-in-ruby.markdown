@@ -172,3 +172,5 @@ end
 Performance
 
 Depending on the amount of times a piece of code is executed, performance considerations can be extremely important. "Hot code" is a term used to describe code that is called frequently during an application's request cycle. Since not all code is created equally, understanding the performance implications of different metaprogramming approaches is imperative when writing or modifying hot code.
+
+{% include inarticle-adsense.html %}
