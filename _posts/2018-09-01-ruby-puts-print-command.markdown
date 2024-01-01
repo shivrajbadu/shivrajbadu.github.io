@@ -11,7 +11,7 @@ tags: [ruby, print]
 puts and print both are used to display the result of evaluating Ruby code.
 Major difference between these two are: puts adds a newline after executing but print does not add new line.
 
-```
+```Ruby
 puts "one two"
 one two
 => nil

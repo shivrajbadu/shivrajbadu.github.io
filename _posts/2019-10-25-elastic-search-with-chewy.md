@@ -26,9 +26,11 @@ Chewy has an ActiveRecord style query DSL.
 
 #### Installation Steps:
 
+```Ruby
 gem 'chewy'
 
 bundle install
+```
 
 or gem install chewy
 
@@ -39,7 +41,7 @@ or gem install chewy
 
 Run the command `rails g chewy:install` to generate the file or create one manually.
 
-```
+```Ruby
 # config/chewy.yml
 # separate environment configs
 test:
@@ -51,7 +53,7 @@ development:
 
 #### config/initializers/chewy.rb
 
-```
+```Ruby
 Chewy.settings = {host: 'localhost:9250'} # do not use environments
 ```
 
@@ -59,7 +61,7 @@ Chewy.settings = {host: 'localhost:9250'} # do not use environments
 
 Configuration for using AWS's elastic search using an IAM user policy, sign your requests for the es:* action by injecting the headers passing a proc to transport_options.
 
-```
+```Ruby
 Chewy.settings = {
     host: 'http://my-es-instance-on-aws.us-east-1.es.amazonaws.com:80',
     transport_options: {
@@ -80,7 +82,7 @@ Chewy.settings = {
 
 Following API is used to access index-defined types
 
-```
+```Ruby
 UsersIndex::User
 UsersIndex.type_hash['user']
 UsersIndex.type('user')
@@ -91,7 +93,7 @@ UsersIndex.type_names # ["user"]
 
 #### Index Manipulation
 
-```
+```Ruby
 UsersIndex.delete # destroy existed index
 UsersIndex.delete!
 
@@ -114,7 +116,7 @@ UsersIndex.reset! # purges index and imports default data for all types
 app/chewy/user_index.rb
 
 
-```
+```Ruby
 class UserIndex < Chewy::Index
     settings analysis: {
       analyzer: {
@@ -135,7 +137,7 @@ class UserIndex < Chewy::Index
 
 app/controllers/users_controller.rb
 
-```
+```Ruby
 class UsersController < ApplicationController
     def search
       @users = UsersIndex.query(query_string: { fields: [:name, :email, :phone], query: search_params[:query], default_operator: 'and' })
@@ -153,7 +155,7 @@ class UsersController < ApplicationController
 
 app/models/user.rb
 
-```
+```Ruby
 class User < ApplicationRecord
     update_index('user') { self }
     enum status: { unconfirmed: 0, confirmed: 1 }
@@ -162,7 +164,7 @@ end
 
 routes.rb
 
-```
+```Ruby
 resources :users do
     get :search, on: :collection
 end
@@ -172,7 +174,7 @@ If you access the url `http://localhost:3000/users/search?query=test1`
 
 Following results are seen on the browser
 
-```
+```Ruby
 0	
 id	"18"
 name	"test1"
@@ -200,7 +202,7 @@ _explanation	null
 
 and if we inspect the result of @users object on controller.first on console, we will see
 
-```
+```Ruby
 @_data=
   {"_index"=>"user",
    "_type"=>"user",
@@ -221,7 +223,7 @@ We can refactor the searching as:
 
 Create a dir called as app/searches/user_search.rb
 
-```
+```Ruby
 # user_search.rb
 # frozen_string_literal: true
 
@@ -259,7 +261,7 @@ end
 
 Now call the UserSearch class and implement it inside the UsersController
 
-```
+```Ruby
 class UsersController < ApplicationController
   def search
     user_search = UserSearch.new(search_params)
@@ -278,7 +280,7 @@ end
 
 Now modify the search action as:
 
-```
+```Ruby
 class UsersController < ApplicationController
   def search
     user_search = UserSearch.new(search_params)
@@ -295,7 +297,7 @@ end
 
 search.html.erb
 
-```
+```Ruby
 <% if @users.any? %>
     <table border="1">
         <tr>

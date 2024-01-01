@@ -23,7 +23,7 @@ In this type of association, the data records contains one instance of another m
 
 Model look like this:
 
-```
+```Ruby
 class User < ApplicationRecord           class CitizenshipNumber < ApplicationRecord
     has_one :citizenship_number             belongs_to :user                        
 end                                      end
@@ -31,7 +31,7 @@ end                                      end
 
 Table look like this:
 
-```
+```Ruby
   users                      profiles
   -----                      ---------
   id  (primary key)           id
@@ -45,7 +45,7 @@ In this type of association, instance of first model can have zero or more than 
 
 Model look like this:
 
-```
+```Ruby
 class User < ApplicationRecord         class Post < ApplicationRecord
     has_many :posts                       belongs_to :user
 end                                    end
@@ -53,7 +53,7 @@ end                                    end
 
 Table look like this:
 
-```
+```Ruby
   users                      posts
   -----                      ---------
   id  (primary key)           id
@@ -69,13 +69,13 @@ It can be handled in two ways: has and belongs to many and has many through rela
 
 In this type of association, has_and_belongs_to_many methods is called from both the models in order to create many to many connection with another model. Rails migration need to be created in the following format in order to create join table.
 
-```
+```Ruby
 rails g migration CreateJoinTableUserPost user post
 ```
 
 which generates migration file like this:
 
-```
+```Ruby
 class CreateJoinTableUserPost < ActiveRecord::Migration[5.0]
   def change
     create_join_table :users, :posts do |t|
@@ -87,7 +87,7 @@ end
 
 Model look like this:
 
-```
+```Ruby
 class User < ApplicationRecord         class Post < ApplicationRecord
   has_and_belongs_to_many :posts         has_and_belongs_to_many :users
 end                                    end
@@ -95,7 +95,7 @@ end                                    end
 
 Table look like this:
 
-```
+```Ruby
   users                users_posts                posts
   -----                -----------                ---------
   id  (primary key)    id                         id
@@ -109,7 +109,7 @@ In this type of many-to-many association, unlike join intermediate table was cre
 
 Model look like this:
 
-```
+```Ruby
 class User < ApplicationRecord                class Post < ApplicationRecord
   has_many :posts, through: user_posts           has_many :users, through: user_posts
   has_many :user_posts                           has_many :user_posts
@@ -123,7 +123,7 @@ end
 
 Table look like this:
 
-```
+```Ruby
   users                user_posts                 posts
   -----                -----------                ---------
   id  (primary key)    id                         id
@@ -137,7 +137,7 @@ In this type of association, one model is belongs to many different models on a 
 
 Model look like this:
 
-```
+```Ruby
 class Post < ApplicationRecord         class Article < ApplicationRecord
   has_many :video, as: :videoable         has_many :video, as: :videoable
 end                                    end
@@ -155,7 +155,7 @@ Generally polymorphic table needs type column (videoable_type: string) and forei
 
 Table look like this:
 
-```
+```Ruby
   videos               Post      Article   Blog    UserProfile    
   -----                -----     -------   -----   -----------
   id  (primary key)     id        id        id      id
@@ -165,7 +165,7 @@ Table look like this:
 
 Migration:
 
-```
+```Ruby
 class CreateVideos < ActiveRecord::Migration
   def change
     create_table :videos do |t|

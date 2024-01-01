@@ -52,20 +52,20 @@ Elastic Search has following components:
 
 * Install apt-transport-https package that necessary to access a repository over HTTPs.
 
-```
+```Ruby
 $ sudo apt update
 $ sudo apt install apt-transport-https
 ```
 
 * Install OpenJDK 8
 
-```
+```Ruby
 sudo apt install openjdk-8-jdk
 ```
 
 * Verify the java installation
 
-```
+```Ruby
 $ java -version
 
 # this gives output as below
@@ -77,7 +77,7 @@ OpenJDK 64-Bit Server VM (build 25.222-b10, mixed mode)
 
 * Import repository's GPG using the following wget command
 
-```
+```Ruby
 wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add -
 
 ```
@@ -86,27 +86,27 @@ wget -qO - https://artifacts.elastic.co/GPG-KEY-elasticsearch | sudo apt-key add
 
 * Add the Elasticsearch repository to the system by issuing:
 
-```
+```Ruby
 sudo sh -c 'echo "deb https://artifacts.elastic.co/packages/7.x/apt stable main" > /etc/apt/sources.list.d/elastic-7.x.list'
 ```
 
 * Now update apt package list and install Elasticsearch engine by following commands:
 
-```
+```Ruby
 sudo apt update
 sudo apt install elasticsearch
 ```
 
 * Start the Elasticsearch processes
 
-```
+```Ruby
 sudo systemctl enable elasticsearch.service
 sudo systemctl start elasticsearch.service
 ```
 
 * Verify Elasticsearch is running by command
 
-```
+```Ruby
 curl -X GET "localhost:9200/"
 
 # it's output is as shown below
@@ -129,7 +129,7 @@ curl -X GET "localhost:9200/"
   "tagline" : "You Know, for Search"
 }
 
-```
+```Ruby
 
 * Log messages can be seen by using following command
 
@@ -151,26 +151,26 @@ Anyone can access Elasticsearch by HTTP API as Elasticsearch lacks authenticatio
 
 First add a rule which allow incoming SSH
 
-```
+```Ruby
 sudo ufw allow 22
 ```
 
 Allow access from trusted client 
 
-```
+```Ruby
 sudo ufw allow from 192.168.1.65 to any port 9200
 # replace remote ip address with 192.168.1.65
 ```
 
 Enable UFW
 
-```
+```Ruby
 sudo ufw enable
 ```
 
 Check firewall status
 
-```
+```Ruby
 sudo ufw status
 
 // o/p looks like this
@@ -186,7 +186,7 @@ To                         Action      From
 
 * Next edit Elasticsearch configuration allow it to listen to external connections
 
-```
+```Ruby
 sudo vim /etc/elasticsearch/elasticsearch.yml
 ```
 
@@ -194,6 +194,6 @@ Uncomment line having `network.host`, change the value to 0.0.0.0. To make Elast
 
 Restart the Elasticsearch service and now connection to Elasticsearch server from remote is ready.
 
-```
+```Ruby
 sudo systemctl restart elasticsearch
 ```

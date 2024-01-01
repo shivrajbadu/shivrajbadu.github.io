@@ -23,7 +23,7 @@ Examples
 
 Make a getter methods which return instance variables if they are not nil, if they are nil set it to some default value and return it.
 
-```
+```Ruby
 class Foo
     def foo
         @foo ||= 0
@@ -32,7 +32,7 @@ end
 ```
 Suppose if you have multiple such getters then instead of writing them all we can use metaprogramming like this:
 
-```
+```Ruby
 class Foo
     {foo: 0, bar: '', baz: []}.each do |method_name, default_value|
         define_method method_name do
@@ -44,7 +44,7 @@ class Foo
 end
 ```
 
-```
+```Ruby
 module GettersWithDefault
     def getters_with_default(spec)
         spec.each do |method_name, default_value|
@@ -66,7 +66,7 @@ end
 
 A common example of Metaprogramming
 
-```
+```Ruby
 class Post
     def initialize(status)
         @status = status
@@ -86,7 +86,7 @@ Domain Specific Language
 
 A Domain Specific Language or DSL is a custom language that solves a specific domain or problem. In Ruby's case, a DSL is written in Ruby but looks different from standard Ruby code. Some examples of Ruby DSL are Rails Routes, Rspec, Factory Girl, etc. Factory Girl has cmplicated internal code but it allows you to write expressive, declarative code.
 
-```
+```Ruby
 FactoryGirl.define do
     sequence :github_username do |n|
         "github_#{n}"
@@ -105,7 +105,7 @@ end
 
 DSL Structure
 
-```
+```Ruby
 describe "User" do
   # ...
 end
@@ -130,7 +130,7 @@ One problem with metaprogramming solutions are their obstruction of code discove
 
 For example we can assume that a User class exists with a set of metaprogrammed methods:
 
-```
+```Ruby
 class User
     [
         :password,
@@ -153,7 +153,7 @@ A Work Around:
 
 To combat this issue, some developers choose to write a comment listing the defined method names above metaprogramming block. This simple solution can greatly help the readability of the code.
 
-```
+```Ruby
 class User
     # has_password?, has_email?, has_first_name?, has_last_name? method definitions
     [

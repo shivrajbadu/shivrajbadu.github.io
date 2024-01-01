@@ -16,7 +16,7 @@ Lambdas and Proc are executed by call().
 
 Lambda declaration
 
-```
+```Ruby
 x = lambda { p "This is lambda" }
 x.call
 => "This is lambda"
@@ -34,7 +34,7 @@ ArgumentError (wrong number of arguments (given 3, expected 2))
 
 Proc declaration
 
-```
+```Ruby
 x = Proc.new {p "this is proc"}
 x.call
 => "this is proc"
@@ -50,7 +50,7 @@ obj.call(2,3,5)
 => 5
 ```
 
-```
+```Ruby
 class Block
   def hello(*args, &block)
     yield *args
@@ -79,7 +79,7 @@ Ruby blocks are anonymous functions are passed into methods. They are enclosed b
 It accepts multiple arguments as |arg1, ..., argn|. Blocks are used with `each`.
 It allows to save code and use it later.
 
-```
+```Ruby
 #### single line blocks
 [20,30,40].each {|n| puts n}
 # here code inside {} are block
@@ -93,7 +93,7 @@ end
 ### Ruby yield keyword
 yield is a keyword that calls and run the code inside the block
 
-```
+```Ruby
 def block_fun
   yield
 end

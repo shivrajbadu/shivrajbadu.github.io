@@ -13,7 +13,7 @@ Inheritance is the feature of OOP in which characteristics & behaviours of one c
 
 #### Class Inheritance
 
-```
+```Ruby
 class Animal
     def eat # this method will overrides on other inherited classes
         puts "Animal eats grasses, water, etc"
@@ -29,7 +29,7 @@ end
 
 Here Animal is the superclass and Cat, Cow is the subclass.
 
-```
+```Ruby
 cat = Cat.new
 cow = Cow.new
 cat.eat # => Animal eats grasses, water, etc
@@ -38,7 +38,7 @@ cow.eat # => Animal eats grasses, water, etc
 
 #### Method overriding
 
-```
+```Ruby
 class Animal
     def eat
         puts 'Animal eats grasses, water, etc'
@@ -61,7 +61,7 @@ class Dog < Animal
 end
 ```
 
-```
+```Ruby
 cat = Cat.new("Milk and water")
 cat.eat
 # => Milk and water
@@ -74,7 +74,7 @@ dog.eat
 
 super is the inbuilt function of Ruby, which is used to call the methods up the inheritance hierarchy.
 
-```
+```Ruby
 class Animal
   def eat
     "Animal"
@@ -95,7 +95,7 @@ cat.eat        # => "Animal - cat - eats milk and water."
 
 Modules are a way of grouping together methods, classes, and constants. Modules provide a namespace and prevent name clashes, and it implement the mixin facility. Mixins is like multiple inheritence. 
 
-```
+```Ruby
 module ModuleName
     def module_method
         puts "I am a module method"
@@ -107,7 +107,7 @@ class ClassName
 end
 ```
 
-```
+```Ruby
 obj = ClassName.new
 obj.module_method
 # => I am a module method

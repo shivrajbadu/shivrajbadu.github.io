@@ -12,23 +12,23 @@ Senerio:
 
 Solutions:
 
-```
+```Ruby
 # Normally we do like this and is the best way in this situation
 validates :name, length: { minimum: 5, maximum: 15 },
                           allow_blank: true
 ```
 
-```
+```Ruby
 validates :name, length: { minimum: 5, maximum: 15 },
                 if: :length_of_name_is_not_zero
 ```
 
-```
+```Ruby
 validates :name, length: { minimum: 5, maximum: 15 },
                 unless: Proc.new {|obj| obj.name.length == 0}
 ```
 
-```
+```Ruby
 def length_of_name_is_not_zero
   return false if self.name.length.eql?(0)
   true
@@ -37,7 +37,7 @@ end
 
 Another example of conditional validation
 
-```
+```Ruby
 attr_accessor :stu_field_validate
 
 validates :no_of_students, :presence => { :if => "student_no_validate?" }
@@ -49,6 +49,6 @@ end
 
 Pass field value as
 
-```
+```Ruby
 <%= f.hidden_field :stu_field_validate, :value => "no_of_students" %>
 ```

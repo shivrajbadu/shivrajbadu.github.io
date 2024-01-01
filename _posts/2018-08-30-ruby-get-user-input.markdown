@@ -10,7 +10,7 @@ tags: [ruby, get_user_input]
 
 gets keyword is used to get the user input as a string.
 
-```
+```Ruby
 #!/usr/bin/ruby
 
 puts 'what is your name?'

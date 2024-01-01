@@ -10,7 +10,7 @@ tags: [ruby, string]
 
 String holds and manipulates an arbitrary sequence of bytes which is group of characters. String in ruby is defined using single quote and double quote as:
 
-```
+```Ruby
 strvar = 'this is string'
 strvar1 = "this is string #{some_dynamic_var}"
 ```
@@ -19,14 +19,14 @@ strvar1 = "this is string #{some_dynamic_var}"
 
 size() and length() are used to find string length
 
-```
+```Ruby
 "string".size
 => 6
 ```
 
 #### String Interpolation
 
-```
+```Ruby
 str = "String"
 puts "This Is #{str}"
 ```
@@ -35,7 +35,7 @@ Ruby calls to_s() on the string interpolation block which is used to convert obj
 
 #### Extract a Substring
 
-```
+```Ruby
 str = "longstring"
 str[0,4]
 # long
@@ -49,14 +49,14 @@ str[0..3] = ''
 
 #### include? is used to find if string contains another string
 
-```
+```Ruby
 str = "My name is Mr. ABC"
 str.include?("ABC")
 # true
 ```
 
 index() can be used to find the start position / index position of the string
-```
+```Ruby
 str = "My name is Mr. ABC"
 str.index("ABC")
 # 15
@@ -64,7 +64,7 @@ str.index("ABC")
 
 In Ruby String add more string like this:
 
-```
+```Ruby
 str = "string"
 
 str.rjust(18, "0")
@@ -76,7 +76,7 @@ str.ljust(18, "0")
 
 #### Case in String
 
-```
+```Ruby
 var1 = "str"
 var2 = "Str"
 var1.upcase == var2.upcase
@@ -87,14 +87,14 @@ var1.casecmp?(var2) # casecmp? Case-insensitive version of String
 
 #### Trim a String & Remove a White Space
 
-```
+```Ruby
 str = "   string   "
 str.strip
 => "string"
 ```
 
 #### Trim left and right string
-```
+```Ruby
 str = "   string   "
 str.lstrip
  => "string   "
@@ -106,7 +106,7 @@ str.rstrip
 
 start_with?, end_with?
 
-```
+```Ruby
 str = "a red car"
 str.start_with?("a")
 # true
@@ -116,7 +116,7 @@ str.start_with?("car")
 
 #### Ruby 2.5 has two methods delete_prefix & delete_suffix
 
-```
+```Ruby
 str = "a red car"
 str.delete_prefix("a red")
  => " car" 
@@ -133,7 +133,7 @@ str.split("")
 ```
 
 #### Convert arrary to string
-```
+```Ruby
 arr = ["s", "t", "r", "i", "n", "g"]
 arr.join
 => "string"
@@ -143,13 +143,13 @@ arr.join("-")
 
 #### Count specific characters
 
-```
+```Ruby
 "lophophorous".count("o")
 => 4
 ```
 
  #### Convert string to integer
-```
+```Ruby
 "str".to_i
 => 0
 
@@ -160,7 +160,7 @@ arr.join("-")
 #### check string is a number
 match() is introduced in Ruby 2.4
 
-```
+```Ruby
 "123".match?(/\A-?\d+\Z/)
 => true
 
@@ -170,7 +170,7 @@ match() is introduced in Ruby 2.4
 
 Append Characters
 
-```
+```Ruby
 str = ""
 str << "Ruby"
 str << " "
@@ -180,7 +180,7 @@ str << "Rails"
 Note: When you use += for string concatenation, this way new string will be created every time which is not good for performance.
 
 Loop through characters
-```
+```Ruby
 "hello world".each_char {|ch| puts ch}
 
 "hello world".chars
@@ -189,7 +189,7 @@ Loop through characters
 
 String Case
 
-```
+```Ruby
 "hello".upcase
 => "HELLO"
 "HELLO".downcase
@@ -198,7 +198,7 @@ String Case
 
 Multiline Strings
 
-```
+```Ruby
 b = <<-STRING
 hello
 world
@@ -212,7 +212,7 @@ world
 
 Gsub() replace text
 
-```
+```Ruby
 str = "The color of car is red"
 str.gsub("red", "blue")
 => "The color of car is blue"
@@ -229,14 +229,14 @@ str.gsub(/\w+/) {|w| w.capitalize}
 ```
 
 #### Remove last character of a string
-```
+```Ruby
 "hello".chomp("o")
 => hell
 ```
 
 #### Remove first and last character if first and last letter satisfied some value
 
-```
+```Ruby
 str = "{'a','b','c'}"
 
 str[1..-1] if str.chars.first == '{'
@@ -245,7 +245,7 @@ str[0...-1] if str.chars.last == '}'
 
 #### Change string encodings
 
-```
+```Ruby
 "string".encoding
  => #<Encoding:UTF-8>
 
@@ -254,7 +254,7 @@ str[0...-1] if str.chars.last == '}'
 
 #### Find out number of occurrence of each character in a given string
 
-```
+```Ruby
 str = "hello world"
 arr = str.split("")
 arr.uniq.each {|x| p "Count of #{x} = #{str.count(x)}" if x != " "

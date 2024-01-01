@@ -10,7 +10,7 @@ tags: [ruby on rails, active_record]
 
 #### Query Methods
 
-```
+```Ruby
 obj = User
   .where(email: 'info@mydomain.np')
   .where('id = 2')
@@ -28,7 +28,7 @@ obj = User
 
 #### Some other query methods
 
-```
+```Ruby
 items = Employer
   .select(:id)
   .select([:id, :name])
@@ -42,7 +42,7 @@ items = Employer
 
 #### Finder methods
 
-```
+```Ruby
 item = ModelName.find(id)
 item = ModelName.find_by_email(email)
 item = ModelName.where(email: email).first
@@ -56,7 +56,7 @@ Model
 
 #### Persistence
 
-```
+```Ruby
 item.new_record?
 item.persisted?
 item.destroyed?
@@ -79,7 +79,7 @@ Model.create!    # It does same as create but raises an Exception
 
 #### Attribute Assignment
 
-```
+```Ruby
 item.attributes                         # <Hash>
 item.attributes = { name: 'ShivRaj' }   # Merges attributes in but it Doesn't save.
 item.assign_attributes name: 'ShivRaj'  # Merges attributes in but it Doesn't save.
@@ -87,14 +87,14 @@ item.assign_attributes name: 'ShivRaj'  # Merges attributes in but it Doesn't sa
 
 #### Validations
 
-```
+```Ruby
 item.valid?
 item.invalid?
 ```
 
 #### Dirty
 
-```
+```Ruby
 item.changed?
 item.changed             # ['name']
 item.changed_attributes  # { 'name' => 'ShivRaj' } - original values
@@ -110,7 +110,7 @@ item.name_changed?(from: 'ShivRaj', to: 'PushpaRaj')
 
 #### Calculations
 
-```
+```Ruby
 Person.count
 Person.count(:age)    # counts non-nil's
 Person.average(:age)
@@ -124,7 +124,7 @@ Person.group(:city).count
 
 #### Dynamic attribute-based finders
 
-```
+```Ruby
 # Returns one record
 Person.find_by_name(name)
 Person.find_last_by_name(name)
@@ -140,7 +140,7 @@ Person.scoped_by_user_name
 
 #### belongs to Association
 
-```
+```Ruby
   belongs_to :author,
   :dependent      => :destroy    # or :delete
   :class_name     => "Seller"
@@ -161,7 +161,7 @@ Person.scoped_by_user_name
 
 #### Has many Association
 
-```
+```Ruby
 belongs_to :parent, :foreign_key => 'parent_id' class_name: 'Folder'
 has_many :folders, :foreign_key => 'parent_id', class_name: 'Folder'
 
@@ -184,7 +184,7 @@ has_many :subscribers, :finder_sql =>
 
 #### Many-to-many Has many through Association
 
-```
+```Ruby
  If you have a join model:
 
 class Programmer < ActiveRecord::Base
@@ -207,7 +207,7 @@ end
 
 #### Many-to-many (HABTM) Association
 
-```
+```Ruby
 has_and_belongs_to_many :projects
 has_and_belongs_to_many :projects, :include => [ :milestones, :manager ]
 has_and_belongs_to_many :nations, :class_name => "Country"
@@ -220,7 +220,7 @@ has_and_belongs_to_many :active_projects, :join_table => 'developers_projects', 
 
 #### Polymorphic associations
 
-```
+```Ruby
 class Post
   has_many :attachments, as: :parent
 end
@@ -238,7 +238,7 @@ end
 
 #### Validation
 
-```
+```Ruby
 class Person < ActiveRecord::Base
   # Presence
   validates :name,     presence: true
@@ -290,7 +290,7 @@ end
 
 #### Custom validations
 
-```
+```Ruby
 class Person < ActiveRecord::Base
   validate :foo_cannot_be_nil
 
@@ -302,7 +302,7 @@ end
 
 #### Errors
 
-```
+```Ruby
 record.errors.valid?      # → false
 record.errors             # → { :name => ["can't be blank"] }
 record.errors.messages    # → { :name => ["can't be blank"] }
@@ -311,7 +311,7 @@ record.errors[:name].any?
 
 #### Mass updates
 
-```
+```Ruby
 # Updates article having id 8
 Article.update 8, name: "", age: 34
 Article.update [2,3], [{name: "Shiv"}, {name: "Raj"}]
@@ -319,7 +319,7 @@ Article.update [2,3], [{name: "Shiv"}, {name: "Raj"}]
 
 #### Joining
 
-```
+```Ruby
 # Basic joins
 Employer.joins(:companies).where(companies: { type: 'private' })
 Employer.joins(:companies).where('companies.type' => 'private' )
@@ -337,14 +337,14 @@ Author.joins(
 
 #### Where interpolation
 
-```
+```Ruby
 where('name = ?', 'Shiv')
 where(['name = :name', { name: 'Shiv' }])
 ```
 
 #### Serialize
 
-````
+````Ruby
 class User < ActiveRecord::Base
   serialize :preferences
 end
@@ -359,7 +359,7 @@ user = User.create(
 
 #### You can also specify a class option as the second parameter that’ll raise an exception if a serialized object is retrieved as a descendant of a class not in the hierarchy.
 
-```
+```Ruby
 # Only Hash allowed!
 class User < ActiveRecord::Base
   serialize :preferences, Hash
@@ -372,7 +372,7 @@ User.find(user.id).preferences
 
 #### Overriding accessors
 
-```
+```Ruby
 class Song < ActiveRecord::Base
   # Uses an integer of seconds to hold the length of the song
 

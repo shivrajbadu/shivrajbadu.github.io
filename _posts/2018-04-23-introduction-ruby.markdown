@@ -21,20 +21,25 @@ Ruby is a dynamic, open source, server-side scripting, interpreted, reflective, 
 * Ruby can easily connect to DB2, MySQL, Oracle, Sybase.
 
 ##### Compile Ruby program
+
 Create a file hello_world.rb and write below code in it
-```
+
+```Ruby
   #! /usr/bin/ruby
   puts "Hello World !!";
 ```
+
 To run above code first go to the directory where hello_world.rb exists, then run the command
-```
+
+```ruby
 ruby hello_world.rb
 # output is
 Hello World !!
 ```
 
 ##### In irb interactive command line mode you can run and test following code:
-```
+
+```ruby
 >> puts "Hello, world !!"
 Hello, world !!
 => nil

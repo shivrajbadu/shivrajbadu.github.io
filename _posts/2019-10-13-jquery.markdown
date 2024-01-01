@@ -12,12 +12,12 @@ jQuery is a JavaScript library created by John Resig in 2006 with an objectives 
 
 # jQuery Syntax
 
-```
+```JS
 $(selector).action()
 ```
 Here $ sign is used to define jQuery, a selector is used to find HTML DOM elements and an action is jQuery function to be performed on the HTML elements.
 
-```
+```JS
 `$(this).hide()` // To hide current element use
 `$("h1").hide()` // To hide all h1 elements use
 `$("#myDiv").hide()` // To hide element with id "myDiv" use
@@ -26,7 +26,7 @@ Here $ sign is used to define jQuery, a selector is used to find HTML DOM elemen
 
 jQuery event should call inside $(document).ready() function in order to work on HTML page and script inside this function will exectuted before loaded the page contents and when DOM is loaded.
 
-```
+```JS
 $(document).ready(function() {
    // The script written here will execute when DOM is ready
 });
@@ -34,7 +34,7 @@ $(document).ready(function() {
 
 Example Usage
 
-```
+```JS
 <html>
     <head>
         <title>jQuery Example</title>
@@ -67,7 +67,7 @@ jQuery can be installed in two ways:
     
     Here is the example code
 
-```
+```JS
 <html>
     <head>
         <title>jQuery</title>
@@ -89,7 +89,7 @@ jQuery can be installed in two ways:
 
 Here is the example code
 
-```
+```JS
 <html>
     <head>
         <title>jQuery</title>
@@ -176,7 +176,7 @@ jQuery attributes are almost uses with properties like `className`, `id`, `tagNa
 
 attr() is used to get value of attributes and attr(name, value) is used to set the attribute with new value which will apply to all elements.
 
-```
+```JS
 <!DOCTYPE html>
 <html>
     <head>
@@ -212,7 +212,7 @@ attr() is used to get value of attributes and attr(name, value) is used to set t
 
 addClass(className) is used to apply defined styles to selected elements.
 
-```
+```JS
 <html>
     <head>
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
@@ -267,7 +267,7 @@ Here are some list of jQuery traversing methods:
 * add()
 Collects one or more matched elements which are passed inside the method to create an object which can be manipulated at the same time.
 
-```
+```JS
 <html>
 <head>
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js">
@@ -294,7 +294,7 @@ Collects one or more matched elements which are passed inside the method to crea
 * addBack()
 adds the previous set of elements with current set and maintains them in a stack which can be manipulated.
 
-```
+```JS
 # add together paragraph tags with myDiv div tag and implement bgGreen color to both
 $("div.myDiv").find("p").addBack().addClass("bgGreen");
 ```
@@ -311,7 +311,7 @@ get all elements which do not match specific selector
 
 Get all the child elements of the selected element.
 
-```
+```JS
 $(selector).children();
 ```
 
@@ -324,7 +324,7 @@ Get all the specified child elements of each selected element.
 * closest
 find the first ancestor of the selected selector.
 
-```
+```JS
 $(selector).closest(selector or element);
 ```
 
@@ -332,7 +332,7 @@ $(selector).closest(selector or element);
 
 get the parent element of specified selector
 
-```
+```JS
 $(selector).parent();
 ```
 
@@ -340,7 +340,7 @@ $(selector).parent();
 
 get all ancestor elements of specified selector
 
-```
+```JS
 $(selector).parents();
 ```
 
@@ -350,7 +350,7 @@ $(selector).parents();
 get all ancestor elements between specified selector and arguments.
 
 
-```
+```JS
 $(selector).parentsUntil(selector, element)
 ```
 
@@ -364,7 +364,7 @@ get the first parent element of specified selector.
 
 get all siblings of the specified selector.
 
-```
+```JS
 $(selector).siblings()
 ```
 
@@ -372,7 +372,7 @@ $(selector).siblings()
 
 get next sibling element of the specified selector.
 
-```
+```JS
 $(selector).next()
 ```
 
@@ -380,7 +380,7 @@ $(selector).next()
 
 get all next sibling elements of the specified selector.
 
-```
+```JS
 $(selector).nextAll()
 ```
 
@@ -388,7 +388,7 @@ $(selector).nextAll()
 
 get all next sibling between specified selector and arguments.
 
-```
+```JS
 $(selector).nextUntil()
 ```
 
@@ -396,7 +396,7 @@ $(selector).nextUntil()
 
 get the previous sibling element of the specified selector.
 
-```
+```JS
 $(selector).prev(selector)
 ```
 
@@ -404,7 +404,7 @@ $(selector).prev(selector)
 
 get all the previous siblings of specified selector.
 
-```
+```JS
 $(selector).prevAll(selector, filter_element)
 ```
 
@@ -412,7 +412,7 @@ $(selector).prevAll(selector, filter_element)
 
 get all the previous siblings between specified selector and arguments.
 
-```
+```JS
 $(selector).prevUntil(selector, filter_element)
 ```
 
@@ -430,7 +430,7 @@ get the last element of the specified selector
 
 get the element with specified index number of the specified selector.
 
-```
+```JS
 $(selector).eq(index)
 ```
 
@@ -438,7 +438,7 @@ $(selector).eq(index)
 
 remove or get the element which are matched with specified selector
 
-```
+```JS
 $(selector).is(selector or function or elements)
 ```
 
@@ -446,7 +446,7 @@ $(selector).is(selector or function or elements)
 
 get all elements which have one or more elements within and are matched with specified selector.
 
-```
+```JS
 $(selector).has(selector)
 ```
 
@@ -454,7 +454,7 @@ $(selector).has(selector)
 
 it checks if one of the specified selector is matched with arguments.
 
-```
+```JS
 .is(selector or function or elements)
 ```
 
@@ -472,7 +472,7 @@ jQuery.map(array, function(val, i) {
 
 get the subset of specified selector based on it's argument index or start and stop value.
 
-```
+```JS
 $(selector).slice(start, end)
 ```
 
@@ -498,7 +498,7 @@ Display the selected elements
 
 Usage:
 
-```
+```JS
 $("#btn-hide").click(function() {
     $("p").hide()
 });
@@ -517,7 +517,7 @@ This function is used to show to hide (toggle) the matched elements
 
 Usage:
 
-```
+```JS
     $(btn-toggle).click(function() {
         $("p").toggle()
     })
@@ -529,7 +529,7 @@ This function is used to display the slideup effects which first hide the elemen
 
 Syntax
 
-```
+```JS
 $(selector).slideUp(speed,callback);
 ```
 
@@ -538,7 +538,7 @@ $(selector).slideUp(speed,callback);
 
 Usage
 
-```
+```JS
 $("#btnUp").click(function(){
     $(".target").slideUp('slow', function(){ 
         $("#div-id").text('Slide Up Effect');
@@ -552,13 +552,13 @@ This function is used to slide down the element.
 
 Syntax
 
-```
+```JS
 $(selector).slideDown(speed,callback);
 ```
 
 Usage
 
-```
+```JS
 $("#btnDown").click(function(){
     $(".target").slideDown( 'slow', function(){ 
         $("#div2-id").text('Slide Down Effect');
@@ -573,7 +573,7 @@ slideToggle() method is used to toggle between slideUp() and slideDown() which m
 
 Syntax:
 
-```
+```JS
 $(selector).slideToggle(speed,callback);
 ```
 
@@ -581,7 +581,7 @@ $(selector).slideToggle(speed,callback);
 
 This function is used to show fades in effect from the hidden element to make it visible.
 
-```
+```JS
 $(selector).fadeIn(speed,easing,callback)
 ```
 
@@ -596,7 +596,7 @@ $(selector).fadeIn(speed,easing,callback)
 
 This function is used to show fades out effect from the visible element to make it hidden.
 
-```
+```JS
 $(selector).fadeOut(speed,easing,callback)
 ```
 
@@ -606,7 +606,7 @@ This method is used to toggle between fadeIn() and fadeOut() which will fades in
 
 Syntax
 
-```
+```JS
 $(selector).fadeOut(speed,easing,callback)
 ```
 
@@ -616,7 +616,7 @@ This method is used to show the fading effect of an element partially in or out 
 
 Syntax
 
-```
+```JS
 $(selector).fadeTo(speed,opacity,callback);
 ```
 
@@ -635,7 +635,7 @@ The delay() is an inbuilt method in jQuery which is used to set a timer to delay
 
 Syntax
 
-```
+```JS
 $(selector).delay(speed,queueName)
 ```
 
@@ -646,7 +646,7 @@ The paremeters used are explained here:
 
 Usage
 
-```
+```JS
 $("#mybtn").click(function() {
     $("#slow-delay-div").delay("slow").fadeIn();
     $("#fast-delay-div").delay("fast").fadeIn();
@@ -662,14 +662,14 @@ Specify the selector to get the reference of an element and call animate() to ap
 
 Syntax
 
-```
+```JS
 $(selector).animate({ params },speed, callback);
 $(selector).animate({ stylePropertyName: 'value', duration, easing, callback }, { options })
 ```
 
 Usage
 
-```
+```JS
 <!DOCTYPE html>
 <html>
 <head>

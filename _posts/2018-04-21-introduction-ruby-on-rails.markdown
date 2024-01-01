@@ -52,7 +52,7 @@ Rails Design Principles:
 
 Rails Web MVC Architecture
 
- ![Web MVC Architecture]({{ "../assets/rails-mvc.jpg" | absolute_url }})
+ ![Web MVC Architecture]({{ "../assets/rails/rails-mvc.jpg" | absolute_url }})
 
  {% include inarticle-adsense.html %}
 

@@ -12,14 +12,13 @@ Variables are like containers used to store information for later use. Values ca
 
 Variable can be declared as:
 
-```
+```Ruby
 num = 10
 str = "this is string"
 char = 'A'
 arr = [0,1,2,3,4]
 hash_var = {name: 'Shiv Raj', code: '00145', address: 'Nepal', "email" => 'shivrajbadu@gmail.com'}
 bool_var = false
-
 ```
 
 Many languages like C, Java are strong or static variable typing. That means you must define a variable type when declaring them e.g. if it is integer you must write int var_name, if string you must write varchar var_name. But Ruby is dynamically typed language which means we do not need to define type of the variable, and once variable is declared, you can later on change the variable type in the code, these are the advantage of dynamically typed lanaugage.
@@ -28,13 +27,15 @@ Many languages like C, Java are strong or static variable typing. That means you
 ##### Way to know Ruby Variable Type
 
 Use kind_of? method of Object class.
-```
+
+```Ruby
 num = 10
 num.kind_of?(Integer) # true
 ```
 
 To get the class method name used by the variable
-```
+
+```Ruby
 num.class
 => Fixnum
 
@@ -45,7 +46,7 @@ str.class
 
 * Variable type can be changed just by assigning new value
 
-```
+```Ruby
 x = 10
 x.class # Fixnum
 x = "Ten"
@@ -54,7 +55,7 @@ x.class # String
 
 * Convert the values of the variables
 
-```
+```Ruby
 x=10
 => 10
 x.to_f

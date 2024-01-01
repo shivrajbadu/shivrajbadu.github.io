@@ -8,7 +8,7 @@ tags: [ruby, switch_case]
 
 Ruby uses the case expression with one or more when conditions. After execution it returns one of the when statement or default else case.
 
-```
+```Ruby
 case gets.chomp
 
 when '1'

@@ -9,13 +9,13 @@ tags: [ruby, comments]
 #### How to write comments on Ruby
 
 Comments in Ruby can be written in two ways:
+
 * Single line comment
 
 Single line comment followed by # symbol
 
-```
+```ruby
   # This is a single line comment.
-
 ```
 
 
@@ -23,7 +23,7 @@ Single line comment followed by # symbol
 
 Multiline comments starts with =begin and ends with =end
 
-```
+```ruby
 =begin
   This is multiline comments.
   One can write number of lines as per need.

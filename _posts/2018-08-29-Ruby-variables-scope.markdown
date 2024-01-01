@@ -12,7 +12,7 @@ tags: [ruby, variable]
 
 Global Variables can be accessed inside classes and it's methods. Global variable are available everywhere. It is defined by prefacing the variable name with $ symbol. Before initialization it has value nil.
 
-```
+```ruby
 $global_variable = 'This is a global variable !'
 class Example
   def test_global
@@ -29,7 +29,7 @@ obj.test_global # This is a global variable !
 
 Instance Variable is accessible in any instance method in a particular instance of a class. It is defined by prefacing the variable name with @ symbol.
 
-```
+```ruby
 class Vehicle
   def initialize(name, color)
     @name = name
@@ -52,7 +52,7 @@ vehicle.full_info # Name of vehicle is: Car with color Red !
 
 Local variable has local scope which be accessed inside the code where they are declared, that is when local variable is decared inside method or loop it cannot be used outside of method or loop. It is defined by small letter or begin with underscore.
 
-```
+```ruby
 class LocalVariable
   def fun
     local_var1 = 'one'
@@ -64,14 +64,13 @@ end
 
 # instantiation and call
 LocalVariable.new.fun # onetwo
-
 ```
 
 * Class Variable
 
 A class variable is a variable that is shared amongst all instances of the class. Class variable are declared with @@ sign. Class variable are called on the class itself. Class variables are like global variable but inside the class scope.
 
-```
+```ruby
 class Vehicle
   @@name = 'Honda'
 
@@ -87,6 +86,6 @@ Vehicle.name
 
 Ruby constant are the values whose value cannot be changed once it is assigned. Constant declared within a class are available anywhere within the context of class, and when declared outside of class are assined with a global scope. Constants are written in uppercase letter with underscore to seperate different word.
 
-```
+```ruby
 PROJECT_VALUE=100
 ```

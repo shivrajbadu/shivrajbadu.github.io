@@ -15,13 +15,13 @@ It looks like you are trying to access MongoDB over HTTP on the native driver po
 
 Create a Rails application with the keyword "--skip-active-record" so that ActiveRecord is not included in the generated app.
 
-```
+```Ruby
 rails new myapp --skip-active-record
 ```
 
 Edit your Gemfile
 
-```
+```Ruby
 Remove this Gem if exists
 gem 'sqlite3'
 
@@ -33,7 +33,7 @@ gem 'bson_ext'
 ```
 
 Generate configuration file to support MongoDB which generates config/mongoid.yml
-```
+```Ruby
 rails g mongoid:config
 ```
 
@@ -43,14 +43,14 @@ The Rails generators for 'model', 'scaffold' etc have been overridden by Mongoid
 
 #### Association
 
-```
+```Ruby
 rails generate scaffold article title:string
 rails generate scaffold comment body:string article_id:string # Here article_id required when implementing has_many association but not required in case of embedds many and even records are not saved inside Comment document which is included inside Article document.
 ```
 
 Association embeds_many with embedded_in
 
-```
+```Ruby
 class Article
   include Mongoid::Document
   field :title, type: String
@@ -76,7 +76,7 @@ article.comments.build(title: 'Embeds Many association will connect child record
 
 Association has_many with belongs_to
 
-```
+```Ruby
 class Article
   include Mongoid::Document
   field :title, type: String

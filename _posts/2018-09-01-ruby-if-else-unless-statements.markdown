@@ -11,7 +11,7 @@ tags: [ruby, control_structure]
 
 if, elsif and else block in Ruby controls decision based on the condition to true/false resulting in the different execution of the code.
 
-```
+```Ruby
 key = 10
 if key > 15
   puts 'Key is greater than 15'
@@ -24,7 +24,7 @@ end
 
 unless statement is inverse of if statement. unless statement is executed if expression is not true
 
-```
+```Ruby
 num = 10
 unless num == 9
   puts "Selected number is not 10"
@@ -35,7 +35,7 @@ end
 
 Ternary operator is short hand for if else expression. Two symbols ? : are used.
 
-```
+```Ruby
 x = 2
 x > 5 ? 'Greater' : 'Smaller' 
 ```

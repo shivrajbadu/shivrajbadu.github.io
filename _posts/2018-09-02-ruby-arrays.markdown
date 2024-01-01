@@ -10,13 +10,13 @@ An array is an ordered collection of elements that can be of any type. Each elem
 
 Creating / Initialization of an Array
 
-```
+```Ruby
 arr = Array.new
 ```
 
 Set array size
 
-```
+```Ruby
 arr = Array.new(50)
 puts arr.size # 50
 puts arr.length # 50
@@ -24,14 +24,14 @@ puts arr.length # 50
 
 Assign a value of an array
 
-```
+```Ruby
 arr1 = Array.new([1,2,3,4,5])
 arr2 = [1,2,3,4,5]
 ```
 
 Accessing elementes
 
-```
+```Ruby
 arr1[3] => 4
 arr1[50] => nil
 arr1[-3] => 3
@@ -54,7 +54,7 @@ arr.include?(2) => true
 
 Check if two array objects are equal
 
-```
+```Ruby
 # checks the value
 arr1.eql? arr2
 => true
@@ -76,7 +76,7 @@ arr2.object_id = 11617600
 
 Check if there are same elements in both arrays
 
-```
+```Ruby
 array1 = [1,2,3]
 array2 = [2,3,1]
 array1.to_set == array2.to_set
@@ -96,19 +96,19 @@ array1.to_set == array2.to_set
 
 Word array create an array in which each entry is a single word.
 
-'''
+```Ruby
 count  = %w{one two three four five}
-'''
+```
 
 This is equivalent to
 
-```
+```Ruby
 count = ["one", "two", "three", "four", "five"]
 ```
 
 Nested Array: Array can contains other arrays
 
-```
+```Ruby
 staffs_info = [
   ["Ram", "0012", "Manager"],
   ["Shyam", "0013", "HR Manager"],
@@ -118,14 +118,14 @@ staffs_info = [
 
 Accessing value of nested array
 
-```
+```Ruby
 staffs_info[0][1]
 => "0012"
 ```
 
 Adding Data to Array
 
-```
+```Ruby
 count << "six"
  => ["one", "two", "three", "four", "five", "six"]
 
@@ -147,7 +147,7 @@ count.insert(3, 'bet 2-3 1', 'bet2-3 2', 'bet2-3 3')
 
 Adding Data to nested Array
 
-```
+```Ruby
 staffs_info[0] << "Rs. 80,000"
 => ["Ram", "0012", "Manager", "Rs. 80,000"]
 staffs_info
@@ -156,7 +156,7 @@ staffs_info
 
 Array pop / Remove items from an array
 
-```
+```Ruby
 arr = [1,2,3,4,5]
 arr.pop
 => 5
@@ -195,7 +195,7 @@ arr.uniq
 
 Iterating over an Array
 
-```
+```Ruby
 arr = [1,2,3,4,5]
 arr.each {|item| p item+10}
 => it prints 11,12,13,14,15
@@ -220,7 +220,7 @@ Selecting items from an Array
 
 Non-destructive Selection
 
-```
+```Ruby
 arr = [1,2,3,4,5,6,7,8]
 arr.select {|a| a > 3}
 # => [4,5,6,7,8]
@@ -236,7 +236,7 @@ Destructive Selection
 
 Destructive methods are select! and reject!
 
-```
+```Ruby
 arr.select! {|a| a > 3}
 => [4, 5, 6, 7, 8]
 arr
@@ -259,7 +259,7 @@ arr
 
 Public methods like &, |, &&, ||
 
-```
+```Ruby
 a = [1, 2, 3, 4]
 b = [3, 4, 5, 6]
 
@@ -281,27 +281,28 @@ a && b
 
 Concatenating two arrays:
 
-```
+```Ruby
 ["a", "b"] + ["c", "d"]
 => ["a", "b", "c", "d"]
 ````
 
 Difference of arrays:
-```
+
+```Ruby
 ["a", "b", "c", "d", "e"] - ["c", "d"]
 => ["a", "b", "e"]
 ```
 
 Arrarys can be chained together and returns an array (arr << obj -> arr)
 
-```
+```Ruby
 ["a", "b"] << 10 << ["c", "d"]
 => => ["a", "b", 10, ["c", "d"]]
 ```
 
 array <=> another_array -> -1, 0, +1 or nil
 
-```
+```Ruby
 a = [1,2]
 b = [3,4]
 a <=> b => -1
@@ -321,7 +322,7 @@ a <=> b => 0
 
 arr == another_arr -> bool
 
-```
+```Ruby
 [1,3] == [1,3] #=> true
 [1,3] == [1,3,4] #=> false
 ```
@@ -330,7 +331,7 @@ bsearch {|x| block} -> elm
 
 Binary search finds a value from this array which meets the given condition in O(log n) where n is the size of the array.
 
-```
+```Ruby
 arr = [0,1,2,3,4,5]
 arr.bsearch {|x| x >= 2}
 => 2
@@ -338,7 +339,7 @@ arr.bsearch {|x| x >= 2}
 
 Clear an Array
 
-```
+```Ruby
 arr = [1,2,3,4,5]
 arr.clear
 # => []
@@ -356,7 +357,7 @@ a.map.with_index {|x,i| p i}
 
 Combination
 
-```
+```Ruby
 a = [1,2,3,4,5]
 a.combination(1).to_a
 #=> [[1], [2], [3], [4], [5]]
@@ -367,13 +368,13 @@ a.combination(3).to_a
 ```
 
 compact
-```
+```Ruby
 [1,2,nil,'a','b',4].compact
 #=> [1,2,'a','b',4]
 ```
 
 concat
-```
+```Ruby
 [1,2].concat([5,6])
 #=> [1,2,5,6]
 ```
@@ -381,7 +382,7 @@ concat
 cycle
 Calls the given block for each element n times or forever if nil is given.
 Does nothing.
-```
+```Ruby
 a=["a","b","c"]
 a.cycle {|x| puts x} # infinite loop
 a.cycle(2) {|x| puts x} # => a b c a b c 
@@ -389,7 +390,7 @@ a.cycle(2) {|x| puts x} # => a b c a b c
 
 Array fill
 
-```
+```Ruby
 arr = [1,2,3]
 arr.fill('a')
 => ["a", "a", "a"]
@@ -397,7 +398,7 @@ arr.fill('a')
 
 flatten
 
-```
+```Ruby
 arr = [[1,2], 3,4,[5]]
 arr.flatten
 # => [1,2,3,4,5]
@@ -405,14 +406,14 @@ arr.flatten
 
 replace
 
-```
+```Ruby
 arr = ['a', 'b']
 arr.replace([1,2])
 => [1,2]
 ```
 
 sort
-```
+```Ruby
 a = [5,4,6,8]
 a.sort
 => [4, 5, 6, 8]
@@ -420,7 +421,7 @@ a.sort
 
 Conversion
 
-```
+```Ruby
 to_s => returns the string
 to_h => returns hash i.e. [key, value] pairs
 > [[1,:b], [2,:c]].to_h
@@ -431,7 +432,7 @@ to_ary => returns self
 
 transpose matrix
 
-```
+```Ruby
 a = [[1,2], [3,4], [5,6]]
 a.transpose
 => [[1,3,5], [2,4,6]]

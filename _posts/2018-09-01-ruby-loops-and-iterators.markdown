@@ -11,7 +11,7 @@ Loop is the process in which set of instructions or block of codes are repeated 
 #### while loop
 Ruby while loop is used to execute a program until condition is true, once condition fails execution is terminated from loop. While loop is used when number of needed iterations is not fixed.
 
-```
+```Ruby
 count = 0
 
 while count < 5 do
@@ -22,7 +22,7 @@ end
 
 #### do while loop
 
-```
+```Ruby
 # syntax
 
 loop do
@@ -52,7 +52,7 @@ end
 #### for loop
 for loop is used to run block of code in a specific number of times when number of needed iterations is known.
 
-```
+```Ruby
 for num in 1..100
   puts num
 end 
@@ -61,7 +61,7 @@ end
 #### Range loop
 Ruby each method is used to iterator over individual item in an array.
 
-```
+```Ruby
 (1..100).each do |num|
   puts num
 end
@@ -89,14 +89,14 @@ end
 
 #### Times loop
 
-```
+```Ruby
 5.times {|i| puts "number #{i}"}
 ```
 
 
 # skip iterations with the next keyword
 
-```
+```Ruby
 10.times do |i|
   res = i % 2
   next unless res==0
@@ -107,7 +107,7 @@ end
 
 # stop a loop early using break
 
-```
+```Ruby
 arr = [2,4,6,8,10,12]
 arr.each do |el|
   break if el > 10
