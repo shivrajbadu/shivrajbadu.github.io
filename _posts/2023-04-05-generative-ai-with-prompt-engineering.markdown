@@ -64,9 +64,9 @@ Central to the success of prompt engineering is the advent of Large Language Mod
 
 Let us look at some examples of prompts specifically on ChatGPT.
 
-![Prompt Engineering]({{ "../assets/ai/seo.png" | absolute_url }})
+![Prompt Engineering]({{ "../assets/img/ai/seo.png" | absolute_url }})
 
-![Prompt Engineering]({{ "../assets/ai/factorial.png" | absolute_url }})
+![Prompt Engineering]({{ "../assets/img/ai/factorial.png" | absolute_url }})
 
 ## Conclusion: Embracing the Power of Precision
 
