@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2023-12-27T23:05:45+05:45</updated>
+  <updated>2024-01-01T20:24:49+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -13,10 +13,84 @@
   <link rel="alternate" type="text/html" hreflang="en"
     href="http://shivrajbadu.com.np/"/>
   <generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator>
-  <rights> © 2023 Shivraj Badu </rights>
+  <rights> © 2024 Shivraj Badu </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Unlocking Creativity: Prompt Engineering in Generative AI</title>
+    <link href="http://shivrajbadu.com.np/posts/generative-ai-with-prompt-engineering/" rel="alternate" type="text/html" title="Unlocking Creativity: Prompt Engineering in Generative AI" />
+    <published>2023-04-05T10:40:18+05:45</published>
+  
+    <updated>2023-04-05T10:40:18+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/generative-ai-with-prompt-engineering/</id>
+    <content src="http://shivrajbadu.com.np/posts/generative-ai-with-prompt-engineering/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="Artificial Intelligence (AI)" />
+    
+    <category term="Prompt Engineering" />
+    
+    <category term="ChatGPT" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Unlocking Creativity: Prompt Engineering in Generative AI
+
+In the ever-evolving landscape of Generative AI, one concept has taken center stage, becoming a catalyst for creativity and innovation—Prompt Engineering. This technique, akin to providing a well-crafted instruction to a creative assistant, has proven to be a powerful tool in harnessing the potential of models like ChatGPT (Utilizes Ope...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>What is Artificial Intelligence</title>
+    <link href="http://shivrajbadu.com.np/posts/what-is-artificial-intelligence/" rel="alternate" type="text/html" title="What is Artificial Intelligence" />
+    <published>2023-01-04T12:00:10+05:45</published>
+  
+    <updated>2023-01-04T12:00:10+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/what-is-artificial-intelligence/</id>
+    <content src="http://shivrajbadu.com.np/posts/what-is-artificial-intelligence/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="Artificial Intelligence (AI)" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      AI, or Artificial Intelligence, refers to the development of computer systems that can perform tasks that typically require human intelligence. These tasks include learning, reasoning, problem-solving, perception, natural language understanding, and even the ability to interact with the environment. The goal of AI is to create machines that can mimic cognitive functions associated with human mi...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -151,102 +225,6 @@ You can define several types for index one per indexed model.
   
     Every index is observable by all the related models.
 Most of the indexed models are related to other and it is necessary to denormalize this related data and put at the same object. Chewy is useful for example when we need index for ...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Elastic Search</title>
-    <link href="http://shivrajbadu.com.np/posts/elastic-search/" rel="alternate" type="text/html" title="Elastic Search" />
-    <published>2019-10-18T08:01:18+05:45</published>
-  
-    <updated>2023-12-25T01:01:47+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/elastic-search/</id>
-    <content src="http://shivrajbadu.com.np/posts/elastic-search/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="Ruby on Rails" />
-    
-    <category term="Elastic search" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Introduction to Elastic Search
-
-Elastic Search is a full-text search engine which can be used as NoSQL database and can be used as analytics engine.
-It is schema-less, easy to scale, near real-time and provides a restful interface for different operations.
-
-Elastic search is used as primary backend of your web application which can be added to an existing system which run through existing data ...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Elastic Search with Searchkick</title>
-    <link href="http://shivrajbadu.com.np/posts/elastic-search-with-searchkick/" rel="alternate" type="text/html" title="Elastic Search with Searchkick" />
-    <published>2019-10-18T08:01:18+05:45</published>
-  
-    <updated>2023-12-25T01:01:47+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/elastic-search-with-searchkick/</id>
-    <content src="http://shivrajbadu.com.np/posts/elastic-search-with-searchkick/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="Ruby on Rails" />
-    
-    <category term="Elastic search Searchkick" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      What is Searchkick?
-
-Searchkick is a smart and intillegent search engine Rubygems that creates quicker search results based on user search activity.
-
-Before using Searchkick make sure Elasticsearch is installed on your system.
-
-Steps to use Searchkick
-
-
-  Create a Rails application
-
-
-rails new institutions -d postgres
-
-
-
-  Generate the scaffold for Student
-
-
-rails g scaffold Student name:string...
     </summary>
   
 
