@@ -49,7 +49,7 @@
 <meta name="twitter:site" content="@shivrajbadu" />
 <meta name="google-site-verification" content="1V6mjFi-H5goXTGWpdsB7z6Mcve5NUvIpvzaQJGxOtA# fill in to your verification string" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-12-25T01:01:47+05:45","datePublished":"2019-10-18T08:01:18+05:45","description":"What is Searchkick?","headline":"Elastic Search with Searchkick","mainEntityOfPage":{"@type":"WebPage","@id":"http://shivrajbadu.com.np/posts/elastic-search-with-searchkick/"},"url":"http://shivrajbadu.com.np/posts/elastic-search-with-searchkick/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-01-01T20:25:08+05:45","datePublished":"2019-10-18T08:01:18+05:45","description":"What is Searchkick?","headline":"Elastic Search with Searchkick","mainEntityOfPage":{"@type":"WebPage","@id":"http://shivrajbadu.com.np/posts/elastic-search-with-searchkick/"},"url":"http://shivrajbadu.com.np/posts/elastic-search-with-searchkick/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
@@ -640,13 +640,13 @@
 
 <time
   
-  data-ts="1703445407"
+  data-ts="1704120008"
   data-df="ll"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
   
 >
-  Dec 25, 2023
+  Jan  1, 2024
 </time>
 
         </span>
@@ -689,7 +689,7 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="431 words"
+  title="361 words"
 >
   <em>2 min</em> read</span>
 
@@ -712,21 +712,15 @@
   <li>Create a Rails application</li>
 </ul>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>rails new institutions -d postgres
-</pre></td></tr></tbody></table></code></div></div>
+<pre><code class="language-Ruby">rails new institutions -d postgres
+</code></pre>
 
 <ul>
   <li>Generate the scaffold for Student</li>
 </ul>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>rails g scaffold Student name:string roll:integer grade:string fee:decimal
-</pre></td></tr></tbody></table></code></div></div>
+<pre><code class="language-Ruby">rails g scaffold Student name:string roll:integer grade:string fee:decimal
+</code></pre>
 
 <ul>
   <li>
@@ -737,23 +731,16 @@
   </li>
 </ul>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-</pre></td><td class="rouge-code"><pre>root "students#index"
+<pre><code class="language-Ruby">root "students#index"
 resources :students
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
 <ul>
   <li>Add following gem into Gemfile</li>
 </ul>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>gem 'searchkick'
-</pre></td></tr></tbody></table></code></div></div>
+<pre><code class="language-Ruby">gem 'searchkick'
+</code></pre>
 
 <p>Here is the Guide for Elasticsearch 6 or 7.</p>
 
@@ -761,62 +748,32 @@ resources :students
   <li>In each models you need to add keyword <code class="language-plaintext highlighter-rouge">searchkick</code> to make searchkick work as shown below</li>
 </ul>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-</pre></td><td class="rouge-code"><pre>class Student &lt; ApplicationRecord
+<pre><code class="language-Ruby">class Student &lt; ApplicationRecord
 	searchkick
 end
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
 <ul>
   <li>Now add data to search index by using following code and you need to run this command everytime as model changes</li>
 </ul>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>Student.reindex
-</pre></td></tr></tbody></table></code></div></div>
+<pre><code class="language-Ruby">Student.reindex
+</code></pre>
 
 <p>There are many ways search options based on necessity:</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-</pre></td><td class="rouge-code"><pre>:word # default
+<pre><code class="language-Ruby">:word # default
 :word_start
 :word_middle
 :word_end
 :text_start
 :text_middle
 :text_end
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
 <p>Here is an example of using :word_start for partial match criteria</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-</pre></td><td class="rouge-code"><pre>class Student &lt; ApplicationRecord
+<pre><code class="language-Ruby">class Student &lt; ApplicationRecord
   searchkick word_start: [:name, :role, :grade, :fee]
   def search_data
     {
@@ -827,84 +784,47 @@ end
     }
   end
 end
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
 <p>Search Everything</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>Student.search "*"
-</pre></td></tr></tbody></table></code></div></div>
+<pre><code class="language-Ruby">Student.search "*"
+</code></pre>
 
 <p>Partial Matches</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-</pre></td><td class="rouge-code"><pre>Student.search "Shiv Raj Badu" # Shiv AND Raj AND Badu
+<pre><code class="language-Ruby">Student.search "Shiv Raj Badu" # Shiv AND Raj AND Badu
 Book.search "Shiv Raj Badu", operator: "or"
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
 <p>Exact Matches</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>Student.search params[:search], fields:[{fee: :exact}, :name]
-</pre></td></tr></tbody></table></code></div></div>
+<pre><code class="language-Ruby">Student.search params[:search], fields:[{fee: :exact}, :name]
+</code></pre>
 
 <p>Phrase Matches</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>Student.search "another name", match: :phrase
-</pre></td></tr></tbody></table></code></div></div>
+<pre><code class="language-Ruby">Student.search "another name", match: :phrase
+</code></pre>
 
 <p>Model associations</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>Student.search "shiv raj", track: {user_id: current_user.id}
-</pre></td></tr></tbody></table></code></div></div>
+<pre><code class="language-Ruby">Student.search "shiv raj", track: {user_id: current_user.id}
+</code></pre>
 
 <p>Autocomplete and Instant Search</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-</pre></td><td class="rouge-code"><pre>class Student &lt; ApplicationRecord
+<pre><code class="language-Ruby">class Student &lt; ApplicationRecord
   searchkick match: :word_start, searchable: [:name, :roll]
 end
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
 <p>Language supported based on <a href="https://www.elastic.co/guide/en/elasticsearch/reference/current/analysis-stemmer-tokenfilter.html#analysis-stemmer-tokenfilter">list</a></p>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>searchkick word_start: [:title, :author, :genre], language: "turkish"
-</pre></td></tr></tbody></table></code></div></div>
+<pre><code class="language-Ruby">searchkick word_start: [:title, :author, :genre], language: "turkish"
+</code></pre>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-</pre></td><td class="rouge-code"><pre>class StudentsController &lt; ApplicationController
+<pre><code class="language-Ruby">class StudentsController &lt; ApplicationController
   before_action :set_student, only: [:show, :edit, :update]
   def searchcriteria
     render json: Student.search(params[:query], {
@@ -915,65 +835,35 @@ end
     }).map(&amp;:title)
   end
 end
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
 <p>Implement JavaScript searchbox as below</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-</pre></td><td class="rouge-code"><pre>&lt;input type="text" id="query" name="query" /&gt;
+<pre><code class="language-Ruby">&lt;input type="text" id="query" name="query" /&gt;
 
   $("#query").typeahead({
     name: "student",
     remote: "/students/search_criteria?query=%QUERY"
   });
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
 <p>Suggestions generator</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-</pre></td><td class="rouge-code"><pre>class Student &lt; ApplicationRecord
+<pre><code class="language-Ruby">class Student &lt; ApplicationRecord
   searchkick suggest: [:name, :roll, :fee, :grade]
 end
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
 <p>Highlight search result fields like this:</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-</pre></td><td class="rouge-code"><pre>class Student &lt; ApplicationRecord
+<pre><code class="language-Ruby">class Student &lt; ApplicationRecord
   searchkick highlight: [:name]
 end
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
 <p>Create custom and advanced mapping like this:</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-</pre></td><td class="rouge-code"><pre>class Student &lt; ApplicationRecord
+<pre><code class="language-Ruby">class Student &lt; ApplicationRecord
   searchkick mappings: {
     student: {
       properties: {
@@ -983,7 +873,7 @@ end
     }
   }
 end
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
   </div>
 

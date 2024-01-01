@@ -49,7 +49,7 @@
 <meta name="twitter:site" content="@shivrajbadu" />
 <meta name="google-site-verification" content="1V6mjFi-H5goXTGWpdsB7z6Mcve5NUvIpvzaQJGxOtA# fill in to your verification string" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-12-25T01:01:47+05:45","datePublished":"2019-01-07T08:01:18+05:45","description":"Lambdas and Proc","headline":"Blocks, Lambdas and Proc","mainEntityOfPage":{"@type":"WebPage","@id":"http://shivrajbadu.com.np/posts/blocks-proc-and-lambdas/"},"url":"http://shivrajbadu.com.np/posts/blocks-proc-and-lambdas/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-01-01T20:25:08+05:45","datePublished":"2019-01-07T08:01:18+05:45","description":"Lambdas and Proc","headline":"Blocks, Lambdas and Proc","mainEntityOfPage":{"@type":"WebPage","@id":"http://shivrajbadu.com.np/posts/blocks-proc-and-lambdas/"},"url":"http://shivrajbadu.com.np/posts/blocks-proc-and-lambdas/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
@@ -661,13 +661,13 @@
 
 <time
   
-  data-ts="1703445407"
+  data-ts="1704120008"
   data-df="ll"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
   
 >
-  Dec 25, 2023
+  Jan  1, 2024
 </time>
 
         </span>
@@ -710,7 +710,7 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="309 words"
+  title="250 words"
 >
   <em>1 min</em> read</span>
 
@@ -731,22 +731,7 @@
 
 <p>Lambda declaration</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-</pre></td><td class="rouge-code"><pre>x = lambda { p "This is lambda" }
+<pre><code class="language-Ruby">x = lambda { p "This is lambda" }
 x.call
 =&gt; "This is lambda"
 
@@ -759,26 +744,11 @@ obj.call(2,3)
 # if required arguments are not supplied lambda throws argument errors
 obj.call(2,3,5)
 ArgumentError (wrong number of arguments (given 3, expected 2))
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
 <p>Proc declaration</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-</pre></td><td class="rouge-code"><pre>x = Proc.new {p "this is proc"}
+<pre><code class="language-Ruby">x = Proc.new {p "this is proc"}
 x.call
 =&gt; "this is proc"
 
@@ -791,31 +761,9 @@ obj.call(2,3)
 # if required arguments are not supplied it won't throw argument error like lambda
 obj.call(2,3,5)
 =&gt; 5
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-</pre></td><td class="rouge-code"><pre>class Block
+<pre><code class="language-Ruby">class Block
   def hello(*args, &amp;block)
     yield *args
   end
@@ -835,7 +783,7 @@ obj.call(2,3,5)
 end
 =&gt; Array
 26
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
 <h1 id="blocks">Blocks</h1>
 
@@ -843,17 +791,7 @@ end
 It accepts multiple arguments as |arg1, …, argn|. Blocks are used with <code class="language-plaintext highlighter-rouge">each</code>.
 It allows to save code and use it later.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-</pre></td><td class="rouge-code"><pre>#### single line blocks
+<pre><code class="language-Ruby">#### single line blocks
 [20,30,40].each {|n| puts n}
 # here code inside {} are block
 
@@ -861,24 +799,17 @@ It allows to save code and use it later.</p>
 [20,30,40].each do |n|
   puts n
 end
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
 <h3 id="ruby-yield-keyword"><span class="me-2">Ruby yield keyword</span><a href="#ruby-yield-keyword" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 <p>yield is a keyword that calls and run the code inside the block</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-</pre></td><td class="rouge-code"><pre>def block_fun
+<pre><code class="language-Ruby">def block_fun
   yield
 end
 
 block_fun { puts "Block is executing" }
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
   </div>
 

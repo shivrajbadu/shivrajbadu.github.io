@@ -49,7 +49,7 @@
 <meta name="twitter:site" content="@shivrajbadu" />
 <meta name="google-site-verification" content="1V6mjFi-H5goXTGWpdsB7z6Mcve5NUvIpvzaQJGxOtA# fill in to your verification string" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-12-25T01:01:47+05:45","datePublished":"2020-06-05T01:45:18+05:45","description":"Webpacker","headline":"Webpacker in Rails6","mainEntityOfPage":{"@type":"WebPage","@id":"http://shivrajbadu.com.np/posts/rails6-webpacker/"},"url":"http://shivrajbadu.com.np/posts/rails6-webpacker/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-01-01T20:25:08+05:45","datePublished":"2020-06-05T01:45:18+05:45","description":"Webpacker","headline":"Webpacker in Rails6","mainEntityOfPage":{"@type":"WebPage","@id":"http://shivrajbadu.com.np/posts/rails6-webpacker/"},"url":"http://shivrajbadu.com.np/posts/rails6-webpacker/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
@@ -682,13 +682,13 @@
 
 <time
   
-  data-ts="1703445407"
+  data-ts="1704120008"
   data-df="ll"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
   
 >
-  Dec 25, 2023
+  Jan  1, 2024
 </time>
 
         </span>
@@ -731,7 +731,7 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="327 words"
+  title="318 words"
 >
   <em>1 min</em> read</span>
 
@@ -752,21 +752,13 @@
   <li>Another dir <code class="language-plaintext highlighter-rouge">packs</code> which has app/packs/javascripts</li>
 </ul>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-</pre></td><td class="rouge-code"><pre>app/javascript/packs/application.js
+<pre><code class="language-Ruby">app/javascript/packs/application.js
 
 require("@rails/ujs").start()
 require("turbolinks").start()
 require("@rails/activestorage").start()
 require("channels")
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
 <ul>
   <li>any js files inside packs/ will autocompiled by Webpack</li>
@@ -781,11 +773,8 @@ require("channels")
 
 <p>Gem also generates settings:</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>config/webpacker.yml
-</pre></td></tr></tbody></table></code></div></div>
+<pre><code class="language-Ruby">config/webpacker.yml
+</code></pre>
 
 <ul>
   <li>As like assets pipeline, JavaScript code using Webpacker and webpack automatically compiles in development mode when running rails server.</li>
@@ -797,13 +786,9 @@ require("channels")
 
 <p>we can use the helper method <code class="language-plaintext highlighter-rouge">javascript_pack_tag</code> to include the webpacker packs file which is similar to asset pipeline <code class="language-plaintext highlighter-rouge">javascript_link_tag</code> and works on both development and production mode.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-</pre></td><td class="rouge-code"><pre># app/views/layouts/application.html.erb
+<pre><code class="language-Ruby"># app/views/layouts/application.html.erb
 &lt;%= javascript_pack_tag 'application', 'data-turbolinks-track': 'reload' %&gt;
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
 <ul>
   <li>Prior to Rails 6 application do not install <code class="language-plaintext highlighter-rouge">gem webpacker</code> by default, include it in Gemfile, and run the command <code class="language-plaintext highlighter-rouge">rake webpacker:install</code></li>

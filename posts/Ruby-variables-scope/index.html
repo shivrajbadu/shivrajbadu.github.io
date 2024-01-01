@@ -49,7 +49,7 @@
 <meta name="twitter:site" content="@shivrajbadu" />
 <meta name="google-site-verification" content="1V6mjFi-H5goXTGWpdsB7z6Mcve5NUvIpvzaQJGxOtA# fill in to your verification string" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-12-25T01:01:47+05:45","datePublished":"2018-08-29T09:23:58+05:45","description":"Scope of Ruby variables","headline":"Ruby Variables Scope!","mainEntityOfPage":{"@type":"WebPage","@id":"http://shivrajbadu.com.np/posts/Ruby-variables-scope/"},"url":"http://shivrajbadu.com.np/posts/Ruby-variables-scope/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-01-01T20:25:08+05:45","datePublished":"2018-08-29T09:23:58+05:45","description":"Scope of Ruby variables","headline":"Ruby Variables Scope!","mainEntityOfPage":{"@type":"WebPage","@id":"http://shivrajbadu.com.np/posts/Ruby-variables-scope/"},"url":"http://shivrajbadu.com.np/posts/Ruby-variables-scope/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
@@ -661,13 +661,13 @@
 
 <time
   
-  data-ts="1703445407"
+  data-ts="1704120008"
   data-df="ll"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
   
 >
-  Dec 25, 2023
+  Jan  1, 2024
 </time>
 
         </span>
@@ -710,7 +710,7 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="370 words"
+  title="369 words"
 >
   <em>2 min</em> read</span>
 
@@ -729,8 +729,8 @@
 
 <p>Global Variables can be accessed inside classes and it’s methods. Global variable are available everywhere. It is defined by prefacing the variable name with $ symbol. Before initialization it has value nil.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+<div class="language-ruby highlighter-rouge"><div class="code-header">
+        <span data-label-text="Ruby"><i class="fas fa-code fa-fw small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
@@ -741,16 +741,16 @@
 8
 9
 10
-</pre></td><td class="rouge-code"><pre>$global_variable = 'This is a global variable !'
-class Example
-  def test_global
-    puts $global_variable
-  end
-end
+</pre></td><td class="rouge-code"><pre><span class="vg">$global_variable</span> <span class="o">=</span> <span class="s1">'This is a global variable !'</span>
+<span class="k">class</span> <span class="nc">Example</span>
+  <span class="k">def</span> <span class="nf">test_global</span>
+    <span class="nb">puts</span> <span class="vg">$global_variable</span>
+  <span class="k">end</span>
+<span class="k">end</span>
 
-# instantiation and call
-obj = Example.new
-obj.test_global # This is a global variable !
+<span class="c1"># instantiation and call</span>
+<span class="n">obj</span> <span class="o">=</span> <span class="no">Example</span><span class="p">.</span><span class="nf">new</span>
+<span class="n">obj</span><span class="p">.</span><span class="nf">test_global</span> <span class="c1"># This is a global variable !</span>
 </pre></td></tr></tbody></table></code></div></div>
 
 <ul>
@@ -759,8 +759,8 @@ obj.test_global # This is a global variable !
 
 <p>Instance Variable is accessible in any instance method in a particular instance of a class. It is defined by prefacing the variable name with @ symbol.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+<div class="language-ruby highlighter-rouge"><div class="code-header">
+        <span data-label-text="Ruby"><i class="fas fa-code fa-fw small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
@@ -777,22 +777,22 @@ obj.test_global # This is a global variable !
 14
 15
 16
-</pre></td><td class="rouge-code"><pre>class Vehicle
-  def initialize(name, color)
-    @name = name
-    @color = color
-  end
+</pre></td><td class="rouge-code"><pre><span class="k">class</span> <span class="nc">Vehicle</span>
+  <span class="k">def</span> <span class="nf">initialize</span><span class="p">(</span><span class="nb">name</span><span class="p">,</span> <span class="n">color</span><span class="p">)</span>
+    <span class="vi">@name</span> <span class="o">=</span> <span class="nb">name</span>
+    <span class="vi">@color</span> <span class="o">=</span> <span class="n">color</span>
+  <span class="k">end</span>
 
-  def full_info
-    puts "Name of vehicle is: #{@name} with color #{@color} !"
-  end
-end
+  <span class="k">def</span> <span class="nf">full_info</span>
+    <span class="nb">puts</span> <span class="s2">"Name of vehicle is: </span><span class="si">#{</span><span class="vi">@name</span><span class="si">}</span><span class="s2"> with color </span><span class="si">#{</span><span class="vi">@color</span><span class="si">}</span><span class="s2"> !"</span>
+  <span class="k">end</span>
+<span class="k">end</span>
 
-# instantiate
-vehicle = Vehicle.new('Car', 'Red');
+<span class="c1"># instantiate</span>
+<span class="n">vehicle</span> <span class="o">=</span> <span class="no">Vehicle</span><span class="p">.</span><span class="nf">new</span><span class="p">(</span><span class="s1">'Car'</span><span class="p">,</span> <span class="s1">'Red'</span><span class="p">);</span>
 
-# method call
-vehicle.full_info # Name of vehicle is: Car with color Red !
+<span class="c1"># method call</span>
+<span class="n">vehicle</span><span class="p">.</span><span class="nf">full_info</span> <span class="c1"># Name of vehicle is: Car with color Red !</span>
 </pre></td></tr></tbody></table></code></div></div>
 
 <ul>
@@ -801,8 +801,8 @@ vehicle.full_info # Name of vehicle is: Car with color Red !
 
 <p>Local variable has local scope which be accessed inside the code where they are declared, that is when local variable is decared inside method or loop it cannot be used outside of method or loop. It is defined by small letter or begin with underscore.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+<div class="language-ruby highlighter-rouge"><div class="code-header">
+        <span data-label-text="Ruby"><i class="fas fa-code fa-fw small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
@@ -814,19 +814,17 @@ vehicle.full_info # Name of vehicle is: Car with color Red !
 9
 10
 11
-12
-</pre></td><td class="rouge-code"><pre>class LocalVariable
-  def fun
-    local_var1 = 'one'
-    _LocalVar2 = 'two'
+</pre></td><td class="rouge-code"><pre><span class="k">class</span> <span class="nc">LocalVariable</span>
+  <span class="k">def</span> <span class="nf">fun</span>
+    <span class="n">local_var1</span> <span class="o">=</span> <span class="s1">'one'</span>
+    <span class="n">_LocalVar2</span> <span class="o">=</span> <span class="s1">'two'</span>
 
-    puts local_var1 + _LocalVar2
-  end
-end
+    <span class="nb">puts</span> <span class="n">local_var1</span> <span class="o">+</span> <span class="n">_LocalVar2</span>
+  <span class="k">end</span>
+<span class="k">end</span>
 
-# instantiation and call
-LocalVariable.new.fun # onetwo
-
+<span class="c1"># instantiation and call</span>
+<span class="no">LocalVariable</span><span class="p">.</span><span class="nf">new</span><span class="p">.</span><span class="nf">fun</span> <span class="c1"># onetwo</span>
 </pre></td></tr></tbody></table></code></div></div>
 
 <ul>
@@ -835,8 +833,8 @@ LocalVariable.new.fun # onetwo
 
 <p>A class variable is a variable that is shared amongst all instances of the class. Class variable are declared with @@ sign. Class variable are called on the class itself. Class variables are like global variable but inside the class scope.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+<div class="language-ruby highlighter-rouge"><div class="code-header">
+        <span data-label-text="Ruby"><i class="fas fa-code fa-fw small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
@@ -846,15 +844,15 @@ LocalVariable.new.fun # onetwo
 7
 8
 9
-</pre></td><td class="rouge-code"><pre>class Vehicle
-  @@name = 'Honda'
+</pre></td><td class="rouge-code"><pre><span class="k">class</span> <span class="nc">Vehicle</span>
+  <span class="vc">@@name</span> <span class="o">=</span> <span class="s1">'Honda'</span>
 
-  def self.name
-    puts @@name
-  end
-end
+  <span class="k">def</span> <span class="nc">self</span><span class="o">.</span><span class="nf">name</span>
+    <span class="nb">puts</span> <span class="vc">@@name</span>
+  <span class="k">end</span>
+<span class="k">end</span>
 
-Vehicle.name
+<span class="no">Vehicle</span><span class="p">.</span><span class="nf">name</span>
 </pre></td></tr></tbody></table></code></div></div>
 
 <ul>
@@ -863,10 +861,10 @@ Vehicle.name
 
 <p>Ruby constant are the values whose value cannot be changed once it is assigned. Constant declared within a class are available anywhere within the context of class, and when declared outside of class are assined with a global scope. Constants are written in uppercase letter with underscore to seperate different word.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+<div class="language-ruby highlighter-rouge"><div class="code-header">
+        <span data-label-text="Ruby"><i class="fas fa-code fa-fw small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>PROJECT_VALUE=100
+</pre></td><td class="rouge-code"><pre><span class="no">PROJECT_VALUE</span><span class="o">=</span><span class="mi">100</span>
 </pre></td></tr></tbody></table></code></div></div>
 
   </div>
@@ -2457,16 +2455,9 @@ Va...
 
 if, elsif and else block in Ruby controls decision based on the condition to true/false resulting in the different execution of the code.
 
-1
-2
-3
-4
-5
-6
-7
-8
 key = 10
-if key &amp;gt;...
+if key &amp;gt; 15
+  puts &#39;Key ...
                 </p>
               </div>
             </div>

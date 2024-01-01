@@ -49,7 +49,7 @@
 <meta name="twitter:site" content="@shivrajbadu" />
 <meta name="google-site-verification" content="1V6mjFi-H5goXTGWpdsB7z6Mcve5NUvIpvzaQJGxOtA# fill in to your verification string" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-12-25T01:01:47+05:45","datePublished":"2019-08-27T07:12:58+05:45","description":"Notes on various features and functions of Active Record Model","headline":"Features and functions of Active Record Model","mainEntityOfPage":{"@type":"WebPage","@id":"http://shivrajbadu.com.np/posts/ruby-on-rails-active-record-models-notes/"},"url":"http://shivrajbadu.com.np/posts/ruby-on-rails-active-record-models-notes/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-01-01T20:25:08+05:45","datePublished":"2019-08-27T07:12:58+05:45","description":"Notes on various features and functions of Active Record Model","headline":"Features and functions of Active Record Model","mainEntityOfPage":{"@type":"WebPage","@id":"http://shivrajbadu.com.np/posts/ruby-on-rails-active-record-models-notes/"},"url":"http://shivrajbadu.com.np/posts/ruby-on-rails-active-record-models-notes/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
@@ -924,13 +924,13 @@
 
 <time
   
-  data-ts="1703445407"
+  data-ts="1704120008"
   data-df="ll"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
   
 >
-  Dec 25, 2023
+  Jan  1, 2024
 </time>
 
         </span>
@@ -973,9 +973,9 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="1325 words"
+  title="1062 words"
 >
-  <em>7 min</em> read</span>
+  <em>5 min</em> read</span>
 
       </div>
       <!-- .d-flex -->
@@ -988,22 +988,7 @@
 
 <h4 id="query-methods"><span class="me-2">Query Methods</span><a href="#query-methods" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-</pre></td><td class="rouge-code"><pre>obj = User
+<pre><code class="language-Ruby">obj = User
   .where(email: 'info@mydomain.np')
   .where('id = 2')
   .where('id = ?', 2)
@@ -1016,22 +1001,11 @@
   .offset(1)
   .limit(2)
   .uniq
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
 <h4 id="some-other-query-methods"><span class="me-2">Some other query methods</span><a href="#some-other-query-methods" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-</pre></td><td class="rouge-code"><pre>items = Employer
+<pre><code class="language-Ruby">items = Employer
   .select(:id)
   .select([:id, :name])
   .group(:title)   # GROUP BY name
@@ -1040,22 +1014,11 @@
   .includes(:user)
   .includes(user: [:articles])
   .references(:comments)
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
 <h4 id="finder-methods"><span class="me-2">Finder methods</span><a href="#finder-methods" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-</pre></td><td class="rouge-code"><pre>item = ModelName.find(id)
+<pre><code class="language-Ruby">item = ModelName.find(id)
 item = ModelName.find_by_email(email)
 item = ModelName.where(email: email).first
 Model
@@ -1064,31 +1027,11 @@ Model
   .exists?(5)
   .exists?(name: "ShivRaj")
   .find_nth(4, [offset])
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
 <h4 id="persistence"><span class="me-2">Persistence</span><a href="#persistence" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-</pre></td><td class="rouge-code"><pre>item.new_record?
+<pre><code class="language-Ruby">item.new_record?
 item.persisted?
 item.destroyed?
 
@@ -1106,46 +1049,24 @@ item.destroy
 item.delete  # It skips callbacks
 Model.create     # It does same task which is done by new and save
 Model.create!    # It does same as create but raises an Exception
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
 <h4 id="attribute-assignment"><span class="me-2">Attribute Assignment</span><a href="#attribute-assignment" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-</pre></td><td class="rouge-code"><pre>item.attributes                         # &lt;Hash&gt;
+<pre><code class="language-Ruby">item.attributes                         # &lt;Hash&gt;
 item.attributes = { name: 'ShivRaj' }   # Merges attributes in but it Doesn't save.
 item.assign_attributes name: 'ShivRaj'  # Merges attributes in but it Doesn't save.
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
 <h4 id="validations"><span class="me-2">Validations</span><a href="#validations" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-</pre></td><td class="rouge-code"><pre>item.valid?
+<pre><code class="language-Ruby">item.valid?
 item.invalid?
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
 <h4 id="dirty"><span class="me-2">Dirty</span><a href="#dirty" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-</pre></td><td class="rouge-code"><pre>item.changed?
+<pre><code class="language-Ruby">item.changed?
 item.changed             # ['name']
 item.changed_attributes  # { 'name' =&gt; 'ShivRaj' } - original values
 item.changes             # { 'name' =&gt; ['ShivRaj', 'PushpaRaj'] }
@@ -1156,22 +1077,11 @@ item.name_was         # 'ShivRaj'
 item.name_change      # [ 'ShivRaj', 'PushpaRaj' ]
 item.name_changed?    # true
 item.name_changed?(from: 'ShivRaj', to: 'PushpaRaj')
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
 <h4 id="calculations"><span class="me-2">Calculations</span><a href="#calculations" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-</pre></td><td class="rouge-code"><pre>Person.count
+<pre><code class="language-Ruby">Person.count
 Person.count(:age)    # counts non-nil's
 Person.average(:age)
 Person.maximum(:age)
@@ -1180,24 +1090,11 @@ Person.sum('2 * age')
 Person.calculate(:count, :all)
 Person.distinct.count
 Person.group(:city).count
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
 <h4 id="dynamic-attribute-based-finders"><span class="me-2">Dynamic attribute-based finders</span><a href="#dynamic-attribute-based-finders" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-</pre></td><td class="rouge-code"><pre># Returns one record
+<pre><code class="language-Ruby"># Returns one record
 Person.find_by_name(name)
 Person.find_last_by_name(name)
 Person.find_or_create_by_name(name)
@@ -1208,29 +1105,11 @@ Person.find_all_by_name(name)
 Person.find_by_name!(name)
 # You may use `scoped` instead of `find`
 Person.scoped_by_user_name
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
 <h4 id="belongs-to-association"><span class="me-2">belongs to Association</span><a href="#belongs-to-association" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-</pre></td><td class="rouge-code"><pre>  belongs_to :author,
+<pre><code class="language-Ruby">  belongs_to :author,
   :dependent      =&gt; :destroy    # or :delete
   :class_name     =&gt; "Seller"
   :select         =&gt; "*"
@@ -1246,31 +1125,11 @@ Person.scoped_by_user_name
 
   :primary_key    =&gt; "name"
   :foreign_key    =&gt; "author_name"
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
 <h4 id="has-many-association"><span class="me-2">Has many Association</span><a href="#has-many-association" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-</pre></td><td class="rouge-code"><pre>belongs_to :parent, :foreign_key =&gt; 'parent_id' class_name: 'Folder'
+<pre><code class="language-Ruby">belongs_to :parent, :foreign_key =&gt; 'parent_id' class_name: 'Folder'
 has_many :folders, :foreign_key =&gt; 'parent_id', class_name: 'Folder'
 
 has_many :comments,    :order      =&gt; "posted_on"
@@ -1288,31 +1147,11 @@ has_many :subscribers, :finder_sql =&gt;
     'FROM people p, post_subscriptions ps ' +
     'WHERE ps.post_id = #{id} AND ps.person_id = p.id ' +
     'ORDER BY p.first_name'
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
 <h4 id="many-to-many-has-many-through-association"><span class="me-2">Many-to-many Has many through Association</span><a href="#many-to-many-has-many-through-association" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-</pre></td><td class="rouge-code"><pre> If you have a join model:
+<pre><code class="language-Ruby"> If you have a join model:
 
 class Programmer &lt; ActiveRecord::Base
   has_many :assignments
@@ -1330,21 +1169,11 @@ class Assignment
   belongs_to :project
   belongs_to :programmer
 end
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
 <h4 id="many-to-many-habtm-association"><span class="me-2">Many-to-many (HABTM) Association</span><a href="#many-to-many-habtm-association" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-</pre></td><td class="rouge-code"><pre>has_and_belongs_to_many :projects
+<pre><code class="language-Ruby">has_and_belongs_to_many :projects
 has_and_belongs_to_many :projects, :include =&gt; [ :milestones, :manager ]
 has_and_belongs_to_many :nations, :class_name =&gt; "Country"
 has_and_belongs_to_many :categories, :join_table =&gt; "prods_cats"
@@ -1352,26 +1181,11 @@ has_and_belongs_to_many :categories, :readonly =&gt; true
 has_and_belongs_to_many :active_projects, :join_table =&gt; 'developers_projects', :delete_sql =&gt;
 "DELETE FROM developers_projects WHERE active=1 AND developer_id = #{id} AND project_id = #{record.id}"
 
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
 <h4 id="polymorphic-associations"><span class="me-2">Polymorphic associations</span><a href="#polymorphic-associations" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-</pre></td><td class="rouge-code"><pre>class Post
+<pre><code class="language-Ruby">class Post
   has_many :attachments, as: :parent
 end
  
@@ -1384,60 +1198,11 @@ And in migrations:
 create_table :images do |t|
   t.references :post, polymorphic: true
 end
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
 <h4 id="validation"><span class="me-2">Validation</span><a href="#validation" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-21
-22
-23
-24
-25
-26
-27
-28
-29
-30
-31
-32
-33
-34
-35
-36
-37
-38
-39
-40
-41
-42
-43
-44
-45
-46
-47
-</pre></td><td class="rouge-code"><pre>class Person &lt; ActiveRecord::Base
+<pre><code class="language-Ruby">class Person &lt; ActiveRecord::Base
   # Presence
   validates :name,     presence: true
  
@@ -1484,72 +1249,37 @@ end
   validates :description, presence: true, if: lambda { |obj| .. }
   validates :title, presence: true, on: :save   # :save | :create | :update
 end
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
 <h4 id="custom-validations"><span class="me-2">Custom validations</span><a href="#custom-validations" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-</pre></td><td class="rouge-code"><pre>class Person &lt; ActiveRecord::Base
+<pre><code class="language-Ruby">class Person &lt; ActiveRecord::Base
   validate :foo_cannot_be_nil
 
   def foo_cannot_be_nil
     errors.add(:foo, 'cannot be nil')  if foo.nil?
   end
 end
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
 <h4 id="errors"><span class="me-2">Errors</span><a href="#errors" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-</pre></td><td class="rouge-code"><pre>record.errors.valid?      # → false
+<pre><code class="language-Ruby">record.errors.valid?      # → false
 record.errors             # → { :name =&gt; ["can't be blank"] }
 record.errors.messages    # → { :name =&gt; ["can't be blank"] }
 record.errors[:name].any?
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
 <h4 id="mass-updates"><span class="me-2">Mass updates</span><a href="#mass-updates" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-</pre></td><td class="rouge-code"><pre># Updates article having id 8
+<pre><code class="language-Ruby"># Updates article having id 8
 Article.update 8, name: "", age: 34
 Article.update [2,3], [{name: "Shiv"}, {name: "Raj"}]
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
 <h4 id="joining"><span class="me-2">Joining</span><a href="#joining" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-</pre></td><td class="rouge-code"><pre># Basic joins
+<pre><code class="language-Ruby"># Basic joins
 Employer.joins(:companies).where(companies: { type: 'private' })
 Employer.joins(:companies).where('companies.type' =&gt; 'private' )
 # Multiple associations
@@ -1562,33 +1292,17 @@ Author.joins(
   'ON posts.author_id = authors.id ' +
   'AND posts.published = "t"'
 )
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
 <h4 id="where-interpolation"><span class="me-2">Where interpolation</span><a href="#where-interpolation" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-</pre></td><td class="rouge-code"><pre>where('name = ?', 'Shiv')
+<pre><code class="language-Ruby">where('name = ?', 'Shiv')
 where(['name = :name', { name: 'Shiv' }])
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
 <h4 id="serialize"><span class="me-2">Serialize</span><a href="#serialize" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-</pre></td><td class="rouge-code"><pre>class User &lt; ActiveRecord::Base
+<pre><code class="language-Ruby">class User &lt; ActiveRecord::Base
   serialize :preferences
 end
  
@@ -1598,21 +1312,11 @@ user = User.create(
     'display' =&gt; 'large'
   }
 )
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
 <h4 id="you-can-also-specify-a-class-option-as-the-second-parameter-thatll-raise-an-exception-if-a-serialized-object-is-retrieved-as-a-descendant-of-a-class-not-in-the-hierarchy"><span class="me-2">You can also specify a class option as the second parameter that’ll raise an exception if a serialized object is retrieved as a descendant of a class not in the hierarchy.</span><a href="#you-can-also-specify-a-class-option-as-the-second-parameter-thatll-raise-an-exception-if-a-serialized-object-is-retrieved-as-a-descendant-of-a-class-not-in-the-hierarchy" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-</pre></td><td class="rouge-code"><pre># Only Hash allowed!
+<pre><code class="language-Ruby"># Only Hash allowed!
 class User &lt; ActiveRecord::Base
   serialize :preferences, Hash
 end
@@ -1620,24 +1324,11 @@ end
 # Reading it raises SerializationTypeMismatch
 user = User.create(preferences: %w(one two three))
 User.find(user.id).preferences
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
 <h4 id="overriding-accessors"><span class="me-2">Overriding accessors</span><a href="#overriding-accessors" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-</pre></td><td class="rouge-code"><pre>class Song &lt; ActiveRecord::Base
+<pre><code class="language-Ruby">class Song &lt; ActiveRecord::Base
   # Uses an integer of seconds to hold the length of the song
 
   def length=(minutes)
@@ -1648,7 +1339,7 @@ User.find(user.id).preferences
     read_attribute(:length) / 60
   end
 end
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
   </div>
 

@@ -49,7 +49,7 @@
 <meta name="twitter:site" content="@shivrajbadu" />
 <meta name="google-site-verification" content="1V6mjFi-H5goXTGWpdsB7z6Mcve5NUvIpvzaQJGxOtA# fill in to your verification string" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-12-25T01:01:47+05:45","datePublished":"2019-01-07T08:01:18+05:45","description":"Engines are small applications which provides functionality to their host applications. A Rails application is a engine with Rails::Application class inheriting a lot of behaviour from Rails::Engine. So Rails application and engine are alomost same thing and share common structure with slight differences.","headline":"Engine on Rails","mainEntityOfPage":{"@type":"WebPage","@id":"http://shivrajbadu.com.np/posts/engines-on-rails/"},"url":"http://shivrajbadu.com.np/posts/engines-on-rails/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-01-01T20:25:08+05:45","datePublished":"2019-01-07T08:01:18+05:45","description":"Engines are small applications which provides functionality to their host applications. A Rails application is a engine with Rails::Application class inheriting a lot of behaviour from Rails::Engine. So Rails application and engine are alomost same thing and share common structure with slight differences.","headline":"Engine on Rails","mainEntityOfPage":{"@type":"WebPage","@id":"http://shivrajbadu.com.np/posts/engines-on-rails/"},"url":"http://shivrajbadu.com.np/posts/engines-on-rails/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
@@ -661,13 +661,13 @@
 
 <time
   
-  data-ts="1703445407"
+  data-ts="1704120008"
   data-df="ll"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
   
 >
-  Dec 25, 2023
+  Jan  1, 2024
 </time>
 
         </span>
@@ -710,7 +710,7 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="474 words"
+  title="445 words"
 >
   <em>2 min</em> read</span>
 
@@ -730,22 +730,15 @@
 <p>Create a Base application (e.g: base_app)</p>
 
 <p>Create engine e.g: engine_app with following command:</p>
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>  rails new plugin engine_app --mountable
-</pre></td></tr></tbody></table></code></div></div>
+<pre><code class="language-Ruby">  rails new plugin engine_app --mountable
+</code></pre>
 
 <p>Customize engine_app.gemspec file and edit, homepage, summary, description, etc as per your requirements.</p>
 
 <p>Go to base_app -  Gemfile</p>
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-</pre></td><td class="rouge-code"><pre>  gem 'engine_app', path: 'lib/engine_app'
+<pre><code class="language-Ruby">  gem 'engine_app', path: 'lib/engine_app'
   bundle install
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
 <p>When everything is Ok, we will get some message like:
 Using engine_app 0.0.1 from source at lib/engine_app</p>
@@ -753,53 +746,33 @@ Using engine_app 0.0.1 from source at lib/engine_app</p>
 <p>How to make plugins -  routes easy?</p>
 
 <p>Go to routes.rb file of base app and paste the code:</p>
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>mount EngineApp::Engine, at: '/engine_app'
-</pre></td></tr></tbody></table></code></div></div>
+<pre><code class="language-Ruby">mount EngineApp::Engine, at: '/engine_app'
+</code></pre>
 
 <p>or</p>
 
 <p>Go to plugins app/lib/engine_app/engine.rb</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-</pre></td><td class="rouge-code"><pre>isolate_namespace EngineApp
+<pre><code class="language-Ruby">isolate_namespace EngineApp
 
 initializer "engine_app", before: :load_config_initializers do |app|
       Rails.application.routes.append do
           mount EngineApp::Engine, at: '/engine_app'
       end
 end
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
 <p>Now it is possible to run rake routes and we can see all engines routes</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>e.g: engine_app /engine_app EngineApp::Engine
-</pre></td></tr></tbody></table></code></div></div>
+<pre><code class="language-Ruby">e.g: engine_app /engine_app EngineApp::Engine
+</code></pre>
 
 <p>How to check Plugins Rails Console?</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-</pre></td><td class="rouge-code"><pre>Go to main app
+<pre><code class="language-Ruby">Go to main app
 &gt; rails console
 &gt; EngineApp::Article.new
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
 <p>How to make MVC in base and inside engines?</p>
 
@@ -810,26 +783,16 @@ end
 <p>Base app has no knowledge of Engine migrations, we need to customize it or manually we need to run command:</p>
 
 <p>i) Manually we can run following command:</p>
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>rake engine_app:install:migrations
-</pre></td></tr></tbody></table></code></div></div>
+<pre><code class="language-Ruby">rake engine_app:install:migrations
+</code></pre>
 
 <p>ii) go to lib/engine.rb file and paste the following code</p>
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-</pre></td><td class="rouge-code"><pre> initializer "engine_app", before: :load_config_initializers do |app|
+<pre><code class="language-Ruby"> initializer "engine_app", before: :load_config_initializers do |app|
      config.paths["db/migrate"].expanded.each do |expanded_path|
          Rails.application.config.paths["db/migrate"] &lt;&lt; expanded_path
      end
  end
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
 <p>Now <code class="language-plaintext highlighter-rouge">rake db:migrate</code> will work from base application</p>
 
@@ -838,41 +801,27 @@ end
 <p>For e.g: <code class="language-plaintext highlighter-rouge">link_to 'Home', root_path</code>, will not work if we want to access engines
 resources because engine won’t able to understand root_path for it. So we need following codes:</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-</pre></td><td class="rouge-code"><pre>link_to 'Home', main_app.root_path
+<pre><code class="language-Ruby">link_to 'Home', main_app.root_path
 link_to 'Plugin Home', engine_app.articles_path
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
 <p>How to layout in base and engines?</p>
 
 <p>We have to call layouts inside application controller or wherever required and it can be accessed by:</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-</pre></td><td class="rouge-code"><pre>layouts 'application' # will call base layouts
+<pre><code class="language-Ruby">layouts 'application' # will call base layouts
 layouts 'engine_app/application' # will call plugin layouts
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
 <p>How to include gems inside engines?</p>
 
 <p>Go to .gemspec file e.g: engine_app.gemspec</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-</pre></td><td class="rouge-code"><pre>Gem::Specification.new do |s|
+<pre><code class="language-Ruby">Gem::Specification.new do |s|
   s.add_dependency "devise"
   s.add_dependency 'authority', '~&gt; 3.1'
 end
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
   </div>
 

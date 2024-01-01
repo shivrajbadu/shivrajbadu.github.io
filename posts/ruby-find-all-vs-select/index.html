@@ -49,7 +49,7 @@
 <meta name="twitter:site" content="@shivrajbadu" />
 <meta name="google-site-verification" content="1V6mjFi-H5goXTGWpdsB7z6Mcve5NUvIpvzaQJGxOtA# fill in to your verification string" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-12-25T01:01:47+05:45","datePublished":"2022-08-15T10:40:18+05:45","description":"About find_all vs. select Ruby method","headline":"Ruby find_all vs. select","mainEntityOfPage":{"@type":"WebPage","@id":"http://shivrajbadu.com.np/posts/ruby-find-all-vs-select/"},"url":"http://shivrajbadu.com.np/posts/ruby-find-all-vs-select/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-01-01T20:25:08+05:45","datePublished":"2022-08-15T10:40:18+05:45","description":"About find_all vs. select Ruby method","headline":"Ruby find_all vs. select","mainEntityOfPage":{"@type":"WebPage","@id":"http://shivrajbadu.com.np/posts/ruby-find-all-vs-select/"},"url":"http://shivrajbadu.com.np/posts/ruby-find-all-vs-select/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
@@ -661,13 +661,13 @@
 
 <time
   
-  data-ts="1703445407"
+  data-ts="1704120008"
   data-df="ll"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
   
 >
-  Dec 25, 2023
+  Jan  1, 2024
 </time>
 
         </span>
@@ -727,30 +727,30 @@
 
 <p>Here are some examples:</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+<div class="language-ruby highlighter-rouge"><div class="code-header">
+        <span data-label-text="Ruby"><i class="fas fa-code fa-fw small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
-</pre></td><td class="rouge-code"><pre>arr = 1..8 
-h = {a: 1, b: 2, c: 3, d: 4, e: 5, f: 6, g: 7, h: 8}
+</pre></td><td class="rouge-code"><pre><span class="n">arr</span> <span class="o">=</span> <span class="mi">1</span><span class="o">..</span><span class="mi">8</span> 
+<span class="n">h</span> <span class="o">=</span> <span class="p">{</span><span class="ss">a: </span><span class="mi">1</span><span class="p">,</span> <span class="ss">b: </span><span class="mi">2</span><span class="p">,</span> <span class="ss">c: </span><span class="mi">3</span><span class="p">,</span> <span class="ss">d: </span><span class="mi">4</span><span class="p">,</span> <span class="ss">e: </span><span class="mi">5</span><span class="p">,</span> <span class="ss">f: </span><span class="mi">6</span><span class="p">,</span> <span class="ss">g: </span><span class="mi">7</span><span class="p">,</span> <span class="ss">h: </span><span class="mi">8</span><span class="p">}</span>
 </pre></td></tr></tbody></table></code></div></div>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+<div class="language-ruby highlighter-rouge"><div class="code-header">
+        <span data-label-text="Ruby"><i class="fas fa-code fa-fw small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
-</pre></td><td class="rouge-code"><pre>arr.select{|x| x.even?} # =&gt; [2, 4, 6, 8]
-a.find_all{|x| x.even?} # =&gt; [2, 4, 6, 8]
+</pre></td><td class="rouge-code"><pre><span class="n">arr</span><span class="p">.</span><span class="nf">select</span><span class="p">{</span><span class="o">|</span><span class="n">x</span><span class="o">|</span> <span class="n">x</span><span class="p">.</span><span class="nf">even?</span><span class="p">}</span> <span class="c1"># =&gt; [2, 4, 6, 8]</span>
+<span class="n">a</span><span class="p">.</span><span class="nf">find_all</span><span class="p">{</span><span class="o">|</span><span class="n">x</span><span class="o">|</span> <span class="n">x</span><span class="p">.</span><span class="nf">even?</span><span class="p">}</span> <span class="c1"># =&gt; [2, 4, 6, 8]</span>
 </pre></td></tr></tbody></table></code></div></div>
 
 <p>On hash select returns hash and find_all returns array.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+<div class="language-ruby highlighter-rouge"><div class="code-header">
+        <span data-label-text="Ruby"><i class="fas fa-code fa-fw small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
-</pre></td><td class="rouge-code"><pre>h.select { |k, v| v.even? }   # =&gt; {:b=&gt;2, :d=&gt;4, :f=&gt;6, :h=&gt;8}
-h.find_all { |k, v| v.even? } # =&gt; [[:b, 2], [:d, 4], [:f, 6], [:h, 8]]
+</pre></td><td class="rouge-code"><pre><span class="n">h</span><span class="p">.</span><span class="nf">select</span> <span class="p">{</span> <span class="o">|</span><span class="n">k</span><span class="p">,</span> <span class="n">v</span><span class="o">|</span> <span class="n">v</span><span class="p">.</span><span class="nf">even?</span> <span class="p">}</span>   <span class="c1"># =&gt; {:b=&gt;2, :d=&gt;4, :f=&gt;6, :h=&gt;8}</span>
+<span class="n">h</span><span class="p">.</span><span class="nf">find_all</span> <span class="p">{</span> <span class="o">|</span><span class="n">k</span><span class="p">,</span> <span class="n">v</span><span class="o">|</span> <span class="n">v</span><span class="p">.</span><span class="nf">even?</span> <span class="p">}</span> <span class="c1"># =&gt; [[:b, 2], [:d, 4], [:f, 6], [:h, 8]]</span>
 </pre></td></tr></tbody></table></code></div></div>
 
   </div>

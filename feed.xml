@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2024-01-01T20:24:49+05:45</updated>
+  <updated>2024-01-01T21:09:53+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -98,7 +98,7 @@ In the ever-evolving landscape of Generative AI, one concept has taken center st
     <link href="http://shivrajbadu.com.np/posts/ruby-find-all-vs-select/" rel="alternate" type="text/html" title="Ruby find_all vs. select" />
     <published>2022-08-15T10:40:18+05:45</published>
   
-    <updated>2023-12-25T01:01:47+05:45</updated>
+    <updated>2024-01-01T20:25:08+05:45</updated>
   
     <id>http://shivrajbadu.com.np/posts/ruby-find-all-vs-select/</id>
     <content src="http://shivrajbadu.com.np/posts/ruby-find-all-vs-select/" />
@@ -147,7 +147,7 @@ a.find_all{|x| x.even?} # =&amp;gt; [2, 4, 6, 8]
     <link href="http://shivrajbadu.com.np/posts/rails6-webpacker/" rel="alternate" type="text/html" title="Webpacker in Rails6" />
     <published>2020-06-05T01:45:18+05:45</published>
   
-    <updated>2023-12-25T01:01:47+05:45</updated>
+    <updated>2024-01-01T20:25:08+05:45</updated>
   
     <id>http://shivrajbadu.com.np/posts/rails6-webpacker/</id>
     <content src="http://shivrajbadu.com.np/posts/rails6-webpacker/" />
@@ -189,7 +189,7 @@ a.find_all{|x| x.even?} # =&amp;gt; [2, 4, 6, 8]
     <link href="http://shivrajbadu.com.np/posts/elastic-search-with-chewy/" rel="alternate" type="text/html" title="Elastic Search with Chewy" />
     <published>2019-10-25T07:01:18+05:45</published>
   
-    <updated>2023-12-25T01:01:47+05:45</updated>
+    <updated>2024-01-01T20:25:08+05:45</updated>
   
     <id>http://shivrajbadu.com.np/posts/elastic-search-with-chewy/</id>
     <content src="http://shivrajbadu.com.np/posts/elastic-search-with-chewy/" />

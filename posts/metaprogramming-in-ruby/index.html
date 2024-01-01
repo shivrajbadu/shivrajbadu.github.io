@@ -49,7 +49,7 @@
 <meta name="twitter:site" content="@shivrajbadu" />
 <meta name="google-site-verification" content="1V6mjFi-H5goXTGWpdsB7z6Mcve5NUvIpvzaQJGxOtA# fill in to your verification string" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-12-25T01:01:47+05:45","datePublished":"2019-09-02T09:23:58+05:45","description":"Metaprogramming in Ruby","headline":"Metaprogramming in Ruby","mainEntityOfPage":{"@type":"WebPage","@id":"http://shivrajbadu.com.np/posts/metaprogramming-in-ruby/"},"url":"http://shivrajbadu.com.np/posts/metaprogramming-in-ruby/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-01-01T20:25:08+05:45","datePublished":"2019-09-02T09:23:58+05:45","description":"Metaprogramming in Ruby","headline":"Metaprogramming in Ruby","mainEntityOfPage":{"@type":"WebPage","@id":"http://shivrajbadu.com.np/posts/metaprogramming-in-ruby/"},"url":"http://shivrajbadu.com.np/posts/metaprogramming-in-ruby/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
@@ -661,13 +661,13 @@
 
 <time
   
-  data-ts="1703445407"
+  data-ts="1704120008"
   data-df="ll"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
   
 >
-  Dec 25, 2023
+  Jan  1, 2024
 </time>
 
         </span>
@@ -710,9 +710,9 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="808 words"
+  title="716 words"
 >
-  <em>4 min</em> read</span>
+  <em>3 min</em> read</span>
 
       </div>
       <!-- .d-flex -->
@@ -740,33 +740,15 @@
 
 <p>Make a getter methods which return instance variables if they are not nil, if they are nil set it to some default value and return it.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-</pre></td><td class="rouge-code"><pre>class Foo
+<pre><code class="language-Ruby">class Foo
     def foo
         @foo ||= 0
     end
 end
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 <p>Suppose if you have multiple such getters then instead of writing them all we can use metaprogramming like this:</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-</pre></td><td class="rouge-code"><pre>class Foo
+<pre><code class="language-Ruby">class Foo
     {foo: 0, bar: '', baz: []}.each do |method_name, default_value|
         define_method method_name do
             instance_var = :"@#{method_name}"
@@ -775,28 +757,9 @@ end
         end
     end
 end
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-</pre></td><td class="rouge-code"><pre>module GettersWithDefault
+<pre><code class="language-Ruby">module GettersWithDefault
     def getters_with_default(spec)
         spec.each do |method_name, default_value|
             define_method method_name do
@@ -813,24 +776,11 @@ class Foo
 
     getters_with_default foo: 0, bar: '', baz: {}
 end
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
 <p>A common example of Metaprogramming</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-</pre></td><td class="rouge-code"><pre>class Post
+<pre><code class="language-Ruby">class Post
     def initialize(status)
         @status = status
     end
@@ -841,7 +791,7 @@ end
         end
     end
 end
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
 <p>It seems like it saves time, because we don’t need to write separate methods for published?, unpublished?, and draft?. However, there are tradeoffs. For example, metaprogramming like this makes searching for method definitions later difficult. It’s certainly faster to type, but it’s harder to find and read later. Since we spend so much more time reading code than writing it, code that’s easier to write than read is actually a bad tradeoff.</p>
 
@@ -849,23 +799,7 @@ end
 
 <p>A Domain Specific Language or DSL is a custom language that solves a specific domain or problem. In Ruby’s case, a DSL is written in Ruby but looks different from standard Ruby code. Some examples of Ruby DSL are Rails Routes, Rspec, Factory Girl, etc. Factory Girl has cmplicated internal code but it allows you to write expressive, declarative code.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-</pre></td><td class="rouge-code"><pre>FactoryGirl.define do
+<pre><code class="language-Ruby">FactoryGirl.define do
     sequence :github_username do |n|
         "github_#{n}"
     end
@@ -879,24 +813,11 @@ end
         end
     end
 end
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
 <p>DSL Structure</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-</pre></td><td class="rouge-code"><pre>describe "User" do
+<pre><code class="language-Ruby">describe "User" do
   # ...
 end
 
@@ -907,7 +828,7 @@ end
 Rails.application.routes.draw do
   # ...
 end
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 <p>Be careful
 If there is a less-complicated solution to a problem, reach for that first. Metaprogramming is usually not a good first solution to a problem, and DSLs require a good understanding of the problem’s domain. Once you do understand the problem well, though, DSLs are a great option.</p>
 
@@ -920,21 +841,7 @@ If there is a less-complicated solution to a problem, reach for that first. Meta
 
 <p>For example we can assume that a User class exists with a set of metaprogrammed methods:</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-</pre></td><td class="rouge-code"><pre>class User
+<pre><code class="language-Ruby">class User
     [
         :password,
         :email,
@@ -946,7 +853,7 @@ If there is a less-complicated solution to a problem, reach for that first. Meta
         end
     end
 end
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
 <p>Although a little contrived, this code is a list of simple convenience methods on a User class. This solution is easily extended to include additional attributes without a full method definition per attribute.</p>
 
@@ -956,22 +863,7 @@ end
 
 <p>To combat this issue, some developers choose to write a comment listing the defined method names above metaprogramming block. This simple solution can greatly help the readability of the code.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-</pre></td><td class="rouge-code"><pre>class User
+<pre><code class="language-Ruby">class User
     # has_password?, has_email?, has_first_name?, has_last_name? method definitions
     [
         :password,
@@ -984,7 +876,7 @@ end
         end
     end
 end
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
 <p>Performance</p>
 

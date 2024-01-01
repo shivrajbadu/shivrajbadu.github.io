@@ -49,7 +49,7 @@
 <meta name="twitter:site" content="@shivrajbadu" />
 <meta name="google-site-verification" content="1V6mjFi-H5goXTGWpdsB7z6Mcve5NUvIpvzaQJGxOtA# fill in to your verification string" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-12-25T01:01:47+05:45","datePublished":"2019-08-28T09:23:58+05:45","description":"Polymorphism in Ruby","headline":"Polymorphism in Ruby","mainEntityOfPage":{"@type":"WebPage","@id":"http://shivrajbadu.com.np/posts/polymorphism-in-ruby/"},"url":"http://shivrajbadu.com.np/posts/polymorphism-in-ruby/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-01-01T20:25:08+05:45","datePublished":"2019-08-28T09:23:58+05:45","description":"Polymorphism in Ruby","headline":"Polymorphism in Ruby","mainEntityOfPage":{"@type":"WebPage","@id":"http://shivrajbadu.com.np/posts/polymorphism-in-ruby/"},"url":"http://shivrajbadu.com.np/posts/polymorphism-in-ruby/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
@@ -661,13 +661,13 @@
 
 <time
   
-  data-ts="1703445407"
+  data-ts="1704120008"
   data-df="ll"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
   
 >
-  Dec 25, 2023
+  Jan  1, 2024
 </time>
 
         </span>
@@ -710,7 +710,7 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="135 words"
+  title="107 words"
 >
   <em>1 min</em> read</span>
 
@@ -725,26 +725,7 @@
 
 <p>The term polymorphism means having many forms. In Ruby, polymorphism is carried out by using Inheritance. Polymorphism is achieved by using method overriding.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-</pre></td><td class="rouge-code"><pre>class Animal
+<pre><code class="language-Ruby">class Animal
     def eat # this method will overrides on other inherited classes
         puts "Animal eats grasses, water, milk, etc"
     end
@@ -761,22 +742,9 @@ class Cow &lt; Animal
         puts "Cow eats grasses &amp; water"
     end
 end
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-</pre></td><td class="rouge-code"><pre>animal = Animal.new
+<pre><code class="language-Ruby">animal = Animal.new
 animal.eat
 =&gt; Animal eats grasses, water, milk, etc
 
@@ -787,7 +755,7 @@ animal.eat
 animal = Cow.new
 animal.eat
 =&gt; Cow eats grasses &amp; water
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
   </div>
 

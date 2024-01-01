@@ -49,7 +49,7 @@
 <meta name="twitter:site" content="@shivrajbadu" />
 <meta name="google-site-verification" content="1V6mjFi-H5goXTGWpdsB7z6Mcve5NUvIpvzaQJGxOtA# fill in to your verification string" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-12-25T01:01:47+05:45","datePublished":"2019-08-28T09:23:58+05:45","description":"Inheritance in Ruby","headline":"Inheritance in Ruby","mainEntityOfPage":{"@type":"WebPage","@id":"http://shivrajbadu.com.np/posts/inheritance-in-ruby/"},"url":"http://shivrajbadu.com.np/posts/inheritance-in-ruby/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-01-01T20:25:08+05:45","datePublished":"2019-08-28T09:23:58+05:45","description":"Inheritance in Ruby","headline":"Inheritance in Ruby","mainEntityOfPage":{"@type":"WebPage","@id":"http://shivrajbadu.com.np/posts/inheritance-in-ruby/"},"url":"http://shivrajbadu.com.np/posts/inheritance-in-ruby/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
@@ -715,13 +715,13 @@
 
 <time
   
-  data-ts="1703445407"
+  data-ts="1704120008"
   data-df="ll"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
   
 >
-  Dec 25, 2023
+  Jan  1, 2024
 </time>
 
         </span>
@@ -764,9 +764,9 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="372 words"
+  title="305 words"
 >
-  <em>2 min</em> read</span>
+  <em>1 min</em> read</span>
 
       </div>
       <!-- .d-flex -->
@@ -781,20 +781,7 @@
 
 <h4 id="class-inheritance"><span class="me-2">Class Inheritance</span><a href="#class-inheritance" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-</pre></td><td class="rouge-code"><pre>class Animal
+<pre><code class="language-Ruby">class Animal
     def eat # this method will overrides on other inherited classes
         puts "Animal eats grasses, water, etc"
     end
@@ -805,47 +792,19 @@ end
 
 class Cow &lt; Animal
 end
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
 <p>Here Animal is the superclass and Cat, Cow is the subclass.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-</pre></td><td class="rouge-code"><pre>cat = Cat.new
+<pre><code class="language-Ruby">cat = Cat.new
 cow = Cow.new
 cat.eat # =&gt; Animal eats grasses, water, etc
 cow.eat # =&gt; Animal eats grasses, water, etc
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
 <h4 id="method-overriding"><span class="me-2">Method overriding</span><a href="#method-overriding" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-15
-16
-17
-18
-19
-20
-</pre></td><td class="rouge-code"><pre>class Animal
+<pre><code class="language-Ruby">class Animal
     def eat
         puts 'Animal eats grasses, water, etc'
     end
@@ -865,45 +824,21 @@ end
 
 class Dog &lt; Animal
 end
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-</pre></td><td class="rouge-code"><pre>cat = Cat.new("Milk and water")
+<pre><code class="language-Ruby">cat = Cat.new("Milk and water")
 cat.eat
 # =&gt; Milk and water
 dog = Dog.new
 dog.eat
 # =&gt; Animal eats grasses, water, etc
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
 <h4 id="super"><span class="me-2">super</span><a href="#super" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
 
 <p>super is the inbuilt function of Ruby, which is used to call the methods up the inheritance hierarchy.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-10
-11
-12
-13
-14
-</pre></td><td class="rouge-code"><pre>class Animal
+<pre><code class="language-Ruby">class Animal
   def eat
     "Animal"
   end
@@ -917,24 +852,13 @@ end
 
 cat = Cat.new
 cat.eat        # =&gt; "Animal - cat - eats milk and water."
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
 <h4 id="module-mixins-in-ruby"><span class="me-2">Module Mixins in Ruby</span><a href="#module-mixins-in-ruby" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
 
 <p>Modules are a way of grouping together methods, classes, and constants. Modules provide a namespace and prevent name clashes, and it implement the mixin facility. Mixins is like multiple inheritence.</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-8
-9
-</pre></td><td class="rouge-code"><pre>module ModuleName
+<pre><code class="language-Ruby">module ModuleName
     def module_method
         puts "I am a module method"
     end
@@ -943,17 +867,12 @@ end
 class ClassName
     include ModuleName
 end
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-</pre></td><td class="rouge-code"><pre>obj = ClassName.new
+<pre><code class="language-Ruby">obj = ClassName.new
 obj.module_method
 # =&gt; I am a module method
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
   </div>
 

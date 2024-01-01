@@ -49,7 +49,7 @@
 <meta name="twitter:site" content="@shivrajbadu" />
 <meta name="google-site-verification" content="1V6mjFi-H5goXTGWpdsB7z6Mcve5NUvIpvzaQJGxOtA# fill in to your verification string" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-12-25T01:01:47+05:45","datePublished":"2018-04-23T09:23:58+05:45","description":"Ruby is a dynamic, open source, server-side scripting, interpreted, reflective, object-oriented, general purpose programming language. It was designed by Yukihiro Matsumato in Japan in the mid-1990s.","headline":"Introduction - Ruby!","mainEntityOfPage":{"@type":"WebPage","@id":"http://shivrajbadu.com.np/posts/introduction-ruby/"},"url":"http://shivrajbadu.com.np/posts/introduction-ruby/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-01-01T20:25:08+05:45","datePublished":"2018-04-23T09:23:58+05:45","description":"Ruby is a dynamic, open source, server-side scripting, interpreted, reflective, object-oriented, general purpose programming language. It was designed by Yukihiro Matsumato in Japan in the mid-1990s.","headline":"Introduction - Ruby!","mainEntityOfPage":{"@type":"WebPage","@id":"http://shivrajbadu.com.np/posts/introduction-ruby/"},"url":"http://shivrajbadu.com.np/posts/introduction-ruby/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
@@ -693,13 +693,13 @@
 
 <time
   
-  data-ts="1703445407"
+  data-ts="1704120008"
   data-df="ll"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
   
 >
-  Dec 25, 2023
+  Jan  1, 2024
 </time>
 
         </span>
@@ -742,7 +742,7 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="206 words"
+  title="204 words"
 >
   <em>1 min</em> read</span>
 
@@ -771,34 +771,35 @@
 </ul>
 
 <h5 id="compile-ruby-program"><span class="me-2">Compile Ruby program</span><a href="#compile-ruby-program" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h5>
+
 <p>Create a file hello_world.rb and write below code in it</p>
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-</pre></td><td class="rouge-code"><pre>  #! /usr/bin/ruby
+
+<pre><code class="language-Ruby">  #! /usr/bin/ruby
   puts "Hello World !!";
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
+
 <p>To run above code first go to the directory where hello_world.rb exists, then run the command</p>
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+
+<div class="language-ruby highlighter-rouge"><div class="code-header">
+        <span data-label-text="Ruby"><i class="fas fa-code fa-fw small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
-</pre></td><td class="rouge-code"><pre>ruby hello_world.rb
-# output is
-Hello World !!
+</pre></td><td class="rouge-code"><pre><span class="n">ruby</span> <span class="n">hello_world</span><span class="p">.</span><span class="nf">rb</span>
+<span class="c1"># output is</span>
+<span class="no">Hello</span> <span class="no">World</span> <span class="o">!!</span>
 </pre></td></tr></tbody></table></code></div></div>
 
 <h5 id="in-irb-interactive-command-line-mode-you-can-run-and-test-following-code"><span class="me-2">In irb interactive command line mode you can run and test following code:</span><a href="#in-irb-interactive-command-line-mode-you-can-run-and-test-following-code" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h5>
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+
+<div class="language-ruby highlighter-rouge"><div class="code-header">
+        <span data-label-text="Ruby"><i class="fas fa-code fa-fw small"></i></span>
       <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
 2
 3
-</pre></td><td class="rouge-code"><pre>&gt;&gt; puts "Hello, world !!"
-Hello, world !!
-=&gt; nil
+</pre></td><td class="rouge-code"><pre><span class="o">&gt;&gt;</span> <span class="nb">puts</span> <span class="s2">"Hello, world !!"</span>
+<span class="no">Hello</span><span class="p">,</span> <span class="n">world</span> <span class="o">!!</span>
+<span class="o">=&gt;</span> <span class="kp">nil</span>
 </pre></td></tr></tbody></table></code></div></div>
 
   </div>
@@ -2361,16 +2362,9 @@ Hello, world !!
 
 if, elsif and else block in Ruby controls decision based on the condition to true/false resulting in the different execution of the code.
 
-1
-2
-3
-4
-5
-6
-7
-8
 key = 10
-if key &amp;gt;...
+if key &amp;gt; 15
+  puts &#39;Key ...
                 </p>
               </div>
             </div>
@@ -2446,19 +2440,11 @@ whil...
 
                   Ruby uses the case expression with one or more when conditions. After execution it returns one of the when statement or default else case.
 
-1
-2
-3
-4
-5
-6
-7
-8
-9
 case gets.chomp
 
 when &#39;1&#39;
-  puts &quot;You h...
+  puts &quot;You have entered 1&quot;
+whe...
                 </p>
               </div>
             </div>

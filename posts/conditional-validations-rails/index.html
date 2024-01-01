@@ -49,7 +49,7 @@
 <meta name="twitter:site" content="@shivrajbadu" />
 <meta name="google-site-verification" content="1V6mjFi-H5goXTGWpdsB7z6Mcve5NUvIpvzaQJGxOtA# fill in to your verification string" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2023-12-25T01:01:47+05:45","datePublished":"2019-01-07T08:01:18+05:45","description":"Senerio: User may not provide Name when creating profile, so user name is not compulsory But if Name is provided then minimum character should be 3 &amp; max character should be 10","headline":"Conditional Validations","mainEntityOfPage":{"@type":"WebPage","@id":"http://shivrajbadu.com.np/posts/conditional-validations-rails/"},"url":"http://shivrajbadu.com.np/posts/conditional-validations-rails/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-01-01T20:25:08+05:45","datePublished":"2019-01-07T08:01:18+05:45","description":"Senerio: User may not provide Name when creating profile, so user name is not compulsory But if Name is provided then minimum character should be 3 &amp; max character should be 10","headline":"Conditional Validations","mainEntityOfPage":{"@type":"WebPage","@id":"http://shivrajbadu.com.np/posts/conditional-validations-rails/"},"url":"http://shivrajbadu.com.np/posts/conditional-validations-rails/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
@@ -640,13 +640,13 @@
 
 <time
   
-  data-ts="1703445407"
+  data-ts="1704120008"
   data-df="ll"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
   
 >
-  Dec 25, 2023
+  Jan  1, 2024
 </time>
 
         </span>
@@ -689,7 +689,7 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="144 words"
+  title="125 words"
 >
   <em>1 min</em> read</span>
 
@@ -708,71 +708,40 @@
 
 <p>Solutions:</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-</pre></td><td class="rouge-code"><pre># Normally we do like this and is the best way in this situation
+<pre><code class="language-Ruby"># Normally we do like this and is the best way in this situation
 validates :name, length: { minimum: 5, maximum: 15 },
                           allow_blank: true
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-</pre></td><td class="rouge-code"><pre>validates :name, length: { minimum: 5, maximum: 15 },
+<pre><code class="language-Ruby">validates :name, length: { minimum: 5, maximum: 15 },
                 if: :length_of_name_is_not_zero
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-</pre></td><td class="rouge-code"><pre>validates :name, length: { minimum: 5, maximum: 15 },
+<pre><code class="language-Ruby">validates :name, length: { minimum: 5, maximum: 15 },
                 unless: Proc.new {|obj| obj.name.length == 0}
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-</pre></td><td class="rouge-code"><pre>def length_of_name_is_not_zero
+<pre><code class="language-Ruby">def length_of_name_is_not_zero
   return false if self.name.length.eql?(0)
   true
 end
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
 <p>Another example of conditional validation</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-2
-3
-4
-5
-6
-7
-</pre></td><td class="rouge-code"><pre>attr_accessor :stu_field_validate
+<pre><code class="language-Ruby">attr_accessor :stu_field_validate
 
 validates :no_of_students, :presence =&gt; { :if =&gt; "student_no_validate?" }
 
 def student_no_validate?
  self.stu_field_validate.present? and ['no_of_students'].include?(self.stu_field_validate)
 end
-</pre></td></tr></tbody></table></code></div></div>
+</code></pre>
 
 <p>Pass field value as</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="code-header">
-        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
-      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
-</pre></td><td class="rouge-code"><pre>&lt;%= f.hidden_field :stu_field_validate, :value =&gt; "no_of_students" %&gt;
-</pre></td></tr></tbody></table></code></div></div>
+<pre><code class="language-Ruby">&lt;%= f.hidden_field :stu_field_validate, :value =&gt; "no_of_students" %&gt;
+</code></pre>
 
   </div>
 
