@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2024-01-02T18:01:00+05:45</updated>
+  <updated>2024-01-03T00:32:04+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -20,11 +20,49 @@
 
   
   <entry>
+    <title>Forecasting the Future: How Automated ML and Tools Like BQML Can Save You Time and Effort</title>
+    <link href="http://shivrajbadu.com.np/posts/automated-demand-forecasting-and-auto-ml/" rel="alternate" type="text/html" title="Forecasting the Future: How Automated ML and Tools Like BQML Can Save You Time and Effort" />
+    <published>2023-04-10T09:40:18+05:45</published>
+  
+    <updated>2023-04-10T09:40:18+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/automated-demand-forecasting-and-auto-ml/</id>
+    <content src="http://shivrajbadu.com.np/posts/automated-demand-forecasting-and-auto-ml/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="Artificial Intelligence (AI)" />
+    
+    <category term="Machine Learning" />
+    
+    <category term="BigQuery" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      In the age of big data, predicting future trends is no longer a crystal ball endeavor. Machine learning (ML) has emerged as a powerful tool for businesses to unlock insights from their data and gain a competitive edge. But what happens when building and deploying ML models feels like navigating a complex labyrinth? That’s where Automated ML (AutoML) and platforms like BigQuery ML (BQML) come in...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
     <title>Unlocking Creativity: Prompt Engineering in Generative AI</title>
     <link href="http://shivrajbadu.com.np/posts/generative-ai-with-prompt-engineering/" rel="alternate" type="text/html" title="Unlocking Creativity: Prompt Engineering in Generative AI" />
     <published>2023-04-05T10:40:18+05:45</published>
   
-    <updated>2024-01-01T21:53:50+05:45</updated>
+    <updated>2024-01-03T00:31:50+05:45</updated>
   
     <id>http://shivrajbadu.com.np/posts/generative-ai-with-prompt-engineering/</id>
     <content src="http://shivrajbadu.com.np/posts/generative-ai-with-prompt-engineering/" />
@@ -50,9 +88,7 @@
 
 
 
-      Unlocking Creativity: Prompt Engineering in Generative AI
-
-In the ever-evolving landscape of Generative AI, one concept has taken center stage, becoming a catalyst for creativity and innovation—Prompt Engineering. This technique, akin to providing a well-crafted instruction to a creative assistant, has proven to be a powerful tool in harnessing the potential of models like ChatGPT (Utilizes Ope...
+      In the ever-evolving landscape of Generative AI, one concept has taken center stage, becoming a catalyst for creativity and innovation—Prompt Engineering. This technique, akin to providing a well-crafted instruction to a creative assistant, has proven to be a powerful tool in harnessing the potential of models like ChatGPT (Utilizes OpenAI’s Transformer architecture), Bard (built on Google’s Pa...
     </summary>
   
 
@@ -178,53 +214,6 @@ a.find_all{|x| x.even?} # =&amp;gt; [2, 4, 6, 8]
   Prior to Rails6, JS code were inside app/assets/javascripts
   In Rails6, no app/assets/javascripts and have new dir app/javascript to load all the js files which has channels &amp;amp; packs and all Javascript components like Turbolinks, ActiveStorage, Rails-UJS, ActionCable support Webpacker.
   Other dir chann...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Elastic Search with Chewy</title>
-    <link href="http://shivrajbadu.com.np/posts/elastic-search-with-chewy/" rel="alternate" type="text/html" title="Elastic Search with Chewy" />
-    <published>2019-10-25T07:01:18+05:45</published>
-  
-    <updated>2024-01-01T21:53:50+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/elastic-search-with-chewy/</id>
-    <content src="http://shivrajbadu.com.np/posts/elastic-search-with-chewy/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="Ruby on Rails" />
-    
-    <category term="Elastic search Chewy" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Chewy is one of the elastic search Ruby client.
-
-Chewy usages:
-
-
-  
-    Multi-model indices
-You can define several types for index one per indexed model.
-  
-  
-    Every index is observable by all the related models.
-Most of the indexed models are related to other and it is necessary to denormalize this related data and put at the same object. Chewy is useful for example when we need index for ...
     </summary>
   
 
