@@ -6,8 +6,6 @@ categories: [Artificial Intelligence (AI), Prompt Engineering, ChatGPT]
 tags: [chatGPT, prompt_engineering, AI, LLM]
 ---
 
-# Unlocking Creativity: Prompt Engineering in Generative AI
-
 In the ever-evolving landscape of Generative AI, one concept has taken center stage, becoming a catalyst for creativity and innovation—Prompt Engineering. This technique, akin to providing a well-crafted instruction to a creative assistant, has proven to be a powerful tool in harnessing the potential of models like ChatGPT (Utilizes OpenAI's Transformer architecture), Bard (built on Google's PaLM 2 architecture) and other Large Language Models (LLMs). Let's embark on a journey to understand the nuances and impact of prompt engineering in the realm of Generative AI.
 
 ## What is Generative AI?
