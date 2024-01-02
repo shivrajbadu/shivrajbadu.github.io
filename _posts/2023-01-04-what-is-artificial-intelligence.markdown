@@ -16,7 +16,15 @@ This type of AI is designed and trained for a particular task. It can excel at t
 
 #### General or Strong AI: 
 
-This hypothetical form of AI would have the ability to understand, learn, and apply knowledge across a wide range of tasks, similar to human intelligence. Strong AI remains a concept and has not been achieved as of my last knowledge update in January 2022.
+This hypothetical form of AI would have the ability to understand, learn, and apply knowledge across a wide range of tasks, similar to human intelligence.
+
+General AI, also known as Strong AI or Artificial General Intelligence (AGI), refers to a type of artificial intelligence that has the ability to understand, learn, adapt, and apply knowledge across a wide range of tasks at a level equal to or beyond a human being.
+
+Strong AI doesn't just mimic or simulate human intelligence. It's supposed to understand, reason, plan, learn, communicate in natural language, and integrate all these skills towards common goals, just like a human would. It should be able to transfer knowledge from one domain to another, handling tasks that it was not specifically programmed for.
+
+It could understand and apply its knowledge to various situations, learn new skills on its own, and possibly even experience consciousness. AGI could bring about revolutionary changes in numerous fields, from healthcare and science to economics and social sciences. However, ethical considerations and potential risks also need careful examination.
+
+As of now, Strong AI remains largely theoretical, with no practical examples in use today. Most AI in use today is considered Weak AI (also known as Narrow AI), which is designed to perform a narrow task (e.g., only facial recognition or only internet searches or only driving a car).
 
 #### AI systems can be categorized into several subfields, including:
 
