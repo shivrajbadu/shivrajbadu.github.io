@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2024-02-09T16:02:57+05:45</updated>
+  <updated>2024-02-09T20:46:03+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -17,6 +17,49 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Tailwind CSS</title>
+    <link href="http://shivrajbadu.com.np/posts/tailwind-css/" rel="alternate" type="text/html" title="Tailwind CSS" />
+    <published>2024-01-02T11:40:18+05:45</published>
+  
+    <updated>2024-02-09T20:45:29+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/tailwind-css/</id>
+    <content src="http://shivrajbadu.com.np/posts/tailwind-css/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="CSS" />
+    
+    <category term="Tailwind CSS" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      To begin using Tailwind CSS in your project, you first need to set up a project environment. Here’s how you can set up Tailwind CSS in a simple HTML project:
+
+
+  
+    Create an HTML file: Let’s create an index.html file where we’ll write our HTML code.
+  
+  
+    Include Tailwind CSS: You can include Tailwind CSS in your HTML file by either linking to a CDN or by installing it via npm and includ...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -172,48 +215,6 @@ arr.select{|x| x.even?} # =&amp;gt; [2, 4, 6, 8]
 a.find_all{|x| x.even?} # =&amp;gt; [2, 4, 6, 8]
 
 ...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Webpacker in Rails6</title>
-    <link href="http://shivrajbadu.com.np/posts/rails6-webpacker/" rel="alternate" type="text/html" title="Webpacker in Rails6" />
-    <published>2020-06-05T01:45:18+05:45</published>
-  
-    <updated>2024-01-01T21:53:50+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/rails6-webpacker/</id>
-    <content src="http://shivrajbadu.com.np/posts/rails6-webpacker/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="Ruby on Rails" />
-    
-    <category term="Webpacker" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Webpacker
-
-
-  Webpacker is the JavaScript compiler which compiles the JavaScript code.
-  Prior to Rails6, JS code were inside app/assets/javascripts
-  In Rails6, no app/assets/javascripts and have new dir app/javascript to load all the js files which has channels &amp;amp; packs and all Javascript components like Turbolinks, ActiveStorage, Rails-UJS, ActionCable support Webpacker.
-  Other dir chann...
     </summary>
   
 
