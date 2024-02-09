@@ -3,9 +3,8 @@ layout: post
 title:  "Tailwind CSS"
 date:   2024-01-02 11:40:18 +0545
 categories: [CSS, Tailwind CSS]
-tags: [CSS, Tailwind-CSS, UI]
+tags: [css, tailwind_css, UI]
 ---
-
 
 To begin using Tailwind CSS in your project, you first need to set up a project environment. Here's how you can set up Tailwind CSS in a simple HTML project:
 
@@ -39,7 +38,7 @@ Start using Tailwind classes: Now you can start using Tailwind CSS classes direc
 </div>
 ```
 
-In this example, container, mx-auto, py-6, text-3xl, font-bold, text-center, text-gray-800, text-lg, text-gray-600 are Tailwind CSS utility classes that style the HTML elements.
+In this example, `container`, `mx-auto`, `py-6`, `text-3xl`, `font-bold`, `text-center`, `text-gray-800`, `text-lg`, `text-gray-600` are Tailwind CSS utility classes that style the HTML elements.
 
 That's it! You've successfully set up Tailwind CSS in your project. Now you can continue exploring and using Tailwind's utility classes to style your HTML elements further.
 
