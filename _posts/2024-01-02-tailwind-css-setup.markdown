@@ -2,7 +2,7 @@
 layout: post
 title:  "Tailwind CSS"
 date:   2024-01-02 11:40:18 +0545
-categories: [CSS, Tailwind CSS]
+categories: [Tailwind CSS, Setup]
 tags: [css, tailwind_css, UI]
 ---
 
