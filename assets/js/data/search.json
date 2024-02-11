@@ -1,6 +1,23 @@
 [
   
   {
+    "title": "Tailwind CSS Form Components",
+    "url": "/posts/tailwind-css-form-components/",
+    "categories": "Tailwind CSS, Form Components",
+    "tags": "css, tailwind_css, UI",
+    "date": "2024-01-07 11:40:18 +0545",
+    
+
+
+
+
+
+    
+    "snippet": "Let’s explore utility classes for working with forms and inputs in Tailwind CSS.Here are some examples of how you can style forms and inputs using Tailwind CSS utility classes.Form LayoutTailwind C...",
+    "content": "Let’s explore utility classes for working with forms and inputs in Tailwind CSS.Here are some examples of how you can style forms and inputs using Tailwind CSS utility classes.Form LayoutTailwind CSS provides utility classes for creating form layouts easily. You can use flexbox utilities to align form elements horizontally or vertically.&lt;form class=\"flex flex-col\"&gt;    &lt;!-- Vertical form layout --&gt;    &lt;label for=\"username\"&gt;Username:&lt;/label&gt;    &lt;input type=\"text\" id=\"username\" name=\"username\" class=\"border p-2 mb-4\"&gt;    &lt;label for=\"password\"&gt;Password:&lt;/label&gt;    &lt;input type=\"password\" id=\"password\" name=\"password\" class=\"border p-2 mb-4\"&gt;    &lt;button type=\"submit\" class=\"bg-blue-500 text-white font-bold py-2 px-4 rounded\"&gt;Submit&lt;/button&gt;&lt;/form&gt;Input StylesYou can style inputs using utility classes like border, p, rounded, etc. You can also use focus and hover states to add interactivity.&lt;input type=\"text\" class=\"border border-gray-300 p-2 rounded focus:outline-none focus:ring focus:border-blue-500\"&gt;Checkboxes and Radio ButtonsTailwind CSS provides styles for checkboxes and radio buttons as well.&lt;label class=\"inline-flex items-center\"&gt;    &lt;input type=\"checkbox\" class=\"form-checkbox text-blue-500\"&gt;    &lt;span class=\"ml-2\"&gt;Remember me&lt;/span&gt;&lt;/label&gt;&lt;label class=\"inline-flex items-center\"&gt;    &lt;input type=\"radio\" class=\"form-radio text-blue-500\" name=\"radio\"&gt;    &lt;span class=\"ml-2\"&gt;Option 1&lt;/span&gt;&lt;/label&gt;&lt;label class=\"inline-flex items-center\"&gt;    &lt;input type=\"radio\" class=\"form-radio text-blue-500\" name=\"radio\"&gt;    &lt;span class=\"ml-2\"&gt;Option 2&lt;/span&gt;&lt;/label&gt;Select MenusYou can style select menus using Tailwind CSS classes.&lt;select class=\"border p-2 rounded\"&gt;    &lt;option&gt;Option 1&lt;/option&gt;    &lt;option&gt;Option 2&lt;/option&gt;    &lt;option&gt;Option 3&lt;/option&gt;&lt;/select&gt;Validation StatesYou can use utility classes to style form elements based on their validation states.&lt;input type=\"text\" class=\"border p-2 rounded focus:outline-none focus:ring focus:border-blue-500\"&gt;&lt;span class=\"text-red-500\"&gt;Invalid input&lt;/span&gt;Tailwind classes used in Image components&lt;div class=\"container mx-auto py-6\"&gt;    &lt;!-- Responsive Image --&gt;    &lt;img src=\"https://source.unsplash.com/random/800x600\" alt=\"Random Image\" class=\"w-full\"&gt;    &lt;!-- Image with Specific Size --&gt;    &lt;img src=\"https://source.unsplash.com/random/400x300\" alt=\"Random Image\" class=\"w-64 h-48\"&gt;    &lt;!-- Rounded Corners --&gt;    &lt;img src=\"https://source.unsplash.com/random/800x600\" alt=\"Random Image\" class=\"rounded-lg\"&gt;    &lt;!-- Image with Shadow --&gt;    &lt;img src=\"https://source.unsplash.com/random/800x600\" alt=\"Random Image\" class=\"shadow-md\"&gt;    &lt;!-- Image with Aspect Ratio --&gt;    &lt;div class=\"aspect-w-16 aspect-h-9\"&gt;        &lt;img src=\"https://source.unsplash.com/random/800x600\" alt=\"Random Image\" class=\"object-cover\"&gt;    &lt;/div&gt;&lt;/div&gt;"
+  },
+  
+  {
     "title": "Tailwind CSS Button Styling",
     "url": "/posts/tailwind-css-button-styling/",
     "categories": "Tailwind CSS, Button Styling",
