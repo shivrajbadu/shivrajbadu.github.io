@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2024-02-11T17:16:02+05:45</updated>
+  <updated>2024-02-11T17:49:43+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -20,11 +20,147 @@
 
   
   <entry>
+    <title>Tailwind CSS Styling Background and Borders</title>
+    <link href="http://shivrajbadu.com.np/posts/tailwind-css-background-and-borders-copy/" rel="alternate" type="text/html" title="Tailwind CSS Styling Background and Borders" />
+    <published>2024-01-05T11:40:18+05:45</published>
+  
+    <updated>2024-01-05T11:40:18+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/tailwind-css-background-and-borders-copy/</id>
+    <content src="http://shivrajbadu.com.np/posts/tailwind-css-background-and-borders-copy/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="Tailwind CSS" />
+    
+    <category term="Styling Background And Borders" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Let’s explore some basic utility classes provided by Tailwind CSS for styling text elements.
+
+Background Color
+
+You can set the background color of an element using utility classes like bg-red-500, bg-blue-700, etc., where the number represents the shade of the color.
+
+&amp;lt;div class="bg-red-500 p-4"&amp;gt;
+    &amp;lt;p&amp;gt;Red Background&amp;lt;/p&amp;gt;
+&amp;lt;/div&amp;gt;
+&amp;lt;div class="bg-blue-700 p-4"&amp;gt;
+    &amp;...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Tailwind CSS Styling Background and Borders</title>
+    <link href="http://shivrajbadu.com.np/posts/tailwind-css-background-and-borders/" rel="alternate" type="text/html" title="Tailwind CSS Styling Background and Borders" />
+    <published>2024-01-05T11:40:18+05:45</published>
+  
+    <updated>2024-01-05T11:40:18+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/tailwind-css-background-and-borders/</id>
+    <content src="http://shivrajbadu.com.np/posts/tailwind-css-background-and-borders/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="Tailwind CSS" />
+    
+    <category term="Styling Background And Borders" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Let’s explore some basic utility classes provided by Tailwind CSS for styling text elements.
+
+Background Color
+
+You can set the background color of an element using utility classes like bg-red-500, bg-blue-700, etc., where the number represents the shade of the color.
+
+&amp;lt;div class="bg-red-500 p-4"&amp;gt;
+    &amp;lt;p&amp;gt;Red Background&amp;lt;/p&amp;gt;
+&amp;lt;/div&amp;gt;
+&amp;lt;div class="bg-blue-700 p-4"&amp;gt;
+    &amp;...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Tailwind CSS Text Styles</title>
+    <link href="http://shivrajbadu.com.np/posts/tailwind-css-text-styles/" rel="alternate" type="text/html" title="Tailwind CSS Text Styles" />
+    <published>2024-01-04T11:40:18+05:45</published>
+  
+    <updated>2024-02-11T17:43:20+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/tailwind-css-text-styles/</id>
+    <content src="http://shivrajbadu.com.np/posts/tailwind-css-text-styles/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="Tailwind CSS" />
+    
+    <category term="Text Styles" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Let’s explore some basic utility classes provided by Tailwind CSS for styling text elements.
+
+Text Color:
+
+Tailwind CSS provides utility classes for changing the color of text. You can use classes like text-black, text-white, text-red-500, etc., where the number represents the shade of the color.
+
+&amp;lt;p class="text-black"&amp;gt;Black Text&amp;lt;/p&amp;gt;
+&amp;lt;p class="text-red-500"&amp;gt;Red Text&amp;lt;/p&amp;gt;
+...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
     <title>Tailwind CSS Navigation</title>
     <link href="http://shivrajbadu.com.np/posts/tailwind-css-navigation/" rel="alternate" type="text/html" title="Tailwind CSS Navigation" />
-    <published>2024-01-02T11:40:18+05:45</published>
+    <published>2024-01-03T11:40:18+05:45</published>
   
-    <updated>2024-02-11T17:15:33+05:45</updated>
+    <updated>2024-02-11T17:43:20+05:45</updated>
   
     <id>http://shivrajbadu.com.np/posts/tailwind-css-navigation/</id>
     <content src="http://shivrajbadu.com.np/posts/tailwind-css-navigation/" />
@@ -101,116 +237,6 @@ You can create a horizontal navigation menu using flexbox utilities to align men
   
   
     Include Tailwind CSS: You can include Tailwind CSS in your HTML file by either linking to a CDN or by installing it via npm and includ...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Forecasting the Future: How Automated ML and Tools Like BQML Can Save You Time and Effort</title>
-    <link href="http://shivrajbadu.com.np/posts/automated-demand-forecasting-and-auto-ml/" rel="alternate" type="text/html" title="Forecasting the Future: How Automated ML and Tools Like BQML Can Save You Time and Effort" />
-    <published>2023-04-10T09:40:18+05:45</published>
-  
-    <updated>2023-04-10T09:40:18+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/automated-demand-forecasting-and-auto-ml/</id>
-    <content src="http://shivrajbadu.com.np/posts/automated-demand-forecasting-and-auto-ml/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="Artificial Intelligence (AI)" />
-    
-    <category term="Machine Learning" />
-    
-    <category term="BigQuery" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      In the age of big data, predicting future trends is no longer a crystal ball endeavor. Machine learning (ML) has emerged as a powerful tool for businesses to unlock insights from their data and gain a competitive edge. But what happens when building and deploying ML models feels like navigating a complex labyrinth? That’s where Automated ML (AutoML) and platforms like BigQuery ML (BQML) come in...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Unlocking Creativity: Prompt Engineering in Generative AI</title>
-    <link href="http://shivrajbadu.com.np/posts/generative-ai-with-prompt-engineering/" rel="alternate" type="text/html" title="Unlocking Creativity: Prompt Engineering in Generative AI" />
-    <published>2023-04-05T10:40:18+05:45</published>
-  
-    <updated>2024-01-03T00:31:50+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/generative-ai-with-prompt-engineering/</id>
-    <content src="http://shivrajbadu.com.np/posts/generative-ai-with-prompt-engineering/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="Artificial Intelligence (AI)" />
-    
-    <category term="Prompt Engineering" />
-    
-    <category term="ChatGPT" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      In the ever-evolving landscape of Generative AI, one concept has taken center stage, becoming a catalyst for creativity and innovation—Prompt Engineering. This technique, akin to providing a well-crafted instruction to a creative assistant, has proven to be a powerful tool in harnessing the potential of models like ChatGPT (Utilizes OpenAI’s Transformer architecture), Bard (built on Google’s Pa...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>What is Artificial Intelligence</title>
-    <link href="http://shivrajbadu.com.np/posts/what-is-artificial-intelligence/" rel="alternate" type="text/html" title="What is Artificial Intelligence" />
-    <published>2023-01-04T12:00:10+05:45</published>
-  
-    <updated>2024-01-02T18:00:37+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/what-is-artificial-intelligence/</id>
-    <content src="http://shivrajbadu.com.np/posts/what-is-artificial-intelligence/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="Artificial Intelligence (AI)" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      AI, or Artificial Intelligence, refers to the development of computer systems that can perform tasks that typically require human intelligence. These tasks include learning, reasoning, problem-solving, perception, natural language understanding, and even the ability to interact with the environment. The goal of AI is to create machines that can mimic cognitive functions associated with human mi...
     </summary>
   
 
