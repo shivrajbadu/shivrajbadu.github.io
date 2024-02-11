@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2024-02-11T17:49:43+05:45</updated>
+  <updated>2024-02-11T19:26:37+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -20,14 +20,14 @@
 
   
   <entry>
-    <title>Tailwind CSS Styling Background and Borders</title>
-    <link href="http://shivrajbadu.com.np/posts/tailwind-css-background-and-borders-copy/" rel="alternate" type="text/html" title="Tailwind CSS Styling Background and Borders" />
-    <published>2024-01-05T11:40:18+05:45</published>
+    <title>Tailwind CSS Button Styling</title>
+    <link href="http://shivrajbadu.com.np/posts/tailwind-css-button-styling/" rel="alternate" type="text/html" title="Tailwind CSS Button Styling" />
+    <published>2024-01-06T11:40:18+05:45</published>
   
-    <updated>2024-01-05T11:40:18+05:45</updated>
+    <updated>2024-01-06T11:40:18+05:45</updated>
   
-    <id>http://shivrajbadu.com.np/posts/tailwind-css-background-and-borders-copy/</id>
-    <content src="http://shivrajbadu.com.np/posts/tailwind-css-background-and-borders-copy/" />
+    <id>http://shivrajbadu.com.np/posts/tailwind-css-button-styling/</id>
+    <content src="http://shivrajbadu.com.np/posts/tailwind-css-button-styling/" />
     <author>
       <name>Shivraj Badu</name>
     </author>
@@ -36,7 +36,7 @@
     
     <category term="Tailwind CSS" />
     
-    <category term="Styling Background And Borders" />
+    <category term="Button Styling" />
     
   
 
@@ -48,17 +48,18 @@
 
 
 
-      Let’s explore some basic utility classes provided by Tailwind CSS for styling text elements.
+      Let’s dive into buttons and interactive elements in Tailwind CSS.
 
-Background Color
+Button Styles
 
-You can set the background color of an element using utility classes like bg-red-500, bg-blue-700, etc., where the number represents the shade of the color.
+Tailwind CSS provides utility classes to easily style buttons. You can use classes like bg-blue-500, text-white, font-bold, py-2, px-4, rounded, etc., to create visually appealing buttons.
 
-&amp;lt;div class="bg-red-500 p-4"&amp;gt;
-    &amp;lt;p&amp;gt;Red Background&amp;lt;/p&amp;gt;
-&amp;lt;/div&amp;gt;
-&amp;lt;div class="bg-blue-700 p-4"&amp;gt;
-    &amp;...
+&amp;lt;button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"&amp;gt;
+    Click me
+&amp;lt;/button&amp;gt;
+
+
+Bu...
     </summary>
   
 
