@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Tailwind CSS Text Styles"
-date:   2024-01-02 11:40:18 +0545
+date:   2024-01-04 11:40:18 +0545
 categories: [Tailwind CSS, Text Styles]
 tags: [css, tailwind_css, UI]
 ---

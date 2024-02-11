@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  "Tailwind CSS Navigation"
-date:   2024-01-02 11:40:18 +0545
+date:   2024-01-03 11:40:18 +0545
 categories: [Tailwind CSS, Navigation]
 tags: [css, tailwind_css, UI]
 ---
