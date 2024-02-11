@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2024-02-09T20:46:03+05:45</updated>
+  <updated>2024-02-11T16:44:45+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -21,22 +21,22 @@
   
   <entry>
     <title>Tailwind CSS</title>
-    <link href="http://shivrajbadu.com.np/posts/tailwind-css/" rel="alternate" type="text/html" title="Tailwind CSS" />
+    <link href="http://shivrajbadu.com.np/posts/tailwind-css-setup/" rel="alternate" type="text/html" title="Tailwind CSS" />
     <published>2024-01-02T11:40:18+05:45</published>
   
-    <updated>2024-02-09T20:45:29+05:45</updated>
+    <updated>2024-01-02T11:40:18+05:45</updated>
   
-    <id>http://shivrajbadu.com.np/posts/tailwind-css/</id>
-    <content src="http://shivrajbadu.com.np/posts/tailwind-css/" />
+    <id>http://shivrajbadu.com.np/posts/tailwind-css-setup/</id>
+    <content src="http://shivrajbadu.com.np/posts/tailwind-css-setup/" />
     <author>
       <name>Shivraj Badu</name>
     </author>
 
   
     
-    <category term="CSS" />
-    
     <category term="Tailwind CSS" />
+    
+    <category term="Setup" />
     
   
 
