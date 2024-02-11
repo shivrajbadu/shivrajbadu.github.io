@@ -8,7 +8,9 @@ tags: [css, tailwind_css, UI]
 
 Let's explore utility classes for working with navigation menus and dropdowns in Tailwind CSS.
 
-Horizontal Navigation Menu: You can create a horizontal navigation menu using flexbox utilities to align menu items horizontally.
+## Horizontal Navigation Menu:
+
+You can create a horizontal navigation menu using flexbox utilities to align menu items horizontally.
 
 ```
 <nav class="flex">
@@ -19,7 +21,9 @@ Horizontal Navigation Menu: You can create a horizontal navigation menu using fl
 </nav>
 ```
 
-Vertical Navigation Menu: Similarly, you can create a vertical navigation menu using flexbox utilities to align menu items vertically.
+## Vertical Navigation Menu:
+
+Similarly, you can create a vertical navigation menu using flexbox utilities to align menu items vertically.
 
 ```
 <nav class="flex flex-col">
@@ -30,7 +34,9 @@ Vertical Navigation Menu: Similarly, you can create a vertical navigation menu u
 </nav>
 ```
 
-Dropdown Menu: You can create dropdown menus using nested lists and CSS. Tailwind CSS provides utility classes for styling dropdowns and managing their visibility.
+## Dropdown Menu:
+
+You can create dropdown menus using nested lists and CSS. Tailwind CSS provides utility classes for styling dropdowns and managing their visibility.
 
 ```
 <nav>
@@ -56,7 +62,9 @@ Dropdown Menu: You can create dropdown menus using nested lists and CSS. Tailwin
 </nav>
 ```
 
-Responsive Navigation: You can use responsive classes to create navigation menus that adapt to different screen sizes.
+## Responsive Navigation:
+
+You can use responsive classes to create navigation menus that adapt to different screen sizes.
 
 ```
 <nav class="flex flex-col lg:flex-row">
@@ -65,6 +73,8 @@ Responsive Navigation: You can use responsive classes to create navigation menus
 ```
 
 These are some examples of how you can create navigation menus and dropdowns using Tailwind CSS utility classes. Experiment with these classes to create navigation structures that match your design requirements.
+
+Here is full example code:
 
 ```
 <!DOCTYPE html>
