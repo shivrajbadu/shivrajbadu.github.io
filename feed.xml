@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2024-02-11T21:35:48+05:45</updated>
+  <updated>2024-02-11T21:54:49+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -20,11 +20,51 @@
 
   
   <entry>
+    <title>Tailwind CSS Flex and Grid</title>
+    <link href="http://shivrajbadu.com.np/posts/tailwind-css-flex-and-grid/" rel="alternate" type="text/html" title="Tailwind CSS Flex and Grid" />
+    <published>2024-01-08T11:40:18+05:45</published>
+  
+    <updated>2024-01-08T11:40:18+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/tailwind-css-flex-and-grid/</id>
+    <content src="http://shivrajbadu.com.np/posts/tailwind-css-flex-and-grid/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="Tailwind CSS" />
+    
+    <category term="Flex and Grid" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Let’s explore utility classes for working with Flex and Grid in Tailwind CSS. Flexbox and Grid can be utilized in Tailwind CSS to create responsive and flexible layouts with minimal effort.
+
+Flex
+
+This section demonstrates the use of Flexbox in Tailwind CSS. The flex class is used on the parent container to create a flex container. The justify-between class is applied to evenly distribute the c...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
     <title>Tailwind CSS Form Components</title>
     <link href="http://shivrajbadu.com.np/posts/tailwind-css-form-components/" rel="alternate" type="text/html" title="Tailwind CSS Form Components" />
     <published>2024-01-07T11:40:18+05:45</published>
   
-    <updated>2024-01-07T11:40:18+05:45</updated>
+    <updated>2024-02-11T21:54:29+05:45</updated>
   
     <id>http://shivrajbadu.com.np/posts/tailwind-css-form-components/</id>
     <content src="http://shivrajbadu.com.np/posts/tailwind-css-form-components/" />
@@ -194,51 +234,6 @@ Tailwind CSS provides utility classes for changing the color of text. You can us
 &amp;lt;p class="text-black"&amp;gt;Black Text&amp;lt;/p&amp;gt;
 &amp;lt;p class="text-red-500"&amp;gt;Red Text&amp;lt;/p&amp;gt;
 ...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Tailwind CSS Navigation</title>
-    <link href="http://shivrajbadu.com.np/posts/tailwind-css-navigation/" rel="alternate" type="text/html" title="Tailwind CSS Navigation" />
-    <published>2024-01-03T11:40:18+05:45</published>
-  
-    <updated>2024-02-11T17:43:20+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/tailwind-css-navigation/</id>
-    <content src="http://shivrajbadu.com.np/posts/tailwind-css-navigation/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="Tailwind CSS" />
-    
-    <category term="Navigation" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Let’s explore utility classes for working with navigation menus and dropdowns in Tailwind CSS.
-
-Horizontal Navigation Menu:
-
-You can create a horizontal navigation menu using flexbox utilities to align menu items horizontally.
-
-&amp;lt;nav class="flex"&amp;gt;
-    &amp;lt;a href="#" class="p-2"&amp;gt;Home&amp;lt;/a&amp;gt;
-    &amp;lt;a href="#" class="p-2"&amp;gt;About&amp;lt;/a&amp;gt;
-    &amp;lt;a href="#" class="p-2"&amp;gt;Services&amp;lt...
     </summary>
   
 

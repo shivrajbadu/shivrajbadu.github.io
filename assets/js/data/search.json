@@ -1,6 +1,23 @@
 [
   
   {
+    "title": "Tailwind CSS Flex and Grid",
+    "url": "/posts/tailwind-css-flex-and-grid/",
+    "categories": "Tailwind CSS, Flex and Grid",
+    "tags": "css, tailwind_css, UI",
+    "date": "2024-01-08 11:40:18 +0545",
+    
+
+
+
+
+
+    
+    "snippet": "Let’s explore utility classes for working with Flex and Grid in Tailwind CSS. Flexbox and Grid can be utilized in Tailwind CSS to create responsive and flexible layouts with minimal effort.FlexThis...",
+    "content": "Let’s explore utility classes for working with Flex and Grid in Tailwind CSS. Flexbox and Grid can be utilized in Tailwind CSS to create responsive and flexible layouts with minimal effort.FlexThis section demonstrates the use of Flexbox in Tailwind CSS. The flex class is used on the parent container to create a flex container. The justify-between class is applied to evenly distribute the child elements along the main axis (horizontally) with space between them. Each child element has flex-1 class to make them grow and fill the available space equally.&lt;div class=\"container mx-auto py-6\"&gt;    &lt;!-- Flexbox Example --&gt;    &lt;p class=\"text-lg text-left text-gray-600 font-bold\"&gt;Flexbox Example&lt;/p&gt;    &lt;div class=\"flex justify-between\"&gt;        &lt;div class=\"flex-1 bg-gray-200 p-4\"&gt;Item 1&lt;/div&gt;        &lt;div class=\"flex-1 bg-gray-300 p-4\"&gt;Item 2&lt;/div&gt;        &lt;div class=\"flex-1 bg-gray-400 p-4\"&gt;Item 3&lt;/div&gt;    &lt;/div&gt;&lt;/div&gt;GridThis section showcases the usage of Grid in Tailwind CSS. The grid class is used on the parent container to create a grid container. Different grid-cols-{number} classes are applied to define the number of columns at different screen sizes. The gap-4 class adds a gap of 1rem between grid items.&lt;div class=\"container mx-auto py-6\"&gt;    &lt;!-- Grid Example --&gt;    &lt;p class=\"text-lg text-left text-gray-600 font-bold\"&gt;Grid Example&lt;/p&gt;    &lt;div class=\"grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-4\"&gt;        &lt;div class=\"bg-gray-200 p-4\"&gt;Item 1&lt;/div&gt;        &lt;div class=\"bg-gray-300 p-4\"&gt;Item 2&lt;/div&gt;        &lt;div class=\"bg-gray-400 p-4\"&gt;Item 3&lt;/div&gt;        &lt;div class=\"bg-gray-500 p-4\"&gt;Item 4&lt;/div&gt;        &lt;div class=\"bg-gray-600 p-4\"&gt;Item 5&lt;/div&gt;    &lt;/div&gt;&lt;/div&gt;"
+  },
+  
+  {
     "title": "Tailwind CSS Form Components",
     "url": "/posts/tailwind-css-form-components/",
     "categories": "Tailwind CSS, Form Components",
