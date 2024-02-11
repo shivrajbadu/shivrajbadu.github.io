@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Tailwind CSS"
+title:  "Tailwind CSS Setup"
 date:   2024-01-02 11:40:18 +0545
 categories: [Tailwind CSS, Setup]
 tags: [css, tailwind_css, UI]
