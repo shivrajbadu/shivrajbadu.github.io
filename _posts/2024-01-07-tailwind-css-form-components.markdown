@@ -98,3 +98,5 @@ You can use utility classes to style form elements based on their validation sta
     </div>
 </div>
 ```
+
+{% include inarticle-adsense.html %}
