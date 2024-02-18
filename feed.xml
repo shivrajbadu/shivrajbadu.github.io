@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2024-02-11T21:54:49+05:45</updated>
+  <updated>2024-02-18T12:28:35+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -17,6 +17,42 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>AI And Future</title>
+    <link href="http://shivrajbadu.com.np/posts/ai-and-future/" rel="alternate" type="text/html" title="AI And Future" />
+    <published>2024-01-09T12:00:10+05:45</published>
+  
+    <updated>2024-02-18T12:25:19+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/ai-and-future/</id>
+    <content src="http://shivrajbadu.com.np/posts/ai-and-future/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="Artificial Intelligence (AI)" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      
+
+Artificial Intelligence (AI), a term first introduced by John McCarthy, is a discipline that focuses on the creation of intelligent machines that work and react like humans, and The term “Machine Intelligence” was first coined by Alan Turing, who conducted substantial research in this field. The concept of “Artificial Brain” was born out of the desire to replicate human intelligence in machin...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -190,50 +226,6 @@ You can set the background color of an element using utility classes like bg-red
 &amp;lt;/div&amp;gt;
 &amp;lt;div class="bg-blue-700 p-4"&amp;gt;
     &amp;...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Tailwind CSS Text Styles</title>
-    <link href="http://shivrajbadu.com.np/posts/tailwind-css-text-styles/" rel="alternate" type="text/html" title="Tailwind CSS Text Styles" />
-    <published>2024-01-04T11:40:18+05:45</published>
-  
-    <updated>2024-02-11T17:43:20+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/tailwind-css-text-styles/</id>
-    <content src="http://shivrajbadu.com.np/posts/tailwind-css-text-styles/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="Tailwind CSS" />
-    
-    <category term="Text Styles" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Let’s explore some basic utility classes provided by Tailwind CSS for styling text elements.
-
-Text Color:
-
-Tailwind CSS provides utility classes for changing the color of text. You can use classes like text-black, text-white, text-red-500, etc., where the number represents the shade of the color.
-
-&amp;lt;p class="text-black"&amp;gt;Black Text&amp;lt;/p&amp;gt;
-&amp;lt;p class="text-red-500"&amp;gt;Red Text&amp;lt;/p&amp;gt;
-...
     </summary>
   
 
