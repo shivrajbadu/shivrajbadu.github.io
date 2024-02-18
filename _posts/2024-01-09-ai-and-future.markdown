@@ -8,7 +8,7 @@ tags: [AI]
 
 ![AI And Future]({{ "../assets/img/ai/ai_future_1.jpg" | absolute_url }})
 
-Artificial Intelligence (AI), a term first introduced by John McCarthy, is a discipline that focuses on the creation of intelligent machines that work and react like humans. The concept of “Artificial Brain” was born out of the desire to replicate human intelligence in machines. AI as a field of study was officially recognized in 1956 and has since experienced periods of hype and disillusionment. The AI renaissance of the late 2010s was driven by breakthroughs in deep learning and the transformer model, leading to a surge in interest and funding, primarily from companies and research institutions in the United States.
+Artificial Intelligence (AI), a term first introduced by John McCarthy, is a discipline that focuses on the creation of intelligent machines that work and react like humans, and The term "Machine Intelligence" was first coined by Alan Turing, who conducted substantial research in this field. The concept of “Artificial Brain” was born out of the desire to replicate human intelligence in machines. AI as a field of study was officially recognized in 1956 and has since experienced periods of hype and disillusionment. The AI renaissance of the late 2010s was driven by breakthroughs in deep learning and the transformer model, leading to a surge in interest and funding, primarily from companies and research institutions in the United States.
 
 AI technology has found its way into a wide range of sectors, governments, and scientific disciplines. Notable applications include sophisticated search engines such as Bing, recommendation algorithms used by YouTube, Amazon, Spotify, Alibaba, and Netflix, voice interactions like Google Assistant, Cortana, Siri, and Alexa, autonomous vehicles like Waymo, Tesla, creative tools like ChatGPT, AI Arit, DALL-E and AI music, and superior gameplay and analysis in strategic games like chess and Go.
 
@@ -26,13 +26,13 @@ However, some speculate that AI could actually be the savior of the world. For e
 
 Others caution that the rapid advancement of AI could significantly impact labor markets globally. However, there are certain jobs that AI cannot replace. Some examples include:
 
-  Mental Health Professionals
-  Social Workers and Community Outreach Roles
-  Artists anad Musicians
-  Strategic Planners and Analysts
-  Research Scientists and Engineers
-  Judges
-  Leadership and Management Roles
+  - Mental Health Professionals
+  - Social Workers and Community Outreach Roles
+  - Artists anad Musicians
+  - Strategic Planners and Analysts
+  - Research Scientists and Engineers
+  - Judges
+  - Leadership and Management Roles
 
 AI is not a threat to humanity, but a powerful tool that affects our lives in various ways. However, we should be careful about the alignment and ethics of AI systems, as they could surpass human intelligence and capabilities in many domains. AI also changes the nature of work and creates new challenges and opportunities for human workers. The future of AI is not a dystopia, but a dynamic and exciting world that requires adaptation and innovation.
 
