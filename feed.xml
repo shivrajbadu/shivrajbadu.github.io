@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2024-02-18T12:28:35+05:45</updated>
+  <updated>2025-02-18T14:42:21+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -13,10 +13,122 @@
   <link rel="alternate" type="text/html" hreflang="en"
     href="http://shivrajbadu.com.np/"/>
   <generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator>
-  <rights> © 2024 Shivraj Badu </rights>
+  <rights> © 2025 Shivraj Badu </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>The AI Revolution: How Business Software is Evolving Beyond SaaS</title>
+    <link href="http://shivrajbadu.com.np/posts/how-business-software-is-evolving-beyond-saas/" rel="alternate" type="text/html" title="The AI Revolution: How Business Software is Evolving Beyond SaaS" />
+    <published>2025-02-18T08:10:12+05:45</published>
+  
+    <updated>2025-02-18T08:10:12+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/how-business-software-is-evolving-beyond-saas/</id>
+    <content src="http://shivrajbadu.com.np/posts/how-business-software-is-evolving-beyond-saas/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="Artificial Intelligence (AI)" />
+    
+    <category term="SaaS" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      The Shift from SaaS to AI-Driven Business Software
+
+The landscape of business software is undergoing a seismic transformation. In a recent interview on the BG2 Pod, Satya Nadella, CEO of Microsoft, shared his insights on the future of business applications, suggesting that traditional Software as a Service (SaaS) is reaching its end. Instead, AI-powered platforms are emerging as the new foundat...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Query Optimization with PostgreSQL Execution Plan Visualizer</title>
+    <link href="http://shivrajbadu.com.np/posts/pg-query-plan-visualize/" rel="alternate" type="text/html" title="Query Optimization with PostgreSQL Execution Plan Visualizer" />
+    <published>2024-03-10T10:40:10+05:45</published>
+  
+    <updated>2024-03-10T10:40:10+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/pg-query-plan-visualize/</id>
+    <content src="http://shivrajbadu.com.np/posts/pg-query-plan-visualize/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="PostgreSQL" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      In the world of database management systems, PostgreSQL stands tall as one of the most powerful and versatile options available. However, even seasoned developers can find themselves facing challenges when it comes to optimizing database queries for performance. Enter the PostgreSQL Execution Plan Visualizer—a tool that can turn the seemingly complex task of query optimization into a streamline...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Tailwind CSS Transitions And Animations</title>
+    <link href="http://shivrajbadu.com.np/posts/tailwind-css-transitions-and-animations/" rel="alternate" type="text/html" title="Tailwind CSS Transitions And Animations" />
+    <published>2024-01-10T10:30:18+05:45</published>
+  
+    <updated>2024-01-10T10:30:18+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/tailwind-css-transitions-and-animations/</id>
+    <content src="http://shivrajbadu.com.np/posts/tailwind-css-transitions-and-animations/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="Tailwind CSS" />
+    
+    <category term="Transitions and Animations" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Transitions and animations can add a polished and interactive feel to your web application. Tailwind CSS provides utility classes to easily apply transitions and animations to elements.
+
+Transitions
+
+Transitions allow you to smoothly animate changes to CSS properties, such as changing colors, sizes, or positions. Tailwind CSS provides utility classes to specify transition properties and duratio...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -89,143 +201,6 @@ Artificial Intelligence (AI), a term first introduced by John McCarthy, is a dis
 Flex
 
 This section demonstrates the use of Flexbox in Tailwind CSS. The flex class is used on the parent container to create a flex container. The justify-between class is applied to evenly distribute the c...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Tailwind CSS Form Components</title>
-    <link href="http://shivrajbadu.com.np/posts/tailwind-css-form-components/" rel="alternate" type="text/html" title="Tailwind CSS Form Components" />
-    <published>2024-01-07T11:40:18+05:45</published>
-  
-    <updated>2024-02-11T21:54:29+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/tailwind-css-form-components/</id>
-    <content src="http://shivrajbadu.com.np/posts/tailwind-css-form-components/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="Tailwind CSS" />
-    
-    <category term="Form Components" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Let’s explore utility classes for working with forms and inputs in Tailwind CSS.
-Here are some examples of how you can style forms and inputs using Tailwind CSS utility classes.
-
-Form Layout
-
-Tailwind CSS provides utility classes for creating form layouts easily. You can use flexbox utilities to align form elements horizontally or vertically.
-
-&amp;lt;form class="flex flex-col"&amp;gt;
-    &amp;lt;!-- Vert...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Tailwind CSS Button Styling</title>
-    <link href="http://shivrajbadu.com.np/posts/tailwind-css-button-styling/" rel="alternate" type="text/html" title="Tailwind CSS Button Styling" />
-    <published>2024-01-06T11:40:18+05:45</published>
-  
-    <updated>2024-01-06T11:40:18+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/tailwind-css-button-styling/</id>
-    <content src="http://shivrajbadu.com.np/posts/tailwind-css-button-styling/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="Tailwind CSS" />
-    
-    <category term="Button Styling" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Let’s dive into buttons and interactive elements in Tailwind CSS.
-
-Button Styles
-
-Tailwind CSS provides utility classes to easily style buttons. You can use classes like bg-blue-500, text-white, font-bold, py-2, px-4, rounded, etc., to create visually appealing buttons.
-
-&amp;lt;button class="bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded"&amp;gt;
-    Click me
-&amp;lt;/button&amp;gt;
-
-
-Bu...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Tailwind CSS Styling Background and Borders</title>
-    <link href="http://shivrajbadu.com.np/posts/tailwind-css-background-and-borders/" rel="alternate" type="text/html" title="Tailwind CSS Styling Background and Borders" />
-    <published>2024-01-05T11:40:18+05:45</published>
-  
-    <updated>2024-01-05T11:40:18+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/tailwind-css-background-and-borders/</id>
-    <content src="http://shivrajbadu.com.np/posts/tailwind-css-background-and-borders/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="Tailwind CSS" />
-    
-    <category term="Styling Background And Borders" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Let’s explore some basic utility classes provided by Tailwind CSS for styling text elements.
-
-Background Color
-
-You can set the background color of an element using utility classes like bg-red-500, bg-blue-700, etc., where the number represents the shade of the color.
-
-&amp;lt;div class="bg-red-500 p-4"&amp;gt;
-    &amp;lt;p&amp;gt;Red Background&amp;lt;/p&amp;gt;
-&amp;lt;/div&amp;gt;
-&amp;lt;div class="bg-blue-700 p-4"&amp;gt;
-    &amp;...
     </summary>
   
 
