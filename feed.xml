@@ -1,18 +1,18 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>http://shivrajbadu.com.np/</id>
+  <id>http://localhost:4000/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2025-02-18T14:42:21+05:45</updated>
+  <updated>2025-03-19T19:00:11+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
-    <uri>http://shivrajbadu.com.np/</uri>
+    <uri>http://localhost:4000/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="http://shivrajbadu.com.np/feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
-    href="http://shivrajbadu.com.np/"/>
-  <generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator>
+    href="http://localhost:4000/"/>
+  <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
   <rights> © 2025 Shivraj Badu </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
@@ -20,14 +20,52 @@
 
   
   <entry>
+    <title>The Paradox of Expression: What AI Can Learn from Human Misreading</title>
+    <link href="http://localhost:4000/posts/the-paradox-of-expression/" rel="alternate" type="text/html" title="The Paradox of Expression: What AI Can Learn from Human Misreading" />
+    <published>2025-03-19T06:01:10+05:45</published>
+  
+    <updated>2025-03-19T06:01:10+05:45</updated>
+  
+    <id>http://localhost:4000/posts/the-paradox-of-expression/</id>
+    <content src="http://localhost:4000/posts/the-paradox-of-expression/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="Artificial Intelligence (AI)" />
+    
+    <category term="Emotions" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      The Paradox of Expression: What AI Can Learn from Human Misreading
+
+There’s a curious phenomenon in human interactions. When people observe others in moments of deep focus, they often misinterpret serious expressions as unhappiness or discontent. The reality couldn’t be further from this perception - internally, these focused individuals are typically content and engaged, simply absorbed in tho...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
     <title>The AI Revolution: How Business Software is Evolving Beyond SaaS</title>
-    <link href="http://shivrajbadu.com.np/posts/how-business-software-is-evolving-beyond-saas/" rel="alternate" type="text/html" title="The AI Revolution: How Business Software is Evolving Beyond SaaS" />
+    <link href="http://localhost:4000/posts/how-business-software-is-evolving-beyond-saas/" rel="alternate" type="text/html" title="The AI Revolution: How Business Software is Evolving Beyond SaaS" />
     <published>2025-02-18T08:10:12+05:45</published>
   
     <updated>2025-02-18T08:10:12+05:45</updated>
   
-    <id>http://shivrajbadu.com.np/posts/how-business-software-is-evolving-beyond-saas/</id>
-    <content src="http://shivrajbadu.com.np/posts/how-business-software-is-evolving-beyond-saas/" />
+    <id>http://localhost:4000/posts/how-business-software-is-evolving-beyond-saas/</id>
+    <content src="http://localhost:4000/posts/how-business-software-is-evolving-beyond-saas/" />
     <author>
       <name>Shivraj Badu</name>
     </author>
@@ -59,13 +97,13 @@ The landscape of business software is undergoing a seismic transformation. In a 
   
   <entry>
     <title>Query Optimization with PostgreSQL Execution Plan Visualizer</title>
-    <link href="http://shivrajbadu.com.np/posts/pg-query-plan-visualize/" rel="alternate" type="text/html" title="Query Optimization with PostgreSQL Execution Plan Visualizer" />
+    <link href="http://localhost:4000/posts/pg-query-plan-visualize/" rel="alternate" type="text/html" title="Query Optimization with PostgreSQL Execution Plan Visualizer" />
     <published>2024-03-10T10:40:10+05:45</published>
   
     <updated>2024-03-10T10:40:10+05:45</updated>
   
-    <id>http://shivrajbadu.com.np/posts/pg-query-plan-visualize/</id>
-    <content src="http://shivrajbadu.com.np/posts/pg-query-plan-visualize/" />
+    <id>http://localhost:4000/posts/pg-query-plan-visualize/</id>
+    <content src="http://localhost:4000/posts/pg-query-plan-visualize/" />
     <author>
       <name>Shivraj Badu</name>
     </author>
@@ -93,13 +131,13 @@ The landscape of business software is undergoing a seismic transformation. In a 
   
   <entry>
     <title>Tailwind CSS Transitions And Animations</title>
-    <link href="http://shivrajbadu.com.np/posts/tailwind-css-transitions-and-animations/" rel="alternate" type="text/html" title="Tailwind CSS Transitions And Animations" />
+    <link href="http://localhost:4000/posts/tailwind-css-transitions-and-animations/" rel="alternate" type="text/html" title="Tailwind CSS Transitions And Animations" />
     <published>2024-01-10T10:30:18+05:45</published>
   
     <updated>2024-01-10T10:30:18+05:45</updated>
   
-    <id>http://shivrajbadu.com.np/posts/tailwind-css-transitions-and-animations/</id>
-    <content src="http://shivrajbadu.com.np/posts/tailwind-css-transitions-and-animations/" />
+    <id>http://localhost:4000/posts/tailwind-css-transitions-and-animations/</id>
+    <content src="http://localhost:4000/posts/tailwind-css-transitions-and-animations/" />
     <author>
       <name>Shivraj Badu</name>
     </author>
@@ -133,13 +171,13 @@ Transitions allow you to smoothly animate changes to CSS properties, such as cha
   
   <entry>
     <title>AI And Future</title>
-    <link href="http://shivrajbadu.com.np/posts/ai-and-future/" rel="alternate" type="text/html" title="AI And Future" />
+    <link href="http://localhost:4000/posts/ai-and-future/" rel="alternate" type="text/html" title="AI And Future" />
     <published>2024-01-09T12:00:10+05:45</published>
   
     <updated>2024-02-18T12:25:19+05:45</updated>
   
-    <id>http://shivrajbadu.com.np/posts/ai-and-future/</id>
-    <content src="http://shivrajbadu.com.np/posts/ai-and-future/" />
+    <id>http://localhost:4000/posts/ai-and-future/</id>
+    <content src="http://localhost:4000/posts/ai-and-future/" />
     <author>
       <name>Shivraj Badu</name>
     </author>
@@ -161,46 +199,6 @@ Transitions allow you to smoothly animate changes to CSS properties, such as cha
       
 
 Artificial Intelligence (AI), a term first introduced by John McCarthy, is a discipline that focuses on the creation of intelligent machines that work and react like humans, and The term “Machine Intelligence” was first coined by Alan Turing, who conducted substantial research in this field. The concept of “Artificial Brain” was born out of the desire to replicate human intelligence in machin...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Tailwind CSS Flex and Grid</title>
-    <link href="http://shivrajbadu.com.np/posts/tailwind-css-flex-and-grid/" rel="alternate" type="text/html" title="Tailwind CSS Flex and Grid" />
-    <published>2024-01-08T11:40:18+05:45</published>
-  
-    <updated>2024-01-08T11:40:18+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/tailwind-css-flex-and-grid/</id>
-    <content src="http://shivrajbadu.com.np/posts/tailwind-css-flex-and-grid/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="Tailwind CSS" />
-    
-    <category term="Flex and Grid" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Let’s explore utility classes for working with Flex and Grid in Tailwind CSS. Flexbox and Grid can be utilized in Tailwind CSS to create responsive and flexible layouts with minimal effort.
-
-Flex
-
-This section demonstrates the use of Flexbox in Tailwind CSS. The flex class is used on the parent container to create a flex container. The justify-between class is applied to evenly distribute the c...
     </summary>
   
 
