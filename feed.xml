@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2025-03-20T12:28:27+05:45</updated>
+  <updated>2025-03-20T12:33:31+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -24,7 +24,7 @@
     <link href="http://shivrajbadu.com.np/posts/memory-profiler-for-performance-optimization/" rel="alternate" type="text/html" title="Mastering Ruby Memory Management: A Practical Guide to Profiling and Optimization" />
     <published>2025-03-20T12:24:00+05:45</published>
   
-    <updated>2025-03-20T12:24:00+05:45</updated>
+    <updated>2025-03-20T12:33:19+05:45</updated>
   
     <id>http://shivrajbadu.com.np/posts/memory-profiler-for-performance-optimization/</id>
     <content src="http://shivrajbadu.com.np/posts/memory-profiler-for-performance-optimization/" />
@@ -37,6 +37,8 @@
     <category term="Ruby" />
     
     <category term="Performance" />
+    
+    <category term="Ruby on Rails" />
     
   
 
