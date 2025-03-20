@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2025-03-20T09:08:22+05:45</updated>
+  <updated>2025-03-20T12:28:27+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -17,6 +17,166 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Mastering Ruby Memory Management: A Practical Guide to Profiling and Optimization</title>
+    <link href="http://shivrajbadu.com.np/posts/memory-profiler-for-performance-optimization/" rel="alternate" type="text/html" title="Mastering Ruby Memory Management: A Practical Guide to Profiling and Optimization" />
+    <published>2025-03-20T12:24:00+05:45</published>
+  
+    <updated>2025-03-20T12:24:00+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/memory-profiler-for-performance-optimization/</id>
+    <content src="http://shivrajbadu.com.np/posts/memory-profiler-for-performance-optimization/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="Ruby" />
+    
+    <category term="Performance" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Memory usage is often the silent performance killer in Ruby applications. While we frequently focus on execution speed, memory consumption can cause slowdowns, unexpected crashes, and increased hosting costs. In this guide, I’ll walk you through practical techniques for tracking and optimizing memory usage in Ruby and Rails applications using the powerful memory_profiler gem.
+
+Why Memory Matter...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Quick Load Testing for Heroku Apps with Apache Bench</title>
+    <link href="http://shivrajbadu.com.np/posts/apache-bench-heroku/" rel="alternate" type="text/html" title="Quick Load Testing for Heroku Apps with Apache Bench" />
+    <published>2025-03-20T11:26:00+05:45</published>
+  
+    <updated>2025-03-20T11:26:00+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/apache-bench-heroku/</id>
+    <content src="http://shivrajbadu.com.np/posts/apache-bench-heroku/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="Heroku" />
+    
+    <category term="Performance" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Apache Bench (ab) is a lightweight command-line tool that allows you to quickly perform load testing on web applications, making it ideal for Heroku-deployed Rails applications. This guide walks through the process of setting up and running basic load tests on your Heroku app.
+
+Why Apache Bench?
+
+
+  Simplicity: No complex setup required
+  Speed: Tests can be executed in minutes
+  Built-in: Come...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Beyond ||=: Smarter Caching Strategies in Ruby</title>
+    <link href="http://shivrajbadu.com.np/posts/the-art-of-lazy-loading-ruby-memoization/" rel="alternate" type="text/html" title="Beyond ||=: Smarter Caching Strategies in Ruby" />
+    <published>2025-03-20T10:50:00+05:45</published>
+  
+    <updated>2025-03-20T10:50:00+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/the-art-of-lazy-loading-ruby-memoization/</id>
+    <content src="http://shivrajbadu.com.np/posts/the-art-of-lazy-loading-ruby-memoization/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="Ruby" />
+    
+    <category term="Performance" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Ruby developers love their shortcuts, and the memoization pattern using the ||= operator is one of the most widely used tricks in the Ruby world. But is it always the right tool for the job? Let’s explore when to use memoization and when to consider alternatives.
+
+The Classic Memoization Pattern
+
+We’ve all seen (and probably written) code like this:
+
+def expensive_calculation
+  @result ||= perf...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Conquering the N+1 Query Problem in Rails: A Performance Deep Dive</title>
+    <link href="http://shivrajbadu.com.np/posts/rails-n-plus-one-query-problem/" rel="alternate" type="text/html" title="Conquering the N+1 Query Problem in Rails: A Performance Deep Dive" />
+    <published>2025-03-20T10:50:00+05:45</published>
+  
+    <updated>2025-03-20T10:50:00+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/rails-n-plus-one-query-problem/</id>
+    <content src="http://shivrajbadu.com.np/posts/rails-n-plus-one-query-problem/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="Ruby on Rails" />
+    
+    <category term="Performance" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      If you’ve been developing Rails applications for any length of time, you’ve likely encountered the infamous N+1 query problem—perhaps without even realizing it. This performance bottleneck can silently slow your application to a crawl as your data grows. In this article, we’ll dive deep into understanding, identifying, and solving the N+1 problem with practical, real-world examples and benchmar...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -53,158 +213,6 @@
 Understanding Benchmarking in Ruby on Rails
 
 Benchmarking is the systematic process ...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>The Paradox of Expression: What AI Can Learn from Human Misreading</title>
-    <link href="http://shivrajbadu.com.np/posts/the-paradox-of-expression/" rel="alternate" type="text/html" title="The Paradox of Expression: What AI Can Learn from Human Misreading" />
-    <published>2025-03-19T06:01:10+05:45</published>
-  
-    <updated>2025-03-20T09:02:20+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/the-paradox-of-expression/</id>
-    <content src="http://shivrajbadu.com.np/posts/the-paradox-of-expression/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="Artificial Intelligence (AI)" />
-    
-    <category term="Emotions" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      There’s a curious phenomenon in human interactions. When people observe others in moments of deep focus, they often misinterpret serious expressions as unhappiness or discontent. The reality couldn’t be further from this perception - internally, these focused individuals are typically content and engaged, simply absorbed in thought.
-
-This disconnect between external appearance and internal stat...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>The AI Revolution: How Business Software is Evolving Beyond SaaS</title>
-    <link href="http://shivrajbadu.com.np/posts/how-business-software-is-evolving-beyond-saas/" rel="alternate" type="text/html" title="The AI Revolution: How Business Software is Evolving Beyond SaaS" />
-    <published>2025-02-18T08:10:12+05:45</published>
-  
-    <updated>2025-02-18T08:10:12+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/how-business-software-is-evolving-beyond-saas/</id>
-    <content src="http://shivrajbadu.com.np/posts/how-business-software-is-evolving-beyond-saas/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="Artificial Intelligence (AI)" />
-    
-    <category term="SaaS" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      The Shift from SaaS to AI-Driven Business Software
-
-The landscape of business software is undergoing a seismic transformation. In a recent interview on the BG2 Pod, Satya Nadella, CEO of Microsoft, shared his insights on the future of business applications, suggesting that traditional Software as a Service (SaaS) is reaching its end. Instead, AI-powered platforms are emerging as the new foundat...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Query Optimization with PostgreSQL Execution Plan Visualizer</title>
-    <link href="http://shivrajbadu.com.np/posts/pg-query-plan-visualize/" rel="alternate" type="text/html" title="Query Optimization with PostgreSQL Execution Plan Visualizer" />
-    <published>2024-03-10T10:40:10+05:45</published>
-  
-    <updated>2025-03-20T09:01:59+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/pg-query-plan-visualize/</id>
-    <content src="http://shivrajbadu.com.np/posts/pg-query-plan-visualize/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="PostgreSQL" />
-    
-    <category term="Performance" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      In the world of database management systems, PostgreSQL stands tall as one of the most powerful and versatile options available. However, even seasoned developers can find themselves facing challenges when it comes to optimizing database queries for performance. Enter the PostgreSQL Execution Plan Visualizer—a tool that can turn the seemingly complex task of query optimization into a streamline...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Tailwind CSS Transitions And Animations</title>
-    <link href="http://shivrajbadu.com.np/posts/tailwind-css-transitions-and-animations/" rel="alternate" type="text/html" title="Tailwind CSS Transitions And Animations" />
-    <published>2024-01-10T10:30:18+05:45</published>
-  
-    <updated>2024-01-10T10:30:18+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/tailwind-css-transitions-and-animations/</id>
-    <content src="http://shivrajbadu.com.np/posts/tailwind-css-transitions-and-animations/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="Tailwind CSS" />
-    
-    <category term="Transitions and Animations" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Transitions and animations can add a polished and interactive feel to your web application. Tailwind CSS provides utility classes to easily apply transitions and animations to elements.
-
-Transitions
-
-Transitions allow you to smoothly animate changes to CSS properties, such as changing colors, sizes, or positions. Tailwind CSS provides utility classes to specify transition properties and duratio...
     </summary>
   
 
