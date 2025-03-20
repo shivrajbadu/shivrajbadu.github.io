@@ -3,7 +3,7 @@ layout: post
 title:  "Backup and Restore PostgreSQL Database"
 date:   2018-08-27 09:23:58 +0545
 categories: [PostgreSQL, Backup Restore]
-tags: [postgres, backup_restore]
+tags: [postgresql, backup_restore]
 ---
 
 ### Backup Database

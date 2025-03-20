@@ -3,7 +3,7 @@ layout: post
 title:  "Query Optimization with PostgreSQL Execution Plan Visualizer"
 date:   2024-03-10 10:40:10 +0545
 categories: [PostgreSQL, Performance]
-tags: [pg, postgres, performance]
+tags: [postgresql, performance]
 ---
 
 In the world of database management systems, PostgreSQL stands tall as one of the most powerful and versatile options available. However, even seasoned developers can find themselves facing challenges when it comes to optimizing database queries for performance. Enter the PostgreSQL Execution Plan Visualizer—a tool that can turn the seemingly complex task of query optimization into a streamlined and intuitive process.
