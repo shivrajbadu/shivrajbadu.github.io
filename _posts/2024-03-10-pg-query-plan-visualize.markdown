@@ -2,7 +2,7 @@
 layout: post
 title:  "Query Optimization with PostgreSQL Execution Plan Visualizer"
 date:   2024-03-10 10:40:10 +0545
-categories: [PostgreSQL]
+categories: [PostgreSQL, Performance]
 tags: [pg, postgres, performance]
 ---
 

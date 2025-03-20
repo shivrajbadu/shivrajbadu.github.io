@@ -2,7 +2,7 @@
 layout: post
 title:  "Ruby - Switch Case Statement !"
 date:   2018-09-01 07:12:18 +0545
-categories: [Ruby, Swith Case]
+categories: [Ruby, Switch Case]
 tags: [ruby, switch_case]
 ---
 
