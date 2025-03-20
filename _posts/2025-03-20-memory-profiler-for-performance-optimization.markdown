@@ -2,8 +2,8 @@
 layout: post
 title: "Mastering Ruby Memory Management: A Practical Guide to Profiling and Optimization"
 date: 2025-03-20 12:24:00 +0545
-categories: [Ruby, Performance]
-tags: [ruby, performance]
+categories: [Ruby, Performance, Ruby on Rails]
+tags: [ruby, performance, profiling, ruby on rails]
 ---
 
 Memory usage is often the silent performance killer in Ruby applications. While we frequently focus on execution speed, memory consumption can cause slowdowns, unexpected crashes, and increased hosting costs. In this guide, I'll walk you through practical techniques for tracking and optimizing memory usage in Ruby and Rails applications using the powerful `memory_profiler` gem.
