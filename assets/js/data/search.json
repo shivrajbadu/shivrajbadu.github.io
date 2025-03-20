@@ -140,7 +140,7 @@
     "title": "Query Optimization with PostgreSQL Execution Plan Visualizer",
     "url": "/posts/pg-query-plan-visualize/",
     "categories": "PostgreSQL, Performance",
-    "tags": "pg, postgres, performance",
+    "tags": "postgresql, performance",
     "date": "2024-03-10 10:40:10 +0545",
     
 
@@ -854,7 +854,7 @@
     "title": "Backup and Restore PostgreSQL Database",
     "url": "/posts/backup-and-restore-postgresql-databases-on-ubuntu-16-04/",
     "categories": "PostgreSQL, Backup Restore",
-    "tags": "postgres, backup_restore",
+    "tags": "postgresql, backup_restore",
     "date": "2018-08-27 09:23:58 +0545",
     
 
