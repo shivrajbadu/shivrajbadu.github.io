@@ -47,7 +47,7 @@ const allowedDomains = [
     'www.google-analytics.com',
   
 
-  'shivrajbadu.com.np',
+  'localhost:4000',
 
   
 

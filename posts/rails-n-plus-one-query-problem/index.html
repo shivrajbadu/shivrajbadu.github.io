@@ -51,8 +51,8 @@
 <meta property="og:locale" content="en" />
 <meta name="description" content="If you’ve been developing Rails applications for any length of time, you’ve likely encountered the infamous N+1 query problem—perhaps without even realizing it. This performance bottleneck can silently slow your application to a crawl as your data grows. In this article, we’ll dive deep into understanding, identifying, and solving the N+1 problem with practical, real-world examples and benchmarks." />
 <meta property="og:description" content="If you’ve been developing Rails applications for any length of time, you’ve likely encountered the infamous N+1 query problem—perhaps without even realizing it. This performance bottleneck can silently slow your application to a crawl as your data grows. In this article, we’ll dive deep into understanding, identifying, and solving the N+1 problem with practical, real-world examples and benchmarks." />
-<link rel="canonical" href="http://shivrajbadu.com.np/posts/rails-n-plus-one-query-problem/" />
-<meta property="og:url" content="http://shivrajbadu.com.np/posts/rails-n-plus-one-query-problem/" />
+<link rel="canonical" href="http://localhost:4000/posts/rails-n-plus-one-query-problem/" />
+<meta property="og:url" content="http://localhost:4000/posts/rails-n-plus-one-query-problem/" />
 <meta property="og:site_name" content="Let’s code" />
 <meta property="og:type" content="article" />
 <meta property="article:published_time" content="2025-03-20T10:50:00+05:45" />
@@ -61,7 +61,7 @@
 <meta name="twitter:site" content="@shivrajbadu" />
 <meta name="google-site-verification" content="1V6mjFi-H5goXTGWpdsB7z6Mcve5NUvIpvzaQJGxOtA# fill in to your verification string" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-03-20T10:50:00+05:45","datePublished":"2025-03-20T10:50:00+05:45","description":"If you’ve been developing Rails applications for any length of time, you’ve likely encountered the infamous N+1 query problem—perhaps without even realizing it. This performance bottleneck can silently slow your application to a crawl as your data grows. In this article, we’ll dive deep into understanding, identifying, and solving the N+1 problem with practical, real-world examples and benchmarks.","headline":"Conquering the N+1 Query Problem in Rails: A Performance Deep Dive","mainEntityOfPage":{"@type":"WebPage","@id":"http://shivrajbadu.com.np/posts/rails-n-plus-one-query-problem/"},"url":"http://shivrajbadu.com.np/posts/rails-n-plus-one-query-problem/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-03-20T10:50:00+05:45","datePublished":"2025-03-20T10:50:00+05:45","description":"If you’ve been developing Rails applications for any length of time, you’ve likely encountered the infamous N+1 query problem—perhaps without even realizing it. This performance bottleneck can silently slow your application to a crawl as your data grows. In this article, we’ll dive deep into understanding, identifying, and solving the N+1 problem with practical, real-world examples and benchmarks.","headline":"Conquering the N+1 Query Problem in Rails: A Performance Deep Dive","mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/posts/rails-n-plus-one-query-problem/"},"url":"http://localhost:4000/posts/rails-n-plus-one-query-problem/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
@@ -1672,28 +1672,28 @@ User Load (0.2ms)  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $
 
       
 
-      <a href="https://twitter.com/intent/tweet?text=Conquering%20the%20N+1%20Query%20Problem%20in%20Rails:%20A%20Performance%20Deep%20Dive%20-%20Let's%20code&url=http%3A%2F%2Fshivrajbadu.com.np%2Fposts%2Frails-n-plus-one-query-problem%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
+      <a href="https://twitter.com/intent/tweet?text=Conquering%20the%20N+1%20Query%20Problem%20in%20Rails:%20A%20Performance%20Deep%20Dive%20-%20Let's%20code&url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Frails-n-plus-one-query-problem%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Twitter" aria-label="Twitter">
         <i class="fa-fw fa-brands fa-square-x-twitter"></i>
       </a>
     
 
       
 
-      <a href="https://www.facebook.com/sharer/sharer.php?title=Conquering%20the%20N+1%20Query%20Problem%20in%20Rails:%20A%20Performance%20Deep%20Dive%20-%20Let's%20code&u=http%3A%2F%2Fshivrajbadu.com.np%2Fposts%2Frails-n-plus-one-query-problem%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
+      <a href="https://www.facebook.com/sharer/sharer.php?title=Conquering%20the%20N+1%20Query%20Problem%20in%20Rails:%20A%20Performance%20Deep%20Dive%20-%20Let's%20code&u=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Frails-n-plus-one-query-problem%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Facebook" aria-label="Facebook">
         <i class="fa-fw fab fa-facebook-square"></i>
       </a>
     
 
       
 
-      <a href="https://t.me/share/url?url=http%3A%2F%2Fshivrajbadu.com.np%2Fposts%2Frails-n-plus-one-query-problem%2F&text=Conquering%20the%20N+1%20Query%20Problem%20in%20Rails:%20A%20Performance%20Deep%20Dive%20-%20Let's%20code" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
+      <a href="https://t.me/share/url?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Frails-n-plus-one-query-problem%2F&text=Conquering%20the%20N+1%20Query%20Problem%20in%20Rails:%20A%20Performance%20Deep%20Dive%20-%20Let's%20code" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Telegram" aria-label="Telegram">
         <i class="fa-fw fab fa-telegram"></i>
       </a>
     
 
       
 
-      <a href="https://www.linkedin.com/sharing/share-offsite/?url=http%3A%2F%2Fshivrajbadu.com.np%2Fposts%2Frails-n-plus-one-query-problem%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Linkedin" aria-label="Linkedin">
+      <a href="https://www.linkedin.com/sharing/share-offsite/?url=http%3A%2F%2Flocalhost%3A4000%2Fposts%2Frails-n-plus-one-query-problem%2F" target="_blank" rel="noopener" data-bs-toggle="tooltip" data-bs-placement="top" title="Linkedin" aria-label="Linkedin">
         <i class="fa-fw fab fa-linkedin"></i>
       </a>
     
@@ -1748,6 +1748,13 @@ User Load (0.2ms)  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $
         
         
         <li class="text-truncate lh-lg">
+          <a href="/posts/circle-ci/">Streamlining Development with CircleCI: A Guide to Continuous Integration and Delivery</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
           <a href="/posts/mern_vs_nextjs/">Choosing the Right Stack: MERN vs Next.js vs Rails + Next.js</a>
         </li>
       
@@ -1770,13 +1777,6 @@ User Load (0.2ms)  SELECT "users".* FROM "users" WHERE "users"."id" = $1 LIMIT $
         
         <li class="text-truncate lh-lg">
           <a href="/posts/memory-profiler-for-performance-optimization/">Mastering Ruby Memory Management: A Practical Guide to Profiling and Optimization</a>
-        </li>
-      
-        
-        
-        
-        <li class="text-truncate lh-lg">
-          <a href="/posts/the-paradox-of-expression/">The Paradox of Expression: What AI Can Learn from Human Misreading</a>
         </li>
       
     </ul>
