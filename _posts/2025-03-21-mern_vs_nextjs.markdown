@@ -6,8 +6,6 @@ categories: [MERN, NextJS]
 tags: [mern, nextjs]
 ---
 
-# Choosing the Right Stack: MERN vs Next.js vs Rails + Next.js
-
 As a developer embarking on a new web project, one of the most crucial decisions you'll make is choosing the right technology stack. This decision will influence your development speed, application performance, maintainability, and even your team's happiness. If you're considering a JavaScript-based frontend, you have several excellent options for structuring your application.
 
 In this post, I'll explore three popular approaches for building modern web applications:
