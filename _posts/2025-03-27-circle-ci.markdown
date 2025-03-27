@@ -36,7 +36,7 @@ Getting started with CircleCI is straightforward:
 3. **Configure Your Workflow**: Write a `.circleci/config.yml` file to define your build and test steps.
 4. **Run Your Pipeline**: Push code changes to your repository, and CircleCI will automatically run the configured workflows.
 
-![CircleCI]({{ "../assets/img/cicd/circle_ci.png" | absolute_url }})
+![CircleCI]({{ "/assets/img/cicd/circle_ci.png" | absolute_url }})
 
 In the screenshot, we see a visual representation of CircleCI's feedback mechanism. When tests fail, CircleCI prominently displays a red flag, alerting developers to issues that need immediate attention. Conversely, successful tests are marked with a reassuring green indicator, signifying that the pipeline has been executed without errors. This clear and intuitive color-coding system allows teams to quickly assess the status of their builds and prioritize their tasks effectively. By making feedback visually distinct, CircleCI ensures that developers can respond to changes with speed and confidence.
 
