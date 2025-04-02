@@ -1,8 +1,8 @@
 ---
 layout: post
 title: "Tailwind CSS Mastery Guide"
-date: 2024-04-01 12:20:18 +0545
-categories: [Tailwind CSS, cheatsheet]
+date: 2025-04-01 12:20:18 +0545
+categories: [Tailwind CSS, UI, cheatsheet]
 tags: [css, tailwind_css, UI, cheatsheet]
 ---
 
