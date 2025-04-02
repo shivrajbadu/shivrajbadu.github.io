@@ -25,6 +25,7 @@ const resource = [
   /* --- Favicons & compressed JS --- */
   
   
+    '/assets/js/dist/app.min.js',
     '/assets/js/dist/categories.min.js',
     '/assets/js/dist/commons.min.js',
     '/assets/js/dist/home.min.js',
@@ -47,7 +48,7 @@ const allowedDomains = [
     'www.google-analytics.com',
   
 
-  'shivrajbadu.com.np',
+  'localhost:4000',
 
   
 
