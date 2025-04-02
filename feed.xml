@@ -1,218 +1,22 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>http://shivrajbadu.com.np/</id>
+  <id>http://localhost:4000/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2025-03-27T17:42:26+05:45</updated>
+  <updated>2025-04-01T12:36:02+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
-    <uri>http://shivrajbadu.com.np/</uri>
+    <uri>http://localhost:4000/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="http://shivrajbadu.com.np/feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
-    href="http://shivrajbadu.com.np/"/>
-  <generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator>
+    href="http://localhost:4000/"/>
+  <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
   <rights> © 2025 Shivraj Badu </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
-
-  
-  <entry>
-    <title>Streamlining Development with CircleCI: A Guide to Continuous Integration and Delivery</title>
-    <link href="http://shivrajbadu.com.np/posts/circle-ci/" rel="alternate" type="text/html" title="Streamlining Development with CircleCI: A Guide to Continuous Integration and Delivery" />
-    <published>2025-03-27T04:50:00+05:45</published>
-  
-    <updated>2025-03-27T17:41:40+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/circle-ci/</id>
-    <content src="http://shivrajbadu.com.np/posts/circle-ci/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="CircleCI" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      In the fast-paced world of software development, delivering high-quality applications rapidly and reliably is paramount. CircleCI, a leading continuous integration and delivery (CI/CD) platform, has emerged as a favorite among developers seeking to optimize their workflows and automate processes. In this blog, we’ll explore what CircleCI is, its key features, and how it can transform your devel...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Mastering Ruby Memory Management: A Practical Guide to Profiling and Optimization</title>
-    <link href="http://shivrajbadu.com.np/posts/memory-profiler-for-performance-optimization/" rel="alternate" type="text/html" title="Mastering Ruby Memory Management: A Practical Guide to Profiling and Optimization" />
-    <published>2025-03-20T12:24:00+05:45</published>
-  
-    <updated>2025-03-20T12:33:19+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/memory-profiler-for-performance-optimization/</id>
-    <content src="http://shivrajbadu.com.np/posts/memory-profiler-for-performance-optimization/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="Ruby" />
-    
-    <category term="Performance" />
-    
-    <category term="Ruby on Rails" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Memory usage is often the silent performance killer in Ruby applications. While we frequently focus on execution speed, memory consumption can cause slowdowns, unexpected crashes, and increased hosting costs. In this guide, I’ll walk you through practical techniques for tracking and optimizing memory usage in Ruby and Rails applications using the powerful memory_profiler gem.
-
-Why Memory Matter...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Quick Load Testing for Heroku Apps with Apache Bench</title>
-    <link href="http://shivrajbadu.com.np/posts/apache-bench-heroku/" rel="alternate" type="text/html" title="Quick Load Testing for Heroku Apps with Apache Bench" />
-    <published>2025-03-20T11:26:00+05:45</published>
-  
-    <updated>2025-03-20T11:26:00+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/apache-bench-heroku/</id>
-    <content src="http://shivrajbadu.com.np/posts/apache-bench-heroku/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="Heroku" />
-    
-    <category term="Performance" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Apache Bench (ab) is a lightweight command-line tool that allows you to quickly perform load testing on web applications, making it ideal for Heroku-deployed Rails applications. This guide walks through the process of setting up and running basic load tests on your Heroku app.
-
-Why Apache Bench?
-
-
-  Simplicity: No complex setup required
-  Speed: Tests can be executed in minutes
-  Built-in: Come...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Beyond ||=: Smarter Caching Strategies in Ruby</title>
-    <link href="http://shivrajbadu.com.np/posts/the-art-of-lazy-loading-ruby-memoization/" rel="alternate" type="text/html" title="Beyond ||=: Smarter Caching Strategies in Ruby" />
-    <published>2025-03-20T10:50:00+05:45</published>
-  
-    <updated>2025-03-20T10:50:00+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/the-art-of-lazy-loading-ruby-memoization/</id>
-    <content src="http://shivrajbadu.com.np/posts/the-art-of-lazy-loading-ruby-memoization/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="Ruby" />
-    
-    <category term="Performance" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Ruby developers love their shortcuts, and the memoization pattern using the ||= operator is one of the most widely used tricks in the Ruby world. But is it always the right tool for the job? Let’s explore when to use memoization and when to consider alternatives.
-
-The Classic Memoization Pattern
-
-We’ve all seen (and probably written) code like this:
-
-def expensive_calculation
-  @result ||= perf...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Conquering the N+1 Query Problem in Rails: A Performance Deep Dive</title>
-    <link href="http://shivrajbadu.com.np/posts/rails-n-plus-one-query-problem/" rel="alternate" type="text/html" title="Conquering the N+1 Query Problem in Rails: A Performance Deep Dive" />
-    <published>2025-03-20T10:50:00+05:45</published>
-  
-    <updated>2025-03-20T10:50:00+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/rails-n-plus-one-query-problem/</id>
-    <content src="http://shivrajbadu.com.np/posts/rails-n-plus-one-query-problem/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="Ruby on Rails" />
-    
-    <category term="Performance" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      If you’ve been developing Rails applications for any length of time, you’ve likely encountered the infamous N+1 query problem—perhaps without even realizing it. This performance bottleneck can silently slow your application to a crawl as your data grows. In this article, we’ll dive deep into understanding, identifying, and solving the N+1 problem with practical, real-world examples and benchmar...
-    </summary>
-  
-
-  </entry>
 
 </feed>
 
