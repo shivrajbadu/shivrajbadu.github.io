@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2025-04-02T17:31:39+05:45</updated>
+  <updated>2025-04-03T10:07:21+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://localhost:4000/</uri>
@@ -12,7 +12,7 @@
   <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
     href="http://localhost:4000/"/>
-  <generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator>
+  <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
   <rights> © 2025 Shivraj Badu </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
@@ -20,14 +20,52 @@
 
   
   <entry>
+    <title>Vive Coding: The Future of AI-Driven Development with Purpose</title>
+    <link href="http://localhost:4000/posts/vive-coding-future-of-ai-driven-development/" rel="alternate" type="text/html" title="Vive Coding: The Future of AI-Driven Development with Purpose" />
+    <published>2025-04-02T10:20:18+05:45</published>
+  
+    <updated>2025-04-02T10:20:18+05:45</updated>
+  
+    <id>http://localhost:4000/posts/vive-coding-future-of-ai-driven-development/</id>
+    <content src="http://localhost:4000/posts/vive-coding-future-of-ai-driven-development/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="Artificial Intelligence (AI)" />
+    
+    <category term="Vive Coding" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Software development is undergoing a transformation. Traditionally, coding required deep knowledge of syntax, algorithms, and frameworks. But with the rise of AI-powered tools, a new paradigm has emerged: Vibe Coding—a style of development where programmers instruct AI to write code based on natural language prompts, focusing on creativity rather than manual coding.
+
+At the same time, a complem...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
     <title>Tailwind CSS Mastery Guide</title>
-    <link href="http://localhost:4000/posts/tailwind-cheatsheet/" rel="alternate" type="text/html" title="Tailwind CSS Mastery Guide" />
+    <link href="http://localhost:4000/posts/tailwind-cheatsheet-copy/" rel="alternate" type="text/html" title="Tailwind CSS Mastery Guide" />
     <published>2025-04-01T12:20:18+05:45</published>
   
-    <updated>2025-04-02T17:29:14+05:45</updated>
+    <updated>2025-04-01T12:20:18+05:45</updated>
   
-    <id>http://localhost:4000/posts/tailwind-cheatsheet/</id>
-    <content src="http://localhost:4000/posts/tailwind-cheatsheet/" />
+    <id>http://localhost:4000/posts/tailwind-cheatsheet-copy/</id>
+    <content src="http://localhost:4000/posts/tailwind-cheatsheet-copy/" />
     <author>
       <name>Shivraj Badu</name>
     </author>
@@ -192,49 +230,6 @@ Why Apache Bench?
   Simplicity: No complex setup required
   Speed: Tests can be executed in minutes
   Built-in: Come...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Beyond ||=: Smarter Caching Strategies in Ruby</title>
-    <link href="http://localhost:4000/posts/the-art-of-lazy-loading-ruby-memoization/" rel="alternate" type="text/html" title="Beyond ||=: Smarter Caching Strategies in Ruby" />
-    <published>2025-03-20T10:50:00+05:45</published>
-  
-    <updated>2025-03-20T10:50:00+05:45</updated>
-  
-    <id>http://localhost:4000/posts/the-art-of-lazy-loading-ruby-memoization/</id>
-    <content src="http://localhost:4000/posts/the-art-of-lazy-loading-ruby-memoization/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="Ruby" />
-    
-    <category term="Performance" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Ruby developers love their shortcuts, and the memoization pattern using the ||= operator is one of the most widely used tricks in the Ruby world. But is it always the right tool for the job? Let’s explore when to use memoization and when to consider alternatives.
-
-The Classic Memoization Pattern
-
-We’ve all seen (and probably written) code like this:
-
-def expensive_calculation
-  @result ||= perf...
     </summary>
   
 
