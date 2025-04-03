@@ -79,6 +79,7 @@ KAFKA = Kafka.new(
 ```
 
 ## Creating Kafka Topics
+
 ### Bash Command to Create Topic
 
 ```
