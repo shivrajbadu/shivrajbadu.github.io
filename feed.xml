@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2025-04-03T10:14:09+05:45</updated>
+  <updated>2025-04-03T18:50:14+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -12,11 +12,106 @@
   <link rel="self" type="application/atom+xml" href="http://shivrajbadu.com.np/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
     href="http://shivrajbadu.com.np/"/>
-  <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
+  <generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator>
   <rights> © 2025 Shivraj Badu </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>The Complete Guide to Apache Kafka in Rails: From Development to Production</title>
+    <link href="http://shivrajbadu.com.np/posts/kafka-in-rails/" rel="alternate" type="text/html" title="The Complete Guide to Apache Kafka in Rails: From Development to Production" />
+    <published>2025-04-03T03:20:18+05:45</published>
+  
+    <updated>2025-04-03T16:24:40+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/kafka-in-rails/</id>
+    <content src="http://shivrajbadu.com.np/posts/kafka-in-rails/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="ApacheKafka" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      What is Apache Kafka?
+
+Apache Kafka is a distributed event streaming platform designed for high-throughput, fault-tolerant, and real-time data processing. It is used for:
+
+
+  Messaging System:
+
+
+Acts as a message broker between producers (data sources) and consumers (data processors).
+
+
+  Event Streaming:
+
+
+Allows applications to publish, subscribe to, store, and process event streams in real t...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Apache Kafka In Rails</title>
+    <link href="http://shivrajbadu.com.np/posts/apache-kafka-in-rails/" rel="alternate" type="text/html" title="Apache Kafka In Rails" />
+    <published>2025-04-03T00:00:00+05:45</published>
+  
+    <updated>2025-04-03T00:00:00+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/apache-kafka-in-rails/</id>
+    <content src="http://shivrajbadu.com.np/posts/apache-kafka-in-rails/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Subscribers – Kafka as Broker – Consumers
+
+Gemfile
+
+gem 'ruby-kafka', '~&amp;gt; 1.5'  # This is the correct gem to use
+gem 'delivery_boy'  # Add this line
+gem 'racecar' # for easy consumer setup
+
+
+https://kafka.apache.org/quickstart#quickstart_send
+https://deadmanssnitch.com/opensource/kafka/docs/index.html
+
+** docker pull apache/kafka:4.0.0
+** docker run -p 9092:9092 apache/kafka:4.0.0
+
+setup ini...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -147,89 +242,6 @@ Layout
 
 
       In the fast-paced world of software development, delivering high-quality applications rapidly and reliably is paramount. CircleCI, a leading continuous integration and delivery (CI/CD) platform, has emerged as a favorite among developers seeking to optimize their workflows and automate processes. In this blog, we’ll explore what CircleCI is, its key features, and how it can transform your devel...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Mastering Ruby Memory Management: A Practical Guide to Profiling and Optimization</title>
-    <link href="http://shivrajbadu.com.np/posts/memory-profiler-for-performance-optimization/" rel="alternate" type="text/html" title="Mastering Ruby Memory Management: A Practical Guide to Profiling and Optimization" />
-    <published>2025-03-20T12:24:00+05:45</published>
-  
-    <updated>2025-03-20T12:33:19+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/memory-profiler-for-performance-optimization/</id>
-    <content src="http://shivrajbadu.com.np/posts/memory-profiler-for-performance-optimization/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="Ruby" />
-    
-    <category term="Performance" />
-    
-    <category term="Ruby on Rails" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Memory usage is often the silent performance killer in Ruby applications. While we frequently focus on execution speed, memory consumption can cause slowdowns, unexpected crashes, and increased hosting costs. In this guide, I’ll walk you through practical techniques for tracking and optimizing memory usage in Ruby and Rails applications using the powerful memory_profiler gem.
-
-Why Memory Matter...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Quick Load Testing for Heroku Apps with Apache Bench</title>
-    <link href="http://shivrajbadu.com.np/posts/apache-bench-heroku/" rel="alternate" type="text/html" title="Quick Load Testing for Heroku Apps with Apache Bench" />
-    <published>2025-03-20T11:26:00+05:45</published>
-  
-    <updated>2025-03-20T11:26:00+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/apache-bench-heroku/</id>
-    <content src="http://shivrajbadu.com.np/posts/apache-bench-heroku/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="Heroku" />
-    
-    <category term="Performance" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Apache Bench (ab) is a lightweight command-line tool that allows you to quickly perform load testing on web applications, making it ideal for Heroku-deployed Rails applications. This guide walks through the process of setting up and running basic load tests on your Heroku app.
-
-Why Apache Bench?
-
-
-  Simplicity: No complex setup required
-  Speed: Tests can be executed in minutes
-  Built-in: Come...
     </summary>
   
 
