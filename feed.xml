@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2025-04-03T10:14:09+05:45</updated>
+  <updated>2025-04-03T16:25:49+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -17,6 +17,54 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>The Complete Guide to Apache Kafka in Rails: From Development to Production</title>
+    <link href="http://shivrajbadu.com.np/posts/kafka-in-rails/" rel="alternate" type="text/html" title="The Complete Guide to Apache Kafka in Rails: From Development to Production" />
+    <published>2025-04-03T03:20:18+05:45</published>
+  
+    <updated>2025-04-03T16:24:40+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/kafka-in-rails/</id>
+    <content src="http://shivrajbadu.com.np/posts/kafka-in-rails/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="ApacheKafka" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      What is Apache Kafka?
+
+Apache Kafka is a distributed event streaming platform designed for high-throughput, fault-tolerant, and real-time data processing. It is used for:
+
+
+  Messaging System:
+
+
+Acts as a message broker between producers (data sources) and consumers (data processors).
+
+
+  Event Streaming:
+
+
+Allows applications to publish, subscribe to, store, and process event streams in real t...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -187,49 +235,6 @@ Layout
       Memory usage is often the silent performance killer in Ruby applications. While we frequently focus on execution speed, memory consumption can cause slowdowns, unexpected crashes, and increased hosting costs. In this guide, I’ll walk you through practical techniques for tracking and optimizing memory usage in Ruby and Rails applications using the powerful memory_profiler gem.
 
 Why Memory Matter...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Quick Load Testing for Heroku Apps with Apache Bench</title>
-    <link href="http://shivrajbadu.com.np/posts/apache-bench-heroku/" rel="alternate" type="text/html" title="Quick Load Testing for Heroku Apps with Apache Bench" />
-    <published>2025-03-20T11:26:00+05:45</published>
-  
-    <updated>2025-03-20T11:26:00+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/apache-bench-heroku/</id>
-    <content src="http://shivrajbadu.com.np/posts/apache-bench-heroku/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="Heroku" />
-    
-    <category term="Performance" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Apache Bench (ab) is a lightweight command-line tool that allows you to quickly perform load testing on web applications, making it ideal for Heroku-deployed Rails applications. This guide walks through the process of setting up and running basic load tests on your Heroku app.
-
-Why Apache Bench?
-
-
-  Simplicity: No complex setup required
-  Speed: Tests can be executed in minutes
-  Built-in: Come...
     </summary>
   
 
