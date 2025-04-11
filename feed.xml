@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2025-04-03T18:55:25+05:45</updated>
+  <updated>2025-04-11T23:06:17+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -17,6 +17,46 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Deploy &amp; Scale AI Models with Amazon SageMaker: A Comprehensive Guide</title>
+    <link href="http://shivrajbadu.com.np/posts/amazon_sagemaker_foundation_model_deploy_and_scale/" rel="alternate" type="text/html" title="Deploy &amp;amp; Scale AI Models with Amazon SageMaker: A Comprehensive Guide" />
+    <published>2025-04-11T04:33:18+05:45</published>
+  
+    <updated>2025-04-11T04:33:18+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/amazon_sagemaker_foundation_model_deploy_and_scale/</id>
+    <content src="http://shivrajbadu.com.np/posts/amazon_sagemaker_foundation_model_deploy_and_scale/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="Artificial Intelligence (AI)" />
+    
+    <category term="Machine Learning" />
+    
+    <category term="AmazonSagemaker" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Introduction
+
+In today’s AI-driven landscape, deploying and scaling machine learning models efficiently is as crucial as developing them. Amazon SageMaker has emerged as a powerful platform that simplifies this process, offering a comprehensive suite of tools designed to streamline the entire machine learning lifecycle. This blog post will guide you through deploying foundation models, specific...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -208,40 +248,6 @@ Layout
     
       Box Sizing
       box-border, bo...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Streamlining Development with CircleCI: A Guide to Continuous Integration and Delivery</title>
-    <link href="http://shivrajbadu.com.np/posts/circle-ci/" rel="alternate" type="text/html" title="Streamlining Development with CircleCI: A Guide to Continuous Integration and Delivery" />
-    <published>2025-03-27T04:50:00+05:45</published>
-  
-    <updated>2025-03-27T17:41:40+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/circle-ci/</id>
-    <content src="http://shivrajbadu.com.np/posts/circle-ci/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="CircleCI" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      In the fast-paced world of software development, delivering high-quality applications rapidly and reliably is paramount. CircleCI, a leading continuous integration and delivery (CI/CD) platform, has emerged as a favorite among developers seeking to optimize their workflows and automate processes. In this blog, we’ll explore what CircleCI is, its key features, and how it can transform your devel...
     </summary>
   
 
