@@ -98,7 +98,6 @@ SageMaker Studio provides seamless integration with JupyterLab, allowing you to:
 3. **Deploy models** directly from your notebook
 4. **Test inference** against deployed endpoints
 
-
 ![CircleCI]({{ "/assets/img/aws_sagemaker/sagemaker_studio_jupyterlab.png" | relative_url }})
 
 The screenshots show a JupyterLab environment with a simple "hello world" test, but you can use it for much more complex ML workflows.
@@ -139,6 +138,16 @@ print(result)
 ```
 
 This API-based approach allows you to integrate SageMaker-hosted models into your applications, microservices, or other cloud resources.
+
+## API call for model prediction
+
+**Setup Authorization**
+
+![CircleCI]({{ "/assets/img/aws_sagemaker/model_prediction_api_auth.png" | relative_url }})
+
+**Pass JSON raw data as POSt route in model endpoint invocations to get prediction**
+
+![CircleCI]({{ "/assets/img/aws_sagemaker/model_prediction_api_call.png" | relative_url }})
 
 ## Foundation Models Available on SageMaker
 
