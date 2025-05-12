@@ -49,8 +49,8 @@
 <meta name="generator" content="Jekyll v4.3.2" />
 <meta property="og:title" content="Set up docker on Ruby on Rails application" />
 <meta property="og:locale" content="en" />
-<meta name="description" content="First you need to install docker, docker-compose, docker-machine, on your system." />
-<meta property="og:description" content="First you need to install docker, docker-compose, docker-machine, on your system." />
+<meta name="description" content="Docker for Rails: From Development to Deployment (Complete Guide)" />
+<meta property="og:description" content="Docker for Rails: From Development to Deployment (Complete Guide)" />
 <link rel="canonical" href="http://shivrajbadu.com.np/posts/setup-docker-on-ror/" />
 <meta property="og:url" content="http://shivrajbadu.com.np/posts/setup-docker-on-ror/" />
 <meta property="og:site_name" content="Let’s code" />
@@ -61,7 +61,7 @@
 <meta name="twitter:site" content="@shivrajbadu" />
 <meta name="google-site-verification" content="1V6mjFi-H5goXTGWpdsB7z6Mcve5NUvIpvzaQJGxOtA# fill in to your verification string" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2024-01-01T21:53:50+05:45","datePublished":"2018-07-25T09:23:58+05:45","description":"First you need to install docker, docker-compose, docker-machine, on your system.","headline":"Set up docker on Ruby on Rails application","mainEntityOfPage":{"@type":"WebPage","@id":"http://shivrajbadu.com.np/posts/setup-docker-on-ror/"},"url":"http://shivrajbadu.com.np/posts/setup-docker-on-ror/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-05-12T22:30:22+05:45","datePublished":"2018-07-25T09:23:58+05:45","description":"Docker for Rails: From Development to Deployment (Complete Guide)","headline":"Set up docker on Ruby on Rails application","mainEntityOfPage":{"@type":"WebPage","@id":"http://shivrajbadu.com.np/posts/setup-docker-on-ror/"},"url":"http://shivrajbadu.com.np/posts/setup-docker-on-ror/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
@@ -631,20 +631,291 @@
   
 
   
+    
+    
+
+    
+      
+        
+        
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+
+    
+  
 
   
   
 
   
+    
+    
+
+    
+      
+        
+        
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+
+    
+  
 
   
   
 
   
+    
+    
+
+    
+      
+        
+        
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+
+    
+  
 
   
   
 
+  
+    
+    
+
+    
+      
+        
+        
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
+
+    
   
 
 
@@ -698,13 +969,13 @@
 
 <time
   
-  data-ts="1704125330"
+  data-ts="1747068322"
   data-df="ll"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
   
 >
-  Jan  1, 2024
+  May 12, 2025
 </time>
 
         </span>
@@ -747,9 +1018,9 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="202 words"
+  title="699 words"
 >
-  <em>1 min</em> read</span>
+  <em>3 min</em> read</span>
 
       </div>
       <!-- .d-flex -->
@@ -758,53 +1029,412 @@
   </header>
 
   <div class="content">
-    <p>First you need to install docker, docker-compose, docker-machine, on your system.</p>
+    <h2 id="docker-for-rails-from-development-to-deployment-complete-guide"><span class="me-2">Docker for Rails: From Development to Deployment (Complete Guide)</span><a href="#docker-for-rails-from-development-to-deployment-complete-guide" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 
-<h1 id="we-need-following-files-initially">We need following files initially</h1>
+<h5 id="docker-simplifies-building-shipping-and-running-applications-in-isolated-containers-this-guide-covers"><span class="me-2">Docker simplifies building, shipping, and running applications in isolated containers. This guide covers:</span><a href="#docker-simplifies-building-shipping-and-running-applications-in-isolated-containers-this-guide-covers" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h5>
 
-<p># install scripts
- dockerfile
- # ignore while pushing the code
- .dockerignore
- # list env vars
- .env
- # run the processes, containers and apps
- docker-compose.yml</p>
+<p>✅ <strong>Running a Rails app with Docker</strong><br />
+✅ <strong>Deploying to Docker Hub</strong><br />
+✅ <strong>Running the app on another machine with zero setup</strong></p>
 
-<h1 id="run-the-services-and-processes">Run the services and processes</h1>
-<p>docker-compose up</p>
+<h2 id="1-setting-up-a-rails-app-with-docker"><span class="me-2">1. Setting Up a Rails App with Docker</span><a href="#1-setting-up-a-rails-app-with-docker" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 
-<h1 id="build-dependencies">Build dependencies</h1>
-<p>docker-compose –build</p>
+<h3 id="prerequisites"><span class="me-2">Prerequisites</span><a href="#prerequisites" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+<ul>
+  <li><a href="https://www.docker.com/products/docker-desktop">Docker Desktop</a> installed</li>
+  <li><a href="https://hub.docker.com/">Docker Hub</a> account</li>
+</ul>
 
-<p># to see container list
-docker container ls</p>
+<h3 id="step-1-create-a-rails-app"><span class="me-2">Step 1: Create a Rails App</span><a href="#step-1-create-a-rails-app" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 
-<p># to see all the processes
-docker ps</p>
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre>rails new docker_rails_demo <span class="nt">--database</span><span class="o">=</span>postgresql
+<span class="nb">cd </span>docker_rails_demo
+</pre></td></tr></tbody></table></code></div></div>
 
-<p># to stop all the processes, so instead of killing all the container and processes, later on you can restart again
-docker-compose stop</p>
+<h4 id="add-a-welcome-page"><span class="me-2">Add a Welcome Page</span><a href="#add-a-welcome-page" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>rails generate controller Welcome index
+</pre></td></tr></tbody></table></code></div></div>
 
-<p># website is the name of the service to run rails app
-docker-compose run –rm website rake db:create db:migrate</p>
+<p>Update <code class="language-plaintext highlighter-rouge">config/routes.rb</code>:</p>
+<div class="language-ruby highlighter-rouge"><div class="code-header">
+        <span data-label-text="Ruby"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre><span class="no">Rails</span><span class="p">.</span><span class="nf">application</span><span class="p">.</span><span class="nf">routes</span><span class="p">.</span><span class="nf">draw</span> <span class="k">do</span>
+  <span class="n">root</span> <span class="s1">'welcome#index'</span>
+<span class="k">end</span>
+</pre></td></tr></tbody></table></code></div></div>
 
-<p>docker-compose run website rake db:migrate db:seed RAILS_ENV=production</p>
+<h3 id="step-2-docker-configuration"><span class="me-2">Step 2: Docker Configuration</span><a href="#step-2-docker-configuration" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
 
-<h1 id="enter-into-bash-shell">enter into bash shell</h1>
-<p>sudo docker run -i -t &lt;image/id&gt; /bin/bash</p>
+<h1 id="ignore-while-pushing-the-code">ignore while pushing the code</h1>
+<p>.dockerignore</p>
 
-<h1 id="forcefully-remove-image">forcefully remove image</h1>
-<p>docker rmi 24a77bfbb9ee -f</p>
+<h1 id="list-env-vars">list env vars</h1>
+<p>.env</p>
 
-<h1 id="remove-all-the-containers">remove all the containers</h1>
-<p>docker rm $(docker ps -a -q)</p>
+<h4 id="1-write-script-for-installation-dockerfile"><span class="me-2">1. Write script for installation. <code class="language-plaintext highlighter-rouge">Dockerfile</code></span><a href="#1-write-script-for-installation-dockerfile" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+
+<div class="language-dockerfile highlighter-rouge"><div class="code-header">
+        <span data-label-text="Dockerfile"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+27
+28
+29
+30
+31
+</pre></td><td class="rouge-code"><pre><span class="c"># Use official Ruby image (updated to a valid version)</span>
+<span class="k">FROM</span><span class="s"> ruby:3.2.6-slim</span>
+
+<span class="c"># Install dependencies</span>
+<span class="k">RUN </span>apt-get update <span class="nt">-qq</span> <span class="o">&amp;&amp;</span> apt-get <span class="nb">install</span> <span class="nt">-y</span> <span class="se">\
+</span>    build-essential <span class="se">\
+</span>    libpq-dev <span class="se">\
+</span>    nodejs <span class="se">\
+</span>    postgresql-client <span class="se">\
+</span>    <span class="o">&amp;&amp;</span> <span class="nb">rm</span> <span class="nt">-rf</span> /var/lib/apt/lists/<span class="k">*</span>
+
+<span class="c"># Set working directory</span>
+<span class="k">WORKDIR</span><span class="s"> /siv_rails_app_dockerdemo</span>
+
+<span class="c"># Install gems</span>
+<span class="k">COPY</span><span class="s"> Gemfile Gemfile.lock ./</span>
+<span class="k">RUN </span>bundle <span class="nb">install</span>
+
+<span class="c"># Copy application code</span>
+<span class="k">COPY</span><span class="s"> . .</span>
+
+<span class="c"># Add a script to be executed every time the container starts</span>
+<span class="k">COPY</span><span class="s"> entrypoint.sh /usr/bin/</span>
+<span class="k">RUN </span><span class="nb">chmod</span> +x /usr/bin/entrypoint.sh
+<span class="k">ENTRYPOINT</span><span class="s"> ["entrypoint.sh"]</span>
+
+<span class="c"># Expose port</span>
+<span class="k">EXPOSE</span><span class="s"> 3001</span>
+
+<span class="c"># Start the main process</span>
+<span class="k">CMD</span><span class="s"> ["rails", "server", "-b", "0.0.0.0"]</span>
+</pre></td></tr></tbody></table></code></div></div>
+
+<h4 id="2-entrypointsh"><span class="me-2">2. <code class="language-plaintext highlighter-rouge">entrypoint.sh</code></span><a href="#2-entrypointsh" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+</pre></td><td class="rouge-code"><pre><span class="c">#!/bin/bash</span>
+<span class="nb">set</span> <span class="nt">-e</span>
+
+<span class="c"># Remove a potentially pre-existing server.pid for Rails</span>
+<span class="nb">rm</span> <span class="nt">-f</span> /siv_rails_app_dockerdemo/tmp/pids/server.pid
+
+<span class="c"># Then exec the container's main process (what's set as CMD in the Dockerfile)</span>
+<span class="nb">exec</span> <span class="s2">"</span><span class="nv">$@</span><span class="s2">"</span>
+</pre></td></tr></tbody></table></code></div></div>
+
+<h4 id="3-docker-composeyml"><span class="me-2">3. <code class="language-plaintext highlighter-rouge">docker-compose.yml</code></span><a href="#3-docker-composeyml" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+
+<div class="language-yaml highlighter-rouge"><div class="code-header">
+        <span data-label-text="YAML"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+</pre></td><td class="rouge-code"><pre>  <span class="na">version</span><span class="pi">:</span> <span class="s2">"</span><span class="s">3.8"</span>
+
+  <span class="na">services</span><span class="pi">:</span>
+    <span class="na">db</span><span class="pi">:</span>
+      <span class="na">image</span><span class="pi">:</span> <span class="s">postgres:15</span>
+      <span class="na">environment</span><span class="pi">:</span>
+        <span class="na">POSTGRES_PASSWORD</span><span class="pi">:</span> <span class="s">password</span>
+      <span class="na">volumes</span><span class="pi">:</span>
+        <span class="pi">-</span> <span class="s">postgres_data:/var/lib/postgresql/data</span>
+      <span class="na">ports</span><span class="pi">:</span>
+        <span class="pi">-</span> <span class="s2">"</span><span class="s">5432:5432"</span>
+
+    <span class="na">web</span><span class="pi">:</span>
+      <span class="na">build</span><span class="pi">:</span> <span class="s">.</span>
+      <span class="na">command</span><span class="pi">:</span> <span class="s">bash -c "rm -f tmp/pids/server.pid &amp;&amp; rails server -b 0.0.0.0"</span>
+      <span class="na">volumes</span><span class="pi">:</span>
+        <span class="pi">-</span> <span class="s">.:/siv_rails_app_dockerdemo</span>
+      <span class="na">ports</span><span class="pi">:</span>
+        <span class="pi">-</span> <span class="s2">"</span><span class="s">3001:3000"</span>
+      <span class="na">depends_on</span><span class="pi">:</span>
+        <span class="pi">-</span> <span class="s">db</span>
+      <span class="na">environment</span><span class="pi">:</span>
+        <span class="na">DATABASE_URL</span><span class="pi">:</span> <span class="s">postgres://postgres:password@db:5432/dockerrails_development</span>
+
+  <span class="na">volumes</span><span class="pi">:</span>
+    <span class="na">postgres_data</span><span class="pi">:</span>
+</pre></td></tr></tbody></table></code></div></div>
+
+<h3 id="step-3-run-the-app"><span class="me-2">Step 3: Run the App</span><a href="#step-3-run-the-app" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td><td class="rouge-code"><pre><span class="c"># Build containers</span>
+docker-compose build
+
+<span class="c"># Start services</span>
+docker-compose up
+</pre></td></tr></tbody></table></code></div></div>
+
+<p>Access: <code class="language-plaintext highlighter-rouge">http://localhost:3001</code></p>
+
+<h4 id="initialize-the-database"><span class="me-2">Initialize the Database</span><a href="#initialize-the-database" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre>docker-compose <span class="nb">exec </span>web rails db:create
+docker-compose <span class="nb">exec </span>web rails db:migrate
+</pre></td></tr></tbody></table></code></div></div>
+
+<h2 id="2-deploying-to-docker-hub"><span class="me-2">2. Deploying to Docker Hub</span><a href="#2-deploying-to-docker-hub" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<h3 id="1-build--tag-the-image"><span class="me-2">1. Build &amp; Tag the Image</span><a href="#1-build--tag-the-image" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>docker build <span class="nt">-t</span> shivrajbadu/docker_rails_demo:1.0 <span class="nb">.</span>
+</pre></td></tr></tbody></table></code></div></div>
+
+<h3 id="2-push-to-docker-hub"><span class="me-2">2. Push to Docker Hub</span><a href="#2-push-to-docker-hub" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre>docker login
+docker push shivrajbadu/docker_rails_demo:1.0
+</pre></td></tr></tbody></table></code></div></div>
+
+<h2 id="3-running-the-app-on-another-machine"><span class="me-2">3. Running the App on Another Machine</span><a href="#3-running-the-app-on-another-machine" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<h3 id="1-create-a-new-directory"><span class="me-2">1. Create a New Directory</span><a href="#1-create-a-new-directory" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre><span class="nb">mkdir</span> ~/docker_rails_deploy <span class="o">&amp;&amp;</span> <span class="nb">cd</span> ~/docker_rails_deploy
+</pre></td></tr></tbody></table></code></div></div>
+
+<h3 id="2-add-docker-composeyml"><span class="me-2">2. Add <code class="language-plaintext highlighter-rouge">docker-compose.yml</code></span><a href="#2-add-docker-composeyml" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+
+<div class="language-yaml highlighter-rouge"><div class="code-header">
+        <span data-label-text="YAML"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+</pre></td><td class="rouge-code"><pre><span class="na">version</span><span class="pi">:</span> <span class="s2">"</span><span class="s">3.8"</span>
+
+<span class="na">services</span><span class="pi">:</span>
+  <span class="na">db</span><span class="pi">:</span>
+    <span class="na">image</span><span class="pi">:</span> <span class="s">postgres:15</span>
+    <span class="na">environment</span><span class="pi">:</span>
+      <span class="na">POSTGRES_PASSWORD</span><span class="pi">:</span> <span class="s">password</span>
+    <span class="na">volumes</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="s">postgres_data:/var/lib/postgresql/data</span>
+
+  <span class="na">web</span><span class="pi">:</span>
+    <span class="na">image</span><span class="pi">:</span> <span class="s">shivrajbadu/docker_rails_demo:1.0</span>
+    <span class="na">command</span><span class="pi">:</span> <span class="s">bash -c "rm -f tmp/pids/server.pid &amp;&amp; rails server -b 0.0.0.0"</span>
+    <span class="na">depends_on</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="s">db</span>
+    <span class="na">environment</span><span class="pi">:</span>
+      <span class="na">DATABASE_URL</span><span class="pi">:</span> <span class="s">postgres://postgres:password@db:5432/docker_rails_demo_production</span>
+      <span class="na">RAILS_ENV</span><span class="pi">:</span> <span class="s">production</span>
+    <span class="na">ports</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="s2">"</span><span class="s">3002:3000"</span>
+
+<span class="na">volumes</span><span class="pi">:</span>
+  <span class="na">postgres_data</span><span class="pi">:</span>
+</pre></td></tr></tbody></table></code></div></div>
+
+<h3 id="3-start-the-app"><span class="me-2">3. Start the App</span><a href="#3-start-the-app" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
+
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>docker-compose up
+</pre></td></tr></tbody></table></code></div></div>
+
+<p>Access: <code class="language-plaintext highlighter-rouge">http://localhost:3002</code></p>
+
+<h4 id="initialize-db-if-needed"><span class="me-2">Initialize DB (If Needed)</span><a href="#initialize-db-if-needed" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
+
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>docker-compose <span class="nb">exec </span>web rails db:create db:migrate
+</pre></td></tr></tbody></table></code></div></div>
+
+<h2 id="key-docker-commands-cheat-sheet"><span class="me-2">Key Docker Commands Cheat Sheet</span><a href="#key-docker-commands-cheat-sheet" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<div class="table-wrapper"><table>
+  <thead>
+    <tr>
+      <th>Command</th>
+      <th>Description</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">docker-compose --build </code></td>
+      <td>Build dependencies</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">docker-compose up</code></td>
+      <td>Start containers. Run the services and processes.</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">docker-compose down</code></td>
+      <td>Stop containers</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">docker-compose logs web</code></td>
+      <td>View Rails logs</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">docker-compose exec web bash</code></td>
+      <td>Enter container shell</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">docker-compose exec web rails c</code></td>
+      <td>Open Rails console</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">docker ps</code></td>
+      <td>List running containers, processes</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">docker push &lt;image&gt;</code></td>
+      <td>Push to Docker Hub</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">docker container ls</code></td>
+      <td>to see container list</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">docker-compose stop</code></td>
+      <td>to stop all the processes for later restart</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">docker-compose run website rake db:migrate db:seed RAILS_ENV=production</code></td>
+      <td>website means name of service to run rails app</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">docker-compose run --rm website rake db:create db:migrate</code></td>
+      <td>website is name of service</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">sudo docker run -i -t &lt;image/id&gt; /bin/bash</code></td>
+      <td>enter into bash shell</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">docker rmi 24a77bfbb9ee -f</code></td>
+      <td>forcefully remove image</td>
+    </tr>
+    <tr>
+      <td><code class="language-plaintext highlighter-rouge">docker rm $(docker ps -a -q)</code></td>
+      <td>remove all the containers</td>
+    </tr>
+  </tbody>
+</table></div>
+
+<hr />
 
 <h1 id="note-if-you-dont-have-docker-running-on-your-local-machine-you-need-to-replace-localhost-in-the-above-url-with-the-ip-address-of-the-machine-docker-is-running-on-if-youre-using-docker-machine-you-can-run-below-cmd-to-find-out-the-ip">Note: If you don’t have Docker running on your local machine, you need to replace localhost in the above URL with the IP address of the machine Docker is running on. If you’re using Docker Machine, you can run below cmd to find out the IP.</h1>
-<p>docker-machine ip “${DOCKER_MACHINE_NAME}”</p>
 
-<h1 id="to-run-rails-console">To run rails console</h1>
-<p>docker-compose exec website rails console</p>
+<p><code class="language-plaintext highlighter-rouge">docker-machine ip “${DOCKER_MACHINE_NAME}”</code></p>
 
 <p><ins class="adsbygoogle" style="display:block; text-align:center;" data-ad-layout="in-article" data-ad-format="fluid" data-ad-client="ca-pub-6361630351328078" data-ad-slot="4812265796"></ins>
 <script>
@@ -949,6 +1579,13 @@ docker-compose run –rm website rake db:create db:migrate</p>
         
         
         <li class="text-truncate lh-lg">
+          <a href="/posts/setup-docker-on-ror/">Set up docker on Ruby on Rails application</a>
+        </li>
+      
+        
+        
+        
+        <li class="text-truncate lh-lg">
           <a href="/posts/amazon_sagemaker_foundation_model_deploy_and_scale/">Deploy & Scale AI Models with Amazon SageMaker: A Comprehensive Guide</a>
         </li>
       
@@ -971,13 +1608,6 @@ docker-compose run –rm website rake db:create db:migrate</p>
         
         <li class="text-truncate lh-lg">
           <a href="/posts/circle-ci/">Streamlining Development with CircleCI: A Guide to Continuous Integration and Delivery</a>
-        </li>
-      
-        
-        
-        
-        <li class="text-truncate lh-lg">
-          <a href="/posts/mern_vs_nextjs/">Choosing the Right Stack: MERN vs Next.js vs Rails + Next.js</a>
         </li>
       
     </ul>
@@ -3237,6 +3867,11 @@ docker-compose run –rm website rake db:create db:migrate</p>
               
 
 
+
+  <section id="toc-wrapper" class="ps-0 pe-4">
+    <h2 class="panel-heading ps-3 pt-2 mb-2">Contents</h2>
+    <nav id="toc"></nav>
+  </section>
 
 
             
@@ -6040,9 +6675,16 @@ Before using Searchkick make sure Elasticsearch...
 
   
 
+  
+    
+
+    
+
+  
 
 
-  <script src="https://cdn.jsdelivr.net/combine/npm/jquery@3.7.1/dist/jquery.min.js,npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js,npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/magnific-popup@1.1.0/dist/jquery.magnific-popup.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.10/dayjs.min.js,npm/dayjs@1.11.10/locale/en.min.js,npm/dayjs@1.11.10/plugin/relativeTime.min.js,npm/dayjs@1.11.10/plugin/localizedFormat.min.js"></script>
+
+  <script src="https://cdn.jsdelivr.net/combine/npm/jquery@3.7.1/dist/jquery.min.js,npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js,npm/simple-jekyll-search@1.10.0/dest/simple-jekyll-search.min.js,npm/loading-attribute-polyfill@2.1.1/dist/loading-attribute-polyfill.umd.min.js,npm/magnific-popup@1.1.0/dist/jquery.magnific-popup.min.js,npm/clipboard@2.0.11/dist/clipboard.min.js,npm/dayjs@1.11.10/dayjs.min.js,npm/dayjs@1.11.10/locale/en.min.js,npm/dayjs@1.11.10/plugin/relativeTime.min.js,npm/dayjs@1.11.10/plugin/localizedFormat.min.js,npm/tocbot@4.21.3/dist/tocbot.min.js"></script>
 
 
 
