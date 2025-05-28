@@ -1,6 +1,23 @@
 [
   
   {
+    "title": "Design Patterns in Rails: A Practical Guide",
+    "url": "/posts/rails-design-pattern-overview/",
+    "categories": "Ruby on Rails, design-patterns, architecture",
+    "tags": "ruby on rails, design-patterns, architecture",
+    "date": "2025-05-28 18:38:00 +0545",
+    
+
+
+
+
+
+    
+    "snippet": "Ruby on Rails (Rails) is known for its convention-over-configuration philosophy and rapid development capabilities. But as applications grow in complexity, simply following Rails conventions isn’t ...",
+    "content": "Ruby on Rails (Rails) is known for its convention-over-configuration philosophy and rapid development capabilities. But as applications grow in complexity, simply following Rails conventions isn’t always enough. That’s where design patterns come into play.In this post, we’ll explore how common design patterns are used in Rails applications to keep code maintainable, readable, and scalable.Why Design Patterns Matter in RailsDesign patterns are proven solutions to recurring software design problems. They provide a shared vocabulary for developers and help manage complexity.While Rails promotes certain patterns out of the box (like MVC), seasoned developers often go further, adopting patterns like Service Objects, Decorators, and Form Objects to maintain clean architecture.1. Model-View-Controller (MVC)Pattern Type: ArchitecturalPurpose: Separates data, user interface, and control logic.Rails is built on MVC:  Model: Handles business logic and database interactions.  View: Renders the HTML (or other formats).  Controller: Coordinates between model and view.Tip:Keep your controllers skinny and models lean by pushing complex logic into service objects or concerns.2. Service ObjectsPattern Type: BehavioralPurpose: Encapsulate business logic that doesn’t naturally fit into models or controllers.class ProcessPayment  def initialize(order)    @order = order  end  def call    charge_customer    send_receipt  end  private  def charge_customer    # Payment logic  end  def send_receipt    # Email logic  endendUse it in your controller:ProcessPayment.new(@order).call3. Decorator PatternPattern Type: StructuralPurpose: Add responsibilities to objects without modifying their structure.In Rails, you might use the Draper gem to create decorators for models.class OrderDecorator &lt; Draper::Decorator  def formatted_total    h.number_to_currency(object.total)  endend4. Presenter/ViewModelPattern Type: StructuralPurpose: Encapsulate view-specific logic, often used in place of helpers or decorators.class DashboardPresenter  def initialize(user)    @user = user  end  def recent_orders    @user.orders.recent.limit(5)  endend5. Form ObjectsPattern Type: StructuralPurpose: Manage complex forms that interact with multiple models or validations.class SignupForm  include ActiveModel::Model  attr_accessor :user, :account_name, :email, :password  validates :email, :password, presence: true  def save    return false unless valid?    create_user_and_account  end  private  def create_user_and_account    # handle multi-model logic  endend6. Policy Objects (Pundit/Cancancan)Pattern Type: BehavioralPurpose: Manage authorization logic.class PostPolicy &lt; ApplicationPolicy  def update?    user.admin? || record.author == user  endend7. Query ObjectsPattern Type: BehavioralPurpose: Encapsulate complex ActiveRecord queries.class RecentOrdersQuery  def initialize(user)    @user = user  end  def call    @user.orders.where(\"created_at &gt; ?\", 1.week.ago)  endendWhen to Use Which Pattern?            Pattern      Use When                  Service Object      Logic doesn’t belong in model or controller              Decorator      You need to format or enhance model output for the view              Form Object      Your form touches multiple models or complex validations              Query Object      Queries get too long to be readable or reusable              Policy Object      Managing user permissions and access control      Final ThoughtsDesign patterns aren’t a silver bullet—but they are powerful tools. In Rails, the key is to use them only when they provide clear benefits. Start simple, and refactor when complexity grows."
+  },
+  
+  {
     "title": "Deploy & Scale AI Models with Amazon SageMaker: A Comprehensive Guide",
     "url": "/posts/amazon_sagemaker_foundation_model_deploy_and_scale/",
     "categories": "Artificial Intelligence (AI), Machine Learning, AmazonSagemaker",

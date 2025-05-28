@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2025-05-12T22:34:22+05:45</updated>
+  <updated>2025-05-28T18:47:51+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -12,11 +12,54 @@
   <link rel="self" type="application/atom+xml" href="http://shivrajbadu.com.np/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
     href="http://shivrajbadu.com.np/"/>
-  <generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator>
+  <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
   <rights> © 2025 Shivraj Badu </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Design Patterns in Rails: A Practical Guide</title>
+    <link href="http://shivrajbadu.com.np/posts/rails-design-pattern-overview/" rel="alternate" type="text/html" title="Design Patterns in Rails: A Practical Guide" />
+    <published>2025-05-28T18:38:00+05:45</published>
+  
+    <updated>2025-05-28T18:38:00+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/rails-design-pattern-overview/</id>
+    <content src="http://shivrajbadu.com.np/posts/rails-design-pattern-overview/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="Ruby on Rails" />
+    
+    <category term="design-patterns" />
+    
+    <category term="architecture" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Ruby on Rails (Rails) is known for its convention-over-configuration philosophy and rapid development capabilities. But as applications grow in complexity, simply following Rails conventions isn’t always enough. That’s where design patterns come into play.
+
+In this post, we’ll explore how common design patterns are used in Rails applications to keep code maintainable, readable, and scalable.
+
+
+...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -186,68 +229,6 @@ setup ini...
       Software development is undergoing a transformation. Traditionally, coding required deep knowledge of syntax, algorithms, and frameworks. But with the rise of AI-powered tools, a new paradigm has emerged: Vibe Coding—a style of development where programmers instruct AI to write code based on natural language prompts, focusing on creativity rather than manual coding.
 
 At the same time, a complem...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Tailwind CSS Mastery Guide</title>
-    <link href="http://shivrajbadu.com.np/posts/tailwind-cheatsheet/" rel="alternate" type="text/html" title="Tailwind CSS Mastery Guide" />
-    <published>2025-04-01T12:20:18+05:45</published>
-  
-    <updated>2025-04-02T17:29:14+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/tailwind-cheatsheet/</id>
-    <content src="http://shivrajbadu.com.np/posts/tailwind-cheatsheet/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="Tailwind CSS" />
-    
-    <category term="UI" />
-    
-    <category term="cheatsheet" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Here’s a comprehensive list of Tailwind CSS utility categories and their class name prefixes to help you master Tailwind:
-
-Tailwind CSS Mastery Guide
-
-Layout
-
-
-  
-    
-      Category
-      Prefixes/Classes
-    
-  
-  
-    
-      Container
-      container
-    
-    
-      Display
-      block, inline-block, inline, flex, inline-flex, grid, inline-grid
-    
-    
-      Box Sizing
-      box-border, bo...
     </summary>
   
 
