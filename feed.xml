@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2025-05-28T18:47:51+05:45</updated>
+  <updated>2025-05-29T13:59:17+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -12,11 +12,51 @@
   <link rel="self" type="application/atom+xml" href="http://shivrajbadu.com.np/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
     href="http://shivrajbadu.com.np/"/>
-  <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
+  <generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator>
   <rights> © 2025 Shivraj Badu </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>The Complete Guide to AWS, GCP, and Azure for Web Developers</title>
+    <link href="http://shivrajbadu.com.np/posts/cloud-services-guide-for-web-devs/" rel="alternate" type="text/html" title="The Complete Guide to AWS, GCP, and Azure for Web Developers" />
+    <published>2025-05-29T02:30:00+05:45</published>
+  
+    <updated>2025-05-29T13:59:00+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/cloud-services-guide-for-web-devs/</id>
+    <content src="http://shivrajbadu.com.np/posts/cloud-services-guide-for-web-devs/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="cloud webdev devops aws gcp azure" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      A practical guide to the core services of AWS, GCP, and Azure with step-by-step instructions for developers building and deploying modern web applications.
+
+☁️ The Complete Guide to AWS, GCP, and Azure for Web Developers
+
+🚀 Introduction
+
+Whether you’re building your first full-stack app, deploying production services, or diving into the world of DevOps, understanding cloud platforms is a crucia...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -191,44 +231,6 @@ https://deadmanssnitch.com/opensource/kafka/docs/index.html
 ** docker run -p 9092:9092 apache/kafka:4.0.0
 
 setup ini...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Vive Coding: The Future of AI-Driven Development with Purpose</title>
-    <link href="http://shivrajbadu.com.np/posts/vive-coding-future-of-ai-driven-development/" rel="alternate" type="text/html" title="Vive Coding: The Future of AI-Driven Development with Purpose" />
-    <published>2025-04-02T10:20:18+05:45</published>
-  
-    <updated>2025-04-02T10:20:18+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/vive-coding-future-of-ai-driven-development/</id>
-    <content src="http://shivrajbadu.com.np/posts/vive-coding-future-of-ai-driven-development/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="Artificial Intelligence (AI)" />
-    
-    <category term="Vive Coding" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Software development is undergoing a transformation. Traditionally, coding required deep knowledge of syntax, algorithms, and frameworks. But with the rise of AI-powered tools, a new paradigm has emerged: Vibe Coding—a style of development where programmers instruct AI to write code based on natural language prompts, focusing on creativity rather than manual coding.
-
-At the same time, a complem...
     </summary>
   
 
