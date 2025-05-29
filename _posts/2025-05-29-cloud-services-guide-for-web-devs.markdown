@@ -239,6 +239,218 @@ IAM defines who can access what in your cloud. It includes users, roles, policie
 
 ---
 
+## Initial VM Deployment
+
+For the VM deployment, you have several straightforward options:
+
+- Traditional servers (DigitalOcean, Linode, AWS EC2)
+- Platform-as-a-Service (Heroku, Railway, Render)
+- Container platforms (Docker on any cloud provider)
+
+The PaaS options are often easiest for getting started since they handle most infrastructure concerns automatically.
+
+## Migration to Serverless
+
+When you're ready to go serverless, you have a few architectural approaches:
+
+### Function-based approach:
+
+- Break your Rails app into smaller functions using AWS Lambda, Google Cloud Functions, or similar
+- This requires significant refactoring since Rails is designed as a monolithic framework
+- You'd typically extract specific endpoints or services into individual functions
+
+### Container-based serverless:
+
+- Use services like AWS Fargate, Google Cloud Run, or Azure Container Instances
+- Package your Rails app in a container that scales to zero when not in use
+- Minimal code changes required - mainly configuration adjustments
+- Still gets you the serverless benefits of automatic scaling and pay-per-use
+
+### Hybrid approach:
+
+- Keep core Rails app on containers/VMs
+- Extract specific heavy or intermittent workloads (image processing, report generation, etc.) into serverless functions
+- Use message queues or webhooks to connect them
+
+### Here's a practical example of extracting heavy workloads from a Rails app into serverless functions:
+
+#### Current Rails Implementation
+
+```ruby
+# In your Rails app - products_controller.rb
+class ProductsController < ApplicationController
+  def create
+    @product = Product.new(product_params)
+    if @product.save
+      # This blocks the request for 10-30 seconds
+      ImageProcessorService.new(@product).process_images
+      redirect_to @product
+    end
+  end
+end
+
+# Heavy service that blocks requests
+class ImageProcessorService
+  def process_images
+    # Resize original image
+    # Generate 5 different thumbnail sizes
+    # Optimize for web
+    # This takes 15-30 seconds per product
+  end
+end
+```
+
+#### After Serverless Migration
+
+```ruby
+# products_controller.rb - Now fast and responsive
+class ProductsController < ApplicationController
+  def create
+    @product = Product.new(product_params)
+    if @product.save
+      # Queue the heavy work instead of doing it synchronously
+      ImageProcessingJob.perform_later(@product.id)
+      redirect_to @product, notice: "Product created! Images are being processed."
+    end
+  end
+end
+
+# Simple job that triggers serverless function
+class ImageProcessingJob < ApplicationJob
+  def perform(product_id)
+    # Trigger AWS Lambda function
+    lambda_client = Aws::Lambda::Client.new
+    
+    response = lambda_client.invoke({
+      function_name: 'image-processor', # ← This name references the deployed function
+      payload: { product_id: product_id }.to_json
+    })
+
+    puts "Lambda response: #{response.payload.read}"
+  end
+end
+```
+
+#### Serverless Function (AWS Lambda)
+
+````ruby
+# lambda_function.rb - Deployed as separate AWS Lambda
+require 'aws-sdk-s3'
+require 'mini_magick'
+
+def lambda_handler(event:, context:)
+  product_id = event['product_id']
+  
+  # Fetch product data from database
+  product_data = fetch_product_from_api(product_id)
+  
+  # Download original image from S3
+  original_image = download_image(product_data['image_url'])
+  
+  # Fetch from your Rails API
+  ## rails_api_url = "https://your-rails-app.com/api/products/#{product_id}"
+  
+  # Process images (this heavy work now runs separately)
+  thumbnails = generate_thumbnails(original_image)
+  optimized_image = optimize_image(original_image)
+  
+  # Upload processed images back to S3
+  upload_processed_images(product_id, thumbnails, optimized_image)
+  
+  # Update product record via API
+  update_product_images(product_id, processed_image_urls)
+  
+  { statusCode: 200, body: 'Images processed successfully' }
+end
+
+def generate_thumbnails(image)
+  sizes = [100, 200, 400, 800, 1200]
+  sizes.map do |size|
+    MiniMagick::Image.open(image).resize("#{size}x#{size}>")
+  end
+end
+````
+
+The lambda_function.rb file needs to be deployed as an AWS Lambda function with the name 'image-processor'.
+
+### Step 1: Deploy Lambda Function
+
+```bash
+# You need to package and deploy lambda_function.rb to AWS Lambda
+# This creates a function named 'image-processor' in AWS
+
+# Using AWS CLI or deployment tools like:
+aws lambda create-function \
+  --function-name image-processor \
+  --runtime ruby2.7 \
+  --role arn:aws:iam::your-account:role/lambda-execution-role \
+  --handler lambda_function.lambda_handler \
+  --zip-file fileb://function.zip
+```
+
+### Deployment Script (package.sh)
+
+```bash
+#!/bin/bash
+# Install gems
+bundle install --deployment
+
+# Create deployment package
+zip -r function.zip lambda_function.rb vendor/
+
+# Deploy to AWS Lambda
+aws lambda update-function-code \
+  --function-name image-processor \
+  --zip-file fileb://function.zip
+```
+
+### Step 2: The Connection
+
+```ruby
+# In Rails - ImageProcessingJob
+
+class ImageProcessingJob < ApplicationJob
+  def perform(product_id)
+    lambda_client = Aws::Lambda::Client.new(region: 'us-east-1')
+    
+    # This calls the AWS Lambda function named 'image-processor'
+    # The function name must match what you deployed to AWS
+    response = lambda_client.invoke({
+      function_name: 'image-processor',  # ← This name references the deployed function
+      invocation_type: 'Event',         # Async execution
+      payload: {
+        product_id: product_id,
+        callback_url: "#{ENV['RAILS_APP_URL']}/webhooks/image_complete"
+       }.to_json
+    })
+    Rails.logger.info "Lambda invoked successfully: #{response.status_code}"
+    
+    puts "Lambda response: #{response.payload.read}"
+  end
+end
+```
+
+### Step 3: AWS Lambda Execution
+
+When Rails calls `lambda_client.invoke()`, AWS Lambda:
+
+1. Finds the function named 'image-processor'
+2. Loads the deployed lambda_function.rb code
+3. Calls the lambda_handler method with the payload
+4. Executes all the image processing code
+5. Returns the response back to Rails
+
+#### Complete Example with Deployment
+### File structure
+
+serverless-functions/
+├── image-processor/
+│   ├── lambda_function.rb          # The handler code
+│   ├── Gemfile                     # Dependencies
+│   └── package.sh                  # Deployment script
+└── rails-app/
+    └── app/jobs/image_processing_job.rb  # Rails job
+
 ## 📚 Summary
 
 Cloud platforms are essential to every stage of web development — from prototype to production. Understanding core services across AWS, GCP, and Azure empowers developers to:
