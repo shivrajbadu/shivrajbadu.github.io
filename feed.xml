@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2025-05-29T14:26:56+05:45</updated>
+  <updated>2025-05-29T17:22:12+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -20,11 +20,49 @@
 
   
   <entry>
+    <title>Understanding Authentication Types: A Developer's Guide to Securing Applications</title>
+    <link href="http://shivrajbadu.com.np/posts/understanding-authentication-types/" rel="alternate" type="text/html" title="Understanding Authentication Types: A Developer&amp;apos;s Guide to Securing Applications" />
+    <published>2025-05-29T05:13:00+05:45</published>
+  
+    <updated>2025-05-29T17:22:01+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/understanding-authentication-types/</id>
+    <content src="http://shivrajbadu.com.np/posts/understanding-authentication-types/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="security" />
+    
+    <category term="authentication" />
+    
+    <category term="webdev" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Authentication is the cornerstone of application security, determining how users prove their identity to access protected resources. With the evolution of web applications and APIs, various authentication methods have emerged, each with distinct advantages and use cases. This comprehensive guide explores the most common authentication types, their implementations, and when to use each approach....
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
     <title>The Complete Guide to AWS, GCP, and Azure for Web Developers</title>
     <link href="http://shivrajbadu.com.np/posts/cloud-services-guide-for-web-devs/" rel="alternate" type="text/html" title="The Complete Guide to AWS, GCP, and Azure for Web Developers" />
     <published>2025-05-29T02:30:00+05:45</published>
   
-    <updated>2025-05-29T14:26:43+05:45</updated>
+    <updated>2025-05-29T17:22:01+05:45</updated>
   
     <id>http://shivrajbadu.com.np/posts/cloud-services-guide-for-web-devs/</id>
     <content src="http://shivrajbadu.com.np/posts/cloud-services-guide-for-web-devs/" />
@@ -184,53 +222,6 @@ Acts as a message broker between producers (data sources) and consumers (data pr
 
 
 Allows applications to publish, subscribe to, store, and process event streams in real t...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Apache Kafka In Rails</title>
-    <link href="http://shivrajbadu.com.np/posts/apache-kafka-in-rails/" rel="alternate" type="text/html" title="Apache Kafka In Rails" />
-    <published>2025-04-03T00:00:00+05:45</published>
-  
-    <updated>2025-04-03T00:00:00+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/apache-kafka-in-rails/</id>
-    <content src="http://shivrajbadu.com.np/posts/apache-kafka-in-rails/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Subscribers – Kafka as Broker – Consumers
-
-Gemfile
-
-gem 'ruby-kafka', '~&amp;gt; 1.5'  # This is the correct gem to use
-gem 'delivery_boy'  # Add this line
-gem 'racecar' # for easy consumer setup
-
-
-https://kafka.apache.org/quickstart#quickstart_send
-https://deadmanssnitch.com/opensource/kafka/docs/index.html
-
-** docker pull apache/kafka:4.0.0
-** docker run -p 9092:9092 apache/kafka:4.0.0
-
-setup ini...
     </summary>
   
 
