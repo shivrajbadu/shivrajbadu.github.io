@@ -61,7 +61,7 @@
 <meta name="twitter:site" content="@shivrajbadu" />
 <meta name="google-site-verification" content="1V6mjFi-H5goXTGWpdsB7z6Mcve5NUvIpvzaQJGxOtA# fill in to your verification string" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-05-29T13:59:00+05:45","datePublished":"2025-05-29T02:30:00+05:45","description":"A practical guide to the core services of AWS, GCP, and Azure with step-by-step instructions for developers building and deploying modern web applications.","headline":"The Complete Guide to AWS, GCP, and Azure for Web Developers","mainEntityOfPage":{"@type":"WebPage","@id":"http://shivrajbadu.com.np/posts/cloud-services-guide-for-web-devs/"},"url":"http://shivrajbadu.com.np/posts/cloud-services-guide-for-web-devs/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-05-29T14:26:43+05:45","datePublished":"2025-05-29T02:30:00+05:45","description":"A practical guide to the core services of AWS, GCP, and Azure with step-by-step instructions for developers building and deploying modern web applications.","headline":"The Complete Guide to AWS, GCP, and Azure for Web Developers","mainEntityOfPage":{"@type":"WebPage","@id":"http://shivrajbadu.com.np/posts/cloud-services-guide-for-web-devs/"},"url":"http://shivrajbadu.com.np/posts/cloud-services-guide-for-web-devs/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
@@ -792,6 +792,17 @@
 
       
     
+      
+
+      
+      
+
+      
+      
+      
+
+      
+    
 
     
   
@@ -1311,7 +1322,7 @@
 
 <time
   
-  data-ts="1748506440"
+  data-ts="1748508103"
   data-df="ll"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
@@ -1360,9 +1371,9 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="1605 words"
+  title="1719 words"
 >
-  <em>8 min</em> read</span>
+  <em>9 min</em> read</span>
 
       </div>
       <!-- .d-flex -->
@@ -1453,30 +1464,45 @@
 
 <h4 id="-aws-ec2"><span class="me-2">🔸 AWS EC2</span><a href="#-aws-ec2" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
 
-<p>```bash</p>
-<h1 id="launch-ec2-instance-via-console--choose-ubuntu">Launch EC2 instance via Console &gt; Choose Ubuntu</h1>
-<p>ssh -i “your-key.pem” ubuntu@<your-ec2-ip></your-ec2-ip></p>
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td><td class="rouge-code"><pre><span class="c"># Launch EC2 instance via Console &gt; Choose Ubuntu</span>
+ssh <span class="nt">-i</span> <span class="s2">"your-key.pem"</span> ubuntu@&lt;your-ec2-ip&gt;
 
-<p>sudo apt update
-sudo apt install nodejs npm
-```</p>
+<span class="nb">sudo </span>apt update
+<span class="nb">sudo </span>apt <span class="nb">install </span>nodejs npm
+</pre></td></tr></tbody></table></code></div></div>
 
 <h4 id="-gcp-compute-engine"><span class="me-2">🔸 GCP Compute Engine</span><a href="#-gcp-compute-engine" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
 
-<p>```bash</p>
-<h1 id="launch-vm-from-console--use-browser-based-ssh">Launch VM from Console &gt; Use browser-based SSH</h1>
-<p>sudo apt update
-sudo apt install nodejs npm
-```</p>
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre><span class="c"># Launch VM from Console &gt; Use browser-based SSH</span>
+<span class="nb">sudo </span>apt update
+<span class="nb">sudo </span>apt <span class="nb">install </span>nodejs npm
+</pre></td></tr></tbody></table></code></div></div>
 
 <h4 id="-azure-virtual-machines"><span class="me-2">🔸 Azure Virtual Machines</span><a href="#-azure-virtual-machines" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
 
-<p>```bash</p>
-<h1 id="create-a-vm-via-azure-portal">Create a VM via Azure Portal</h1>
-<p>ssh azureuser@<your-vm-ip>
-sudo apt update
-sudo apt install nodejs npm
-\`\`\`</your-vm-ip></p>
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td><td class="rouge-code"><pre><span class="c"># Create a VM via Azure Portal</span>
+ssh azureuser@&lt;your-vm-ip&gt;
+<span class="nb">sudo </span>apt update
+<span class="nb">sudo </span>apt <span class="nb">install </span>nodejs npm
+</pre></td></tr></tbody></table></code></div></div>
 
 <hr />
 
@@ -1489,27 +1515,39 @@ sudo apt install nodejs npm
 
 <h4 id="-aws-s3"><span class="me-2">🔸 AWS S3</span><a href="#-aws-s3" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
 
-<p>```bash
-aws s3 mb s3://my-bucket-name
-aws s3 cp image.png s3://my-bucket-name
-```</p>
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre>aws s3 mb s3://my-bucket-name
+aws s3 <span class="nb">cp </span>image.png s3://my-bucket-name
+</pre></td></tr></tbody></table></code></div></div>
 
 <h4 id="-gcp-cloud-storage"><span class="me-2">🔸 GCP Cloud Storage</span><a href="#-gcp-cloud-storage" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
 
-<p>```bash
-gsutil mb gs://my-bucket-name
-gsutil cp image.png gs://my-bucket-name
-```</p>
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre>gsutil mb gs://my-bucket-name
+gsutil <span class="nb">cp </span>image.png gs://my-bucket-name
+</pre></td></tr></tbody></table></code></div></div>
 
 <h4 id="-azure-blob-storage"><span class="me-2">🔸 Azure Blob Storage</span><a href="#-azure-blob-storage" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
 
-<p>```bash
-az storage blob upload <br />
-  –account-name mystorage <br />
-  –container-name mycontainer <br />
-  –file image.png <br />
-  –name image.png
-```</p>
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td><td class="rouge-code"><pre>az storage blob upload <span class="se">\</span>
+  <span class="nt">--account-name</span> mystorage <span class="se">\</span>
+  <span class="nt">--container-name</span> mycontainer <span class="se">\</span>
+  <span class="nt">--file</span> image.png <span class="se">\</span>
+  <span class="nt">--name</span> image.png
+</pre></td></tr></tbody></table></code></div></div>
 
 <hr />
 
@@ -1527,22 +1565,29 @@ az storage blob upload <br />
   <li>Configure VPC/Security Group to allow port 5432</li>
 </ul>
 
-<p>```bash
-psql -h your-rds-endpoint -U dbuser -d dbname
-```</p>
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>psql <span class="nt">-h</span> your-rds-endpoint <span class="nt">-U</span> dbuser <span class="nt">-d</span> dbname
+</pre></td></tr></tbody></table></code></div></div>
 
 <h4 id="-gcp-cloud-sql"><span class="me-2">🔸 GCP Cloud SQL</span><a href="#-gcp-cloud-sql" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
 
-<p>```bash
-gcloud sql instances create my-postgres <br />
-  –database-version=POSTGRES_13 –tier=db-f1-micro
-```</p>
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre>gcloud sql instances create my-postgres <span class="se">\</span>
+  <span class="nt">--database-version</span><span class="o">=</span>POSTGRES_13 <span class="nt">--tier</span><span class="o">=</span>db-f1-micro
+</pre></td></tr></tbody></table></code></div></div>
 
 <h4 id="-azure-sql-database"><span class="me-2">🔸 Azure SQL Database</span><a href="#-azure-sql-database" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
 
-<p>```bash
-sqlcmd -S server-name.database.windows.net -U username -P password
-```</p>
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+</pre></td><td class="rouge-code"><pre>sqlcmd <span class="nt">-S</span> server-name.database.windows.net <span class="nt">-U</span> username <span class="nt">-P</span> password
+</pre></td></tr></tbody></table></code></div></div>
 
 <hr />
 
@@ -1563,21 +1608,31 @@ sqlcmd -S server-name.database.windows.net -U username -P password
 
 <h4 id="-gcp-cloud-functions"><span class="me-2">🔸 GCP Cloud Functions</span><a href="#-gcp-cloud-functions" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
 
-<p>```bash
-gcloud functions deploy helloWorld <br />
-  –runtime nodejs18 <br />
-  –trigger-http <br />
-  –allow-unauthenticated
-```</p>
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td><td class="rouge-code"><pre>gcloud functions deploy helloWorld <span class="se">\</span>
+  <span class="nt">--runtime</span> nodejs18 <span class="se">\</span>
+  <span class="nt">--trigger-http</span> <span class="se">\</span>
+  <span class="nt">--allow-unauthenticated</span>
+</pre></td></tr></tbody></table></code></div></div>
 
 <h4 id="-azure-functions-cli"><span class="me-2">🔸 Azure Functions (CLI)</span><a href="#-azure-functions-cli" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
 
-<p>```bash
-func init MyFuncProj –worker-runtime node
-cd MyFuncProj
-func new –name HelloHttp –template “HTTP trigger”
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+</pre></td><td class="rouge-code"><pre>func init MyFuncProj <span class="nt">--worker-runtime</span> node
+<span class="nb">cd </span>MyFuncProj
+func new <span class="nt">--name</span> HelloHttp <span class="nt">--template</span> <span class="s2">"HTTP trigger"</span>
 func start
-```</p>
+</pre></td></tr></tbody></table></code></div></div>
 
 <hr />
 
@@ -1590,26 +1645,37 @@ func start
 
 <h4 id="-aws-elastic-beanstalk"><span class="me-2">🔸 AWS Elastic Beanstalk</span><a href="#-aws-elastic-beanstalk" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
 
-<p>```bash
-eb init -p node.js my-app
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre>eb init <span class="nt">-p</span> node.js my-app
 eb create my-env
 eb deploy
-```</p>
+</pre></td></tr></tbody></table></code></div></div>
 
 <h4 id="-gcp-app-engine"><span class="me-2">🔸 GCP App Engine</span><a href="#-gcp-app-engine" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
 
-<p>```bash
-gcloud app create
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre>gcloud app create
 gcloud app deploy
-```</p>
+</pre></td></tr></tbody></table></code></div></div>
 
 <h4 id="-azure-app-services"><span class="me-2">🔸 Azure App Services</span><a href="#-azure-app-services" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h4>
 
-<p>```bash
-az webapp up –name mywebapp123 <br />
-  –runtime “NODE|18-lts” <br />
-  –location “eastus”
-```</p>
+<div class="language-bash highlighter-rouge"><div class="code-header">
+        <span data-label-text="Shell"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre>az webapp up <span class="nt">--name</span> mywebapp123 <span class="se">\</span>
+  <span class="nt">--runtime</span> <span class="s2">"NODE|18-lts"</span> <span class="se">\</span>
+  <span class="nt">--location</span> <span class="s2">"eastus"</span>
+</pre></td></tr></tbody></table></code></div></div>
 
 <hr />
 
@@ -2048,6 +2114,21 @@ aws lambda update-function-code <span class="se">\</span>
 │   └── package.sh                  # Deployment script
 └── rails-app/
     └── app/jobs/image_processing_job.rb  # Rails job</p>
+
+<h2 id="the-flow-in-action"><span class="me-2">The Flow in Action</span><a href="#the-flow-in-action" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
+
+<ol>
+  <li>User uploads product → Rails controller</li>
+  <li>Rails saves product → Database</li>
+  <li>Rails queues job → ImageProcessingJob.perform_later(product.id)</li>
+  <li>Job executes → Calls lambda_client.invoke(function_name: ‘image-processor’)</li>
+  <li>AWS receives call → Finds function named ‘image-processor’</li>
+  <li>AWS executes → Runs lambda_handler method in deployed lambda_function.rb</li>
+  <li>Lambda processes → Downloads, resizes, uploads images</li>
+  <li>Lambda completes → Returns success response to Rails</li>
+</ol>
+
+<p>The key is that ‘image-processor’ is the name you give the function when deploying to AWS Lambda, and that same name is used in Rails to reference and invoke it.</p>
 
 <h2 id="-summary"><span class="me-2">📚 Summary</span><a href="#-summary" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h2>
 
