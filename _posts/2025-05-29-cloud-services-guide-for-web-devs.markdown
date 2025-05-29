@@ -451,6 +451,19 @@ serverless-functions/
 └── rails-app/
     └── app/jobs/image_processing_job.rb  # Rails job
 
+## The Flow in Action
+
+1. User uploads product → Rails controller
+2. Rails saves product → Database
+3. Rails queues job → ImageProcessingJob.perform_later(product.id)
+4. Job executes → Calls lambda_client.invoke(function_name: 'image-processor')
+5. AWS receives call → Finds function named 'image-processor'
+6. AWS executes → Runs lambda_handler method in deployed lambda_function.rb
+7. Lambda processes → Downloads, resizes, uploads images
+8. Lambda completes → Returns success response to Rails
+
+The key is that 'image-processor' is the name you give the function when deploying to AWS Lambda, and that same name is used in Rails to reference and invoke it.
+
 ## 📚 Summary
 
 Cloud platforms are essential to every stage of web development — from prototype to production. Understanding core services across AWS, GCP, and Azure empowers developers to:
