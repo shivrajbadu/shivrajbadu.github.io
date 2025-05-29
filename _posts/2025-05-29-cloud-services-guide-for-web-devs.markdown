@@ -43,30 +43,30 @@ Virtual Machines are the backbone of the cloud. They let you run any OS with ful
 
 #### 🔸 AWS EC2
 
-\`\`\`bash
+```bash
 # Launch EC2 instance via Console > Choose Ubuntu
 ssh -i "your-key.pem" ubuntu@<your-ec2-ip>
 
 sudo apt update
 sudo apt install nodejs npm
-\`\`\`
+```
 
 #### 🔸 GCP Compute Engine
 
-\`\`\`bash
+```bash
 # Launch VM from Console > Use browser-based SSH
 sudo apt update
 sudo apt install nodejs npm
-\`\`\`
+```
 
 #### 🔸 Azure Virtual Machines
 
-\`\`\`bash
+```bash
 # Create a VM via Azure Portal
 ssh azureuser@<your-vm-ip>
 sudo apt update
 sudo apt install nodejs npm
-\`\`\`
+```
 
 ---
 
@@ -79,27 +79,27 @@ Object storage is used to store large files like images, PDFs, backups, or stati
 
 #### 🔸 AWS S3
 
-\`\`\`bash
+```bash
 aws s3 mb s3://my-bucket-name
 aws s3 cp image.png s3://my-bucket-name
-\`\`\`
+```
 
 #### 🔸 GCP Cloud Storage
 
-\`\`\`bash
+```bash
 gsutil mb gs://my-bucket-name
 gsutil cp image.png gs://my-bucket-name
-\`\`\`
+```
 
 #### 🔸 Azure Blob Storage
 
-\`\`\`bash
+```bash
 az storage blob upload \
   --account-name mystorage \
   --container-name mycontainer \
   --file image.png \
   --name image.png
-\`\`\`
+```
 
 ---
 
@@ -115,22 +115,22 @@ Relational databases store structured data using SQL. Cloud platforms offer mana
 - Create RDS (PostgreSQL) from Console
 - Configure VPC/Security Group to allow port 5432
 
-\`\`\`bash
+```bash
 psql -h your-rds-endpoint -U dbuser -d dbname
-\`\`\`
+```
 
 #### 🔸 GCP Cloud SQL
 
-\`\`\`bash
+```bash
 gcloud sql instances create my-postgres \
   --database-version=POSTGRES_13 --tier=db-f1-micro
-\`\`\`
+```
 
 #### 🔸 Azure SQL Database
 
-\`\`\`bash
+```bash
 sqlcmd -S server-name.database.windows.net -U username -P password
-\`\`\`
+```
 
 ---
 
@@ -149,21 +149,21 @@ Serverless lets you run code without managing servers. Define a function, set tr
 
 #### 🔸 GCP Cloud Functions
 
-\`\`\`bash
+```bash
 gcloud functions deploy helloWorld \
   --runtime nodejs18 \
   --trigger-http \
   --allow-unauthenticated
-\`\`\`
+```
 
 #### 🔸 Azure Functions (CLI)
 
-\`\`\`bash
+```bash
 func init MyFuncProj --worker-runtime node
 cd MyFuncProj
 func new --name HelloHttp --template "HTTP trigger"
 func start
-\`\`\`
+```
 
 ---
 
@@ -176,26 +176,26 @@ Deploy and scale apps easily using managed hosting platforms. Ideal for web apps
 
 #### 🔸 AWS Elastic Beanstalk
 
-\`\`\`bash
+```bash
 eb init -p node.js my-app
 eb create my-env
 eb deploy
-\`\`\`
+```
 
 #### 🔸 GCP App Engine
 
-\`\`\`bash
+```bash
 gcloud app create
 gcloud app deploy
-\`\`\`
+```
 
 #### 🔸 Azure App Services
 
-\`\`\`bash
+```bash
 az webapp up --name mywebapp123 \
   --runtime "NODE|18-lts" \
   --location "eastus"
-\`\`\`
+```
 
 ---
 
