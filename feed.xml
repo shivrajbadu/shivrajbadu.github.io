@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2025-06-05T11:06:26+05:45</updated>
+  <updated>2025-06-05T14:25:39+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -20,11 +20,11 @@
 
   
   <entry>
-    <title>Ruby Enumerable group_by</title>
-    <link href="http://shivrajbadu.com.np/posts/ruby-multithreading/" rel="alternate" type="text/html" title="Ruby Enumerable group_by" />
-    <published>2025-06-04T22:25:58+05:45</published>
+    <title>Ruby MultiThreading</title>
+    <link href="http://shivrajbadu.com.np/posts/ruby-multithreading/" rel="alternate" type="text/html" title="Ruby MultiThreading" />
+    <published>2025-06-05T11:00:00+05:45</published>
   
-    <updated>2025-06-04T22:25:58+05:45</updated>
+    <updated>2025-06-05T14:18:47+05:45</updated>
   
     <id>http://shivrajbadu.com.np/posts/ruby-multithreading/</id>
     <content src="http://shivrajbadu.com.np/posts/ruby-multithreading/" />
@@ -53,6 +53,95 @@
 Ruby’s threading capabilities allow developers to write concurrent programs that can improve performance and responsiveness. While Ruby’s Global Interpreter Lock (GIL) presents some limitations, understanding multithreading is crucial for building efficient applications, especially for I/O-bound operations.
 
 Understanding Ruby Threa...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Ruby MultiThreading</title>
+    <link href="http://shivrajbadu.com.np/posts/ruby-exception-handling/" rel="alternate" type="text/html" title="Ruby MultiThreading" />
+    <published>2025-06-05T11:00:00+05:45</published>
+  
+    <updated>2025-06-05T11:00:00+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/ruby-exception-handling/</id>
+    <content src="http://shivrajbadu.com.np/posts/ruby-exception-handling/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="Ruby" />
+    
+    <category term="exception_handling" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Ruby Exception Handling: A Complete Guide to Robust Error Management
+
+Exception handling is a critical aspect of writing robust Ruby applications. It allows you to gracefully handle errors, provide meaningful feedback to users, and prevent your application from crashing unexpectedly. Ruby provides a comprehensive exception handling system that gives developers fine-grained control over error ma...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Ruby MultiThreading</title>
+    <link href="http://shivrajbadu.com.np/posts/regex-in-ruby/" rel="alternate" type="text/html" title="Ruby MultiThreading" />
+    <published>2025-06-05T11:00:00+05:45</published>
+  
+    <updated>2025-06-05T11:00:00+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/regex-in-ruby/</id>
+    <content src="http://shivrajbadu.com.np/posts/regex-in-ruby/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="Ruby" />
+    
+    <category term="regex" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Ruby Regex: Pattern Matching Made Simple
+
+Regular expressions (regex) in Ruby are powerful tools for pattern matching and text manipulation. Let’s dive into the essentials with practical examples you can use immediately.
+
+Basic Syntax
+
+Ruby provides two ways to create regex patterns:
+
+# Literal notation
+pattern = /hello/
+
+# Constructor method
+pattern = Regexp.new("hello")
+
+
+Common Matching Meth...
     </summary>
   
 
@@ -129,89 +218,6 @@ Ruby provides several powerful methods for grouping and organizing data, making 
 
 
       Authentication is the cornerstone of application security, determining how users prove their identity to access protected resources. With the evolution of web applications and APIs, various authentication methods have emerged, each with distinct advantages and use cases. This comprehensive guide explores the most common authentication types, their implementations, and when to use each approach....
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>The Complete Guide to AWS, GCP, and Azure for Web Developers</title>
-    <link href="http://shivrajbadu.com.np/posts/cloud-services-guide-for-web-devs/" rel="alternate" type="text/html" title="The Complete Guide to AWS, GCP, and Azure for Web Developers" />
-    <published>2025-05-29T02:30:00+05:45</published>
-  
-    <updated>2025-05-29T17:22:01+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/cloud-services-guide-for-web-devs/</id>
-    <content src="http://shivrajbadu.com.np/posts/cloud-services-guide-for-web-devs/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="cloud webdev devops aws gcp azure" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      A practical guide to the core services of AWS, GCP, and Azure with step-by-step instructions for developers building and deploying modern web applications.
-
-☁️ The Complete Guide to AWS, GCP, and Azure for Web Developers
-
-🚀 Introduction
-
-Whether you’re building your first full-stack app, deploying production services, or diving into the world of DevOps, understanding cloud platforms is a crucia...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Design Patterns in Rails: A Practical Guide</title>
-    <link href="http://shivrajbadu.com.np/posts/rails-design-pattern-overview/" rel="alternate" type="text/html" title="Design Patterns in Rails: A Practical Guide" />
-    <published>2025-05-28T18:38:00+05:45</published>
-  
-    <updated>2025-05-28T18:38:00+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/rails-design-pattern-overview/</id>
-    <content src="http://shivrajbadu.com.np/posts/rails-design-pattern-overview/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="Ruby on Rails" />
-    
-    <category term="design-patterns" />
-    
-    <category term="architecture" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Ruby on Rails (Rails) is known for its convention-over-configuration philosophy and rapid development capabilities. But as applications grow in complexity, simply following Rails conventions isn’t always enough. That’s where design patterns come into play.
-
-In this post, we’ll explore how common design patterns are used in Rails applications to keep code maintainable, readable, and scalable.
-
-
-...
     </summary>
   
 
