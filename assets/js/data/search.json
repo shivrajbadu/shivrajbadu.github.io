@@ -18,7 +18,7 @@
   },
   
   {
-    "title": "Ruby MultiThreading",
+    "title": "Ruby Exception Handling",
     "url": "/posts/ruby-exception-handling/",
     "categories": "Ruby, exception_handling",
     "tags": "ruby, exception_handling",
@@ -35,7 +35,7 @@
   },
   
   {
-    "title": "Ruby MultiThreading",
+    "title": "Regex in Ruby",
     "url": "/posts/regex-in-ruby/",
     "categories": "Ruby, regex",
     "tags": "ruby, regex",

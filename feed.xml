@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2025-06-05T14:25:39+05:45</updated>
+  <updated>2025-06-05T14:35:52+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -60,11 +60,11 @@ Understanding Ruby Threa...
 
   
   <entry>
-    <title>Ruby MultiThreading</title>
-    <link href="http://shivrajbadu.com.np/posts/ruby-exception-handling/" rel="alternate" type="text/html" title="Ruby MultiThreading" />
+    <title>Ruby Exception Handling</title>
+    <link href="http://shivrajbadu.com.np/posts/ruby-exception-handling/" rel="alternate" type="text/html" title="Ruby Exception Handling" />
     <published>2025-06-05T11:00:00+05:45</published>
   
-    <updated>2025-06-05T11:00:00+05:45</updated>
+    <updated>2025-06-05T14:35:34+05:45</updated>
   
     <id>http://shivrajbadu.com.np/posts/ruby-exception-handling/</id>
     <content src="http://shivrajbadu.com.np/posts/ruby-exception-handling/" />
@@ -98,11 +98,11 @@ Exception handling is a critical aspect of writing robust Ruby applications. It 
 
   
   <entry>
-    <title>Ruby MultiThreading</title>
-    <link href="http://shivrajbadu.com.np/posts/regex-in-ruby/" rel="alternate" type="text/html" title="Ruby MultiThreading" />
+    <title>Regex in Ruby</title>
+    <link href="http://shivrajbadu.com.np/posts/regex-in-ruby/" rel="alternate" type="text/html" title="Regex in Ruby" />
     <published>2025-06-05T11:00:00+05:45</published>
   
-    <updated>2025-06-05T11:00:00+05:45</updated>
+    <updated>2025-06-05T14:35:34+05:45</updated>
   
     <id>http://shivrajbadu.com.np/posts/regex-in-ruby/</id>
     <content src="http://shivrajbadu.com.np/posts/regex-in-ruby/" />
