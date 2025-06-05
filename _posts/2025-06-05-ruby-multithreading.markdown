@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Ruby Enumerable group_by"
-date:   2025-06-04 22:25:58 +0545
+title:  "Ruby MultiThreading"
+date:   2025-06-05 11:00:00 +0545
 categories: [Ruby, multithreading]
 tags: [ruby, multithreading]
 ---
