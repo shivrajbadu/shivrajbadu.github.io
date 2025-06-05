@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Ruby MultiThreading"
+title:  "Regex in Ruby"
 date:   2025-06-05 11:00:00 +0545
 categories: [Ruby, regex]
 tags: [ruby, regex]

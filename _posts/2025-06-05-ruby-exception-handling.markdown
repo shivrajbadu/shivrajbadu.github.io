@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Ruby MultiThreading"
+title:  "Ruby Exception Handling"
 date:   2025-06-05 11:00:00 +0545
 categories: [Ruby, exception_handling]
 tags: [ruby, exception_handling]
