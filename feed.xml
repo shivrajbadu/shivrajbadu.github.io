@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2025-06-04T22:56:38+05:45</updated>
+  <updated>2025-06-05T11:06:26+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -21,10 +21,50 @@
   
   <entry>
     <title>Ruby Enumerable group_by</title>
-    <link href="http://shivrajbadu.com.np/posts/ruby-group-by/" rel="alternate" type="text/html" title="Ruby Enumerable group_by" />
+    <link href="http://shivrajbadu.com.np/posts/ruby-multithreading/" rel="alternate" type="text/html" title="Ruby Enumerable group_by" />
     <published>2025-06-04T22:25:58+05:45</published>
   
     <updated>2025-06-04T22:25:58+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/ruby-multithreading/</id>
+    <content src="http://shivrajbadu.com.np/posts/ruby-multithreading/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="Ruby" />
+    
+    <category term="multithreading" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Ruby Multithreading: A Practical Guide for Better Performance
+
+Ruby’s threading capabilities allow developers to write concurrent programs that can improve performance and responsiveness. While Ruby’s Global Interpreter Lock (GIL) presents some limitations, understanding multithreading is crucial for building efficient applications, especially for I/O-bound operations.
+
+Understanding Ruby Threa...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Ruby Enumerable group_by</title>
+    <link href="http://shivrajbadu.com.np/posts/ruby-group-by/" rel="alternate" type="text/html" title="Ruby Enumerable group_by" />
+    <published>2025-06-04T22:25:58+05:45</published>
+  
+    <updated>2025-06-05T11:05:16+05:45</updated>
   
     <id>http://shivrajbadu.com.np/posts/ruby-group-by/</id>
     <content src="http://shivrajbadu.com.np/posts/ruby-group-by/" />
@@ -35,6 +75,8 @@
   
     
     <category term="Ruby" />
+    
+    <category term="group_by" />
     
   
 
@@ -170,46 +212,6 @@ In this post, we’ll explore how common design patterns are used in Rails appli
 
 
 ...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Deploy &amp; Scale AI Models with Amazon SageMaker: A Comprehensive Guide</title>
-    <link href="http://shivrajbadu.com.np/posts/amazon_sagemaker_foundation_model_deploy_and_scale/" rel="alternate" type="text/html" title="Deploy &amp;amp; Scale AI Models with Amazon SageMaker: A Comprehensive Guide" />
-    <published>2025-04-11T04:33:18+05:45</published>
-  
-    <updated>2025-04-11T23:25:48+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/amazon_sagemaker_foundation_model_deploy_and_scale/</id>
-    <content src="http://shivrajbadu.com.np/posts/amazon_sagemaker_foundation_model_deploy_and_scale/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="Artificial Intelligence (AI)" />
-    
-    <category term="Machine Learning" />
-    
-    <category term="AmazonSagemaker" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Introduction
-
-In today’s AI-driven landscape, deploying and scaling machine learning models efficiently is as crucial as developing them. Amazon SageMaker has emerged as a powerful platform that simplifies this process, offering a comprehensive suite of tools designed to streamline the entire machine learning lifecycle. This blog post will guide you through deploying foundation models, specific...
     </summary>
   
 
