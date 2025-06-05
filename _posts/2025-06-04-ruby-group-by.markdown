@@ -2,7 +2,7 @@
 layout: post
 title:  "Ruby Enumerable group_by"
 date:   2025-06-04 22:25:58 +0545
-categories: [Ruby]
+categories: [Ruby, group_by]
 tags: [ruby, group_by]
 ---
 
