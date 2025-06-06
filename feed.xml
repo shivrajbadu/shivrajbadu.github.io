@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2025-06-05T14:35:52+05:45</updated>
+  <updated>2025-06-06T19:56:45+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -17,6 +17,50 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>PowerBI data analysis and visualization</title>
+    <link href="http://shivrajbadu.com.np/posts/powerbi-datavisualization/" rel="alternate" type="text/html" title="PowerBI data analysis and visualization" />
+    <published>2025-06-06T11:00:00+05:45</published>
+  
+    <updated>2025-06-06T19:56:35+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/powerbi-datavisualization/</id>
+    <content src="http://shivrajbadu.com.np/posts/powerbi-datavisualization/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="data_visualization" />
+    
+    <category term="powerbi" />
+    
+    <category term="ai" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Power BI: AI-Powered Data Visualization for Modern Businesses
+
+Microsoft Power BI has transformed from a simple reporting tool into an intelligent analytics platform that combines data visualization with artificial intelligence. This evolution makes advanced analytics accessible to organizations without requiring extensive technical expertise.
+
+Key AI Features That Drive Intelligence
+
+Smart Nar...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -180,44 +224,6 @@ Common Matching Meth...
       Ruby Grouping
 
 Ruby provides several powerful methods for grouping and organizing data, making it easy to transform collections into structured formats. These grouping methods are part of Ruby’s Enumerable module, which means they’re available on arrays, hashes, ranges, and any other object that includes Enumerable. Whether you’re working with arrays of objects, processing user data, or analyzi...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Understanding Authentication Types: A Developer's Guide to Securing Applications</title>
-    <link href="http://shivrajbadu.com.np/posts/understanding-authentication-types/" rel="alternate" type="text/html" title="Understanding Authentication Types: A Developer&amp;apos;s Guide to Securing Applications" />
-    <published>2025-05-29T05:13:00+05:45</published>
-  
-    <updated>2025-05-29T17:22:01+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/understanding-authentication-types/</id>
-    <content src="http://shivrajbadu.com.np/posts/understanding-authentication-types/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="security" />
-    
-    <category term="authentication" />
-    
-    <category term="webdev" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Authentication is the cornerstone of application security, determining how users prove their identity to access protected resources. With the evolution of web applications and APIs, various authentication methods have emerged, each with distinct advantages and use cases. This comprehensive guide explores the most common authentication types, their implementations, and when to use each approach....
     </summary>
   
 
