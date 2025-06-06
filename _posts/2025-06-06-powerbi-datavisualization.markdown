@@ -51,7 +51,6 @@ Power BI's AI-enhanced visualization capabilities transform how businesses inter
 
 To demonstrate Power BI's capabilities in practice, here's a step-by-step visual guide showing the platform's key features and interface elements:
 
-
 ![PowerBI]({{ "/assets/img/powerbi/1_all_categories.png" | relative_url }})
 ![PowerBI]({{ "/assets/img/powerbi/2_apply_filter.png" | relative_url }})
 ![PowerBI]({{ "/assets/img/powerbi/3_tabular_view.png" | relative_url }})
@@ -65,3 +64,5 @@ To demonstrate Power BI's capabilities in practice, here's a step-by-step visual
 ![PowerBI]({{ "/assets/img/powerbi/11_filled_map_1.png" | relative_url }})
 ![PowerBI]({{ "/assets/img/powerbi/12_filled_map_2.png" | relative_url }})
 ![PowerBI]({{ "/assets/img/powerbi/13_transform_datasource_for_feature_eng.png" | relative_url }})
+
+{% include inarticle-adsense.html %}
