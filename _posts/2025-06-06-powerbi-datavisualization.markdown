@@ -47,4 +47,21 @@ Power BI continues evolving with enhanced natural language processing, sophistic
 
 Power BI's AI-enhanced visualization capabilities transform how businesses interact with data by automating insight discovery and providing predictive analytics. As data complexity grows, these intelligent tools become essential for competitive advantage, enabling organizations to make faster, more informed decisions regardless of their size or technical expertise.
 
-## 
+## Power BI in Action: A Visual Walkthrough
+
+To demonstrate Power BI's capabilities in practice, here's a step-by-step visual guide showing the platform's key features and interface elements:
+
+
+![PowerBI]({{ "/assets/img/powerbi/1_all_categories.png" | relative_url }})
+![PowerBI]({{ "/assets/img/powerbi/2_apply_filter.png" | relative_url }})
+![PowerBI]({{ "/assets/img/powerbi/3_tabular_view.png" | relative_url }})
+![PowerBI]({{ "/assets/img/powerbi/4_bubble_chart_correlation_view.png" | relative_url }})
+![PowerBI]({{ "/assets/img/powerbi/5_comparision_composition_pie_scatter_chart_view.png" | relative_url }})
+![PowerBI]({{ "/assets/img/powerbi/6_timeseries_analysis.png" | relative_url }})
+![PowerBI]({{ "/assets/img/powerbi/7_barclustered_chart.png" | relative_url }})
+![PowerBI]({{ "/assets/img/powerbi/8_tabular_view.png" | relative_url }})
+![PowerBI]({{ "/assets/img/powerbi/9_model_view.png" | relative_url }})
+![PowerBI]({{ "/assets/img/powerbi/10_dax_model_view.png" | relative_url }})
+![PowerBI]({{ "/assets/img/powerbi/11_filled_map_1.png" | relative_url }})
+![PowerBI]({{ "/assets/img/powerbi/12_filled_map_2.png" | relative_url }})
+![PowerBI]({{ "/assets/img/powerbi/13_transform_datasource_for_feature_eng.png" | relative_url }})
