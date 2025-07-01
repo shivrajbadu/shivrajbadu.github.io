@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2025-06-06T21:24:51+05:45</updated>
+  <updated>2025-07-01T20:10:39+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -17,6 +17,42 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>The Cost of Perfectionism in Dogfooding</title>
+    <link href="http://shivrajbadu.com.np/posts/the-cost-of-perfectionism-in-dogfooding/" rel="alternate" type="text/html" title="The Cost of Perfectionism in Dogfooding" />
+    <published>2025-07-01T08:00:00+05:45</published>
+  
+    <updated>2025-07-01T08:00:00+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/the-cost-of-perfectionism-in-dogfooding/</id>
+    <content src="http://shivrajbadu.com.np/posts/the-cost-of-perfectionism-in-dogfooding/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="tech_culture" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      The Freedom of Imperfection: Why ‘Low-Shame’ Dogfooding Drives Better Results
+
+In many organizations, sharing unfinished work feels risky. Employees are conditioned to believe that anything less than polished perfection invites criticism—so they overprepare, obsess over edge cases, and delay sharing until every possible “What if?” has been addressed. This makes sense for high-stakes, customer-f...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -186,44 +222,6 @@ pattern = Regexp.new("hello")
 
 
 Common Matching Meth...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Ruby Enumerable group_by</title>
-    <link href="http://shivrajbadu.com.np/posts/ruby-group-by/" rel="alternate" type="text/html" title="Ruby Enumerable group_by" />
-    <published>2025-06-04T22:25:58+05:45</published>
-  
-    <updated>2025-06-05T11:05:16+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/ruby-group-by/</id>
-    <content src="http://shivrajbadu.com.np/posts/ruby-group-by/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="Ruby" />
-    
-    <category term="group_by" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Ruby Grouping
-
-Ruby provides several powerful methods for grouping and organizing data, making it easy to transform collections into structured formats. These grouping methods are part of Ruby’s Enumerable module, which means they’re available on arrays, hashes, ranges, and any other object that includes Enumerable. Whether you’re working with arrays of objects, processing user data, or analyzi...
     </summary>
   
 
