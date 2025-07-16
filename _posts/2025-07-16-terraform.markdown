@@ -328,3 +328,7 @@ Terraform has revolutionized how we approach infrastructure management by bringi
 
 While there's a learning curve, the benefits of using Terraform far outweigh the initial investment in time and effort. Whether you're managing a single server or a complex multi-cloud architecture, Terraform provides the tools and flexibility needed to manage infrastructure efficiently and reliably.
 ---
+
+## Error and Fixes
+
+![Web MVC Architecture]({{ "../assets/img/terraform/terraform.png" | absolute_url }})
