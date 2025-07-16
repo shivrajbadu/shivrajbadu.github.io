@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2025-07-16T16:52:38+05:45</updated>
+  <updated>2025-07-16T16:59:39+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -17,6 +17,44 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>The Complete Guide to Terraform</title>
+    <link href="http://shivrajbadu.com.np/posts/terraform/" rel="alternate" type="text/html" title="The Complete Guide to Terraform" />
+    <published>2025-07-16T04:58:00+05:45</published>
+  
+    <updated>2025-07-16T16:59:33+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/terraform/</id>
+    <content src="http://shivrajbadu.com.np/posts/terraform/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="cloud devops aws gcp azure docker terraform" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Getting Started with Terraform: Infrastructure as Code Made Simple
+
+Introduction
+
+Terraform is a powerful Infrastructure as Code (IaC) tool developed by HashiCorp that allows developers and DevOps engineers to define, provision, and manage infrastructure resources using declarative configuration files. Instead of manually clicking through cloud consoles or writing complex scripts, Terraform ena...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -171,57 +209,6 @@ Understanding Ruby Threa...
       Ruby Exception Handling: A Complete Guide to Robust Error Management
 
 Exception handling is a critical aspect of writing robust Ruby applications. It allows you to gracefully handle errors, provide meaningful feedback to users, and prevent your application from crashing unexpectedly. Ruby provides a comprehensive exception handling system that gives developers fine-grained control over error ma...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Regex in Ruby</title>
-    <link href="http://shivrajbadu.com.np/posts/regex-in-ruby/" rel="alternate" type="text/html" title="Regex in Ruby" />
-    <published>2025-06-05T11:00:00+05:45</published>
-  
-    <updated>2025-06-05T14:35:34+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/regex-in-ruby/</id>
-    <content src="http://shivrajbadu.com.np/posts/regex-in-ruby/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="Ruby" />
-    
-    <category term="regex" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Ruby Regex: Pattern Matching Made Simple
-
-Regular expressions (regex) in Ruby are powerful tools for pattern matching and text manipulation. Let’s dive into the essentials with practical examples you can use immediately.
-
-Basic Syntax
-
-Ruby provides two ways to create regex patterns:
-
-# Literal notation
-pattern = /hello/
-
-# Constructor method
-pattern = Regexp.new("hello")
-
-
-Common Matching Meth...
     </summary>
   
 
