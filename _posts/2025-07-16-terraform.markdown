@@ -404,4 +404,89 @@ While there's a learning curve, the benefits of using Terraform far outweigh the
 
 ## Error and Fixes
 
-![Web MVC Architecture]({{ "../assets/img/terraform/terraform.png" | absolute_url }})
+![Terraform]({{ "../assets/img/terraform/terraform.png" | absolute_url }})
+
+# Rails + Nginx + Terraform Docker Setup
+
+## Problem
+I had a Rails app running in Docker at `localhost:3000` and an nginx container managed by Terraform at `localhost:8080`. I wanted to serve the Rails app through nginx instead of having separate ports.
+
+## Ways to Do: Multiple Containers vs Single Container
+Initially, I was confused why I couldn't run Rails **inside** the nginx container like traditional deployments:
+
+**Traditional Server (what I expected):**
+
+```
+Server
+├── nginx (web server)
+├── Rails app (process)
+└── Database
+```
+
+**Docker Way (what actually happens):**
+
+```
+Container 1: nginx
+Container 2: Rails app
+Container 3: Database
+```
+
+**Key insight:** Docker follows "one process per container" principle. Containers communicate over Docker's internal network, not as processes in the same system.
+
+## Solution: Nginx Reverse Proxy
+
+### 1. Create nginx.conf
+
+```nginx
+server {
+    listen 80;
+    location / {
+        proxy_pass http://host.docker.internal:3000;
+        proxy_set_header Host $host;
+        proxy_set_header X-Real-IP $remote_addr;
+        proxy_set_header X-Forwarded-For $proxy_add_x_forwarded_for;
+        proxy_set_header X-Forwarded-Proto $scheme;
+    }
+}
+```
+
+### 2. Update Terraform main.tf
+
+```hcl
+resource "docker_image" "nginx" {
+  name = "nginx:latest"
+  keep_locally = true
+}
+
+resource "docker_container" "web" {
+  image = docker_image.nginx.name
+  name  = "terraform-nginx"
+  ports {
+    internal = 80
+    external = 8080
+  }
+
+  volumes {
+    host_path = "${path.cwd}/nginx.conf"
+    container_path = "/etc/nginx/conf.d/default.conf"
+  }
+}
+```
+
+### 3. Test and Apply
+
+```bash
+# Test nginx config syntax
+docker run --rm -v $(pwd)/nginx.conf:/etc/nginx/conf.d/default.conf nginx nginx -t
+
+# Apply changes
+terraform apply
+
+# Test the setup
+curl http://localhost:8080
+```
+
+## Result
+- `localhost:8080` now serves Rails app through nginx
+- nginx acts as reverse proxy to Rails container
+- Clean separation of concerns with Docker containers
