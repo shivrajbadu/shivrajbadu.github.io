@@ -70,6 +70,79 @@ resource "docker_container" "web" {
 }
 ```
 
+* You might need to modify existing configuration with correct docker host path.
+
+
+```hcl
+terraform {
+  required_providers {
+    docker = {
+      source = "kreuzwerker/docker"
+    }
+  }
+}
+
+provider "docker" {
+  host = "unix:///Users/siv/.docker/run/docker.sock"
+}
+
+resource "docker_image" "nginx" {
+  name = "nginx:latest"
+  keep_locally = true
+}
+
+resource "docker_container" "web" {
+  image = docker_image.nginx.name
+  name  = "terraform-nginx"
+  ports {
+    internal = 80
+    external = 8080
+  }
+}
+
+```
+
+* Run following command on each config edit. Make sure your Docker is restarted/stopped-started
+
+```
+terraform init
+# Terraform has been successfully initialized!
+
+terraform validate
+# Success! The configuration is valid.
+
+terraform apply
+# Apply complete! Resources: 1 added, 1 changed, 0 destroyed.
+
+terraform destroy
+# Destroy complete! Resources: 2 destroyed.
+```
+
+* Possible error looks like:
+
+```
+Error: Error pinging Docker server, please make sure that unix:///var/run/docker.sock is reachable and has a  '_ping' endpoint. Error: Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?
+│
+│   with provider["registry.terraform.io/kreuzwerker/docker"],
+│   on main.tf line 9, in provider "docker":
+│    9: provider "docker" {}
+```
+
+* See Docker Context
+
+```
+docker context ls
+docker context use desktop-linux
+```
+
+```
+NAME              DESCRIPTION                               DOCKER ENDPOINT                             ERROR
+default           Current DOCKER_HOST based configuration   unix:///var/run/docker.sock
+desktop-linux *   Docker Desktop                            unix:///Users/siv/.docker/run/docker.sock
+```
+
+
+
 ### AWS EC2 Instance Example
 
 ```hcl
