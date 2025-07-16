@@ -61,7 +61,7 @@
 <meta name="twitter:site" content="@shivrajbadu" />
 <meta name="google-site-verification" content="1V6mjFi-H5goXTGWpdsB7z6Mcve5NUvIpvzaQJGxOtA# fill in to your verification string" />
 <script type="application/ld+json">
-{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-07-16T18:29:43+05:45","datePublished":"2025-07-16T04:58:00+05:45","description":"Getting Started with Terraform: Infrastructure as Code Made Simple","headline":"The Complete Guide to Terraform","mainEntityOfPage":{"@type":"WebPage","@id":"http://shivrajbadu.com.np/posts/terraform/"},"url":"http://shivrajbadu.com.np/posts/terraform/"}</script>
+{"@context":"https://schema.org","@type":"BlogPosting","dateModified":"2025-07-16T20:40:57+05:45","datePublished":"2025-07-16T04:58:00+05:45","description":"Getting Started with Terraform: Infrastructure as Code Made Simple","headline":"The Complete Guide to Terraform","mainEntityOfPage":{"@type":"WebPage","@id":"http://shivrajbadu.com.np/posts/terraform/"},"url":"http://shivrajbadu.com.np/posts/terraform/"}</script>
 <!-- End Jekyll SEO tag -->
 
   
@@ -1149,7 +1149,7 @@
 
 <time
   
-  data-ts="1752669883"
+  data-ts="1752677757"
   data-df="ll"
   
     data-bs-toggle="tooltip" data-bs-placement="bottom"
@@ -1198,9 +1198,9 @@
   class="readtime"
   data-bs-toggle="tooltip"
   data-bs-placement="bottom"
-  title="1113 words"
+  title="1350 words"
 >
-  <em>6 min</em> read</span>
+  <em>7 min</em> read</span>
 
       </div>
       <!-- .d-flex -->
@@ -1300,6 +1300,136 @@
     <span class="nx">external</span> <span class="p">=</span> <span class="mi">8080</span>
   <span class="p">}</span>
 <span class="p">}</span>
+</pre></td></tr></tbody></table></code></div></div>
+
+<ul>
+  <li>You might need to modify existing configuration with correct docker host path.</li>
+</ul>
+
+<div class="language-hcl highlighter-rouge"><div class="code-header">
+        <span data-label-text="Hcl"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+12
+13
+14
+15
+16
+17
+18
+19
+20
+21
+22
+23
+24
+25
+26
+</pre></td><td class="rouge-code"><pre><span class="nx">terraform</span> <span class="p">{</span>
+  <span class="nx">required_providers</span> <span class="p">{</span>
+    <span class="nx">docker</span> <span class="p">=</span> <span class="p">{</span>
+      <span class="nx">source</span> <span class="p">=</span> <span class="s2">"kreuzwerker/docker"</span>
+    <span class="p">}</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+
+<span class="nx">provider</span> <span class="s2">"docker"</span> <span class="p">{</span>
+  <span class="nx">host</span> <span class="p">=</span> <span class="s2">"unix:///Users/siv/.docker/run/docker.sock"</span>
+<span class="p">}</span>
+
+<span class="nx">resource</span> <span class="s2">"docker_image"</span> <span class="s2">"nginx"</span> <span class="p">{</span>
+  <span class="nx">name</span> <span class="p">=</span> <span class="s2">"nginx:latest"</span>
+  <span class="nx">keep_locally</span> <span class="p">=</span> <span class="kc">true</span>
+<span class="p">}</span>
+
+<span class="nx">resource</span> <span class="s2">"docker_container"</span> <span class="s2">"web"</span> <span class="p">{</span>
+  <span class="nx">image</span> <span class="p">=</span> <span class="nx">docker_image</span><span class="p">.</span><span class="nx">nginx</span><span class="p">.</span><span class="nx">name</span>
+  <span class="nx">name</span>  <span class="p">=</span> <span class="s2">"terraform-nginx"</span>
+  <span class="nx">ports</span> <span class="p">{</span>
+    <span class="nx">internal</span> <span class="p">=</span> <span class="mi">80</span>
+    <span class="nx">external</span> <span class="p">=</span> <span class="mi">8080</span>
+  <span class="p">}</span>
+<span class="p">}</span>
+
+</pre></td></tr></tbody></table></code></div></div>
+
+<ul>
+  <li>Run following command on each config edit. Make sure your Docker is restarted/stopped-started</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+11
+</pre></td><td class="rouge-code"><pre>terraform init
+# Terraform has been successfully initialized!
+
+terraform validate
+# Success! The configuration is valid.
+
+terraform apply
+# Apply complete! Resources: 1 added, 1 changed, 0 destroyed.
+
+terraform destroy
+# Destroy complete! Resources: 2 destroyed.
+</pre></td></tr></tbody></table></code></div></div>
+
+<ul>
+  <li>Possible error looks like:</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+4
+5
+</pre></td><td class="rouge-code"><pre>Error: Error pinging Docker server, please make sure that unix:///var/run/docker.sock is reachable and has a  '_ping' endpoint. Error: Cannot connect to the Docker daemon at unix:///var/run/docker.sock. Is the docker daemon running?
+│
+│   with provider["registry.terraform.io/kreuzwerker/docker"],
+│   on main.tf line 9, in provider "docker":
+│    9: provider "docker" {}
+</pre></td></tr></tbody></table></code></div></div>
+
+<ul>
+  <li>See Docker Context</li>
+</ul>
+
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+</pre></td><td class="rouge-code"><pre>docker context ls
+docker context use desktop-linux
+</pre></td></tr></tbody></table></code></div></div>
+
+<div class="language-plaintext highlighter-rouge"><div class="code-header">
+        <span data-label-text="Plaintext"><i class="fas fa-code fa-fw small"></i></span>
+      <button aria-label="copy" data-title-succeed="Copied!"><i class="far fa-clipboard"></i></button></div><div class="highlight"><code><table class="rouge-table"><tbody><tr><td class="rouge-gutter gl"><pre class="lineno">1
+2
+3
+</pre></td><td class="rouge-code"><pre>NAME              DESCRIPTION                               DOCKER ENDPOINT                             ERROR
+default           Current DOCKER_HOST based configuration   unix:///var/run/docker.sock
+desktop-linux *   Docker Desktop                            unix:///Users/siv/.docker/run/docker.sock
 </pre></td></tr></tbody></table></code></div></div>
 
 <h3 id="aws-ec2-instance-example"><span class="me-2">AWS EC2 Instance Example</span><a href="#aws-ec2-instance-example" class="anchor text-muted"><i class="fas fa-hashtag"></i></a></h3>
