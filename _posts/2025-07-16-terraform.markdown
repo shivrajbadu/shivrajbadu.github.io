@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "The Complete Guide to Terraform"
-date: 2025-05-29 2:30:00 +0545
+date: 2025-07-16 4:58:00 +0545
 categories: [cloud devops aws gcp azure docker terraform]
 tags: [aws, gcp, azure, cloud, devops, deployment, docker, terraform]
 ---
