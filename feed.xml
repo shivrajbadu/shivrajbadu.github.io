@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2025-07-27T17:53:29+05:45</updated>
+  <updated>2025-07-27T21:05:09+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -17,6 +17,53 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Gemini CLI with MCP Integration: AI Powered Terminal Coding Assistant and AI Development Workflow</title>
+    <link href="http://shivrajbadu.com.np/posts/gemini-cli-with-git-mcp-integration/" rel="alternate" type="text/html" title="Gemini CLI with MCP Integration: AI Powered Terminal Coding Assistant and AI Development Workflow" />
+    <published>2025-07-27T08:20:00+05:45</published>
+  
+    <updated>2025-07-27T21:03:59+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/gemini-cli-with-git-mcp-integration/</id>
+    <content src="http://shivrajbadu.com.np/posts/gemini-cli-with-git-mcp-integration/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="Artificial Intelligence (AI)" />
+    
+    <category term="gemini-cli" />
+    
+    <category term="MCP" />
+    
+    <category term="mcp_server_git" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Gemini CLI: Google’s AI Coding Assistant with MCP Integration
+
+Google’s Gemini CLI brings the power of Gemini 2.5 Pro directly into your terminal, offering code understanding, file manipulation, and intelligent automation. With its 1-million-token context window, it can handle large codebases and complex development tasks with ease.
+
+Key Features
+
+
+  Large Codebase Analysis: Handle projects bey...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -171,46 +218,6 @@ Microsoft Power BI has transformed from a simple reporting tool into an intellig
 Key AI Features That Drive Intelligence
 
 Smart Nar...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Ruby MultiThreading</title>
-    <link href="http://shivrajbadu.com.np/posts/ruby-multithreading/" rel="alternate" type="text/html" title="Ruby MultiThreading" />
-    <published>2025-06-05T11:00:00+05:45</published>
-  
-    <updated>2025-06-05T14:18:47+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/ruby-multithreading/</id>
-    <content src="http://shivrajbadu.com.np/posts/ruby-multithreading/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="Ruby" />
-    
-    <category term="multithreading" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Ruby Multithreading: A Practical Guide for Better Performance
-
-Ruby’s threading capabilities allow developers to write concurrent programs that can improve performance and responsiveness. While Ruby’s Global Interpreter Lock (GIL) presents some limitations, understanding multithreading is crucial for building efficient applications, especially for I/O-bound operations.
-
-Understanding Ruby Threa...
     </summary>
   
 
