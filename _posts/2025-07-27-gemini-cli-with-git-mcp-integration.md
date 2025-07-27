@@ -220,5 +220,6 @@ To demonstrate Gemini-Cli's capabilities in practice, here's a step-by-step visu
 ![GeminiCli]({{ "/assets/img/geminicli/git-added.png" | relative_url }})
 ![GeminiCli]({{ "/assets/img/geminicli/git-commit.png" | relative_url }})
 ![GeminiCli]({{ "/assets/img/geminicli/git-committed.png" | relative_url }})
+![GeminiCli]({{ "/assets/img/geminicli/summarize-last-3-commits.png" | relative_url }})
 
 {% include inarticle-adsense.html %}
