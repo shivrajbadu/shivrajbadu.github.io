@@ -365,3 +365,5 @@ Remember that premature optimization is the root of all evil—benchmark first, 
 - [benchmark-ips gem](https://github.com/evanphx/benchmark-ips)
 - [memory_profiler gem](https://github.com/SamSaffron/memory_profiler)
 - [rack-mini-profiler gem](https://github.com/MiniProfiler/rack-mini-profiler)
+
+{% include inarticle-adsense.html %}

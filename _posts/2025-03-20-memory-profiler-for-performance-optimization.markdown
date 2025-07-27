@@ -515,3 +515,5 @@ By applying these techniques, you can build Ruby applications that are not only 
 - [Ruby Garbage Collection Deep Dive](https://jemma.dev/blog/gc-ruby)
 - [Ruby Performance Optimization by Alexander Dymo](https://pragprog.com/titles/adrpo/ruby-performance-optimization/)
 - [Derailed Benchmarks](https://github.com/schneems/derailed_benchmarks) - A Rails memory benchmarking tool
+
+{% include inarticle-adsense.html %}

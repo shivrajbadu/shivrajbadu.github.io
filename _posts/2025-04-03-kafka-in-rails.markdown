@@ -216,3 +216,5 @@ end
 2. Ensure the topic exists (kafka-topics.sh --list).
 3. Check Kafka listener settings (cat server.properties).
 4. Restart Kafka (docker restart gallant_shockley).
+
+{% include inarticle-adsense.html %}

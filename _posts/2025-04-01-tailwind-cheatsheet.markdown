@@ -117,3 +117,5 @@ Here's a comprehensive list of Tailwind CSS utility categories and their class n
 - Active: `active:`
 - Responsive: `sm:`, `md:`, `lg:`, `xl:`, `2xl:`
 - Dark mode: `dark:`
+
+{% include inarticle-adsense.html %}

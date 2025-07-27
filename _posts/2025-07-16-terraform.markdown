@@ -490,3 +490,5 @@ curl http://localhost:8080
 - `localhost:8080` now serves Rails app through nginx
 - nginx acts as reverse proxy to Rails container
 - Clean separation of concerns with Docker containers
+
+{% include inarticle-adsense.html %}

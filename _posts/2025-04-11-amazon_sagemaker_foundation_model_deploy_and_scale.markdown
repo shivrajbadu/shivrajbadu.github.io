@@ -210,3 +210,5 @@ As AI continues to evolve and more foundation models become available, platforms
 - [Amazon SageMaker JumpStart](https://aws.amazon.com/sagemaker/jumpstart/)
 - [Foundation Models in SageMaker](https://aws.amazon.com/sagemaker/foundation-models/)
 - [SageMaker Auto Scaling](https://docs.aws.amazon.com/sagemaker/latest/dg/endpoint-auto-scaling.html)
+
+{% include inarticle-adsense.html %}

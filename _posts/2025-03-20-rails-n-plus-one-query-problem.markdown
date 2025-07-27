@@ -402,3 +402,5 @@ By keeping these practices in mind, you'll be well on your way to faster, more e
 - [Bullet gem documentation](https://github.com/flyerhzm/bullet)
 - [rack-mini-profiler gem](https://github.com/MiniProfiler/rack-mini-profiler) for performance profiling
 - [Rails APM tools](https://blog.scoutapp.com/articles/2018/01/17/actionable-steps-to-identify-n-1-queries) such as Scout, New Relic, or AppSignal
+
+{% include inarticle-adsense.html %}
