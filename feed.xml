@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2025-07-28T16:29:04+05:45</updated>
+  <updated>2025-07-28T23:15:23+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -17,6 +17,50 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>From Server Headaches to Serverless Success: Building APIs That Scale with Lambda and API Gateway</title>
+    <link href="http://shivrajbadu.com.np/posts/serverless-compute-aws-lambda-and-api-gateway/" rel="alternate" type="text/html" title="From Server Headaches to Serverless Success: Building APIs That Scale with Lambda and API Gateway" />
+    <published>2025-07-28T22:45:00+05:45</published>
+  
+    <updated>2025-07-28T22:45:00+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/serverless-compute-aws-lambda-and-api-gateway/</id>
+    <content src="http://shivrajbadu.com.np/posts/serverless-compute-aws-lambda-and-api-gateway/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="Serverless" />
+    
+    <category term="AWS" />
+    
+    <category term="API" />
+    
+    <category term="LambdaFunction" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Serverless computing has revolutionized how we build and deploy applications. AWS Lambda, combined with API Gateway, creates a powerful duo that eliminates server management while delivering scalable, cost-effective solutions.
+
+Why Serverless Matters
+
+Gone are the days of provisioning servers, managing infrastructure, or worrying about scaling. With Lambda, you write code, deploy it, and AWS ha...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -174,50 +218,6 @@ Terraform is a powerful Infrastructure as Code (IaC) tool developed by HashiCorp
       The Freedom of Imperfection: Why ‘Low-Shame’ Dogfooding Drives Better Results
 
 In many organizations, sharing unfinished work feels risky. Employees are conditioned to believe that anything less than polished perfection invites criticism—so they overprepare, obsess over edge cases, and delay sharing until every possible “What if?” has been addressed. This makes sense for high-stakes, customer-f...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>PowerBI data analysis and visualization</title>
-    <link href="http://shivrajbadu.com.np/posts/powerbi-datavisualization/" rel="alternate" type="text/html" title="PowerBI data analysis and visualization" />
-    <published>2025-06-06T11:00:00+05:45</published>
-  
-    <updated>2025-06-06T21:24:29+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/powerbi-datavisualization/</id>
-    <content src="http://shivrajbadu.com.np/posts/powerbi-datavisualization/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="data_visualization" />
-    
-    <category term="powerbi" />
-    
-    <category term="ai" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Power BI: AI-Powered Data Visualization for Modern Businesses
-
-Microsoft Power BI has transformed from a simple reporting tool into an intelligent analytics platform that combines data visualization with artificial intelligence. This evolution makes advanced analytics accessible to organizations without requiring extensive technical expertise.
-
-Key AI Features That Drive Intelligence
-
-Smart Nar...
     </summary>
   
 
