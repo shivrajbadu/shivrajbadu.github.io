@@ -56,7 +56,7 @@ To optimize performance there is a term called `N + 1` queries which needs to av
 
 But there might be certain situation, where we blindly follow `:includes`, and, add unused association just a shake of solving `N + 1`, and later, it creates another performance issue something like PG::InternalError: ERROR: invalid memory alloc request size. That means we are preloading huge number of unwanted records in memory and the size of memory exhausted, issue is visualize in following screen. In this case, we need to optimize by removing unwanted association added inside includes that exhaust memory.
 
-![AI And Future]({{ "../assets/img/performance/query_execution_visual_planner.jpg" | absolute_url }})
+![AI And Future]({{ "../assets/img/performance/query_execution_visual_planner.png" | absolute_url }})
 
 #### Conclusion
 
