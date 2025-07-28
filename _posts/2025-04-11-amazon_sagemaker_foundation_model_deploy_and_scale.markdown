@@ -2,8 +2,8 @@
 layout: post
 title: "Deploy & Scale AI Models with Amazon SageMaker: A Comprehensive Guide"
 date: 2025-04-11 04:33:18 +0545
-categories: [Artificial Intelligence (AI),  Machine Learning, AmazonSagemaker]
-tags: [ai, ml, amazon_sagemaker]
+categories: [Artificial Intelligence (AI),  Machine Learning, AmazonSagemaker, AWS]
+tags: [ai, ml, amazon_sagemaker, aws]
 ---
 
 ## Introduction
