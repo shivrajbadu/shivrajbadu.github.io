@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Building Modern Rails Apps in 2025: Evolving with the Rails 8 Ecosystem
+title: "Building Modern Rails Apps in 2025: Evolving with the Rails 8 Ecosystem"
 date: 2025-07-31 05:31:00 +0545
 categories: [Ruby on Rails]
 tags: [ruby on rails, webapp, rails8]
