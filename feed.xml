@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2025-07-31T18:26:01+05:45</updated>
+  <updated>2025-07-31T23:50:48+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -20,19 +20,59 @@
 
   
   <entry>
-    <title></title>
-    <link href="http://shivrajbadu.com.np/posts/2025-07-31-building-modern-rails-apps-2025-ecosystem/" rel="alternate" type="text/html" title="" />
-    <published>2025-07-31T18:26:01+05:45</published>
+    <title>Rails Query Optimization guide Part I</title>
+    <link href="http://shivrajbadu.com.np/posts/rails-query-optimization-guide-1/" rel="alternate" type="text/html" title="Rails Query Optimization guide Part I" />
+    <published>2025-07-31T05:31:00+05:45</published>
   
-    <updated>2025-07-31T18:26:01+05:45</updated>
+    <updated>2025-07-31T05:31:00+05:45</updated>
   
-    <id>http://shivrajbadu.com.np/posts/2025-07-31-building-modern-rails-apps-2025-ecosystem/</id>
-    <content src="http://shivrajbadu.com.np/posts/2025-07-31-building-modern-rails-apps-2025-ecosystem/" />
+    <id>http://shivrajbadu.com.np/posts/rails-query-optimization-guide-1/</id>
+    <content src="http://shivrajbadu.com.np/posts/rails-query-optimization-guide-1/" />
     <author>
       <name>Shivraj Badu</name>
     </author>
 
   
+    
+    <category term="Ruby on Rails" />
+    
+    <category term="Performance" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Rails Query Optimization: Complete Guide to Database Performance
+
+Database query optimization is the cornerstone of building high-performance Ruby on Rails applications. Poor query patterns can transform a responsive application into a sluggish, resource-hungry system that frustrates users and drains infrastructure budgets. This comprehensive guide explores proven techniques, advanced strategie...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Building Modern Rails Apps in 2025: Evolving with the Rails 8 Ecosystem</title>
+    <link href="http://shivrajbadu.com.np/posts/building-modern-rails-apps-2025-ecosystem/" rel="alternate" type="text/html" title="Building Modern Rails Apps in 2025: Evolving with the Rails 8 Ecosystem" />
+    <published>2025-07-31T05:31:00+05:45</published>
+  
+    <updated>2025-07-31T18:29:08+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/building-modern-rails-apps-2025-ecosystem/</id>
+    <content src="http://shivrajbadu.com.np/posts/building-modern-rails-apps-2025-ecosystem/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="Ruby on Rails" />
     
   
 
@@ -182,44 +222,6 @@ Key Features
       Qwen Code: Your Local AI Coding Assistant - A Powerful Alternative to Claude Code
 
 The world of AI-powered coding assistants is rapidly evolving, and while Anthropic’s Claude Code has been making waves in the developer community, there’s an exciting open-source alternative that deserves your attention: Qwen Code. This command-line AI workflow tool brings the power of advanced coding assistance ...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>The Complete Guide to Terraform</title>
-    <link href="http://shivrajbadu.com.np/posts/terraform/" rel="alternate" type="text/html" title="The Complete Guide to Terraform" />
-    <published>2025-07-16T04:58:00+05:45</published>
-  
-    <updated>2025-07-27T17:53:25+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/terraform/</id>
-    <content src="http://shivrajbadu.com.np/posts/terraform/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="cloud devops aws gcp azure docker terraform" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Getting Started with Terraform: Infrastructure as Code Made Simple
-
-Introduction
-
-Terraform is a powerful Infrastructure as Code (IaC) tool developed by HashiCorp that allows developers and DevOps engineers to define, provision, and manage infrastructure resources using declarative configuration files. Instead of manually clicking through cloud consoles or writing complex scripts, Terraform ena...
     </summary>
   
 
