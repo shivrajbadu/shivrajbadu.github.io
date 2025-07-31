@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2025-07-28T23:15:23+05:45</updated>
+  <updated>2025-07-31T18:26:01+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -17,6 +17,44 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title></title>
+    <link href="http://shivrajbadu.com.np/posts/2025-07-31-building-modern-rails-apps-2025-ecosystem/" rel="alternate" type="text/html" title="" />
+    <published>2025-07-31T18:26:01+05:45</published>
+  
+    <updated>2025-07-31T18:26:01+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/2025-07-31-building-modern-rails-apps-2025-ecosystem/</id>
+    <content src="http://shivrajbadu.com.np/posts/2025-07-31-building-modern-rails-apps-2025-ecosystem/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      🚀 Building Modern Rails Apps in 2025: Evolving with the Rails 8 Ecosystem
+
+Rails 8 isn’t just another version update—it’s a thoughtful evolution that keeps the framework’s beloved simplicity while embracing modern web development realities. Let’s explore how Rails continues to deliver developer happiness in 2025.
+
+1. From Request to Response: Rails 8 in Motion
+
+The journey of a request through ...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -182,42 +220,6 @@ The world of AI-powered coding assistants is rapidly evolving, and while Anthrop
 Introduction
 
 Terraform is a powerful Infrastructure as Code (IaC) tool developed by HashiCorp that allows developers and DevOps engineers to define, provision, and manage infrastructure resources using declarative configuration files. Instead of manually clicking through cloud consoles or writing complex scripts, Terraform ena...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>The Cost of Perfectionism in Dogfooding</title>
-    <link href="http://shivrajbadu.com.np/posts/the-cost-of-perfectionism-in-dogfooding/" rel="alternate" type="text/html" title="The Cost of Perfectionism in Dogfooding" />
-    <published>2025-07-01T08:00:00+05:45</published>
-  
-    <updated>2025-07-01T08:00:00+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/the-cost-of-perfectionism-in-dogfooding/</id>
-    <content src="http://shivrajbadu.com.np/posts/the-cost-of-perfectionism-in-dogfooding/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="tech_culture" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      The Freedom of Imperfection: Why ‘Low-Shame’ Dogfooding Drives Better Results
-
-In many organizations, sharing unfinished work feels risky. Employees are conditioned to believe that anything less than polished perfection invites criticism—so they overprepare, obsess over edge cases, and delay sharing until every possible “What if?” has been addressed. This makes sense for high-stakes, customer-f...
     </summary>
   
 
