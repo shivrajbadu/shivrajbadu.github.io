@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Rails Query Optimization guide Part I"
+title: "Rails Query Optimization guide"
 date: 2025-07-31 05:31:00 +0545
 categories: [Ruby on Rails, Performance]
-tags: [ruby on rails, optimization, query, performance, profiling]
+tags: [ruby on rails, optimization, query, performance, profiling, benchmark]
 ---
 
 # Rails Query Optimization: Complete Guide to Database Performance
@@ -318,132 +318,291 @@ active_users_with_data = User.joins(:posts)
 
 ## Performance Monitoring and Detection Tools
 
-### 1. Bullet Gem - N+1 Query Detection
+### 1. Development Tools
 
-Bullet helps identify query inefficiencies during development.
-
-**Installation:**
+#### Bullet Gem - N+1 Query Detection
 ```ruby
 # Gemfile
 group :development do
   gem 'bullet'
 end
-```
 
-**Configuration:**
-```ruby
 # config/environments/development.rb
 config.after_initialize do
   Bullet.enable = true
   Bullet.alert = true
   Bullet.bullet_logger = true
   Bullet.rails_logger = true
-  Bullet.console = true
 end
 ```
 
-**What Bullet Detects:**
-- N+1 queries with suggestions for `.includes`
-- Unused eager loading
-- Missing counter caches
-- Unnecessary queries
-
-### 2. Prosopite - Modern N+1 Detection
-
-A lightweight alternative to Bullet with better Rails 7+ compatibility.
-
-**Installation and Setup:**
+#### Prosopite - Lightweight Alternative
 ```ruby
 # Gemfile
 group :development do
   gem 'prosopite'
 end
 
-# In your application
+# Configuration
 Prosopite.finish = true
 Prosopite.rails_logger = true
 ```
 
-### 3. Query Analysis with EXPLAIN
-
-Active Record's `.explain` method reveals database execution plans.
-
+#### Rack Mini Profiler - Real-time Performance
 ```ruby
-# Analyze query performance
-puts User.joins(:posts)
-         .where(active: true)
-         .order(:created_at)
-         .explain
+# Gemfile
+gem 'rack-mini-profiler'
 
-# Sample output analysis:
-# - Look for "Using index" vs "Using filesort"
-# - Check "rows" column for scanned row count
-# - Identify missing indexes
+# Shows performance overlay in browser
+# Identifies slow queries and memory usage automatically
 ```
 
-**Interpreting EXPLAIN Output:**
-- **Using index**: Good - query uses an index
-- **Using filesort**: Consider adding an index
-- **High row count**: May need query optimization
-- **Using temporary**: Complex query may need refactoring
+### 2. Production Monitoring
 
-### 4. Memory Leak Detection
+#### ScoutAPM - Comprehensive Performance Tracking
+```ruby
+# Gemfile
+gem 'scout_apm'
 
-**Using Derailed Benchmarks:**
-```bash
-# Add to Gemfile
-gem 'derailed_benchmarks', group: :development
-
-# Profile memory usage
-bundle exec derailed bundle:mem
-
-# Identify memory-hungry queries
-bundle exec derailed bundle:objects
+# Provides:
+# - SQL query breakdown with execution times
+# - Historical performance trends  
+# - Memory leak detection
+# - Endpoint-specific analysis
 ```
 
-**Memory-Efficient Patterns:**
+#### Skylight - Query Performance Insights
 ```ruby
-# Instead of loading all records
+# Gemfile  
+gem 'skylight'
+
+# Features:
+# - Endpoint-specific query analysis
+# - Detailed timing breakdowns
+# - Historical performance metrics
+```
+
+### 3. Query Analysis and Memory Profiling
+
+#### EXPLAIN for Query Analysis
+```ruby
+# Analyze execution plans
+puts User.joins(:posts).where(active: true).explain
+
+# Look for:
+# - "Using index" (good) vs "Using filesort" (add index)
+# - High row counts (optimize query)
+# - "Using temporary" (refactor complex queries)
+```
+
+#### Memory Profiler for Leak Detection
+```ruby
+# Gemfile
+gem 'memory_profiler'
+
+# Usage
+require 'memory_profiler'
+report = MemoryProfiler.report do
+  Post.includes(:comments, :tags).limit(100).to_a
+end
+report.pretty_print
+
+# Analyze output for high Active Record allocations
+```
+
+#### Batch Processing for Memory Efficiency
+```ruby
+# Bad - loads all into memory
 User.includes(:posts).each { |user| process_user(user) }
 
-# Use batch processing
-User.includes(:posts).find_each { |user| process_user(user) }
+# Good - processes in batches
+User.includes(:posts).find_in_batches(batch_size: 100) do |batch|
+  batch.each { |user| process_user(user) }
+end
 
-# Or select only needed columns
+# Even better - select only needed columns
 User.select(:id, :name).find_each { |user| process_user(user) }
+```
+
+## Advanced Indexing Strategies
+
+### 1. Composite Indexes
+
+Multi-column indexes optimize queries filtering on multiple columns. Place the most selective column first.
+
+```ruby
+# Migration
+add_index :orders, [:user_id, :created_at]
+add_index :posts, [:user_id, :status, :published_at]
+
+# Optimizes queries like:
+Order.where(user_id: 1).order(created_at: :desc)
+Post.where(user_id: 1, status: 'published')
+```
+
+### 2. Partial Indexes
+
+Index only rows matching specific conditions to reduce index size and improve write performance.
+
+```ruby
+# Index only active users
+add_index :users, :email, unique: true, where: "active = true"
+
+# Index only published posts
+add_index :posts, :created_at, where: "status = 'published'"
+
+# Usage - index is used automatically
+User.where(active: true, email: "user@example.com")
+```
+
+### 3. JSONB Indexes (PostgreSQL)
+
+For applications using JSON data, JSONB indexes dramatically improve query performance.
+
+```ruby
+# GIN index for JSONB columns
+add_index :products, :metadata, using: :gin
+
+# Expression index for specific JSON keys
+add_index :products, "(metadata->>'category')", using: :btree
+
+# Usage
+Product.where("metadata->>'category' = ?", 'Electronics')
+Product.where("metadata @> ?", { brand: 'Apple' }.to_json)
+```
+
+### 4. Covering Indexes
+
+Include all columns needed for a query to avoid table lookups.
+
+```ruby
+# Covers SELECT id, title WHERE user_id = ? ORDER BY created_at
+add_index :posts, [:user_id, :created_at], include: [:id, :title]
+
+# Query uses index-only scan
+Post.select(:id, :title)
+    .where(user_id: 1)
+    .order(:created_at)
+```
+
+## Advanced Query Refactoring
+
+### 1. Efficient Subqueries
+
+Use subqueries to filter data before expensive operations.
+
+```ruby
+# Instead of joining large tables
+User.joins(:orders).where(orders: { status: 'completed' })
+
+# Use subquery to pre-filter
+completed_orders = Order.select(:user_id).where(status: 'completed')
+User.where(id: completed_orders)
+```
+
+### 2. Query Merging for DRY Code
+
+Reuse scope logic with `.merge()` for maintainable queries.
+
+```ruby
+class Comment < ApplicationRecord
+  scope :approved, -> { where(approved: true) }
+  scope :recent, -> { where('created_at > ?', 1.week.ago) }
+end
+
+# Instead of duplicating conditions
+Post.joins(:comments).where(comments: { approved: true })
+
+# Reuse existing scopes
+Post.joins(:comments).merge(Comment.approved.recent)
+```
+
+### 3. Optimized Column Selection
+
+Always specify needed columns to reduce memory usage and transfer time.
+
+```ruby
+# Bad - loads all columns
+posts = Post.where(published: true)
+titles = posts.map(&:title)
+
+# Good - loads only needed data
+titles = Post.where(published: true).pluck(:title)
+
+# For multiple columns maintaining objects
+posts = Post.select(:id, :title, :excerpt).where(published: true)
 ```
 
 ## Advanced Database Strategies
 
-### 1. Database Views for Complex Queries
+### 1. Database Views with Scenic Gem
 
-Create database views for frequently used complex queries.
+Create reusable complex queries as database views using the Scenic gem.
 
 ```ruby
-# Create a view in migration
+# Gemfile
+gem 'scenic'
+
+# Generate view
+rails generate scenic:view active_post_stats
+
+# db/views/active_post_stats_v01.sql
+SELECT p.id,
+       p.title,
+       p.user_id,
+       COUNT(c.id) as comments_count,
+       AVG(c.rating) as avg_rating
+FROM posts p
+LEFT JOIN comments c ON c.post_id = p.id
+WHERE p.status = 'published'
+GROUP BY p.id, p.title, p.user_id;
+
+# Use in Rails
+class ActivePostStat < ApplicationRecord
+  self.table_name = 'active_post_stats'
+  # Read-only model
+end
+
+# Query like any model
+popular_posts = ActivePostStat.where('comments_count > 10')
+```
+
+### 2. Materialized Views for Heavy Computations
+
+Store expensive query results physically for better performance.
+
+```ruby
+# Create materialized view
 class CreateUserStatsView < ActiveRecord::Migration[7.0]
   def up
     execute <<-SQL
-      CREATE VIEW user_stats AS
-      SELECT users.id,
-             users.name,
-             COUNT(posts.id) as posts_count,
-             AVG(posts.rating) as avg_rating
-      FROM users
-      LEFT JOIN posts ON posts.user_id = users.id
-      GROUP BY users.id, users.name
+      CREATE MATERIALIZED VIEW user_engagement_stats AS
+      SELECT u.id,
+             u.name,
+             COUNT(DISTINCT p.id) as posts_count,
+             COUNT(DISTINCT c.id) as comments_count,
+             AVG(p.views_count) as avg_post_views
+      FROM users u
+      LEFT JOIN posts p ON p.user_id = u.id
+      LEFT JOIN comments c ON c.user_id = u.id
+      GROUP BY u.id, u.name;
+      
+      CREATE UNIQUE INDEX ON user_engagement_stats (id);
     SQL
   end
 
   def down
-    execute "DROP VIEW user_stats"
+    execute "DROP MATERIALIZED VIEW user_engagement_stats"
   end
 end
 
-# Use the view
-class UserStat < ApplicationRecord
-  self.table_name = 'user_stats'
-  # This is a read-only model
+# Refresh periodically (in background job)
+class RefreshStatsJob < ApplicationJob
+  def perform
+    ActiveRecord::Base.connection.execute(
+      "REFRESH MATERIALIZED VIEW user_engagement_stats"
+    )
+  end
 end
 ```
 
@@ -495,21 +654,42 @@ end
 
 ## Query Optimization Checklist
 
-### Before Deployment
-- [ ] Run Bullet gem to detect N+1 queries
-- [ ] Add indexes for frequently queried columns
-- [ ] Use `.select` or `.pluck` to limit loaded columns
+### Pre-Development Setup
+- [ ] Install Bullet gem for N+1 detection
+- [ ] Set up Prosopite for lightweight query monitoring
+- [ ] Configure Rack Mini Profiler for development insights
+
+### Code Review Checklist
+- [ ] Check for N+1 queries - use `.includes`, `.preload`, or `.eager_load`
+- [ ] Verify selective column loading with `.select` or `.pluck`
+- [ ] Add indexes for `WHERE`, `JOIN`, `ORDER BY` columns
 - [ ] Implement counter caches for association counts
 - [ ] Use `.find_each` for large dataset processing
 - [ ] Cache expensive queries with appropriate expiration
-- [ ] Profile memory usage with derailed_benchmarks
+- [ ] Utilize scopes for reusable query logic
 
-### In Production
-- [ ] Monitor slow query logs
-- [ ] Set up database performance monitoring
+### Database Optimization
+- [ ] Add composite indexes for multi-column queries
+- [ ] Create partial indexes for conditional queries
+- [ ] Consider JSONB indexes for JSON column queries
+- [ ] Implement covering indexes for select-heavy queries
+- [ ] Use database views for complex, repeated queries
+- [ ] Set up materialized views for expensive aggregations
+
+### Production Monitoring
+- [ ] Implement APM tools (ScoutAPM, Skylight, or similar)
+- [ ] Monitor slow query logs regularly
+- [ ] Set up database performance alerts
+- [ ] Track query performance trends over time
+- [ ] Configure query timeout settings
 - [ ] Regular EXPLAIN analysis of complex queries
-- [ ] Track query performance metrics over time
-- [ ] Implement query timeout settings
+
+### Performance Testing
+- [ ] Benchmark queries with realistic data volumes
+- [ ] Profile memory usage during peak loads
+- [ ] Test with production-like database sizes
+- [ ] Validate caching strategies under load
+- [ ] Measure response times before/after optimizations
 
 ## Performance Testing Strategies
 
@@ -596,7 +776,6 @@ Query optimization is an ongoing process that requires understanding your applic
 Remember that premature optimization can be counterproductive. Make sure to evaluate the real performance bottlenecks and optimize where it matters most. Regularly monitoring and profiling your Rails application, along with familiarizing yourself with traffic metrics, can help you identify the areas that will provide the greatest performance improvements.
 
 The key to successful query optimization lies in continuous monitoring, testing, and iterative improvement. Build performance considerations into your development workflow, and your Rails applications will scale efficiently while providing excellent user experiences.
-
 ---
 
 {% include inarticle-adsense.html %}
