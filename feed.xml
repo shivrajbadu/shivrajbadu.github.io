@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2025-07-31T23:50:48+05:45</updated>
+  <updated>2025-08-01T00:02:32+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -20,14 +20,14 @@
 
   
   <entry>
-    <title>Rails Query Optimization guide Part I</title>
-    <link href="http://shivrajbadu.com.np/posts/rails-query-optimization-guide-1/" rel="alternate" type="text/html" title="Rails Query Optimization guide Part I" />
+    <title>Rails Query Optimization guide</title>
+    <link href="http://shivrajbadu.com.np/posts/rails-query-optimization-guide/" rel="alternate" type="text/html" title="Rails Query Optimization guide" />
     <published>2025-07-31T05:31:00+05:45</published>
   
     <updated>2025-07-31T05:31:00+05:45</updated>
   
-    <id>http://shivrajbadu.com.np/posts/rails-query-optimization-guide-1/</id>
-    <content src="http://shivrajbadu.com.np/posts/rails-query-optimization-guide-1/" />
+    <id>http://shivrajbadu.com.np/posts/rails-query-optimization-guide/</id>
+    <content src="http://shivrajbadu.com.np/posts/rails-query-optimization-guide/" />
     <author>
       <name>Shivraj Badu</name>
     </author>
