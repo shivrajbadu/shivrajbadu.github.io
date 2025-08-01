@@ -203,6 +203,6 @@ end
 
 ---
 
-![RubyLLM]({{ "/assets/img/rubyllm/ruby_llm_example.png" | relative_url }})
+![RubyLLM]({{ "/assets/img/ruby_llm/ruby_llm_example.png" | relative_url }})
 
 {% include inarticle-adsense.html %}
