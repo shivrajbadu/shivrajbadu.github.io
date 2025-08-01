@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2025-08-01T00:04:22+05:45</updated>
+  <updated>2025-08-01T12:19:32+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -17,6 +17,44 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Simplifying AI Integration in Ruby: Exploring the ruby_llm Gem</title>
+    <link href="http://shivrajbadu.com.np/posts/simplifying-ai-integration-ruby-llm-gem-guide/" rel="alternate" type="text/html" title="Simplifying AI Integration in Ruby: Exploring the ruby_llm Gem" />
+    <published>2025-08-01T12:13:00+05:45</published>
+  
+    <updated>2025-08-01T12:13:00+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/simplifying-ai-integration-ruby-llm-gem-guide/</id>
+    <content src="http://shivrajbadu.com.np/posts/simplifying-ai-integration-ruby-llm-gem-guide/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="Ruby" />
+    
+    <category term="LLM" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Simplifying AI Integration in Ruby: Exploring the ruby_llm Gem
+
+As AI-powered applications become increasingly popular, developers are constantly looking for simple, unified ways to integrate Large Language Models (LLMs) into their applications. If you’re a Ruby developer who’s tired of juggling multiple API clients for different AI providers, the ruby_llm gem might be exactly what you’ve been ...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -182,46 +220,6 @@ Key Features
 
 
   Large Codebase Analysis: Handle projects bey...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Ollama-Powered Qwen Code: Privacy-First AI Coding</title>
-    <link href="http://shivrajbadu.com.np/posts/qwen-code-with-ollama/" rel="alternate" type="text/html" title="Ollama-Powered Qwen Code: Privacy-First AI Coding" />
-    <published>2025-07-27T05:33:00+05:45</published>
-  
-    <updated>2025-07-27T05:33:00+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/qwen-code-with-ollama/</id>
-    <content src="http://shivrajbadu.com.np/posts/qwen-code-with-ollama/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="Artificial Intelligence (AI)" />
-    
-    <category term="Qwen3" />
-    
-    <category term="Ollama" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Qwen Code: Your Local AI Coding Assistant - A Powerful Alternative to Claude Code
-
-The world of AI-powered coding assistants is rapidly evolving, and while Anthropic’s Claude Code has been making waves in the developer community, there’s an exciting open-source alternative that deserves your attention: Qwen Code. This command-line AI workflow tool brings the power of advanced coding assistance ...
     </summary>
   
 
