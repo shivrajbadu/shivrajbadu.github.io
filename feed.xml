@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2025-08-01T12:37:35+05:45</updated>
+  <updated>2025-09-06T18:49:49+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -12,11 +12,47 @@
   <link rel="self" type="application/atom+xml" href="http://shivrajbadu.com.np/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
     href="http://shivrajbadu.com.np/"/>
-  <generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator>
+  <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
   <rights> © 2025 Shivraj Badu </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>The Science and Practice of Flow State for Software Developers</title>
+    <link href="http://shivrajbadu.com.np/posts/flow-state-for-developers-science-and-practice/" rel="alternate" type="text/html" title="The Science and Practice of Flow State for Software Developers" />
+    <published>2025-09-06T06:10:00+05:45</published>
+  
+    <updated>2025-09-06T06:10:00+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/flow-state-for-developers-science-and-practice/</id>
+    <content src="http://shivrajbadu.com.np/posts/flow-state-for-developers-science-and-practice/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="Productivity" />
+    
+    <category term="Psychology" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      The concept of “flow state”—that elusive mental zone where time seems to disappear and productivity soars—has fascinated psychologists and knowledge workers for decades. For software developers, achieving flow can mean the difference between a day of frustration and a day of breakthrough innovation. This article explores the neuroscience behind flow state, its particular relevance to software d...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -173,53 +209,6 @@ The journey of a request through ...
 Why Serverless Matters
 
 Gone are the days of provisioning servers, managing infrastructure, or worrying about scaling. With Lambda, you write code, deploy it, and AWS ha...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Gemini CLI with MCP Integration: AI Powered Terminal Coding Assistant and AI Development Workflow</title>
-    <link href="http://shivrajbadu.com.np/posts/gemini-cli-with-git-mcp-integration/" rel="alternate" type="text/html" title="Gemini CLI with MCP Integration: AI Powered Terminal Coding Assistant and AI Development Workflow" />
-    <published>2025-07-27T08:20:00+05:45</published>
-  
-    <updated>2025-07-27T21:03:59+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/gemini-cli-with-git-mcp-integration/</id>
-    <content src="http://shivrajbadu.com.np/posts/gemini-cli-with-git-mcp-integration/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="Artificial Intelligence (AI)" />
-    
-    <category term="gemini-cli" />
-    
-    <category term="MCP" />
-    
-    <category term="mcp_server_git" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Gemini CLI: Google’s AI Coding Assistant with MCP Integration
-
-Google’s Gemini CLI brings the power of Gemini 2.5 Pro directly into your terminal, offering code understanding, file manipulation, and intelligent automation. With its 1-million-token context window, it can handle large codebases and complex development tasks with ease.
-
-Key Features
-
-
-  Large Codebase Analysis: Handle projects bey...
     </summary>
   
 
