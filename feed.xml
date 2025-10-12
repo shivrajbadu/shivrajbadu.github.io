@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2025-09-06T18:49:49+05:45</updated>
+  <updated>2025-10-12T17:10:25+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -17,6 +17,48 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Do We Really Have Free Will? A Journey Through Mind, Matter, and Meaning</title>
+    <link href="http://shivrajbadu.com.np/posts/do-we-really-have-free-will/" rel="alternate" type="text/html" title="Do We Really Have Free Will? A Journey Through Mind, Matter, and Meaning" />
+    <published>2025-10-12T14:30:00+05:45</published>
+  
+    <updated>2025-10-12T14:30:00+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/do-we-really-have-free-will/</id>
+    <content src="http://shivrajbadu.com.np/posts/do-we-really-have-free-will/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="Philosophy" />
+    
+    <category term="Neuroscience" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Do We Really Have Free Will? A Journey Through Mind, Matter, and Meaning
+
+Introduction: The Timeless Question
+
+For centuries, philosophers, theologians, and scientists have wrestled with one of humanity’s most profound questions: Do we truly have free will? Are our choices genuinely our own, or are they merely inevitable outcomes of a vast chain of prior causes beyond our control?
+
+This isn’t j...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -165,50 +207,6 @@ Rails 8 isn’t just another version update—it’s a thoughtful evolution that
 1. From Request to Response: Rails 8 in Motion
 
 The journey of a request through ...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>From Server Headaches to Serverless Success: Building APIs That Scale with Lambda and API Gateway</title>
-    <link href="http://shivrajbadu.com.np/posts/serverless-compute-aws-lambda-and-api-gateway/" rel="alternate" type="text/html" title="From Server Headaches to Serverless Success: Building APIs That Scale with Lambda and API Gateway" />
-    <published>2025-07-28T22:45:00+05:45</published>
-  
-    <updated>2025-07-28T22:45:00+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/serverless-compute-aws-lambda-and-api-gateway/</id>
-    <content src="http://shivrajbadu.com.np/posts/serverless-compute-aws-lambda-and-api-gateway/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="Serverless" />
-    
-    <category term="AWS" />
-    
-    <category term="API" />
-    
-    <category term="LambdaFunction" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Serverless computing has revolutionized how we build and deploy applications. AWS Lambda, combined with API Gateway, creates a powerful duo that eliminates server management while delivering scalable, cost-effective solutions.
-
-Why Serverless Matters
-
-Gone are the days of provisioning servers, managing infrastructure, or worrying about scaling. With Lambda, you write code, deploy it, and AWS ha...
     </summary>
   
 
