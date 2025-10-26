@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2025-10-26T17:02:05+05:45</updated>
+  <updated>2025-10-26T17:30:39+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -17,6 +17,46 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Managing Python Versions with pyenv</title>
+    <link href="http://shivrajbadu.com.np/posts/python-version-manager-pyenv/" rel="alternate" type="text/html" title="Managing Python Versions with pyenv" />
+    <published>2025-10-26T11:00:00+05:45</published>
+  
+    <updated>2025-10-26T11:00:00+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/python-version-manager-pyenv/</id>
+    <content src="http://shivrajbadu.com.np/posts/python-version-manager-pyenv/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="Python" />
+    
+    <category term="pyenv" />
+    
+    <category term="Version Management" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      As a Python developer, you often need to work with different versions of Python for different projects. Managing multiple Python versions on a single machine can be tricky. This is where pyenv comes in. pyenv is a powerful tool that lets you easily switch between multiple versions of Python.
+
+In this blog post, we’ll walk through how to install, set up, and use pyenv to manage your Python versi...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -169,44 +209,6 @@ This isn’t j...
       Simplifying AI Integration in Ruby: Exploring the ruby_llm Gem
 
 As AI-powered applications become increasingly popular, developers are constantly looking for simple, unified ways to integrate Large Language Models (LLMs) into their applications. If you’re a Ruby developer who’s tired of juggling multiple API clients for different AI providers, the ruby_llm gem might be exactly what you’ve been ...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Rails Query Optimization guide</title>
-    <link href="http://shivrajbadu.com.np/posts/rails-query-optimization-guide/" rel="alternate" type="text/html" title="Rails Query Optimization guide" />
-    <published>2025-07-31T05:31:00+05:45</published>
-  
-    <updated>2025-07-31T05:31:00+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/rails-query-optimization-guide/</id>
-    <content src="http://shivrajbadu.com.np/posts/rails-query-optimization-guide/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="Ruby on Rails" />
-    
-    <category term="Performance" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Rails Query Optimization: Complete Guide to Database Performance
-
-Database query optimization is the cornerstone of building high-performance Ruby on Rails applications. Poor query patterns can transform a responsive application into a sluggish, resource-hungry system that frustrates users and drains infrastructure budgets. This comprehensive guide explores proven techniques, advanced strategie...
     </summary>
   
 
