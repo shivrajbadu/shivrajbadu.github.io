@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2025-10-12T17:10:25+05:45</updated>
+  <updated>2025-10-26T17:02:05+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -17,6 +17,46 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Understanding Python Virtual Environments</title>
+    <link href="http://shivrajbadu.com.np/posts/python-virtual-environment/" rel="alternate" type="text/html" title="Understanding Python Virtual Environments" />
+    <published>2025-10-26T10:00:00+05:45</published>
+  
+    <updated>2025-10-26T10:00:00+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/python-virtual-environment/</id>
+    <content src="http://shivrajbadu.com.np/posts/python-virtual-environment/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="Python" />
+    
+    <category term="Virtual Environments" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      As a Python developer, you may have encountered situations where you need to work on multiple projects with different dependencies. Managing these dependencies can be a challenge, but Python’s virtual environments provide a simple and effective solution. In this blog post, we’ll explore what virtual environments are, why they’re useful, and how to use them.
+
+What is a Virtual Environment?
+
+A vi...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -167,46 +207,6 @@ As AI-powered applications become increasingly popular, developers are constantl
       Rails Query Optimization: Complete Guide to Database Performance
 
 Database query optimization is the cornerstone of building high-performance Ruby on Rails applications. Poor query patterns can transform a responsive application into a sluggish, resource-hungry system that frustrates users and drains infrastructure budgets. This comprehensive guide explores proven techniques, advanced strategie...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Building Modern Rails Apps in 2025: Evolving with the Rails 8 Ecosystem</title>
-    <link href="http://shivrajbadu.com.np/posts/building-modern-rails-apps-2025-ecosystem/" rel="alternate" type="text/html" title="Building Modern Rails Apps in 2025: Evolving with the Rails 8 Ecosystem" />
-    <published>2025-07-31T05:31:00+05:45</published>
-  
-    <updated>2025-07-31T18:29:08+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/building-modern-rails-apps-2025-ecosystem/</id>
-    <content src="http://shivrajbadu.com.np/posts/building-modern-rails-apps-2025-ecosystem/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="Ruby on Rails" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      🚀 Building Modern Rails Apps in 2025: Evolving with the Rails 8 Ecosystem
-
-Rails 8 isn’t just another version update—it’s a thoughtful evolution that keeps the framework’s beloved simplicity while embracing modern web development realities. Let’s explore how Rails continues to deliver developer happiness in 2025.
-
-1. From Request to Response: Rails 8 in Motion
-
-The journey of a request through ...
     </summary>
   
 
