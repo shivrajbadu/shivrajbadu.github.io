@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2025-10-26T17:30:39+05:45</updated>
+  <updated>2025-10-26T18:17:01+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -20,14 +20,14 @@
 
   
   <entry>
-    <title>Managing Python Versions with pyenv</title>
-    <link href="http://shivrajbadu.com.np/posts/python-version-manager-pyenv/" rel="alternate" type="text/html" title="Managing Python Versions with pyenv" />
-    <published>2025-10-26T11:00:00+05:45</published>
+    <title>A Quick Note on Python Booleans</title>
+    <link href="http://shivrajbadu.com.np/posts/python-booleans/" rel="alternate" type="text/html" title="A Quick Note on Python Booleans" />
+    <published>2025-10-26T18:00:00+05:45</published>
   
-    <updated>2025-10-26T11:00:00+05:45</updated>
+    <updated>2025-10-26T18:00:00+05:45</updated>
   
-    <id>http://shivrajbadu.com.np/posts/python-version-manager-pyenv/</id>
-    <content src="http://shivrajbadu.com.np/posts/python-version-manager-pyenv/" />
+    <id>http://shivrajbadu.com.np/posts/python-booleans/</id>
+    <content src="http://shivrajbadu.com.np/posts/python-booleans/" />
     <author>
       <name>Shivraj Badu</name>
     </author>
@@ -36,9 +36,7 @@
     
     <category term="Python" />
     
-    <category term="pyenv" />
-    
-    <category term="Version Management" />
+    <category term="Basics" />
     
   
 
@@ -50,9 +48,16 @@
 
 
 
-      As a Python developer, you often need to work with different versions of Python for different projects. Managing multiple Python versions on a single machine can be tricky. This is where pyenv comes in. pyenv is a powerful tool that lets you easily switch between multiple versions of Python.
+      In programming, you often need to know if an expression is True or False. In Python, the bool data type represents one of two values: True or False. These are used to control the flow of your program in conditional statements and loops.
 
-In this blog post, we’ll walk through how to install, set up, and use pyenv to manage your Python versi...
+Boolean Values
+
+There are only two boolean values: True and False. Note that they are case-sensitive.
+
+is_active = True
+is_admin = False
+
+print(type(is_active)...
     </summary>
   
 
@@ -60,14 +65,14 @@ In this blog post, we’ll walk through how to install, set up, and use pyenv to
 
   
   <entry>
-    <title>Understanding Python Virtual Environments</title>
-    <link href="http://shivrajbadu.com.np/posts/python-virtual-environment/" rel="alternate" type="text/html" title="Understanding Python Virtual Environments" />
-    <published>2025-10-26T10:00:00+05:45</published>
+    <title>A Quick Note on Python Strings</title>
+    <link href="http://shivrajbadu.com.np/posts/python-strings/" rel="alternate" type="text/html" title="A Quick Note on Python Strings" />
+    <published>2025-10-26T17:00:00+05:45</published>
   
-    <updated>2025-10-26T10:00:00+05:45</updated>
+    <updated>2025-10-26T17:00:00+05:45</updated>
   
-    <id>http://shivrajbadu.com.np/posts/python-virtual-environment/</id>
-    <content src="http://shivrajbadu.com.np/posts/python-virtual-environment/" />
+    <id>http://shivrajbadu.com.np/posts/python-strings/</id>
+    <content src="http://shivrajbadu.com.np/posts/python-strings/" />
     <author>
       <name>Shivraj Badu</name>
     </author>
@@ -76,7 +81,7 @@ In this blog post, we’ll walk through how to install, set up, and use pyenv to
     
     <category term="Python" />
     
-    <category term="Virtual Environments" />
+    <category term="Basics" />
     
   
 
@@ -88,11 +93,22 @@ In this blog post, we’ll walk through how to install, set up, and use pyenv to
 
 
 
-      As a Python developer, you may have encountered situations where you need to work on multiple projects with different dependencies. Managing these dependencies can be a challenge, but Python’s virtual environments provide a simple and effective solution. In this blog post, we’ll explore what virtual environments are, why they’re useful, and how to use them.
+      Strings are one of the most commonly used data types in Python. They are sequences of characters, enclosed in either single quotes (') or double quotes (").
 
-What is a Virtual Environment?
+Creating Strings
 
-A vi...
+Creating a string is as simple as assigning a value to a variable.
+
+# Single quotes
+name = 'Shivraj'
+
+# Double quotes
+message = "Hello, World!"
+
+# Multiline strings
+long_string = """
+This is a long string
+that spans multi...
     </summary>
   
 
@@ -100,23 +116,23 @@ A vi...
 
   
   <entry>
-    <title>Do We Really Have Free Will? A Journey Through Mind, Matter, and Meaning</title>
-    <link href="http://shivrajbadu.com.np/posts/do-we-really-have-free-will/" rel="alternate" type="text/html" title="Do We Really Have Free Will? A Journey Through Mind, Matter, and Meaning" />
-    <published>2025-10-12T14:30:00+05:45</published>
+    <title>A Quick Note on Python Casting</title>
+    <link href="http://shivrajbadu.com.np/posts/python-casting/" rel="alternate" type="text/html" title="A Quick Note on Python Casting" />
+    <published>2025-10-26T16:00:00+05:45</published>
   
-    <updated>2025-10-12T14:30:00+05:45</updated>
+    <updated>2025-10-26T16:00:00+05:45</updated>
   
-    <id>http://shivrajbadu.com.np/posts/do-we-really-have-free-will/</id>
-    <content src="http://shivrajbadu.com.np/posts/do-we-really-have-free-will/" />
+    <id>http://shivrajbadu.com.np/posts/python-casting/</id>
+    <content src="http://shivrajbadu.com.np/posts/python-casting/" />
     <author>
       <name>Shivraj Badu</name>
     </author>
 
   
     
-    <category term="Philosophy" />
+    <category term="Python" />
     
-    <category term="Neuroscience" />
+    <category term="Basics" />
     
   
 
@@ -128,13 +144,13 @@ A vi...
 
 
 
-      Do We Really Have Free Will? A Journey Through Mind, Matter, and Meaning
+      In Python, casting is the process of converting a variable from one data type to another. Python is a dynamically-typed language, but sometimes you need to explicitly convert a variable’s type. This is where casting comes in.
 
-Introduction: The Timeless Question
+Casting to Integer (int())
 
-For centuries, philosophers, theologians, and scientists have wrestled with one of humanity’s most profound questions: Do we truly have free will? Are our choices genuinely our own, or are they merely inevitable outcomes of a vast chain of prior causes beyond our control?
+You can convert a float or a string to an integer using the int() function. When converting a float, the decimal part is truncated.
 
-This isn’t j...
+x = int(3...
     </summary>
   
 
@@ -142,23 +158,23 @@ This isn’t j...
 
   
   <entry>
-    <title>The Science and Practice of Flow State for Software Developers</title>
-    <link href="http://shivrajbadu.com.np/posts/flow-state-for-developers-science-and-practice/" rel="alternate" type="text/html" title="The Science and Practice of Flow State for Software Developers" />
-    <published>2025-09-06T06:10:00+05:45</published>
+    <title>A Quick Note on Python Numbers</title>
+    <link href="http://shivrajbadu.com.np/posts/python-numbers/" rel="alternate" type="text/html" title="A Quick Note on Python Numbers" />
+    <published>2025-10-26T15:00:00+05:45</published>
   
-    <updated>2025-09-06T06:10:00+05:45</updated>
+    <updated>2025-10-26T15:00:00+05:45</updated>
   
-    <id>http://shivrajbadu.com.np/posts/flow-state-for-developers-science-and-practice/</id>
-    <content src="http://shivrajbadu.com.np/posts/flow-state-for-developers-science-and-practice/" />
+    <id>http://shivrajbadu.com.np/posts/python-numbers/</id>
+    <content src="http://shivrajbadu.com.np/posts/python-numbers/" />
     <author>
       <name>Shivraj Badu</name>
     </author>
 
   
     
-    <category term="Productivity" />
+    <category term="Python" />
     
-    <category term="Psychology" />
+    <category term="Basics" />
     
   
 
@@ -170,7 +186,15 @@ This isn’t j...
 
 
 
-      The concept of “flow state”—that elusive mental zone where time seems to disappear and productivity soars—has fascinated psychologists and knowledge workers for decades. For software developers, achieving flow can mean the difference between a day of frustration and a day of breakthrough innovation. This article explores the neuroscience behind flow state, its particular relevance to software d...
+      Numbers are a fundamental data type in any programming language, and Python is no exception. Python supports several types of numbers, but the most common are int, float, and complex.
+
+Integers (int)
+
+Integers are whole numbers, both positive and negative, without any decimal points. In Python, integers can be of any length, limited only by the memory available.
+
+# Integer examples
+x = 10
+y = -...
     </summary>
   
 
@@ -178,23 +202,23 @@ This isn’t j...
 
   
   <entry>
-    <title>Simplifying AI Integration in Ruby: Exploring the ruby_llm Gem</title>
-    <link href="http://shivrajbadu.com.np/posts/simplifying-ai-integration-ruby-llm-gem-guide/" rel="alternate" type="text/html" title="Simplifying AI Integration in Ruby: Exploring the ruby_llm Gem" />
-    <published>2025-08-01T12:13:00+05:45</published>
+    <title>A Quick Note on Python Operators</title>
+    <link href="http://shivrajbadu.com.np/posts/python-operators/" rel="alternate" type="text/html" title="A Quick Note on Python Operators" />
+    <published>2025-10-26T14:00:00+05:45</published>
   
-    <updated>2025-08-01T12:37:29+05:45</updated>
+    <updated>2025-10-26T14:00:00+05:45</updated>
   
-    <id>http://shivrajbadu.com.np/posts/simplifying-ai-integration-ruby-llm-gem-guide/</id>
-    <content src="http://shivrajbadu.com.np/posts/simplifying-ai-integration-ruby-llm-gem-guide/" />
+    <id>http://shivrajbadu.com.np/posts/python-operators/</id>
+    <content src="http://shivrajbadu.com.np/posts/python-operators/" />
     <author>
       <name>Shivraj Badu</name>
     </author>
 
   
     
-    <category term="Ruby" />
+    <category term="Python" />
     
-    <category term="LLM" />
+    <category term="Basics" />
     
   
 
@@ -206,9 +230,14 @@ This isn’t j...
 
 
 
-      Simplifying AI Integration in Ruby: Exploring the ruby_llm Gem
+      Operators are special symbols in Python that carry out arithmetic or logical computation. The value that the operator operates on is called the operand. In this note, we’ll cover the different types of operators available in Python.
 
-As AI-powered applications become increasingly popular, developers are constantly looking for simple, unified ways to integrate Large Language Models (LLMs) into their applications. If you’re a Ruby developer who’s tired of juggling multiple API clients for different AI providers, the ruby_llm gem might be exactly what you’ve been ...
+Arithmetic Operators
+
+These are used to perform mathematical operations like addition, subtraction, multiplication, etc.
+
+
+  + (Addition), - (Subtraction), * (Mult...
     </summary>
   
 

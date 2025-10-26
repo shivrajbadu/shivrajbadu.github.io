@@ -1,6 +1,125 @@
 [
   
   {
+    "title": "A Quick Note on Python Booleans",
+    "url": "/posts/python-booleans/",
+    "categories": "Python, Basics",
+    "tags": "",
+    "date": "2025-10-26 18:00:00 +0545",
+    
+
+
+
+
+
+    
+    "snippet": "In programming, you often need to know if an expression is True or False. In Python, the bool data type represents one of two values: True or False. These are used to control the flow of your progr...",
+    "content": "In programming, you often need to know if an expression is True or False. In Python, the bool data type represents one of two values: True or False. These are used to control the flow of your program in conditional statements and loops.Boolean ValuesThere are only two boolean values: True and False. Note that they are case-sensitive.is_active = Trueis_admin = Falseprint(type(is_active))  # &lt;class 'bool'&gt;Booleans in ExpressionsBooleans are often the result of comparison operations.print(10 &gt; 9)   # Trueprint(10 == 9)  # Falseprint(10 &lt; 9)   # FalseThey are also used with logical operators (and, or, not) to create more complex conditions.x = 10y = 5print(x &gt; 5 and y &lt; 10)  # Trueprint(x &gt; 10 or y &lt; 10)  # Trueprint(not(x &gt; 5 and y &lt; 10)) # FalseThe bool() FunctionYou can use the bool() function to evaluate any value and get True or False in return.  Most values are evaluated to True if they have some sort of content.  Any string is True, except empty strings.  Any number is True, except 0.  Any list, tuple, set, and dictionary are True, except empty ones.print(bool(\"Hello\"))  # Trueprint(bool(15))      # Trueprint(bool([]))        # Falseprint(bool(0))         # FalseConclusionBooleans are a fundamental concept in Python and programming in general. They are essential for controlling the logic and flow of your code. By understanding how True and False work, you can write more intelligent and responsive programs."
+  },
+  
+  {
+    "title": "A Quick Note on Python Strings",
+    "url": "/posts/python-strings/",
+    "categories": "Python, Basics",
+    "tags": "",
+    "date": "2025-10-26 17:00:00 +0545",
+    
+
+
+
+
+
+    
+    "snippet": "Strings are one of the most commonly used data types in Python. They are sequences of characters, enclosed in either single quotes (') or double quotes (\").Creating StringsCreating a string is as s...",
+    "content": "Strings are one of the most commonly used data types in Python. They are sequences of characters, enclosed in either single quotes (') or double quotes (\").Creating StringsCreating a string is as simple as assigning a value to a variable.# Single quotesname = 'Shivraj'# Double quotesmessage = \"Hello, World!\"# Multiline stringslong_string = \"\"\"This is a long stringthat spans multiple lines.\"\"\"String SlicingYou can access individual characters or a range of characters in a string using slicing.s = \"Hello, World!\"# Get the character at position 1print(s[1])  # 'e'# Get the characters from position 2 to 5 (not included)print(s[2:5])  # 'llo'String MethodsPython has a rich set of built-in methods that you can use on strings.  upper(): Converts a string into upper case.  lower(): Converts a string into lower case.  strip(): Removes any whitespace from the beginning or the end.  replace(): Replaces a string with another string.  split(): Splits the string into substrings if it finds instances of the separator.s = \"  Hello, World!  \"print(s.upper())         # '  HELLO, WORLD!  'print(s.strip())         # 'Hello, World!'print(s.replace('H', 'J')) # '  Jello, World!  'String ConcatenationYou can combine two or more strings using the + operator.first_name = \"Shivraj\"last_name = \"Badu\"full_name = first_name + \" \" + last_nameprint(full_name)  # 'Shivraj Badu'ConclusionStrings are a fundamental part of Python, and understanding how to work with them is essential for any Python programmer. With a rich set of built-in methods and easy-to-use slicing and concatenation, Python makes string manipulation a breeze."
+  },
+  
+  {
+    "title": "A Quick Note on Python Casting",
+    "url": "/posts/python-casting/",
+    "categories": "Python, Basics",
+    "tags": "",
+    "date": "2025-10-26 16:00:00 +0545",
+    
+
+
+
+
+
+    
+    "snippet": "In Python, casting is the process of converting a variable from one data type to another. Python is a dynamically-typed language, but sometimes you need to explicitly convert a variable’s type. Thi...",
+    "content": "In Python, casting is the process of converting a variable from one data type to another. Python is a dynamically-typed language, but sometimes you need to explicitly convert a variable’s type. This is where casting comes in.Casting to Integer (int())You can convert a float or a string to an integer using the int() function. When converting a float, the decimal part is truncated.x = int(3.14)    # x will be 3y = int(\"10\")    # y will be 10print(x)print(y)Casting to Float (float())You can convert an integer or a string to a float using the float() function.x = float(10)      # x will be 10.0y = float(\"3.14\")  # y will be 3.14print(x)print(y)Casting to String (str())You can convert almost any data type to a string using the str() function. This is useful when you want to concatenate a number with a string.x = str(10)y = str(3.14)z = str(True)print(\"The value of x is \" + x)ConclusionCasting is a simple yet powerful feature in Python that allows you to control the data types of your variables. By using functions like int(), float(), and str(), you can ensure that your variables are in the correct format for the operations you want to perform."
+  },
+  
+  {
+    "title": "A Quick Note on Python Numbers",
+    "url": "/posts/python-numbers/",
+    "categories": "Python, Basics",
+    "tags": "",
+    "date": "2025-10-26 15:00:00 +0545",
+    
+
+
+
+
+
+    
+    "snippet": "Numbers are a fundamental data type in any programming language, and Python is no exception. Python supports several types of numbers, but the most common are int, float, and complex.Integers (int)...",
+    "content": "Numbers are a fundamental data type in any programming language, and Python is no exception. Python supports several types of numbers, but the most common are int, float, and complex.Integers (int)Integers are whole numbers, both positive and negative, without any decimal points. In Python, integers can be of any length, limited only by the memory available.# Integer examplesx = 10y = -3000z = 12345678901234567890print(type(x))  # &lt;class 'int'&gt;Floating-Point Numbers (float)Floating-point numbers, or floats, are numbers that have a decimal point. They can also be scientific numbers with an “e” to indicate the power of 10.# Float examplesx = 10.5y = -3.14z = 35e3print(type(x))  # &lt;class 'float'&gt;Complex Numbers (complex)Complex numbers are written with a “j” as the imaginary part. They consist of a real part and an imaginary part.# Complex number examplesx = 3 + 5jy = -5jz = 3jprint(type(x))  # &lt;class 'complex'&gt;You can access the real and imaginary parts of a complex number using the real and imag attributes:print(x.real)  # 3.0print(x.imag)  # 5.0ConclusionPython’s number types provide a flexible and powerful way to work with numerical data. Whether you’re doing simple arithmetic or complex scientific calculations, Python has the right tools for the job. Understanding the differences between int, float, and complex will help you write more accurate and efficient code."
+  },
+  
+  {
+    "title": "A Quick Note on Python Operators",
+    "url": "/posts/python-operators/",
+    "categories": "Python, Basics",
+    "tags": "",
+    "date": "2025-10-26 14:00:00 +0545",
+    
+
+
+
+
+
+    
+    "snippet": "Operators are special symbols in Python that carry out arithmetic or logical computation. The value that the operator operates on is called the operand. In this note, we’ll cover the different type...",
+    "content": "Operators are special symbols in Python that carry out arithmetic or logical computation. The value that the operator operates on is called the operand. In this note, we’ll cover the different types of operators available in Python.Arithmetic OperatorsThese are used to perform mathematical operations like addition, subtraction, multiplication, etc.  + (Addition), - (Subtraction), * (Multiplication), / (Division)  % (Modulus), ** (Exponentiation), // (Floor division)x = 10y = 3print(x + y)  # 13print(x % y)  # 1Assignment OperatorsUsed to assign values to variables.  = (Assignment), += (Add and assign), -= (Subtract and assign), etc.a = 5a += 3  # a is now 8Comparison (Relational) OperatorsUsed to compare two values.  == (Equal), != (Not equal), &gt; (Greater than), &lt; (Less than), &gt;= (Greater than or equal to), &lt;= (Less than or equal to)x = 5y = 10print(x == y)  # FalseLogical OperatorsUsed to combine conditional statements.  and (Returns True if both statements are true)  or (Returns True if one of the statements is true)  not (Reverse the result, returns False if the result is true)x = Truey = Falseprint(x and y)  # FalseIdentity OperatorsUsed to compare the objects, not if they are equal, but if they are actually the same object, with the same memory location.  is (Returns True if both variables are the same object)  is not (Returns True if both variables are not the same object)x = [\"apple\", \"banana\"]y = xprint(x is y)  # TrueMembership OperatorsUsed to test if a sequence is presented in an object.  in (Returns True if a sequence with the specified value is present in the object)  not in (Returns True if a sequence with the specified value is not present in the object)fruits = [\"apple\", \"banana\"]print(\"apple\" in fruits)  # TrueBitwise OperatorsUsed to compare (binary) numbers.  &amp; (AND), | (OR), ^ (XOR), ~ (NOT), &lt;&lt; (Zero fill left shift), &gt;&gt; (Signed right shift)print(6 &amp; 3)  # 2ConclusionOperators are the backbone of any programming language, and Python provides a rich set of them. Understanding how to use them effectively will allow you to write more concise and efficient code."
+  },
+  
+  {
+    "title": "A Quick Note on Python Data Types",
+    "url": "/posts/python-datatypes/",
+    "categories": "Python, Basics",
+    "tags": "",
+    "date": "2025-10-26 13:00:00 +0545",
+    
+
+
+
+
+
+    
+    "snippet": "In Python, data types are the classification or categorization of data items. It represents the kind of value that tells what operations can be performed on a particular data. Since everything is a...",
+    "content": "In Python, data types are the classification or categorization of data items. It represents the kind of value that tells what operations can be performed on a particular data. Since everything is an object in Python, data types are actually classes and variables are instance (object) of these classes.Common Data TypesHere are some of the most common data types in Python:      Text Type: str (String)          Used for textual data. Strings are enclosed in single or double quotes.      Example: name = \"Shivraj\"            Numeric Types: int (Integer), float (Floating-Point Number), complex (Complex Number)          int: Whole numbers, positive or negative, without decimals.                  Example: age = 25                    float: Numbers, positive or negative, containing one or more decimals.                  Example: price = 19.99                    complex: Numbers with a real and an imaginary part.                  Example: z = 1 + 2j                          Sequence Types: list, tuple, range          list: A collection which is ordered and changeable. Allows duplicate members.                  Example: fruits = [\"apple\", \"banana\", \"cherry\"]                    tuple: A collection which is ordered and unchangeable. Allows duplicate members.                  Example: coordinates = (10, 20)                    range: Represents a sequence of numbers.                  Example: numbers = range(6)                          Mapping Type: dict (Dictionary)          A collection of key-value pairs. It is unordered, changeable and does not allow duplicates.      Example: person = {\"name\": \"John\", \"age\": 36}            Set Types: set, frozenset          set: A collection which is unordered and unindexed. No duplicate members.                  Example: unique_numbers = {1, 2, 3}                    frozenset: An immutable version of a set.                  Example: frozen = frozenset({1, 2, 3})                          Boolean Type: bool          Represents one of two values: True or False.      Example: is_student = True      ConclusionUnderstanding data types is crucial for writing effective Python code. They are the building blocks of data manipulation and will be used in every program you write. Python’s rich set of built-in data types makes it a versatile and powerful language."
+  },
+  
+  {
+    "title": "A Quick Note on Python Variables",
+    "url": "/posts/python-variables/",
+    "categories": "Python, Basics",
+    "tags": "",
+    "date": "2025-10-26 12:00:00 +0545",
+    
+
+
+
+
+
+    
+    "snippet": "In Python, a variable is a named location used to store data in memory. Variables are fundamental to programming, allowing you to label and manipulate data in your code.Creating VariablesCreating a...",
+    "content": "In Python, a variable is a named location used to store data in memory. Variables are fundamental to programming, allowing you to label and manipulate data in your code.Creating VariablesCreating a variable in Python is as simple as assigning a value to a name:# A variable storing a numberx = 10# A variable storing a stringname = \"Shiv\"# A variable storing a booleanis_active = TruePython is dynamically typed, so you don’t need to declare the type of the variable. The type is inferred from the value you assign.Naming RulesWhen naming variables, there are a few rules to follow:  A variable name must start with a letter or the underscore character.  A variable name cannot start with a number.  A variable name can only contain alpha-numeric characters and underscores (A-z, 0-9, and _ ).  Variable names are case-sensitive (age, Age, and AGE are three different variables).Using VariablesOnce you’ve created a variable, you can use it in your code:print(x)        # Output: 10print(name)     # Output: ShivVariables make your code more readable and easier to maintain. They are a core concept you’ll use in every Python program you write."
+  },
+  
+  {
     "title": "Managing Python Versions with pyenv",
     "url": "/posts/python-version-manager-pyenv/",
     "categories": "Python, pyenv, Version Management",
