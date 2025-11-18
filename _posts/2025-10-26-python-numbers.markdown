@@ -3,6 +3,7 @@ layout: post
 title: "A Quick Note on Python Numbers"
 date: 2025-10-26 15:00:00 +0545
 categories: [Python, Basics]
+tags: [python]
 ---
 
 Numbers are a fundamental data type in any programming language, and Python is no exception. Python supports several types of numbers, but the most common are `int`, `float`, and `complex`.

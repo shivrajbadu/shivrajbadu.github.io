@@ -3,6 +3,7 @@ layout: post
 title: "A Quick Note on Python Arrays"
 date: 2025-10-27 05:00:00 +0545
 categories: [Python, Basics]
+tags: [python]
 ---
 
 In Python, the term "array" can be a bit ambiguous. While Python doesn't have a built-in array data type in the same way as languages like C or Java, the `list` data type is often used as a flexible, dynamic array. For more memory-efficient storage of a single data type, Python provides the `array` module.

@@ -3,6 +3,7 @@ layout: post
 title: "A Quick Note on Python Strings"
 date: 2025-10-26 17:00:00 +0545
 categories: [Python, Basics]
+tags: [python]
 ---
 
 Strings are one of the most commonly used data types in Python. They are sequences of characters, enclosed in either single quotes (`'`) or double quotes (`"`).

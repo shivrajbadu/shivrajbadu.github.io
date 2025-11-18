@@ -3,6 +3,7 @@ layout: post
 title: "A Quick Note on Python If...Else"
 date: 2025-10-26 23:00:00 +0545
 categories: [Python, Basics]
+tags: [python]
 ---
 
 Conditional statements are a fundamental part of programming, allowing you to execute different blocks of code based on whether a certain condition is true or false. In Python, this is achieved using `if`, `elif`, and `else` statements.

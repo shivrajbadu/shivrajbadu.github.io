@@ -3,6 +3,7 @@ layout: post
 title: "Managing Python Versions with pyenv"
 date: 2025-10-26 11:00:00 +0545
 categories: [Python, pyenv, Version Management]
+tags: [python]
 ---
 
 As a Python developer, you often need to work with different versions of Python for different projects. Managing multiple Python versions on a single machine can be tricky. This is where `pyenv` comes in. `pyenv` is a powerful tool that lets you easily switch between multiple versions of Python.

@@ -3,6 +3,7 @@ layout: post
 title: "A Quick Note on Python Booleans"
 date: 2025-10-26 18:00:00 +0545
 categories: [Python, Basics]
+tags: [python]
 ---
 
 In programming, you often need to know if an expression is `True` or `False`. In Python, the `bool` data type represents one of two values: `True` or `False`. These are used to control the flow of your program in conditional statements and loops.

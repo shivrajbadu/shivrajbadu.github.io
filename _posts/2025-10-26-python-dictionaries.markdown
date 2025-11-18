@@ -3,6 +3,7 @@ layout: post
 title: "A Quick Note on Python Dictionaries"
 date: 2025-10-26 22:00:00 +0545
 categories: [Python, Basics]
+tags: [python]
 ---
 
 Dictionaries are used to store data values in **key:value** pairs. A dictionary is a collection which is ordered (starting from Python 3.7), changeable, and does not allow duplicate keys.

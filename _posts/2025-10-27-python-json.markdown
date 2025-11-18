@@ -3,6 +3,7 @@ layout: post
 title: "A Quick Note on Python and JSON"
 date: 2025-10-27 09:00:00 +0545
 categories: [Python, Basics]
+tags: [python]
 ---
 
 JSON (JavaScript Object Notation) is a lightweight data-interchange format that is easy for humans to read and write, and easy for machines to parse and generate. In Python, you can work with JSON data using the built-in `json` module.

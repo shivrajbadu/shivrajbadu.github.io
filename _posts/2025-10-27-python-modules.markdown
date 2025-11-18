@@ -3,6 +3,7 @@ layout: post
 title: "A Quick Note on Python Modules"
 date: 2025-10-27 07:00:00 +0545
 categories: [Python, Basics]
+tags: [python]
 ---
 
 In Python, a module is a file containing Python definitions and statements. The file name is the module name with the suffix `.py` appended. Modules allow you to organize your code into logical, reusable units.

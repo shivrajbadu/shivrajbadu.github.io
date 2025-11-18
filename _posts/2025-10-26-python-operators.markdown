@@ -3,6 +3,7 @@ layout: post
 title: "A Quick Note on Python Operators"
 date: 2025-10-26 14:00:00 +0545
 categories: [Python, Basics]
+tags: [python]
 ---
 
 Operators are special symbols in Python that carry out arithmetic or logical computation. The value that the operator operates on is called the operand. In this note, we'll cover the different types of operators available in Python.

@@ -3,6 +3,7 @@ layout: post
 title: "A Quick Note on Python RegEx"
 date: 2025-10-27 10:00:00 +0545
 categories: [Python, Basics]
+tags: [python]
 ---
 
 A Regular Expression, or RegEx, is a sequence of characters that forms a search pattern. RegEx can be used to check if a string contains the specified search pattern. Python has a built-in package called `re`, which can be used to work with Regular Expressions.

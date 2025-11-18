@@ -3,6 +3,7 @@ layout: post
 title: "A Quick Note on Python Sets"
 date: 2025-10-26 21:00:00 +0545
 categories: [Python, Basics]
+tags: [python]
 ---
 
 A set is a collection of items which is both **unordered** and **unindexed**. In Python, sets are written with curly brackets.

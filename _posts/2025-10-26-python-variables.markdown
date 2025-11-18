@@ -3,6 +3,7 @@ layout: post
 title: "A Quick Note on Python Variables"
 date: 2025-10-26 12:00:00 +0545
 categories: [Python, Basics]
+tags: [python]
 ---
 
 In Python, a variable is a named location used to store data in memory. Variables are fundamental to programming, allowing you to label and manipulate data in your code.

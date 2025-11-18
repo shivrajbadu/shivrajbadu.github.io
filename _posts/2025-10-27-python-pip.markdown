@@ -3,6 +3,7 @@ layout: post
 title: "A Quick Note on Python PIP"
 date: 2025-10-27 11:00:00 +0545
 categories: [Python, Basics]
+tags: [python]
 ---
 
 PIP is the package manager for Python. It allows you to install and manage additional libraries and dependencies that are not part of the standard Python library. PIP is usually installed automatically when you install Python.

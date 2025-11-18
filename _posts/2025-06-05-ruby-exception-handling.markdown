@@ -1,7 +1,7 @@
 ---
 layout: post
-title:  "Ruby Exception Handling"
-date:   2025-06-05 11:00:00 +0545
+title: "Ruby Exception Handling"
+date: 2025-06-05 11:00:00 +0545
 categories: [Ruby, exception_handling]
 tags: [ruby, exception_handling]
 ---
@@ -125,7 +125,7 @@ end
 # Define custom exception classes
 class ValidationError < StandardError
   attr_reader :field, :value
-  
+
   def initialize(field, value, message = nil)
     @field = field
     @value = value
@@ -204,16 +204,16 @@ class FileProcessor
   class FileProcessingError < StandardError; end
   class InvalidFileTypeError < FileProcessingError; end
   class FileSizeError < FileProcessingError; end
-  
+
   ALLOWED_EXTENSIONS = %w[.txt .csv .json].freeze
   MAX_FILE_SIZE = 10 * 1024 * 1024  # 10MB
-  
+
   def initialize(log_errors: true)
     @log_errors = log_errors
     @processed_files = []
     @failed_files = []
   end
-  
+
   def process_files(file_paths)
     file_paths.each do |path|
       begin
@@ -228,28 +228,28 @@ class FileProcessor
         log_error("Unexpected error processing #{path}: #{e.message}") if @log_errors
       end
     end
-    
+
     generate_report
   end
-  
+
   private
-  
+
   def process_single_file(file_path)
     # Check if file exists
     raise FileProcessingError, "File not found: #{file_path}" unless File.exist?(file_path)
-    
+
     # Validate file extension
     extension = File.extname(file_path).downcase
     unless ALLOWED_EXTENSIONS.include?(extension)
       raise InvalidFileTypeError, "Unsupported file type: #{extension}. Allowed: #{ALLOWED_EXTENSIONS.join(', ')}"
     end
-    
+
     # Check file size
     file_size = File.size(file_path)
     if file_size > MAX_FILE_SIZE
       raise FileSizeError, "File too large: #{file_size} bytes (max: #{MAX_FILE_SIZE})"
     end
-    
+
     # Process the file
     File.open(file_path, 'r') do |file|
       case extension
@@ -262,29 +262,29 @@ class FileProcessor
       end
     end
   end
-  
+
   def process_text_file(file)
     content = file.read
     # Simulate processing
     raise FileProcessingError, "Text file is empty" if content.strip.empty?
-    
+
     # Count lines and words
     lines = content.lines.count
     words = content.split.count
     puts "  Text file stats: #{lines} lines, #{words} words"
   end
-  
+
   def process_csv_file(file)
     lines = file.readlines
     raise FileProcessingError, "CSV file has no data rows" if lines.length < 2
-    
+
     puts "  CSV file stats: #{lines.length - 1} data rows"
   end
-  
+
   def process_json_file(file)
     require 'json'
     content = file.read
-    
+
     begin
       data = JSON.parse(content)
       puts "  JSON file stats: #{data.keys.count if data.is_a?(Hash)} top-level keys"
@@ -292,7 +292,7 @@ class FileProcessor
       raise FileProcessingError, "Invalid JSON format: #{e.message}"
     end
   end
-  
+
   def log_error(message)
     File.open('file_processing_errors.log', 'a') do |log_file|
       log_file.puts "[#{Time.now}] #{message}"
@@ -300,14 +300,14 @@ class FileProcessor
   rescue => e
     puts "Failed to write to log file: #{e.message}"
   end
-  
+
   def generate_report
     puts "\n" + "="*50
     puts "FILE PROCESSING REPORT"
     puts "="*50
     puts "Processed successfully: #{@processed_files.count}"
     puts "Failed to process: #{@failed_files.count}"
-    
+
     unless @failed_files.empty?
       puts "\nFailed files:"
       @failed_files.each do |failure|
@@ -315,7 +315,7 @@ class FileProcessor
         puts "    Error: #{failure[:error]} (#{failure[:type]})"
       end
     end
-    
+
     {
       successful: @processed_files,
       failed: @failed_files,
@@ -365,19 +365,19 @@ class NetworkRequestHandler
   class TimeoutError < NetworkError; end
   class ServerError < NetworkError; end
   class ClientError < NetworkError; end
-  
+
   def initialize(max_retries: 3, timeout: 10)
     @max_retries = max_retries
     @timeout = timeout
   end
-  
+
   def fetch_with_retry(url, method: :get, payload: nil)
     attempt = 1
-    
+
     begin
       puts "Attempt #{attempt}: Fetching #{url}"
       response = make_request(url, method, payload)
-      
+
       case response.code.to_i
       when 200..299
         puts "✓ Success (#{response.code})"
@@ -389,7 +389,7 @@ class NetworkRequestHandler
       else
         raise NetworkError, "Unexpected response (#{response.code}): #{response.message}"
       end
-      
+
     rescue Timeout::Error
       raise TimeoutError, "Request timed out after #{@timeout} seconds"
     rescue ServerError, TimeoutError => e
@@ -415,10 +415,10 @@ class NetworkRequestHandler
       raise NetworkError, "Unexpected error: #{e.message}"
     end
   end
-  
+
   def fetch_multiple(urls)
     results = {}
-    
+
     urls.each do |url|
       begin
         results[url] = fetch_with_retry(url)
@@ -428,20 +428,20 @@ class NetworkRequestHandler
         results[url] = { error: e.message, type: "UnexpectedError" }
       end
     end
-    
+
     generate_summary(results)
   end
-  
+
   private
-  
+
   def make_request(url, method, payload)
     uri = URI(url)
-    
-    Net::HTTP.start(uri.host, uri.port, 
+
+    Net::HTTP.start(uri.host, uri.port,
                    use_ssl: uri.scheme == 'https',
                    open_timeout: @timeout,
                    read_timeout: @timeout) do |http|
-      
+
       case method
       when :get
         http.get(uri.path.empty? ? '/' : uri.path)
@@ -455,10 +455,10 @@ class NetworkRequestHandler
       end
     end
   end
-  
+
   def parse_response(response)
     content_type = response['content-type'] || ''
-    
+
     if content_type.include?('application/json')
       begin
         JSON.parse(response.body)
@@ -473,18 +473,18 @@ class NetworkRequestHandler
       }
     end
   end
-  
+
   def generate_summary(results)
     successful = results.count { |_, result| !result.key?(:error) }
     failed = results.count { |_, result| result.key?(:error) }
-    
+
     puts "\n" + "="*50
     puts "NETWORK REQUEST SUMMARY"
     puts "="*50
     puts "Total requests: #{results.count}"
     puts "Successful: #{successful}"
     puts "Failed: #{failed}"
-    
+
     unless failed.zero?
       puts "\nFailed requests:"
       results.each do |url, result|
@@ -494,7 +494,7 @@ class NetworkRequestHandler
         end
       end
     end
-    
+
     results
   end
 end
@@ -556,7 +556,7 @@ rescue => e
   puts "Exception message: #{e.message}"
   puts "Backtrace:"
   puts e.backtrace.first(5)  # Show first 5 lines of backtrace
-  
+
   # Full backtrace
   puts "\nFull backtrace:"
   e.backtrace.each_with_index do |line, index|
@@ -670,14 +670,14 @@ end
 class BankAccount
   class InsufficientFundsError < StandardError
     attr_reader :requested_amount, :available_balance
-    
+
     def initialize(requested, available)
       @requested_amount = requested
       @available_balance = available
       super("Insufficient funds: requested #{requested}, available #{available}")
     end
   end
-  
+
   def withdraw(amount)
     raise InsufficientFundsError.new(amount, @balance) if amount > @balance
     @balance -= amount

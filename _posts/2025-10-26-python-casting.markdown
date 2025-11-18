@@ -3,6 +3,7 @@ layout: post
 title: "A Quick Note on Python Casting"
 date: 2025-10-26 16:00:00 +0545
 categories: [Python, Basics]
+tags: [python]
 ---
 
 In Python, casting is the process of converting a variable from one data type to another. Python is a dynamically-typed language, but sometimes you need to explicitly convert a variable's type. This is where casting comes in.

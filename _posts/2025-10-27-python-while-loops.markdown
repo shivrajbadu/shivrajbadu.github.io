@@ -3,6 +3,7 @@ layout: post
 title: "A Quick Note on Python While Loops"
 date: 2025-10-27 00:00:00 +0545
 categories: [Python, Basics]
+tags: [python]
 ---
 
 Loops are a fundamental concept in programming that allow you to execute a block of code repeatedly. In Python, the `while` loop is used to execute a set of statements as long as a condition is true.

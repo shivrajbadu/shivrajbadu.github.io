@@ -3,6 +3,7 @@ layout: post
 title: "A Quick Note on Python Data Types"
 date: 2025-10-26 13:00:00 +0545
 categories: [Python, Basics]
+tags: [python]
 ---
 
 In Python, data types are the classification or categorization of data items. It represents the kind of value that tells what operations can be performed on a particular data. Since everything is an object in Python, data types are actually classes and variables are instance (object) of these classes.

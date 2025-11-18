@@ -3,6 +3,7 @@ layout: post
 title: "A Quick Note on Python Tuples"
 date: 2025-10-26 20:00:00 +0545
 categories: [Python, Basics]
+tags: [python]
 ---
 
 A tuple is a collection of items which is ordered and **unchangeable**. In Python, tuples are written with round brackets.

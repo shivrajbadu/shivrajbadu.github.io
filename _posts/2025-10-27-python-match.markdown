@@ -3,6 +3,7 @@ layout: post
 title: "A Quick Note on Python's Match Statement"
 date: 2025-10-27 03:00:00 +0545
 categories: [Python, Basics]
+tags: [python]
 ---
 
 Introduced in Python 3.10, the `match` statement is a powerful tool for structural pattern matching. It allows you to compare a value against a series of patterns and execute a block of code when a match is found. It's similar to a `switch` statement in other languages, but much more powerful.

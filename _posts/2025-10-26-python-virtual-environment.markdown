@@ -3,6 +3,7 @@ layout: post
 title: "Understanding Python Virtual Environments"
 date: 2025-10-26 10:00:00 +0545
 categories: [Python, Virtual Environments]
+tags: [python]
 ---
 
 As a Python developer, you may have encountered situations where you need to work on multiple projects with different dependencies. Managing these dependencies can be a challenge, but Python's virtual environments provide a simple and effective solution. In this blog post, we'll explore what virtual environments are, why they're useful, and how to use them.
@@ -34,11 +35,13 @@ This will create a new directory called `my-project-env` that contains the virtu
 To activate the virtual environment, run the following command:
 
 On macOS and Linux:
+
 ```bash
 source my-project-env/bin/activate
 ```
 
 On Windows:
+
 ```bash
 .\my-project-env\Scripts\activate
 ```

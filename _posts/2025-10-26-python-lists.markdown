@@ -3,6 +3,7 @@ layout: post
 title: "A Quick Note on Python Lists"
 date: 2025-10-26 19:00:00 +0545
 categories: [Python, Basics]
+tags: [python]
 ---
 
 Lists are one of the most versatile and commonly used data structures in Python. A list is a collection of items which are ordered and changeable. In Python, lists are written with square brackets.

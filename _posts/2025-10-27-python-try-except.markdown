@@ -3,6 +3,7 @@ layout: post
 title: "A Quick Note on Python Try...Except"
 date: 2025-10-27 12:00:00 +0545
 categories: [Python, Basics]
+tags: [python]
 ---
 
 Exception handling is a crucial part of writing robust and reliable code. In Python, you can use the `try...except` block to handle errors gracefully and prevent your program from crashing.

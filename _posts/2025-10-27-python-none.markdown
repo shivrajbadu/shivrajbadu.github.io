@@ -3,6 +3,7 @@ layout: post
 title: "A Quick Note on Python's None"
 date: 2025-10-27 13:00:00 +0545
 categories: [Python, Basics]
+tags: [python]
 ---
 
 In Python, `None` is a special constant that represents the absence of a value or a null value. It is an object of its own class, `NoneType`. It is not the same as `0`, `False`, or an empty string. `None` is a singleton, meaning there is only one instance of it in memory.
@@ -20,7 +21,7 @@ print(type(my_variable)) # <class 'NoneType'>
 
 ### Checking for `None`
 
-The correct way to check if a variable is `None` is to use the `is` operator, not the `==` operator. This is because `None` is a singleton, so you are checking if the variable is the *exact same object* as `None`.
+The correct way to check if a variable is `None` is to use the `is` operator, not the `==` operator. This is because `None` is a singleton, so you are checking if the variable is the _exact same object_ as `None`.
 
 ```python
 my_variable = None

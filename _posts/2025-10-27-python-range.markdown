@@ -3,6 +3,7 @@ layout: post
 title: "A Quick Note on Python's range()"
 date: 2025-10-27 04:00:00 +0545
 categories: [Python, Basics]
+tags: [python]
 ---
 
 The `range()` function is a built-in function in Python that is used to generate a sequence of numbers. It is commonly used for looping a specific number of times in `for` loops.

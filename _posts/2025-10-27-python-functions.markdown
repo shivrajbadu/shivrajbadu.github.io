@@ -3,6 +3,7 @@ layout: post
 title: "A Quick Note on Python Functions"
 date: 2025-10-27 02:00:00 +0545
 categories: [Python, Basics]
+tags: [python]
 ---
 
 A function is a block of code which only runs when it is called. You can pass data, known as parameters, into a function. A function can return data as a result.

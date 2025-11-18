@@ -3,6 +3,7 @@ layout: post
 title: "A Quick Note on Python Math"
 date: 2025-10-27 08:00:00 +0545
 categories: [Python, Basics]
+tags: [python]
 ---
 
 Python has a set of built-in mathematical functions, and also a `math` module that provides more advanced mathematical functions. In this note, we'll explore both.
