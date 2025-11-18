@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2025-10-26T18:17:01+05:45</updated>
+  <updated>2025-11-18T08:55:38+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -20,14 +20,14 @@
 
   
   <entry>
-    <title>A Quick Note on Python Booleans</title>
-    <link href="http://shivrajbadu.com.np/posts/python-booleans/" rel="alternate" type="text/html" title="A Quick Note on Python Booleans" />
-    <published>2025-10-26T18:00:00+05:45</published>
+    <title>A Quick Note on Python's None</title>
+    <link href="http://shivrajbadu.com.np/posts/python-none/" rel="alternate" type="text/html" title="A Quick Note on Python&amp;apos;s None" />
+    <published>2025-10-27T13:00:00+05:45</published>
   
-    <updated>2025-10-26T18:00:00+05:45</updated>
+    <updated>2025-11-18T08:55:12+05:45</updated>
   
-    <id>http://shivrajbadu.com.np/posts/python-booleans/</id>
-    <content src="http://shivrajbadu.com.np/posts/python-booleans/" />
+    <id>http://shivrajbadu.com.np/posts/python-none/</id>
+    <content src="http://shivrajbadu.com.np/posts/python-none/" />
     <author>
       <name>Shivraj Badu</name>
     </author>
@@ -48,16 +48,11 @@
 
 
 
-      In programming, you often need to know if an expression is True or False. In Python, the bool data type represents one of two values: True or False. These are used to control the flow of your program in conditional statements and loops.
+      In Python, None is a special constant that represents the absence of a value or a null value. It is an object of its own class, NoneType. It is not the same as 0, False, or an empty string. None is a singleton, meaning there is only one instance of it in memory.
 
-Boolean Values
+What is None?
 
-There are only two boolean values: True and False. Note that they are case-sensitive.
-
-is_active = True
-is_admin = False
-
-print(type(is_active)...
+None is often used to signify that a variable has not yet been assigned a value, or that a function did not return any...
     </summary>
   
 
@@ -65,14 +60,14 @@ print(type(is_active)...
 
   
   <entry>
-    <title>A Quick Note on Python Strings</title>
-    <link href="http://shivrajbadu.com.np/posts/python-strings/" rel="alternate" type="text/html" title="A Quick Note on Python Strings" />
-    <published>2025-10-26T17:00:00+05:45</published>
+    <title>A Quick Note on Python Try...Except</title>
+    <link href="http://shivrajbadu.com.np/posts/python-try-except/" rel="alternate" type="text/html" title="A Quick Note on Python Try...Except" />
+    <published>2025-10-27T12:00:00+05:45</published>
   
-    <updated>2025-10-26T17:00:00+05:45</updated>
+    <updated>2025-11-18T08:55:12+05:45</updated>
   
-    <id>http://shivrajbadu.com.np/posts/python-strings/</id>
-    <content src="http://shivrajbadu.com.np/posts/python-strings/" />
+    <id>http://shivrajbadu.com.np/posts/python-try-except/</id>
+    <content src="http://shivrajbadu.com.np/posts/python-try-except/" />
     <author>
       <name>Shivraj Badu</name>
     </author>
@@ -93,22 +88,19 @@ print(type(is_active)...
 
 
 
-      Strings are one of the most commonly used data types in Python. They are sequences of characters, enclosed in either single quotes (') or double quotes (").
+      Exception handling is a crucial part of writing robust and reliable code. In Python, you can use the try...except block to handle errors gracefully and prevent your program from crashing.
 
-Creating Strings
+The try...except Block
 
-Creating a string is as simple as assigning a value to a variable.
+The try block lets you test a block of code for errors. The except block lets you handle the error.
 
-# Single quotes
-name = 'Shivraj'
+try:
+    print(x)
+except NameError:
+    print("Variable x is not defined")
 
-# Double quotes
-message = "Hello, World!"
 
-# Multiline strings
-long_string = """
-This is a long string
-that spans multi...
+Handli...
     </summary>
   
 
@@ -116,14 +108,14 @@ that spans multi...
 
   
   <entry>
-    <title>A Quick Note on Python Casting</title>
-    <link href="http://shivrajbadu.com.np/posts/python-casting/" rel="alternate" type="text/html" title="A Quick Note on Python Casting" />
-    <published>2025-10-26T16:00:00+05:45</published>
+    <title>A Quick Note on Python PIP</title>
+    <link href="http://shivrajbadu.com.np/posts/python-pip/" rel="alternate" type="text/html" title="A Quick Note on Python PIP" />
+    <published>2025-10-27T11:00:00+05:45</published>
   
-    <updated>2025-10-26T16:00:00+05:45</updated>
+    <updated>2025-11-18T08:55:12+05:45</updated>
   
-    <id>http://shivrajbadu.com.np/posts/python-casting/</id>
-    <content src="http://shivrajbadu.com.np/posts/python-casting/" />
+    <id>http://shivrajbadu.com.np/posts/python-pip/</id>
+    <content src="http://shivrajbadu.com.np/posts/python-pip/" />
     <author>
       <name>Shivraj Badu</name>
     </author>
@@ -144,13 +136,15 @@ that spans multi...
 
 
 
-      In Python, casting is the process of converting a variable from one data type to another. Python is a dynamically-typed language, but sometimes you need to explicitly convert a variable’s type. This is where casting comes in.
+      PIP is the package manager for Python. It allows you to install and manage additional libraries and dependencies that are not part of the standard Python library. PIP is usually installed automatically when you install Python.
 
-Casting to Integer (int())
+What is a Package?
 
-You can convert a float or a string to an integer using the int() function. When converting a float, the decimal part is truncated.
+A package contains all the files you need for a module. Modules are Python code libraries you can include in your project.
 
-x = int(3...
+Installing PIP
+
+If you ha...
     </summary>
   
 
@@ -158,14 +152,14 @@ x = int(3...
 
   
   <entry>
-    <title>A Quick Note on Python Numbers</title>
-    <link href="http://shivrajbadu.com.np/posts/python-numbers/" rel="alternate" type="text/html" title="A Quick Note on Python Numbers" />
-    <published>2025-10-26T15:00:00+05:45</published>
+    <title>A Quick Note on Python RegEx</title>
+    <link href="http://shivrajbadu.com.np/posts/python-regex/" rel="alternate" type="text/html" title="A Quick Note on Python RegEx" />
+    <published>2025-10-27T10:00:00+05:45</published>
   
-    <updated>2025-10-26T15:00:00+05:45</updated>
+    <updated>2025-11-18T08:55:12+05:45</updated>
   
-    <id>http://shivrajbadu.com.np/posts/python-numbers/</id>
-    <content src="http://shivrajbadu.com.np/posts/python-numbers/" />
+    <id>http://shivrajbadu.com.np/posts/python-regex/</id>
+    <content src="http://shivrajbadu.com.np/posts/python-regex/" />
     <author>
       <name>Shivraj Badu</name>
     </author>
@@ -186,15 +180,11 @@ x = int(3...
 
 
 
-      Numbers are a fundamental data type in any programming language, and Python is no exception. Python supports several types of numbers, but the most common are int, float, and complex.
+      A Regular Expression, or RegEx, is a sequence of characters that forms a search pattern. RegEx can be used to check if a string contains the specified search pattern. Python has a built-in package called re, which can be used to work with Regular Expressions.
 
-Integers (int)
+The re.search() Function
 
-Integers are whole numbers, both positive and negative, without any decimal points. In Python, integers can be of any length, limited only by the memory available.
-
-# Integer examples
-x = 10
-y = -...
+The re.search() function searches the string for a match, and returns a match object if there is a match. If t...
     </summary>
   
 
@@ -202,14 +192,14 @@ y = -...
 
   
   <entry>
-    <title>A Quick Note on Python Operators</title>
-    <link href="http://shivrajbadu.com.np/posts/python-operators/" rel="alternate" type="text/html" title="A Quick Note on Python Operators" />
-    <published>2025-10-26T14:00:00+05:45</published>
+    <title>A Quick Note on Python and JSON</title>
+    <link href="http://shivrajbadu.com.np/posts/python-json/" rel="alternate" type="text/html" title="A Quick Note on Python and JSON" />
+    <published>2025-10-27T09:00:00+05:45</published>
   
-    <updated>2025-10-26T14:00:00+05:45</updated>
+    <updated>2025-11-18T08:55:12+05:45</updated>
   
-    <id>http://shivrajbadu.com.np/posts/python-operators/</id>
-    <content src="http://shivrajbadu.com.np/posts/python-operators/" />
+    <id>http://shivrajbadu.com.np/posts/python-json/</id>
+    <content src="http://shivrajbadu.com.np/posts/python-json/" />
     <author>
       <name>Shivraj Badu</name>
     </author>
@@ -230,14 +220,13 @@ y = -...
 
 
 
-      Operators are special symbols in Python that carry out arithmetic or logical computation. The value that the operator operates on is called the operand. In this note, we’ll cover the different types of operators available in Python.
+      JSON (JavaScript Object Notation) is a lightweight data-interchange format that is easy for humans to read and write, and easy for machines to parse and generate. In Python, you can work with JSON data using the built-in json module.
 
-Arithmetic Operators
+Parsing JSON: From JSON to Python
 
-These are used to perform mathematical operations like addition, subtraction, multiplication, etc.
+If you have a JSON string, you can parse it by using the json.loads() method. The result will be a Python dictionary.
 
-
-  + (Addition), - (Subtraction), * (Mult...
+import j...
     </summary>
   
 
