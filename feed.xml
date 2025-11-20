@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2025-11-18T08:55:38+05:45</updated>
+  <updated>2025-11-20T10:08:20+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -17,6 +17,55 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Agile, Scrum, and Similar Practices</title>
+    <link href="http://shivrajbadu.com.np/posts/agile-scrum-and-similar-practices/" rel="alternate" type="text/html" title="Agile, Scrum, and Similar Practices" />
+    <published>2025-11-20T08:40:00+05:45</published>
+  
+    <updated>2025-11-20T08:40:00+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/agile-scrum-and-similar-practices/</id>
+    <content src="http://shivrajbadu.com.np/posts/agile-scrum-and-similar-practices/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="Agile" />
+    
+    <category term="Scrum" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      📘 Notes: Agile, Scrum, and Similar Practices
+
+1. What is Agile?
+
+Agile is a mindset and a set of values/principles for building software (or any product) in an iterative way.
+
+Core Ideas
+
+
+  Deliver work in small increments
+  Respond to change instead of rigid long-term plans
+  Continuous feedback from users/stakeholders
+  Collaboration over heavy documentation
+  Frequent release of working pro...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -185,48 +234,6 @@ If you ha...
 The re.search() Function
 
 The re.search() function searches the string for a match, and returns a match object if there is a match. If t...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>A Quick Note on Python and JSON</title>
-    <link href="http://shivrajbadu.com.np/posts/python-json/" rel="alternate" type="text/html" title="A Quick Note on Python and JSON" />
-    <published>2025-10-27T09:00:00+05:45</published>
-  
-    <updated>2025-11-18T08:55:12+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/python-json/</id>
-    <content src="http://shivrajbadu.com.np/posts/python-json/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="Python" />
-    
-    <category term="Basics" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      JSON (JavaScript Object Notation) is a lightweight data-interchange format that is easy for humans to read and write, and easy for machines to parse and generate. In Python, you can work with JSON data using the built-in json module.
-
-Parsing JSON: From JSON to Python
-
-If you have a JSON string, you can parse it by using the json.loads() method. The result will be a Python dictionary.
-
-import j...
     </summary>
   
 
