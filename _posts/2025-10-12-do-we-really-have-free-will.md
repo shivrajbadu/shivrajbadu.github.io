@@ -142,3 +142,5 @@ The debate will continue, and that's as it should be. Some questions are too imp
 - **Vasubandhu** (c. 4th-5th century CE/1991). _Abhidharmakośabhāṣyam_ (Vol. 1-4). Asian Humanities Press.
 
 ---
+
+{% include inarticle-adsense.html %}

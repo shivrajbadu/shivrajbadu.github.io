@@ -57,3 +57,7 @@ print(x.imag)  # 5.0
 ### Conclusion
 
 Python's number types provide a flexible and powerful way to work with numerical data. Whether you're doing simple arithmetic or complex scientific calculations, Python has the right tools for the job. Understanding the differences between `int`, `float`, and `complex` will help you write more accurate and efficient code.
+
+---
+
+{% include inarticle-adsense.html %}

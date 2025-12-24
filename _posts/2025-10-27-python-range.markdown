@@ -45,3 +45,7 @@ for i in range(10, 0, -1):
 ### Conclusion
 
 The `range()` function is a simple yet powerful tool for generating sequences of numbers in Python. It is memory efficient because it only stores the start, stop, and step values, and generates the numbers on the fly as you iterate over them. Whether you're looping a specific number of times or creating a custom sequence of numbers, `range()` is the perfect tool for the job.
+
+---
+
+{% include inarticle-adsense.html %}

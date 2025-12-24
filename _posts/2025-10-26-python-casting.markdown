@@ -47,3 +47,7 @@ print("The value of x is " + x)
 ### Conclusion
 
 Casting is a simple yet powerful feature in Python that allows you to control the data types of your variables. By using functions like `int()`, `float()`, and `str()`, you can ensure that your variables are in the correct format for the operations you want to perform.
+
+---
+
+{% include inarticle-adsense.html %}

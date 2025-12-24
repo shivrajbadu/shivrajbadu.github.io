@@ -80,3 +80,7 @@ print(my_function(3)) # 15
 ### Conclusion
 
 Functions are a fundamental building block of any Python program. They allow you to organize your code into reusable blocks, making your programs more modular, readable, and efficient. By mastering functions, you can write more complex and powerful Python applications.
+
+---
+
+{% include inarticle-adsense.html %}

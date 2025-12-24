@@ -44,3 +44,7 @@ print(name)     # Output: Shiv
 ```
 
 Variables make your code more readable and easier to maintain. They are a core concept you'll use in every Python program you write.
+
+---
+
+{% include inarticle-adsense.html %}

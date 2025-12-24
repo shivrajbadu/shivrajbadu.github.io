@@ -54,3 +54,7 @@ Here are some of the most common data types in Python:
 ### Conclusion
 
 Understanding data types is crucial for writing effective Python code. They are the building blocks of data manipulation and will be used in every program you write. Python's rich set of built-in data types makes it a versatile and powerful language.
+
+---
+
+{% include inarticle-adsense.html %}

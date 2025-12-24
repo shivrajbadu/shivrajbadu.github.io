@@ -72,3 +72,7 @@ print("x is greater") if x > y else print("y is greater or equal")
 ### Conclusion
 
 Conditional statements are essential for controlling the flow of your Python programs. By using `if`, `elif`, and `else`, you can create flexible and intelligent applications that respond to different conditions. The shorthand versions can also help you write more concise code for simple conditions.
+
+---
+
+{% include inarticle-adsense.html %}

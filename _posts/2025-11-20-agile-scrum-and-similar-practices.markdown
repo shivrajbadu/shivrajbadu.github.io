@@ -174,3 +174,5 @@ Some ML teams prefer:
 | **SAFe / LeSS** | Scaling frameworks | Agile for multiple large teams                |
 
 ---
+
+{% include inarticle-adsense.html %}
