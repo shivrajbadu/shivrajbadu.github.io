@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2025-11-20T10:08:20+05:45</updated>
+  <updated>2025-12-24T23:38:54+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -20,11 +20,54 @@
 
   
   <entry>
+    <title>Scale chunking with Sidekiq swarm</title>
+    <link href="http://shivrajbadu.com.np/posts/scale-chunking-with-sidekiq-swarm/" rel="alternate" type="text/html" title="Scale chunking with Sidekiq swarm" />
+    <published>2025-12-24T11:20:00+05:45</published>
+  
+    <updated>2025-12-24T11:20:00+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/scale-chunking-with-sidekiq-swarm/</id>
+    <content src="http://shivrajbadu.com.np/posts/scale-chunking-with-sidekiq-swarm/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="Sidekiq" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Why My 100k Batch Job Got Stuck — and How Sidekiq Swarm Would Have Fixed It
+
+When processing large datasets locally, I ran into a classic background processing problem:
+
+
+  A job that worked at smaller batch sizes but completely stalled at larger ones.
+
+
+This post explains why that happened, why reducing the batch size fixed it, and how Sidekiq Swarm would have solved the problem more cleanly.
+...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
     <title>Agile, Scrum, and Similar Practices</title>
     <link href="http://shivrajbadu.com.np/posts/agile-scrum-and-similar-practices/" rel="alternate" type="text/html" title="Agile, Scrum, and Similar Practices" />
     <published>2025-11-20T08:40:00+05:45</published>
   
-    <updated>2025-11-20T08:40:00+05:45</updated>
+    <updated>2025-12-24T23:27:49+05:45</updated>
   
     <id>http://shivrajbadu.com.np/posts/agile-scrum-and-similar-practices/</id>
     <content src="http://shivrajbadu.com.np/posts/agile-scrum-and-similar-practices/" />
@@ -73,7 +116,7 @@ Core Ideas
     <link href="http://shivrajbadu.com.np/posts/python-none/" rel="alternate" type="text/html" title="A Quick Note on Python&amp;apos;s None" />
     <published>2025-10-27T13:00:00+05:45</published>
   
-    <updated>2025-11-18T08:55:12+05:45</updated>
+    <updated>2025-12-24T23:27:49+05:45</updated>
   
     <id>http://shivrajbadu.com.np/posts/python-none/</id>
     <content src="http://shivrajbadu.com.np/posts/python-none/" />
@@ -113,7 +156,7 @@ None is often used to signify that a variable has not yet been assigned a value,
     <link href="http://shivrajbadu.com.np/posts/python-try-except/" rel="alternate" type="text/html" title="A Quick Note on Python Try...Except" />
     <published>2025-10-27T12:00:00+05:45</published>
   
-    <updated>2025-11-18T08:55:12+05:45</updated>
+    <updated>2025-12-24T23:27:49+05:45</updated>
   
     <id>http://shivrajbadu.com.np/posts/python-try-except/</id>
     <content src="http://shivrajbadu.com.np/posts/python-try-except/" />
@@ -161,7 +204,7 @@ Handli...
     <link href="http://shivrajbadu.com.np/posts/python-pip/" rel="alternate" type="text/html" title="A Quick Note on Python PIP" />
     <published>2025-10-27T11:00:00+05:45</published>
   
-    <updated>2025-11-18T08:55:12+05:45</updated>
+    <updated>2025-12-24T23:27:49+05:45</updated>
   
     <id>http://shivrajbadu.com.np/posts/python-pip/</id>
     <content src="http://shivrajbadu.com.np/posts/python-pip/" />
@@ -194,46 +237,6 @@ A package contains all the files you need for a module. Modules are Python code 
 Installing PIP
 
 If you ha...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>A Quick Note on Python RegEx</title>
-    <link href="http://shivrajbadu.com.np/posts/python-regex/" rel="alternate" type="text/html" title="A Quick Note on Python RegEx" />
-    <published>2025-10-27T10:00:00+05:45</published>
-  
-    <updated>2025-11-18T08:55:12+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/python-regex/</id>
-    <content src="http://shivrajbadu.com.np/posts/python-regex/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="Python" />
-    
-    <category term="Basics" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      A Regular Expression, or RegEx, is a sequence of characters that forms a search pattern. RegEx can be used to check if a string contains the specified search pattern. Python has a built-in package called re, which can be used to work with Regular Expressions.
-
-The re.search() Function
-
-The re.search() function searches the string for a match, and returns a match object if there is a match. If t...
     </summary>
   
 

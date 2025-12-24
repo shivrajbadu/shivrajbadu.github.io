@@ -116,6 +116,7 @@ Highlight important commands or lines using bold or inline backticks
 
 Include prerequisites, installation steps, or environment notes as needed
 
+LastLine must included line breaker (---) with this adsense line {% include inarticle-adsense.html %}
 
 Supported syntax highlighting languages include `ruby`, `js`, `bash`, `python`, `yaml`, `html`, `json`, `sql`, and more.
 
