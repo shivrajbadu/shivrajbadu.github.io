@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2025-12-24T23:38:54+05:45</updated>
+  <updated>2025-12-28T12:27:58+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -20,106 +20,14 @@
 
   
   <entry>
-    <title>Scale chunking with Sidekiq swarm</title>
-    <link href="http://shivrajbadu.com.np/posts/scale-chunking-with-sidekiq-swarm/" rel="alternate" type="text/html" title="Scale chunking with Sidekiq swarm" />
-    <published>2025-12-24T11:20:00+05:45</published>
+    <title>Introduction to Data Visualization with Python's Matplotlib</title>
+    <link href="http://shivrajbadu.com.np/posts/python-matplotlib-visualization/" rel="alternate" type="text/html" title="Introduction to Data Visualization with Python&amp;apos;s Matplotlib" />
+    <published>2025-12-25T15:30:00+05:45</published>
   
-    <updated>2025-12-24T11:20:00+05:45</updated>
+    <updated>2025-12-25T15:30:00+05:45</updated>
   
-    <id>http://shivrajbadu.com.np/posts/scale-chunking-with-sidekiq-swarm/</id>
-    <content src="http://shivrajbadu.com.np/posts/scale-chunking-with-sidekiq-swarm/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="Sidekiq" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Why My 100k Batch Job Got Stuck — and How Sidekiq Swarm Would Have Fixed It
-
-When processing large datasets locally, I ran into a classic background processing problem:
-
-
-  A job that worked at smaller batch sizes but completely stalled at larger ones.
-
-
-This post explains why that happened, why reducing the batch size fixed it, and how Sidekiq Swarm would have solved the problem more cleanly.
-...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Agile, Scrum, and Similar Practices</title>
-    <link href="http://shivrajbadu.com.np/posts/agile-scrum-and-similar-practices/" rel="alternate" type="text/html" title="Agile, Scrum, and Similar Practices" />
-    <published>2025-11-20T08:40:00+05:45</published>
-  
-    <updated>2025-12-24T23:27:49+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/agile-scrum-and-similar-practices/</id>
-    <content src="http://shivrajbadu.com.np/posts/agile-scrum-and-similar-practices/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="Agile" />
-    
-    <category term="Scrum" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      📘 Notes: Agile, Scrum, and Similar Practices
-
-1. What is Agile?
-
-Agile is a mindset and a set of values/principles for building software (or any product) in an iterative way.
-
-Core Ideas
-
-
-  Deliver work in small increments
-  Respond to change instead of rigid long-term plans
-  Continuous feedback from users/stakeholders
-  Collaboration over heavy documentation
-  Frequent release of working pro...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>A Quick Note on Python's None</title>
-    <link href="http://shivrajbadu.com.np/posts/python-none/" rel="alternate" type="text/html" title="A Quick Note on Python&amp;apos;s None" />
-    <published>2025-10-27T13:00:00+05:45</published>
-  
-    <updated>2025-12-24T23:27:49+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/python-none/</id>
-    <content src="http://shivrajbadu.com.np/posts/python-none/" />
+    <id>http://shivrajbadu.com.np/posts/python-matplotlib-visualization/</id>
+    <content src="http://shivrajbadu.com.np/posts/python-matplotlib-visualization/" />
     <author>
       <name>Shivraj Badu</name>
     </author>
@@ -128,7 +36,7 @@ Core Ideas
     
     <category term="Python" />
     
-    <category term="Basics" />
+    <category term="Data Science" />
     
   
 
@@ -140,11 +48,11 @@ Core Ideas
 
 
 
-      In Python, None is a special constant that represents the absence of a value or a null value. It is an object of its own class, NoneType. It is not the same as 0, False, or an empty string. None is a singleton, meaning there is only one instance of it in memory.
+      Introduction to Data Visualization with Python’s Matplotlib
 
-What is None?
+Introduction
 
-None is often used to signify that a variable has not yet been assigned a value, or that a function did not return any...
+In the realm of data science and analysis, raw data is just the beginning. The true power lies in our ability to interpret it, find patterns, and communicate findings effectively. This is where data visualization becomes indispensable. For Python programmers, Matplotlib is the cornerstone library for creating a vast arra...
     </summary>
   
 
@@ -152,14 +60,14 @@ None is often used to signify that a variable has not yet been assigned a value,
 
   
   <entry>
-    <title>A Quick Note on Python Try...Except</title>
-    <link href="http://shivrajbadu.com.np/posts/python-try-except/" rel="alternate" type="text/html" title="A Quick Note on Python Try...Except" />
-    <published>2025-10-27T12:00:00+05:45</published>
+    <title>Understanding Polymorphism in Python: A Guide to Flexible and Dynamic Code</title>
+    <link href="http://shivrajbadu.com.np/posts/python-polymorphism/" rel="alternate" type="text/html" title="Understanding Polymorphism in Python: A Guide to Flexible and Dynamic Code" />
+    <published>2025-12-25T15:00:00+05:45</published>
   
-    <updated>2025-12-24T23:27:49+05:45</updated>
+    <updated>2025-12-25T15:00:00+05:45</updated>
   
-    <id>http://shivrajbadu.com.np/posts/python-try-except/</id>
-    <content src="http://shivrajbadu.com.np/posts/python-try-except/" />
+    <id>http://shivrajbadu.com.np/posts/python-polymorphism/</id>
+    <content src="http://shivrajbadu.com.np/posts/python-polymorphism/" />
     <author>
       <name>Shivraj Badu</name>
     </author>
@@ -168,7 +76,7 @@ None is often used to signify that a variable has not yet been assigned a value,
     
     <category term="Python" />
     
-    <category term="Basics" />
+    <category term="Programming" />
     
   
 
@@ -180,19 +88,11 @@ None is often used to signify that a variable has not yet been assigned a value,
 
 
 
-      Exception handling is a crucial part of writing robust and reliable code. In Python, you can use the try...except block to handle errors gracefully and prevent your program from crashing.
+      Understanding Polymorphism in Python: A Guide to Flexible and Dynamic Code
 
-The try...except Block
+Introduction
 
-The try block lets you test a block of code for errors. The except block lets you handle the error.
-
-try:
-    print(x)
-except NameError:
-    print("Variable x is not defined")
-
-
-Handli...
+In the world of Object-Oriented Programming (OOP), there are a few core concepts that provide the paradigm with its power and elegance. Among them, polymorphism stands out as a particularly potent idea. The term itself comes from Greek, meaning “many forms,” which is a fitting description for a principle t...
     </summary>
   
 
@@ -200,14 +100,14 @@ Handli...
 
   
   <entry>
-    <title>A Quick Note on Python PIP</title>
-    <link href="http://shivrajbadu.com.np/posts/python-pip/" rel="alternate" type="text/html" title="A Quick Note on Python PIP" />
-    <published>2025-10-27T11:00:00+05:45</published>
+    <title>Python DSA Series 08: A Guide to Sorting Algorithms</title>
+    <link href="http://shivrajbadu.com.np/posts/python-dsa-08-sorting-algorithms/" rel="alternate" type="text/html" title="Python DSA Series 08: A Guide to Sorting Algorithms" />
+    <published>2025-12-25T14:30:00+05:45</published>
   
-    <updated>2025-12-24T23:27:49+05:45</updated>
+    <updated>2025-12-25T14:30:00+05:45</updated>
   
-    <id>http://shivrajbadu.com.np/posts/python-pip/</id>
-    <content src="http://shivrajbadu.com.np/posts/python-pip/" />
+    <id>http://shivrajbadu.com.np/posts/python-dsa-08-sorting-algorithms/</id>
+    <content src="http://shivrajbadu.com.np/posts/python-dsa-08-sorting-algorithms/" />
     <author>
       <name>Shivraj Badu</name>
     </author>
@@ -216,7 +116,7 @@ Handli...
     
     <category term="Python" />
     
-    <category term="Basics" />
+    <category term="DSA" />
     
   
 
@@ -228,15 +128,93 @@ Handli...
 
 
 
-      PIP is the package manager for Python. It allows you to install and manage additional libraries and dependencies that are not part of the standard Python library. PIP is usually installed automatically when you install Python.
+      Python DSA Series 08: A Guide to Sorting Algorithms
 
-What is a Package?
+Welcome to the final post in our Python DSA series! We’ve come a long way, from basic lists to complex graphs. We conclude with one of the most fundamental problems in computer science: sorting. Sorting is a critical prerequisite for many efficient algorithms, including the binary search we just learned about.
 
-A package contains all the files you need for a module. Modules are Python code libraries you can include in your project.
+While you’ll often just use Pyt...
+    </summary>
+  
 
-Installing PIP
+  </entry>
 
-If you ha...
+  
+  <entry>
+    <title>Python DSA Series 07: Essential Searching Algorithms</title>
+    <link href="http://shivrajbadu.com.np/posts/python-dsa-07-searching-algorithms/" rel="alternate" type="text/html" title="Python DSA Series 07: Essential Searching Algorithms" />
+    <published>2025-12-25T14:25:00+05:45</published>
+  
+    <updated>2025-12-25T14:25:00+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/python-dsa-07-searching-algorithms/</id>
+    <content src="http://shivrajbadu.com.np/posts/python-dsa-07-searching-algorithms/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="Python" />
+    
+    <category term="DSA" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Python DSA Series 07: Essential Searching Algorithms
+
+We’ve explored many ways to store data. Now, let’s focus on two fundamental algorithms for finding it. Searching is a core task in programming, and understanding the trade-offs between different search algorithms is crucial for writing efficient code.
+
+In this post, we’ll cover the two most essential searching algorithms: Linear Search and B...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Python DSA Series 06: An Introduction to Graphs</title>
+    <link href="http://shivrajbadu.com.np/posts/python-dsa-06-graphs/" rel="alternate" type="text/html" title="Python DSA Series 06: An Introduction to Graphs" />
+    <published>2025-12-25T14:20:00+05:45</published>
+  
+    <updated>2025-12-25T14:20:00+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/python-dsa-06-graphs/</id>
+    <content src="http://shivrajbadu.com.np/posts/python-dsa-06-graphs/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="Python" />
+    
+    <category term="DSA" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Python DSA Series 06: An Introduction to Graphs
+
+We’ve climbed the hierarchy of Trees, but what if you need to represent a structure with more complex connections, like a social network, a city road map, or the internet itself? For this, we need Graphs, one of the most flexible and powerful data structures in computer science.
+
+What is a Graph?
+
+A graph is a data structure consisting of a set o...
     </summary>
   
 
