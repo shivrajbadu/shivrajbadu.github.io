@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "Scale chunking with Sidekiq swarm"
+title: "Scaling Chunked Background Jobs: From Batch Size Tuning to Sidekiq Swarm"
 date: 2025-12-24 11:20:00 +0545
 categories: [Sidekiq]
 tags: [sidekiq, sidekiq_swarm, batch_handling, performance]
 ---
 
-# Why My 100k Batch Job Got Stuck — and How Sidekiq Swarm Would Have Fixed It
+# Why 100k Batch Job Got Stuck — and How Sidekiq Swarm Would Have Fixed It
 
-When processing large datasets locally, I ran into a classic background processing problem:
+When processing large datasets locally, there seems to have classic background processing problem:
 
 > **A job that worked at smaller batch sizes but completely stalled at larger ones.**
 
@@ -364,9 +364,19 @@ Sidekiq Swarm is an architectural solution.
 
 ---
 
+### Redis RTT warnings, CPU saturation, and why batch size mattered
+
+During further debugging, Sidekiq started emitting the warning: _“Your Redis network connection is performing extremely poorly… ideally RTT should be < 1000. If these values are close to 100,000, your Sidekiq process may be CPU-saturated.”_ At first glance, this message appears to implicate Redis or network latency, but in this case the root cause was **local CPU saturation**, not Redis itself. With a single Redis instance and `sidekiq.rb` concurrency set to 5, each batch job was pushing large argument payloads (2,000 records per chunk) into Redis while also maintaining idempotency and progress tracking keys (e.g., `batch_id → successful_entries, unsuccessful_entries, errors`).
+In this case, each batch chunk (2,000 records) triggered `BulkProcessorWorker#update_progress_in_bulk`, which issued 8+ Redis commands per chunk—multiple `HINCRBY`s, `SADD`, repeated `RPUSH` calls per error and result, plus cardinality checks—resulting in hundreds of Redis operations per job when batch sizes were large.
+The size and frequency of these Redis operations scaled directly with the batch size and argument volume. When batches contained 2,000 entries, Redis round-trip time (RTT) measurements ballooned—not because **Redis was slow, but because the Sidekiq process was CPU-bound** and could not service Redis IO promptly. In other words, Redis responses were waiting on a saturated Ruby VM. Reducing the batch size to 500 significantly lowered object allocation, serialization cost, and GC pressure per job, allowing the Sidekiq process to respond to Redis quickly again and eliminating the RTT warnings. This highlights an important nuance: **large job arguments and heavy Redis interaction can indirectly manifest as “network” warnings when the real bottleneck is CPU saturation in a single Sidekiq process**—a problem that Sidekiq Swarm mitigates by distributing work across multiple processes rather than overloading one.
+
+### Why Sidekiq Swarm avoids this failure mode
+
+Sidekiq Swarm addresses this class of problem by running multiple Sidekiq processes, each with low concurrency, instead of a single highly saturated process. Rather than one Ruby VM handling large batches, Redis serialization, GC, and job execution simultaneously, Swarm distributes these responsibilities across many isolated processes. Each process maintains a smaller heap, experiences shorter GC pauses, and keeps Redis RTTs low. This aligns with Sidekiq’s recommended multi-process architecture as described in the official documentation: https://github.com/sidekiq/sidekiq/wiki/Ent-Multi-Process.
+
 ## Final summary
 
-The job got stuck not because of data size, but because a single Ruby process was overloaded with CPU and GC pressure. Reducing the batch size lowered peak resource usage and allowed progress, but didn’t fundamentally solve the scalability issue. With Sidekiq Swarm, the workload would be split into many small, isolated jobs processed by multiple workers, distributing CPU load, reducing GC pressure, and eliminating the single-process bottleneck entirely.
+The job got stuck not because of data size, but due to CPU saturation and excessive GC pressure in a single Ruby process or Sidekiq process, amplified by large batch sizes and inefficient Redis interactions. Reducing the batch size to 500 alleviated the immediate pressure by lowering allocation and Redis round-trip overhead, allowing the job to complete. However, this was a tactical fix, not a scalable solution. Adopting a Sidekiq Swarm model—combined with efficient Redis usage such as pipelining—shifts the system from a single overloaded worker to many small, isolated processes or workers, distributing CPU load, reducing GC pauses, stabilizing Redis RTTs, and removing the single-process bottleneck entirely.
 
 ---
 
