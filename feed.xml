@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2025-12-28T12:27:58+05:45</updated>
+  <updated>2025-12-28T14:38:11+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -17,6 +17,178 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Async Programming in FastAPI: `async def` vs `def`</title>
+    <link href="http://shivrajbadu.com.np/posts/fastapi-async-programming/" rel="alternate" type="text/html" title="Async Programming in FastAPI: `async def` vs `def`" />
+    <published>2025-12-28T13:00:00+05:45</published>
+  
+    <updated>2025-12-28T13:00:00+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/fastapi-async-programming/</id>
+    <content src="http://shivrajbadu.com.np/posts/fastapi-async-programming/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="FastAPI" />
+    
+    <category term="Python" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Async Programming in FastAPI: async def vs def
+
+Introduction
+
+One of FastAPI’s core strengths is its native support for asynchronous programming using Python’s async and await keywords. Understanding when and how to use async functions is key to unlocking the high performance that makes FastAPI so popular. This post clarifies the difference between async def and normal def endpoints.
+
+What is A...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>FastAPI: Handling Request Bodies and Data Validation</title>
+    <link href="http://shivrajbadu.com.np/posts/fastapi-request-body-and-validations/" rel="alternate" type="text/html" title="FastAPI: Handling Request Bodies and Data Validation" />
+    <published>2025-12-28T12:00:00+05:45</published>
+  
+    <updated>2025-12-28T12:00:00+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/fastapi-request-body-and-validations/</id>
+    <content src="http://shivrajbadu.com.np/posts/fastapi-request-body-and-validations/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="FastAPI" />
+    
+    <category term="Python" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      FastAPI: Handling Request Bodies and Data Validation
+
+Introduction
+
+While path and query parameters are great for simple data, most POST, PUT, and PATCH operations require richer data structures sent in the request body. FastAPI uses Pydantic models to define, validate, and document these structures, making it incredibly easy to work with complex JSON data.
+
+Using Pydantic for Request Bodies
+
+P...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Handling Path and Query Parameters in FastAPI</title>
+    <link href="http://shivrajbadu.com.np/posts/fastapi-path-and-query-parameters/" rel="alternate" type="text/html" title="Handling Path and Query Parameters in FastAPI" />
+    <published>2025-12-28T11:00:00+05:45</published>
+  
+    <updated>2025-12-28T11:00:00+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/fastapi-path-and-query-parameters/</id>
+    <content src="http://shivrajbadu.com.np/posts/fastapi-path-and-query-parameters/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="FastAPI" />
+    
+    <category term="Python" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Handling Path and Query Parameters in FastAPI
+
+Introduction
+
+In our previous post, we created a basic FastAPI application. Now, let’s learn how to handle dynamic inputs from the URL using path and query parameters. This is fundamental for building APIs that can respond to user-specific requests.
+
+Path Parameters
+
+Path parameters are parts of the URL path that are variable. They are specified us...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>FastAPI: A Quick Start Guide for Modern Python Web APIs</title>
+    <link href="http://shivrajbadu.com.np/posts/introduction-to-fastapi/" rel="alternate" type="text/html" title="FastAPI: A Quick Start Guide for Modern Python Web APIs" />
+    <published>2025-12-28T10:00:00+05:45</published>
+  
+    <updated>2025-12-28T10:00:00+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/introduction-to-fastapi/</id>
+    <content src="http://shivrajbadu.com.np/posts/introduction-to-fastapi/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="FastAPI" />
+    
+    <category term="Python" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      FastAPI: A Quick Start Guide for Modern Python Web APIs
+
+Introduction
+
+FastAPI is a modern, high-performance web framework for building APIs with Python 3.7+ based on standard Python type hints. It’s designed to be easy, fast, and intuitive, making it a popular choice for developers who need to create robust and efficient web services quickly.
+
+This guide is the first in a series that will cove...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -53,168 +225,6 @@
 Introduction
 
 In the realm of data science and analysis, raw data is just the beginning. The true power lies in our ability to interpret it, find patterns, and communicate findings effectively. This is where data visualization becomes indispensable. For Python programmers, Matplotlib is the cornerstone library for creating a vast arra...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Understanding Polymorphism in Python: A Guide to Flexible and Dynamic Code</title>
-    <link href="http://shivrajbadu.com.np/posts/python-polymorphism/" rel="alternate" type="text/html" title="Understanding Polymorphism in Python: A Guide to Flexible and Dynamic Code" />
-    <published>2025-12-25T15:00:00+05:45</published>
-  
-    <updated>2025-12-25T15:00:00+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/python-polymorphism/</id>
-    <content src="http://shivrajbadu.com.np/posts/python-polymorphism/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="Python" />
-    
-    <category term="Programming" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Understanding Polymorphism in Python: A Guide to Flexible and Dynamic Code
-
-Introduction
-
-In the world of Object-Oriented Programming (OOP), there are a few core concepts that provide the paradigm with its power and elegance. Among them, polymorphism stands out as a particularly potent idea. The term itself comes from Greek, meaning “many forms,” which is a fitting description for a principle t...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Python DSA Series 08: A Guide to Sorting Algorithms</title>
-    <link href="http://shivrajbadu.com.np/posts/python-dsa-08-sorting-algorithms/" rel="alternate" type="text/html" title="Python DSA Series 08: A Guide to Sorting Algorithms" />
-    <published>2025-12-25T14:30:00+05:45</published>
-  
-    <updated>2025-12-25T14:30:00+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/python-dsa-08-sorting-algorithms/</id>
-    <content src="http://shivrajbadu.com.np/posts/python-dsa-08-sorting-algorithms/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="Python" />
-    
-    <category term="DSA" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Python DSA Series 08: A Guide to Sorting Algorithms
-
-Welcome to the final post in our Python DSA series! We’ve come a long way, from basic lists to complex graphs. We conclude with one of the most fundamental problems in computer science: sorting. Sorting is a critical prerequisite for many efficient algorithms, including the binary search we just learned about.
-
-While you’ll often just use Pyt...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Python DSA Series 07: Essential Searching Algorithms</title>
-    <link href="http://shivrajbadu.com.np/posts/python-dsa-07-searching-algorithms/" rel="alternate" type="text/html" title="Python DSA Series 07: Essential Searching Algorithms" />
-    <published>2025-12-25T14:25:00+05:45</published>
-  
-    <updated>2025-12-25T14:25:00+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/python-dsa-07-searching-algorithms/</id>
-    <content src="http://shivrajbadu.com.np/posts/python-dsa-07-searching-algorithms/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="Python" />
-    
-    <category term="DSA" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Python DSA Series 07: Essential Searching Algorithms
-
-We’ve explored many ways to store data. Now, let’s focus on two fundamental algorithms for finding it. Searching is a core task in programming, and understanding the trade-offs between different search algorithms is crucial for writing efficient code.
-
-In this post, we’ll cover the two most essential searching algorithms: Linear Search and B...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Python DSA Series 06: An Introduction to Graphs</title>
-    <link href="http://shivrajbadu.com.np/posts/python-dsa-06-graphs/" rel="alternate" type="text/html" title="Python DSA Series 06: An Introduction to Graphs" />
-    <published>2025-12-25T14:20:00+05:45</published>
-  
-    <updated>2025-12-25T14:20:00+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/python-dsa-06-graphs/</id>
-    <content src="http://shivrajbadu.com.np/posts/python-dsa-06-graphs/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="Python" />
-    
-    <category term="DSA" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Python DSA Series 06: An Introduction to Graphs
-
-We’ve climbed the hierarchy of Trees, but what if you need to represent a structure with more complex connections, like a social network, a city road map, or the internet itself? For this, we need Graphs, one of the most flexible and powerful data structures in computer science.
-
-What is a Graph?
-
-A graph is a data structure consisting of a set o...
     </summary>
   
 
