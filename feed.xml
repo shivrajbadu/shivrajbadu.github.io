@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2025-12-28T14:38:11+05:45</updated>
+  <updated>2026-01-04T15:02:36+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -13,30 +13,32 @@
   <link rel="alternate" type="text/html" hreflang="en"
     href="http://shivrajbadu.com.np/"/>
   <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
-  <rights> © 2025 Shivraj Badu </rights>
+  <rights> © 2026 Shivraj Badu </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
 
   
   <entry>
-    <title>Async Programming in FastAPI: `async def` vs `def`</title>
-    <link href="http://shivrajbadu.com.np/posts/fastapi-async-programming/" rel="alternate" type="text/html" title="Async Programming in FastAPI: `async def` vs `def`" />
-    <published>2025-12-28T13:00:00+05:45</published>
+    <title>Deep Learning Concepts: A Guide for ML Engineers</title>
+    <link href="http://shivrajbadu.com.np/posts/deep-learning-interview-guide/" rel="alternate" type="text/html" title="Deep Learning Concepts: A Guide for ML Engineers" />
+    <published>2025-12-30T11:00:00+05:45</published>
   
-    <updated>2025-12-28T13:00:00+05:45</updated>
+    <updated>2025-12-30T11:00:00+05:45</updated>
   
-    <id>http://shivrajbadu.com.np/posts/fastapi-async-programming/</id>
-    <content src="http://shivrajbadu.com.np/posts/fastapi-async-programming/" />
+    <id>http://shivrajbadu.com.np/posts/deep-learning-interview-guide/</id>
+    <content src="http://shivrajbadu.com.np/posts/deep-learning-interview-guide/" />
     <author>
       <name>Shivraj Badu</name>
     </author>
 
   
     
-    <category term="FastAPI" />
+    <category term="Machine Learning" />
     
-    <category term="Python" />
+    <category term="Deep Learning" />
+    
+    <category term="AI" />
     
   
 
@@ -48,13 +50,11 @@
 
 
 
-      Async Programming in FastAPI: async def vs def
+      Deep Learning Concepts for Interviews: A Guide for ML Engineers
 
 Introduction
 
-One of FastAPI’s core strengths is its native support for asynchronous programming using Python’s async and await keywords. Understanding when and how to use async functions is key to unlocking the high performance that makes FastAPI so popular. This post clarifies the difference between async def and normal def endpoints.
-
-What is A...
+Deep Learning is no longer a niche subfield of AI; it is the engine driving the most significant breakthroughs in technology, from natural language understanding to computer vision. For any Machine Learning Engineer, from junior to senior, a solid grasp of its core concepts is not just beneficial—it’s essential for c...
     </summary>
   
 
@@ -62,23 +62,25 @@ What is A...
 
   
   <entry>
-    <title>FastAPI: Handling Request Bodies and Data Validation</title>
-    <link href="http://shivrajbadu.com.np/posts/fastapi-request-body-and-validations/" rel="alternate" type="text/html" title="FastAPI: Handling Request Bodies and Data Validation" />
-    <published>2025-12-28T12:00:00+05:45</published>
+    <title>LLM Foundations Part 5: Fine-Tuning with LoRA and QLoRA</title>
+    <link href="http://shivrajbadu.com.np/posts/llm-foundations-part-5-fine-tuning-using-lora-and-qlora/" rel="alternate" type="text/html" title="LLM Foundations Part 5: Fine-Tuning with LoRA and QLoRA" />
+    <published>2025-12-30T10:30:00+05:45</published>
   
-    <updated>2025-12-28T12:00:00+05:45</updated>
+    <updated>2025-12-30T10:30:00+05:45</updated>
   
-    <id>http://shivrajbadu.com.np/posts/fastapi-request-body-and-validations/</id>
-    <content src="http://shivrajbadu.com.np/posts/fastapi-request-body-and-validations/" />
+    <id>http://shivrajbadu.com.np/posts/llm-foundations-part-5-fine-tuning-using-lora-and-qlora/</id>
+    <content src="http://shivrajbadu.com.np/posts/llm-foundations-part-5-fine-tuning-using-lora-and-qlora/" />
     <author>
       <name>Shivraj Badu</name>
     </author>
 
   
     
-    <category term="FastAPI" />
+    <category term="AI" />
     
-    <category term="Python" />
+    <category term="LLM" />
+    
+    <category term="Machine Learning" />
     
   
 
@@ -90,15 +92,11 @@ What is A...
 
 
 
-      FastAPI: Handling Request Bodies and Data Validation
+      LLM Foundations Part 5: Fine-Tuning with LoRA and QLoRA
 
 Introduction
 
-While path and query parameters are great for simple data, most POST, PUT, and PATCH operations require richer data structures sent in the request body. FastAPI uses Pydantic models to define, validate, and document these structures, making it incredibly easy to work with complex JSON data.
-
-Using Pydantic for Request Bodies
-
-P...
+Welcome to the fifth installment of our “LLM Foundations” series. In previous parts, we explored the architecture and pre-training of Large Language Models. Now, we turn to one of the most practical and impactful aspects of working with them: fine-tuning. While retraining an entire LLM is beyond the reach of most, fine-tunin...
     </summary>
   
 
@@ -106,23 +104,25 @@ P...
 
   
   <entry>
-    <title>Handling Path and Query Parameters in FastAPI</title>
-    <link href="http://shivrajbadu.com.np/posts/fastapi-path-and-query-parameters/" rel="alternate" type="text/html" title="Handling Path and Query Parameters in FastAPI" />
-    <published>2025-12-28T11:00:00+05:45</published>
+    <title>LLM Foundations Part 4: Building Real-World Applications</title>
+    <link href="http://shivrajbadu.com.np/posts/llm-foundations-part-4-applications/" rel="alternate" type="text/html" title="LLM Foundations Part 4: Building Real-World Applications" />
+    <published>2025-12-29T03:30:00+05:45</published>
   
-    <updated>2025-12-28T11:00:00+05:45</updated>
+    <updated>2025-12-29T03:30:00+05:45</updated>
   
-    <id>http://shivrajbadu.com.np/posts/fastapi-path-and-query-parameters/</id>
-    <content src="http://shivrajbadu.com.np/posts/fastapi-path-and-query-parameters/" />
+    <id>http://shivrajbadu.com.np/posts/llm-foundations-part-4-applications/</id>
+    <content src="http://shivrajbadu.com.np/posts/llm-foundations-part-4-applications/" />
     <author>
       <name>Shivraj Badu</name>
     </author>
 
   
     
-    <category term="FastAPI" />
-    
     <category term="Python" />
+    
+    <category term="Machine Learning" />
+    
+    <category term="Deep Learning" />
     
   
 
@@ -134,15 +134,13 @@ P...
 
 
 
-      Handling Path and Query Parameters in FastAPI
+      LLM Foundations Part 4: Building Real-World Applications
 
 Introduction
 
-In our previous post, we created a basic FastAPI application. Now, let’s learn how to handle dynamic inputs from the URL using path and query parameters. This is fundamental for building APIs that can respond to user-specific requests.
+Welcome to the final part of our LLM Foundations series. In Part 1, we understood the models. In Part 2, we learned how to prompt them. In Part 3, we explored the ecosystem of tools. Now, it’s time to put it all together and build powerful, real-world applications.
 
-Path Parameters
-
-Path parameters are parts of the URL path that are variable. They are specified us...
+This post will focus on the practical patterns and use cas...
     </summary>
   
 
@@ -150,23 +148,25 @@ Path parameters are parts of the URL path that are variable. They are specified 
 
   
   <entry>
-    <title>FastAPI: A Quick Start Guide for Modern Python Web APIs</title>
-    <link href="http://shivrajbadu.com.np/posts/introduction-to-fastapi/" rel="alternate" type="text/html" title="FastAPI: A Quick Start Guide for Modern Python Web APIs" />
-    <published>2025-12-28T10:00:00+05:45</published>
+    <title>LLM Foundations Part 3: The Essential Tools and Ecosystem</title>
+    <link href="http://shivrajbadu.com.np/posts/llm-foundations-part-3-tools-ecosystem/" rel="alternate" type="text/html" title="LLM Foundations Part 3: The Essential Tools and Ecosystem" />
+    <published>2025-12-29T02:30:00+05:45</published>
   
-    <updated>2025-12-28T10:00:00+05:45</updated>
+    <updated>2025-12-29T02:30:00+05:45</updated>
   
-    <id>http://shivrajbadu.com.np/posts/introduction-to-fastapi/</id>
-    <content src="http://shivrajbadu.com.np/posts/introduction-to-fastapi/" />
+    <id>http://shivrajbadu.com.np/posts/llm-foundations-part-3-tools-ecosystem/</id>
+    <content src="http://shivrajbadu.com.np/posts/llm-foundations-part-3-tools-ecosystem/" />
     <author>
       <name>Shivraj Badu</name>
     </author>
 
   
     
-    <category term="FastAPI" />
-    
     <category term="Python" />
+    
+    <category term="Machine Learning" />
+    
+    <category term="Deep Learning" />
     
   
 
@@ -178,13 +178,13 @@ Path parameters are parts of the URL path that are variable. They are specified 
 
 
 
-      FastAPI: A Quick Start Guide for Modern Python Web APIs
+      LLM Foundations Part 3: The Essential Tools and Ecosystem
 
 Introduction
 
-FastAPI is a modern, high-performance web framework for building APIs with Python 3.7+ based on standard Python type hints. It’s designed to be easy, fast, and intuitive, making it a popular choice for developers who need to create robust and efficient web services quickly.
+In Part 1, we explored the architecture of LLMs, and in Part 2, we learned the art of prompting them. Now, we turn to the practical side: What tools do we actually use to build applications with these models?
 
-This guide is the first in a series that will cove...
+A powerful model is just one piece of the puzzle. To create a real-world application, you need a robust ecosystem ...
     </summary>
   
 
@@ -192,14 +192,14 @@ This guide is the first in a series that will cove...
 
   
   <entry>
-    <title>Introduction to Data Visualization with Python's Matplotlib</title>
-    <link href="http://shivrajbadu.com.np/posts/python-matplotlib-visualization/" rel="alternate" type="text/html" title="Introduction to Data Visualization with Python&amp;apos;s Matplotlib" />
-    <published>2025-12-25T15:30:00+05:45</published>
+    <title>LLM Foundations Part 2: The Art of Prompt Engineering</title>
+    <link href="http://shivrajbadu.com.np/posts/llm-foundations-part-2-prompt-engineering/" rel="alternate" type="text/html" title="LLM Foundations Part 2: The Art of Prompt Engineering" />
+    <published>2025-12-29T01:30:00+05:45</published>
   
-    <updated>2025-12-25T15:30:00+05:45</updated>
+    <updated>2025-12-29T01:30:00+05:45</updated>
   
-    <id>http://shivrajbadu.com.np/posts/python-matplotlib-visualization/</id>
-    <content src="http://shivrajbadu.com.np/posts/python-matplotlib-visualization/" />
+    <id>http://shivrajbadu.com.np/posts/llm-foundations-part-2-prompt-engineering/</id>
+    <content src="http://shivrajbadu.com.np/posts/llm-foundations-part-2-prompt-engineering/" />
     <author>
       <name>Shivraj Badu</name>
     </author>
@@ -208,7 +208,9 @@ This guide is the first in a series that will cove...
     
     <category term="Python" />
     
-    <category term="Data Science" />
+    <category term="Machine Learning" />
+    
+    <category term="Deep Learning" />
     
   
 
@@ -220,11 +222,13 @@ This guide is the first in a series that will cove...
 
 
 
-      Introduction to Data Visualization with Python’s Matplotlib
+      LLM Foundations Part 2: The Art of Prompt Engineering
 
 Introduction
 
-In the realm of data science and analysis, raw data is just the beginning. The true power lies in our ability to interpret it, find patterns, and communicate findings effectively. This is where data visualization becomes indispensable. For Python programmers, Matplotlib is the cornerstone library for creating a vast arra...
+In Part 1 of our series, we explored the architecture and training of modern Large Language Models (LLMs). We learned that these models are trained to do one simple thing: predict the next word. Yet, from this simple objective, incredible abilities emerge.
+
+But how do we harness these abilities? How do we steer a model that un...
     </summary>
   
 
