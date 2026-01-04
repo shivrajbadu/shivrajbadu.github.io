@@ -17,8 +17,10 @@ This post will focus on the practical patterns and use cases that have emerged a
 We will cover:
 1.  The cornerstone pattern: **Retrieval-Augmented Generation (RAG)**.
 2.  **Semantic Search:** Building a search engine that understands meaning.
-3.  **Q&A Bots:** Enabling users to "chat with their data" (PDFs, websites, etc.).
-4.  **Advanced Chatbots & Agents:** Creating conversational AI that can use tools.
+3.  **Q&A Bots:** Enabling users to "chat with their data".
+4.  **Automated Content Creation and Summarization:** Using LLMs as creative and editorial partners.
+5.  **Structured Data Extraction:** Pulling structured data from unstructured text.
+6.  **Advanced Chatbots & Agents:** Creating conversational AI that can use tools.
 
 ## 1. The Foundational Pattern: Retrieval-Augmented Generation (RAG)
 
@@ -71,7 +73,28 @@ Here's how LangChain helps:
 
 By using these components, you can build a "Chat with your PDF" application in just a few dozen lines of code.
 
-## 4. Application 3: Advanced Chatbots and Agents
+## 4. Application 4: Automated Content Creation and Summarization
+
+Beyond retrieving information, LLMs excel at processing and generating it. This capability opens up a vast range of applications in content-focused workflows.
+
+### Document Summarization
+One of the most immediate and practical uses of LLMs is summarizing large volumes of text. Given a long article, a research paper, or a meeting transcript, you can prompt an LLM to provide a concise summary, extract key bullet points, or list action items. This saves hours of manual reading and helps users quickly grasp the essence of a document. A simple chain in LangChain can load a document and pipe its content to a prompted LLM to achieve this.
+
+### Content Generation
+LLMs are also powerful creative partners. They can be used to:
+-   **Draft Emails and Reports:** Generate professional-sounding drafts based on a few bullet points.
+-   **Marketing Copy:** Create variations of ad copy, social media posts, and product descriptions.
+-   **Code Generation:** Assist developers by writing boilerplate code, functions, or even entire scripts based on a natural language description.
+
+## 5. Application 5: Structured Data Extraction
+
+A significant challenge for many businesses is extracting structured information from unstructured text. For example, pulling the invoice number, date, and total amount from a PDF invoice, or identifying the key terms from a legal contract.
+
+LLMs are remarkably good at this task. By providing the LLM with the unstructured text and a prompt that describes the desired output format (often a JSON schema), you can instruct the model to act as a highly intelligent parser.
+
+For instance, you could feed it a customer review and ask it to return a JSON object containing the `sentiment` (positive/negative), a list of `mentioned_products`, and a `summary` of the feedback. Frameworks like LangChain enhance this pattern by allowing you to define the desired output schema using Pydantic models, which then automatically generates the correct prompt and validates the LLM's output, ensuring it conforms to the required structure.
+
+## 6. Application 6: Advanced Chatbots and Agents
 
 We can extend the RAG pattern to build truly interactive and capable AI agents.
 
@@ -82,11 +105,11 @@ A simple Q&A bot is stateless. To build a true chatbot, the model needs to remem
 This is where LLM applications become truly dynamic. An **Agent** uses an LLM not just to answer questions, but as a **reasoning engine** to decide what to do next.
 
 The `ask_tool` method in your `LLM` class is a fantastic example of this pattern. Here's the flow it enables:
-1.  The user asks a question that the LLM cannot answer from its internal knowledge (e.g., "What is the current price of Bitcoin?").
-2.  The LLM is given a list of available "tools" it can use (e.g., a `get_current_stock_price` function).
-3.  Instead of trying to answer, the LLM's response is a structured request to call a specific tool with specific arguments (e.g., `{"tool": "get_current_stock_price", "arg": "BTC"}`).
-4.  Your application code detects this, executes the actual function, gets the result (e.g., `$65,000`), and then calls the LLM *again* with that result included in the context.
-5.  Now, the LLM has the information it needs and can generate the final, natural language answer: "The current price of Bitcoin is $65,000."
+1.  The user asks a question that the LLM cannot answer from its internal knowledge (e.g., "What is the weather like in London?").
+2.  The LLM is given a list of available "tools" it can use (e.g., a `get_current_weather` function).
+3.  Instead of trying to answer, the LLM's response is a structured request to call a specific tool with specific arguments (e.g., `{"tool": "get_current_weather", "arg": "London"}`).
+4.  Your application code detects this, executes the actual function, gets the result (e.g., `"15°C and cloudy"`), and then calls the LLM *again* with that result included in the context.
+5.  Now, the LLM has the information it needs and can generate the final, natural language answer: "The current weather in London is 15°C and cloudy."
 
 This ability to interact with external APIs and data sources transforms the LLM from a static knowledge base into a dynamic problem-solver.
 
