@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2026-01-04T16:33:44+05:45</updated>
+  <updated>2026-01-04T18:18:59+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -20,14 +20,14 @@
 
   
   <entry>
-    <title>Vector Database Series: A Deep Dive into pgvector</title>
-    <link href="http://shivrajbadu.com.np/posts/a-deep-dive-into-postgres-vector-db/" rel="alternate" type="text/html" title="Vector Database Series: A Deep Dive into pgvector" />
-    <published>2026-01-04T11:10:00+05:45</published>
+    <title>LangChain Series: A Deep Dive into Chat Prompts</title>
+    <link href="http://shivrajbadu.com.np/posts/a-deep-dive-into-langchain-chat-prompts/" rel="alternate" type="text/html" title="LangChain Series: A Deep Dive into Chat Prompts" />
+    <published>2026-01-04T11:45:00+05:45</published>
   
-    <updated>2026-01-04T11:10:00+05:45</updated>
+    <updated>2026-01-04T11:45:00+05:45</updated>
   
-    <id>http://shivrajbadu.com.np/posts/a-deep-dive-into-postgres-vector-db/</id>
-    <content src="http://shivrajbadu.com.np/posts/a-deep-dive-into-postgres-vector-db/" />
+    <id>http://shivrajbadu.com.np/posts/a-deep-dive-into-langchain-chat-prompts/</id>
+    <content src="http://shivrajbadu.com.np/posts/a-deep-dive-into-langchain-chat-prompts/" />
     <author>
       <name>Shivraj Badu</name>
     </author>
@@ -38,9 +38,7 @@
     
     <category term="Machine Learning" />
     
-    <category term="Vector Database" />
-    
-    <category term="PostgreSQL" />
+    <category term="LangChain" />
     
   
 
@@ -52,13 +50,13 @@
 
 
 
-      Vector Database Series: A Deep Dive into pgvector
+      LangChain Series: A Deep Dive into Chat Prompts
 
 Introduction
 
-Welcome to the final installment of our vector database series. We’ve explored Pinecone, a highly-optimized managed service, and Weaviate, a flexible, open-source platform with built-in vectorization. Now, we’ll look at a different but incredibly practical approach: pgvector.
+In our LangChain series, we’ve explored the high-level concepts of chains and agents. Now, let’s zoom in on one of the most fundamental components you’ll use in every application: Prompts.
 
-pgvector is an open-source extension for PostgreSQL th...
+Modern chat models (like GPT-4 or Claude 3) don’t just take a single string of text as input. They expect a structured list of messages, each wi...
     </summary>
   
 
@@ -66,14 +64,14 @@ pgvector is an open-source extension for PostgreSQL th...
 
   
   <entry>
-    <title>Vector Database Series: A Deep Dive into Weaviate</title>
-    <link href="http://shivrajbadu.com.np/posts/a-deep-dive-into-weaviate-vector-database/" rel="alternate" type="text/html" title="Vector Database Series: A Deep Dive into Weaviate" />
-    <published>2026-01-04T11:05:00+05:45</published>
+    <title>LangChain Series: Documents and Loaders - The Gateway for Your Data</title>
+    <link href="http://shivrajbadu.com.np/posts/langchain-documents-and-loaders/" rel="alternate" type="text/html" title="LangChain Series: Documents and Loaders - The Gateway for Your Data" />
+    <published>2026-01-04T11:40:00+05:45</published>
   
-    <updated>2026-01-04T11:05:00+05:45</updated>
+    <updated>2026-01-04T11:40:00+05:45</updated>
   
-    <id>http://shivrajbadu.com.np/posts/a-deep-dive-into-weaviate-vector-database/</id>
-    <content src="http://shivrajbadu.com.np/posts/a-deep-dive-into-weaviate-vector-database/" />
+    <id>http://shivrajbadu.com.np/posts/langchain-documents-and-loaders/</id>
+    <content src="http://shivrajbadu.com.np/posts/langchain-documents-and-loaders/" />
     <author>
       <name>Shivraj Badu</name>
     </author>
@@ -84,7 +82,7 @@ pgvector is an open-source extension for PostgreSQL th...
     
     <category term="Machine Learning" />
     
-    <category term="Vector Database" />
+    <category term="LangChain" />
     
   
 
@@ -96,13 +94,12 @@ pgvector is an open-source extension for PostgreSQL th...
 
 
 
-      Vector Database Series: A Deep Dive into Weaviate
+      LangChain Series: Documents and Loaders - The Gateway for Your Data
 
 Introduction
 
-Welcome to the second post in our series on vector databases. In our previous article, we explored the fundamentals of vector databases and took a close look at Pinecone. Now, we turn our attention to another powerful and popular player in this space: Weaviate.
-
-Weaviate is an open-source, AI-native vector database with a distinct...
+In our journey through the LangChain ecosystem, we’ve learned that we can build powerful agents and chains that reason and take action. But to make our LLM applications truly useful, we need to connect them to our own data. The first step in any Retrieval-Augmented Generation (RAG) pipeline is to load that data.
+...
     </summary>
   
 
@@ -110,14 +107,14 @@ Weaviate is an open-source, AI-native vector database with a distinct...
 
   
   <entry>
-    <title>Vector Databases Explained: A Deep Dive into Pinecone</title>
-    <link href="http://shivrajbadu.com.np/posts/introduction-to-vector-databases-and-pinecone/" rel="alternate" type="text/html" title="Vector Databases Explained: A Deep Dive into Pinecone" />
-    <published>2026-01-04T11:00:00+05:45</published>
+    <title>LangChain Series: A Deep Dive into Embedding Models</title>
+    <link href="http://shivrajbadu.com.np/posts/a-deep-dive-into-langchain-embedding-models/" rel="alternate" type="text/html" title="LangChain Series: A Deep Dive into Embedding Models" />
+    <published>2026-01-04T11:35:00+05:45</published>
   
-    <updated>2026-01-04T11:00:00+05:45</updated>
+    <updated>2026-01-04T11:35:00+05:45</updated>
   
-    <id>http://shivrajbadu.com.np/posts/introduction-to-vector-databases-and-pinecone/</id>
-    <content src="http://shivrajbadu.com.np/posts/introduction-to-vector-databases-and-pinecone/" />
+    <id>http://shivrajbadu.com.np/posts/a-deep-dive-into-langchain-embedding-models/</id>
+    <content src="http://shivrajbadu.com.np/posts/a-deep-dive-into-langchain-embedding-models/" />
     <author>
       <name>Shivraj Badu</name>
     </author>
@@ -128,7 +125,7 @@ Weaviate is an open-source, AI-native vector database with a distinct...
     
     <category term="Machine Learning" />
     
-    <category term="Vector Database" />
+    <category term="LangChain" />
     
   
 
@@ -140,11 +137,11 @@ Weaviate is an open-source, AI-native vector database with a distinct...
 
 
 
-      Vector Databases Explained: A Deep Dive into Pinecone
+      LangChain Series: A Deep Dive into Embedding Models
 
 Introduction
 
-In the age of AI, we are inundated with unstructured data—text from articles, pixels from images, soundwaves from audio clips. Traditional databases, built on structured rows and columns, are fundamentally unequipped to make sense of this data. How do you search for an “image of a sunset over a mountain” or find a “document th...
+In our previous posts, we’ve seen how chains and agents form the backbone of LangChain applications. We’ve also touched on a critical concept that powers features like Retrieval-Augmented Generation (RAG) and semantic search: embeddings. An embedding model is a neural network that converts text (or other data types) into a dense...
     </summary>
   
 
@@ -152,25 +149,25 @@ In the age of AI, we are inundated with unstructured data—text from articles, 
 
   
   <entry>
-    <title>Deep Learning Concepts: A Guide for ML Engineers</title>
-    <link href="http://shivrajbadu.com.np/posts/deep-learning-interview-guide/" rel="alternate" type="text/html" title="Deep Learning Concepts: A Guide for ML Engineers" />
-    <published>2025-12-30T11:00:00+05:45</published>
+    <title>LangChain Series: A Deep Dive into Tools</title>
+    <link href="http://shivrajbadu.com.np/posts/a-deep-dive-into-langchain-tools/" rel="alternate" type="text/html" title="LangChain Series: A Deep Dive into Tools" />
+    <published>2026-01-04T11:30:00+05:45</published>
   
-    <updated>2025-12-30T11:00:00+05:45</updated>
+    <updated>2026-01-04T11:30:00+05:45</updated>
   
-    <id>http://shivrajbadu.com.np/posts/deep-learning-interview-guide/</id>
-    <content src="http://shivrajbadu.com.np/posts/deep-learning-interview-guide/" />
+    <id>http://shivrajbadu.com.np/posts/a-deep-dive-into-langchain-tools/</id>
+    <content src="http://shivrajbadu.com.np/posts/a-deep-dive-into-langchain-tools/" />
     <author>
       <name>Shivraj Badu</name>
     </author>
 
   
     
+    <category term="AI" />
+    
     <category term="Machine Learning" />
     
-    <category term="Deep Learning" />
-    
-    <category term="AI" />
+    <category term="LangChain" />
     
   
 
@@ -182,11 +179,11 @@ In the age of AI, we are inundated with unstructured data—text from articles, 
 
 
 
-      Deep Learning Concepts for Interviews: A Guide for ML Engineers
+      LangChain Series: A Deep Dive into Tools
 
 Introduction
 
-Deep Learning is no longer a niche subfield of AI; it is the engine driving the most significant breakthroughs in technology, from natural language understanding to computer vision. For any Machine Learning Engineer, from junior to senior, a solid grasp of its core concepts is not just beneficial—it’s essential for c...
+In our previous posts, we introduced LangChain and built our first agent. We learned that agents are powerful because they can use tools to interact with the outside world. A well-built agent is only as good as the tools it has access to. Therefore, understanding how to create and configure tools is one of the most critical skills in the L...
     </summary>
   
 
@@ -194,14 +191,14 @@ Deep Learning is no longer a niche subfield of AI; it is the engine driving the 
 
   
   <entry>
-    <title>LLM Foundations Part 5: Fine-Tuning with LoRA and QLoRA</title>
-    <link href="http://shivrajbadu.com.np/posts/llm-foundations-part-5-fine-tuning-using-lora-and-qlora/" rel="alternate" type="text/html" title="LLM Foundations Part 5: Fine-Tuning with LoRA and QLoRA" />
-    <published>2025-12-30T10:30:00+05:45</published>
+    <title>LangChain Series: Advanced Agent Control with Callbacks</title>
+    <link href="http://shivrajbadu.com.np/posts/langchain-agent-callbacks-deep-dive/" rel="alternate" type="text/html" title="LangChain Series: Advanced Agent Control with Callbacks" />
+    <published>2026-01-04T11:25:00+05:45</published>
   
-    <updated>2025-12-30T10:30:00+05:45</updated>
+    <updated>2026-01-04T11:25:00+05:45</updated>
   
-    <id>http://shivrajbadu.com.np/posts/llm-foundations-part-5-fine-tuning-using-lora-and-qlora/</id>
-    <content src="http://shivrajbadu.com.np/posts/llm-foundations-part-5-fine-tuning-using-lora-and-qlora/" />
+    <id>http://shivrajbadu.com.np/posts/langchain-agent-callbacks-deep-dive/</id>
+    <content src="http://shivrajbadu.com.np/posts/langchain-agent-callbacks-deep-dive/" />
     <author>
       <name>Shivraj Badu</name>
     </author>
@@ -210,9 +207,9 @@ Deep Learning is no longer a niche subfield of AI; it is the engine driving the 
     
     <category term="AI" />
     
-    <category term="LLM" />
-    
     <category term="Machine Learning" />
+    
+    <category term="LangChain" />
     
   
 
@@ -224,11 +221,13 @@ Deep Learning is no longer a niche subfield of AI; it is the engine driving the 
 
 
 
-      LLM Foundations Part 5: Fine-Tuning with LoRA and QLoRA
+      LangChain Series: Advanced Agent Control with Callbacks
 
 Introduction
 
-Welcome to the fifth installment of our “LLM Foundations” series. In previous parts, we explored the architecture and pre-training of Large Language Models. Now, we turn to one of the most practical and impactful aspects of working with them: fine-tuning. While retraining an entire LLM is beyond the reach of most, fine-tunin...
+In our previous post, we built our first agent and used the verbose=True flag to watch its reasoning process. While this is great for debugging, production applications require a more robust way to programmatically log, monitor, and interact with an agent’s lifecycle.
+
+This is where LangChain’s Callback system comes in. Call...
     </summary>
   
 
