@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2026-01-04T15:02:36+05:45</updated>
+  <updated>2026-01-04T16:33:44+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -17,6 +17,138 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Vector Database Series: A Deep Dive into pgvector</title>
+    <link href="http://shivrajbadu.com.np/posts/a-deep-dive-into-postgres-vector-db/" rel="alternate" type="text/html" title="Vector Database Series: A Deep Dive into pgvector" />
+    <published>2026-01-04T11:10:00+05:45</published>
+  
+    <updated>2026-01-04T11:10:00+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/a-deep-dive-into-postgres-vector-db/</id>
+    <content src="http://shivrajbadu.com.np/posts/a-deep-dive-into-postgres-vector-db/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="AI" />
+    
+    <category term="Machine Learning" />
+    
+    <category term="Vector Database" />
+    
+    <category term="PostgreSQL" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Vector Database Series: A Deep Dive into pgvector
+
+Introduction
+
+Welcome to the final installment of our vector database series. We’ve explored Pinecone, a highly-optimized managed service, and Weaviate, a flexible, open-source platform with built-in vectorization. Now, we’ll look at a different but incredibly practical approach: pgvector.
+
+pgvector is an open-source extension for PostgreSQL th...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Vector Database Series: A Deep Dive into Weaviate</title>
+    <link href="http://shivrajbadu.com.np/posts/a-deep-dive-into-weaviate-vector-database/" rel="alternate" type="text/html" title="Vector Database Series: A Deep Dive into Weaviate" />
+    <published>2026-01-04T11:05:00+05:45</published>
+  
+    <updated>2026-01-04T11:05:00+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/a-deep-dive-into-weaviate-vector-database/</id>
+    <content src="http://shivrajbadu.com.np/posts/a-deep-dive-into-weaviate-vector-database/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="AI" />
+    
+    <category term="Machine Learning" />
+    
+    <category term="Vector Database" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Vector Database Series: A Deep Dive into Weaviate
+
+Introduction
+
+Welcome to the second post in our series on vector databases. In our previous article, we explored the fundamentals of vector databases and took a close look at Pinecone. Now, we turn our attention to another powerful and popular player in this space: Weaviate.
+
+Weaviate is an open-source, AI-native vector database with a distinct...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Vector Databases Explained: A Deep Dive into Pinecone</title>
+    <link href="http://shivrajbadu.com.np/posts/introduction-to-vector-databases-and-pinecone/" rel="alternate" type="text/html" title="Vector Databases Explained: A Deep Dive into Pinecone" />
+    <published>2026-01-04T11:00:00+05:45</published>
+  
+    <updated>2026-01-04T11:00:00+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/introduction-to-vector-databases-and-pinecone/</id>
+    <content src="http://shivrajbadu.com.np/posts/introduction-to-vector-databases-and-pinecone/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="AI" />
+    
+    <category term="Machine Learning" />
+    
+    <category term="Vector Database" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Vector Databases Explained: A Deep Dive into Pinecone
+
+Introduction
+
+In the age of AI, we are inundated with unstructured data—text from articles, pixels from images, soundwaves from audio clips. Traditional databases, built on structured rows and columns, are fundamentally unequipped to make sense of this data. How do you search for an “image of a sunset over a mountain” or find a “document th...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -97,138 +229,6 @@ Deep Learning is no longer a niche subfield of AI; it is the engine driving the 
 Introduction
 
 Welcome to the fifth installment of our “LLM Foundations” series. In previous parts, we explored the architecture and pre-training of Large Language Models. Now, we turn to one of the most practical and impactful aspects of working with them: fine-tuning. While retraining an entire LLM is beyond the reach of most, fine-tunin...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>LLM Foundations Part 4: Building Real-World Applications</title>
-    <link href="http://shivrajbadu.com.np/posts/llm-foundations-part-4-applications/" rel="alternate" type="text/html" title="LLM Foundations Part 4: Building Real-World Applications" />
-    <published>2025-12-29T03:30:00+05:45</published>
-  
-    <updated>2025-12-29T03:30:00+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/llm-foundations-part-4-applications/</id>
-    <content src="http://shivrajbadu.com.np/posts/llm-foundations-part-4-applications/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="Python" />
-    
-    <category term="Machine Learning" />
-    
-    <category term="Deep Learning" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      LLM Foundations Part 4: Building Real-World Applications
-
-Introduction
-
-Welcome to the final part of our LLM Foundations series. In Part 1, we understood the models. In Part 2, we learned how to prompt them. In Part 3, we explored the ecosystem of tools. Now, it’s time to put it all together and build powerful, real-world applications.
-
-This post will focus on the practical patterns and use cas...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>LLM Foundations Part 3: The Essential Tools and Ecosystem</title>
-    <link href="http://shivrajbadu.com.np/posts/llm-foundations-part-3-tools-ecosystem/" rel="alternate" type="text/html" title="LLM Foundations Part 3: The Essential Tools and Ecosystem" />
-    <published>2025-12-29T02:30:00+05:45</published>
-  
-    <updated>2025-12-29T02:30:00+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/llm-foundations-part-3-tools-ecosystem/</id>
-    <content src="http://shivrajbadu.com.np/posts/llm-foundations-part-3-tools-ecosystem/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="Python" />
-    
-    <category term="Machine Learning" />
-    
-    <category term="Deep Learning" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      LLM Foundations Part 3: The Essential Tools and Ecosystem
-
-Introduction
-
-In Part 1, we explored the architecture of LLMs, and in Part 2, we learned the art of prompting them. Now, we turn to the practical side: What tools do we actually use to build applications with these models?
-
-A powerful model is just one piece of the puzzle. To create a real-world application, you need a robust ecosystem ...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>LLM Foundations Part 2: The Art of Prompt Engineering</title>
-    <link href="http://shivrajbadu.com.np/posts/llm-foundations-part-2-prompt-engineering/" rel="alternate" type="text/html" title="LLM Foundations Part 2: The Art of Prompt Engineering" />
-    <published>2025-12-29T01:30:00+05:45</published>
-  
-    <updated>2025-12-29T01:30:00+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/llm-foundations-part-2-prompt-engineering/</id>
-    <content src="http://shivrajbadu.com.np/posts/llm-foundations-part-2-prompt-engineering/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="Python" />
-    
-    <category term="Machine Learning" />
-    
-    <category term="Deep Learning" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      LLM Foundations Part 2: The Art of Prompt Engineering
-
-Introduction
-
-In Part 1 of our series, we explored the architecture and training of modern Large Language Models (LLMs). We learned that these models are trained to do one simple thing: predict the next word. Yet, from this simple objective, incredible abilities emerge.
-
-But how do we harness these abilities? How do we steer a model that un...
     </summary>
   
 
