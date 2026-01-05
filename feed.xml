@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2026-01-04T18:18:59+05:45</updated>
+  <updated>2026-01-05T19:10:52+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -17,6 +17,50 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Building AI Game Agents with Gymnasium and Pygame</title>
+    <link href="http://shivrajbadu.com.np/posts/building-ai-game-agents-with-gymnasium-and-pygame/" rel="alternate" type="text/html" title="Building AI Game Agents with Gymnasium and Pygame" />
+    <published>2026-01-04T11:50:00+05:45</published>
+  
+    <updated>2026-01-04T11:50:00+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/building-ai-game-agents-with-gymnasium-and-pygame/</id>
+    <content src="http://shivrajbadu.com.np/posts/building-ai-game-agents-with-gymnasium-and-pygame/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="AI" />
+    
+    <category term="Machine Learning" />
+    
+    <category term="Python" />
+    
+    <category term="Game Development" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Building AI Game Agents with Gymnasium and Pygame
+
+Introduction
+
+One of the most exciting frontiers in artificial intelligence is training agents to play games. From simple mazes to complex strategy games, this pursuit pushes the boundaries of machine learning and decision-making. To build and test these AI agents, we need two critical pieces of infrastructure: a standardized way to represent t...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -184,50 +228,6 @@ In our previous posts, we’ve seen how chains and agents form the backbone of L
 Introduction
 
 In our previous posts, we introduced LangChain and built our first agent. We learned that agents are powerful because they can use tools to interact with the outside world. A well-built agent is only as good as the tools it has access to. Therefore, understanding how to create and configure tools is one of the most critical skills in the L...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>LangChain Series: Advanced Agent Control with Callbacks</title>
-    <link href="http://shivrajbadu.com.np/posts/langchain-agent-callbacks-deep-dive/" rel="alternate" type="text/html" title="LangChain Series: Advanced Agent Control with Callbacks" />
-    <published>2026-01-04T11:25:00+05:45</published>
-  
-    <updated>2026-01-04T11:25:00+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/langchain-agent-callbacks-deep-dive/</id>
-    <content src="http://shivrajbadu.com.np/posts/langchain-agent-callbacks-deep-dive/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="AI" />
-    
-    <category term="Machine Learning" />
-    
-    <category term="LangChain" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      LangChain Series: Advanced Agent Control with Callbacks
-
-Introduction
-
-In our previous post, we built our first agent and used the verbose=True flag to watch its reasoning process. While this is great for debugging, production applications require a more robust way to programmatically log, monitor, and interact with an agent’s lifecycle.
-
-This is where LangChain’s Callback system comes in. Call...
     </summary>
   
 
