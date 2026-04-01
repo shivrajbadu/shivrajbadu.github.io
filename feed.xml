@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2026-01-05T19:10:52+05:45</updated>
+  <updated>2026-04-01T09:03:59+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -17,6 +17,48 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>The Silent Siege: How AI-Powered Supply Chain Attacks Are Reshaping Cyber Security</title>
+    <link href="http://shivrajbadu.com.np/posts/the-silent-siege-ai-supply-chain-attacks/" rel="alternate" type="text/html" title="The Silent Siege: How AI-Powered Supply Chain Attacks Are Reshaping Cyber Security" />
+    <published>2026-04-01T08:45:00+05:45</published>
+  
+    <updated>2026-04-01T08:45:00+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/the-silent-siege-ai-supply-chain-attacks/</id>
+    <content src="http://shivrajbadu.com.np/posts/the-silent-siege-ai-supply-chain-attacks/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="Cybersecurity" />
+    
+    <category term="AI" />
+    
+    <category term="Development" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      The Silent Siege: How AI-Powered Supply Chain Attacks Are Reshaping Cyber Security
+
+Introduction
+
+In the modern landscape of software development, we rely heavily on the vast ecosystems of open-source packages to build our applications efficiently. Whether it is npm for JavaScript or PyPI for Python, these repositories are the backbone of our digital infrastructure. However, this week has serve...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -186,48 +228,6 @@ In our journey through the LangChain ecosystem, we’ve learned that we can buil
 Introduction
 
 In our previous posts, we’ve seen how chains and agents form the backbone of LangChain applications. We’ve also touched on a critical concept that powers features like Retrieval-Augmented Generation (RAG) and semantic search: embeddings. An embedding model is a neural network that converts text (or other data types) into a dense...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>LangChain Series: A Deep Dive into Tools</title>
-    <link href="http://shivrajbadu.com.np/posts/a-deep-dive-into-langchain-tools/" rel="alternate" type="text/html" title="LangChain Series: A Deep Dive into Tools" />
-    <published>2026-01-04T11:30:00+05:45</published>
-  
-    <updated>2026-01-04T11:30:00+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/a-deep-dive-into-langchain-tools/</id>
-    <content src="http://shivrajbadu.com.np/posts/a-deep-dive-into-langchain-tools/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="AI" />
-    
-    <category term="Machine Learning" />
-    
-    <category term="LangChain" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      LangChain Series: A Deep Dive into Tools
-
-Introduction
-
-In our previous posts, we introduced LangChain and built our first agent. We learned that agents are powerful because they can use tools to interact with the outside world. A well-built agent is only as good as the tools it has access to. Therefore, understanding how to create and configure tools is one of the most critical skills in the L...
     </summary>
   
 
