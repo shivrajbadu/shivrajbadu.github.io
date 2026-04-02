@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2026-04-01T09:03:59+05:45</updated>
+  <updated>2026-04-02T09:24:13+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -17,6 +17,48 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>The Rise of the Claws: Why 2026 is the Year Local Robotics Took Over</title>
+    <link href="http://shivrajbadu.com.np/posts/the-rise-of-the-claws/" rel="alternate" type="text/html" title="The Rise of the Claws: Why 2026 is the Year Local Robotics Took Over" />
+    <published>2026-04-02T09:20:00+05:45</published>
+  
+    <updated>2026-04-02T09:20:00+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/the-rise-of-the-claws/</id>
+    <content src="http://shivrajbadu.com.np/posts/the-rise-of-the-claws/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="AI" />
+    
+    <category term="Robotics" />
+    
+    <category term="Development" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      The Rise of the Claws: Why 2026 is the Year Local Robotics Took Over
+
+Introduction
+
+If you have been following the discourse, you have likely seen the “Karpathy Post” that sparked the current frenzy. It is worth noting that the “Claw” craze—a paradigm shift in how we conceive of local AI agents—really kicked off in early 2026. What makes the Claws different from the LLMs of yesteryear is simple...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -186,48 +228,6 @@ Introduction
 
 In our journey through the LangChain ecosystem, we’ve learned that we can build powerful agents and chains that reason and take action. But to make our LLM applications truly useful, we need to connect them to our own data. The first step in any Retrieval-Augmented Generation (RAG) pipeline is to load that data.
 ...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>LangChain Series: A Deep Dive into Embedding Models</title>
-    <link href="http://shivrajbadu.com.np/posts/a-deep-dive-into-langchain-embedding-models/" rel="alternate" type="text/html" title="LangChain Series: A Deep Dive into Embedding Models" />
-    <published>2026-01-04T11:35:00+05:45</published>
-  
-    <updated>2026-01-04T11:35:00+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/a-deep-dive-into-langchain-embedding-models/</id>
-    <content src="http://shivrajbadu.com.np/posts/a-deep-dive-into-langchain-embedding-models/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="AI" />
-    
-    <category term="Machine Learning" />
-    
-    <category term="LangChain" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      LangChain Series: A Deep Dive into Embedding Models
-
-Introduction
-
-In our previous posts, we’ve seen how chains and agents form the backbone of LangChain applications. We’ve also touched on a critical concept that powers features like Retrieval-Augmented Generation (RAG) and semantic search: embeddings. An embedding model is a neural network that converts text (or other data types) into a dense...
     </summary>
   
 
