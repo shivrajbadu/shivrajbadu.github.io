@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2026-04-02T09:24:13+05:45</updated>
+  <updated>2026-04-05T11:57:28+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -17,6 +17,47 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Modern Rails 8: The Full-Stack Developer Cheatsheet</title>
+    <link href="http://shivrajbadu.com.np/posts/modern-rails-8-cheatsheet/" rel="alternate" type="text/html" title="Modern Rails 8: The Full-Stack Developer Cheatsheet" />
+    <published>2026-04-03T10:10:00+05:45</published>
+  
+    <updated>2026-04-05T11:52:21+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/modern-rails-8-cheatsheet/</id>
+    <content src="http://shivrajbadu.com.np/posts/modern-rails-8-cheatsheet/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="Ruby on Rails" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Introduction
+
+As we enter the era of Rails 8, the framework has evolved significantly, focusing on full-stack simplicity, built-in performance, and security. For experienced developers, the shift is from “how to wire things together” to “how to leverage the built-in ecosystem.”
+
+Modern Rails 8 Highlights
+
+
+  The 3 Solids: Solid Queue, Solid Cache, and Solid Cable provide DB-backed infrastructur...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -185,49 +226,6 @@ Introduction
 In our LangChain series, we’ve explored the high-level concepts of chains and agents. Now, let’s zoom in on one of the most fundamental components you’ll use in every application: Prompts.
 
 Modern chat models (like GPT-4 or Claude 3) don’t just take a single string of text as input. They expect a structured list of messages, each wi...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>LangChain Series: Documents and Loaders - The Gateway for Your Data</title>
-    <link href="http://shivrajbadu.com.np/posts/langchain-documents-and-loaders/" rel="alternate" type="text/html" title="LangChain Series: Documents and Loaders - The Gateway for Your Data" />
-    <published>2026-01-04T11:40:00+05:45</published>
-  
-    <updated>2026-01-04T11:40:00+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/langchain-documents-and-loaders/</id>
-    <content src="http://shivrajbadu.com.np/posts/langchain-documents-and-loaders/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="AI" />
-    
-    <category term="Machine Learning" />
-    
-    <category term="LangChain" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      LangChain Series: Documents and Loaders - The Gateway for Your Data
-
-Introduction
-
-In our journey through the LangChain ecosystem, we’ve learned that we can build powerful agents and chains that reason and take action. But to make our LLM applications truly useful, we need to connect them to our own data. The first step in any Retrieval-Augmented Generation (RAG) pipeline is to load that data.
-...
     </summary>
   
 
