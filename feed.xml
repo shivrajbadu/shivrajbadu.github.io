@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2026-04-05T11:57:28+05:45</updated>
+  <updated>2026-04-05T22:04:13+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -20,21 +20,23 @@
 
   
   <entry>
-    <title>Modern Rails 8: The Full-Stack Developer Cheatsheet</title>
-    <link href="http://shivrajbadu.com.np/posts/modern-rails-8-cheatsheet/" rel="alternate" type="text/html" title="Modern Rails 8: The Full-Stack Developer Cheatsheet" />
-    <published>2026-04-03T10:10:00+05:45</published>
+    <title>How to Install Go (Golang) on Your System</title>
+    <link href="http://shivrajbadu.com.np/posts/how-to-install-go/" rel="alternate" type="text/html" title="How to Install Go (Golang) on Your System" />
+    <published>2026-04-05T21:30:00+05:45</published>
   
-    <updated>2026-04-05T11:52:21+05:45</updated>
+    <updated>2026-04-05T21:30:00+05:45</updated>
   
-    <id>http://shivrajbadu.com.np/posts/modern-rails-8-cheatsheet/</id>
-    <content src="http://shivrajbadu.com.np/posts/modern-rails-8-cheatsheet/" />
+    <id>http://shivrajbadu.com.np/posts/how-to-install-go/</id>
+    <content src="http://shivrajbadu.com.np/posts/how-to-install-go/" />
     <author>
       <name>Shivraj Badu</name>
     </author>
 
   
     
-    <category term="Ruby on Rails" />
+    <category term="Go" />
+    
+    <category term="Setup" />
     
   
 
@@ -46,14 +48,24 @@
 
 
 
-      Introduction
+      How to Install Go (Golang) on Your System
 
-As we enter the era of Rails 8, the framework has evolved significantly, focusing on full-stack simplicity, built-in performance, and security. For experienced developers, the shift is from “how to wire things together” to “how to leverage the built-in ecosystem.”
+Go is a powerful, efficient programming language. Here is a quick guide to getting it installed on your machine.
 
-Modern Rails 8 Highlights
+1. Download Go
+
+Visit the official Go download page and download the installer appropriate for your operating system (Windows, macOS, or Linux).
+
+2. Installation
+
+For macOS
+
+If you use Homebrew, installation is simple:
+
+brew install go
 
 
-  The 3 Solids: Solid Queue, Solid Cache, and Solid Cable provide DB-backed infrastructur...
+Ot...
     </summary>
   
 
@@ -61,25 +73,23 @@ Modern Rails 8 Highlights
 
   
   <entry>
-    <title>The Rise of the Claws: Why 2026 is the Year Local Robotics Took Over</title>
-    <link href="http://shivrajbadu.com.np/posts/the-rise-of-the-claws/" rel="alternate" type="text/html" title="The Rise of the Claws: Why 2026 is the Year Local Robotics Took Over" />
-    <published>2026-04-02T09:20:00+05:45</published>
+    <title>React Fundamentals: A Modern Guide - Part 1: Getting Started</title>
+    <link href="http://shivrajbadu.com.np/posts/react-fundamentals-part-1/" rel="alternate" type="text/html" title="React Fundamentals: A Modern Guide - Part 1: Getting Started" />
+    <published>2026-04-05T21:05:00+05:45</published>
   
-    <updated>2026-04-02T09:20:00+05:45</updated>
+    <updated>2026-04-05T21:05:00+05:45</updated>
   
-    <id>http://shivrajbadu.com.np/posts/the-rise-of-the-claws/</id>
-    <content src="http://shivrajbadu.com.np/posts/the-rise-of-the-claws/" />
+    <id>http://shivrajbadu.com.np/posts/react-fundamentals-part-1/</id>
+    <content src="http://shivrajbadu.com.np/posts/react-fundamentals-part-1/" />
     <author>
       <name>Shivraj Badu</name>
     </author>
 
   
     
-    <category term="AI" />
+    <category term="React" />
     
-    <category term="Robotics" />
-    
-    <category term="Development" />
+    <category term="Frontend" />
     
   
 
@@ -91,11 +101,11 @@ Modern Rails 8 Highlights
 
 
 
-      The Rise of the Claws: Why 2026 is the Year Local Robotics Took Over
+      React Fundamentals: A Modern Guide - Part 1: Getting Started
 
 Introduction
 
-If you have been following the discourse, you have likely seen the “Karpathy Post” that sparked the current frenzy. It is worth noting that the “Claw” craze—a paradigm shift in how we conceive of local AI agents—really kicked off in early 2026. What makes the Claws different from the LLMs of yesteryear is simple...
+React has transformed how we build web interfaces. By focusing on components, a declarative syntax, and a robust ecosystem, it allows developers to create complex, interactive user interfaces with predictability and ease. Whether you are coming from a traditional backend background or are new to modern JavaScript framew...
     </summary>
   
 
@@ -103,25 +113,23 @@ If you have been following the discourse, you have likely seen the “Karpathy P
 
   
   <entry>
-    <title>The Silent Siege: How AI-Powered Supply Chain Attacks Are Reshaping Cyber Security</title>
-    <link href="http://shivrajbadu.com.np/posts/the-silent-siege-ai-supply-chain-attacks/" rel="alternate" type="text/html" title="The Silent Siege: How AI-Powered Supply Chain Attacks Are Reshaping Cyber Security" />
-    <published>2026-04-01T08:45:00+05:45</published>
+    <title>React Fundamentals: A Modern Guide - Part 3: Context API and Advanced State</title>
+    <link href="http://shivrajbadu.com.np/posts/react-fundamentals-part-3/" rel="alternate" type="text/html" title="React Fundamentals: A Modern Guide - Part 3: Context API and Advanced State" />
+    <published>2026-04-05T21:00:00+05:45</published>
   
-    <updated>2026-04-01T08:45:00+05:45</updated>
+    <updated>2026-04-05T21:00:00+05:45</updated>
   
-    <id>http://shivrajbadu.com.np/posts/the-silent-siege-ai-supply-chain-attacks/</id>
-    <content src="http://shivrajbadu.com.np/posts/the-silent-siege-ai-supply-chain-attacks/" />
+    <id>http://shivrajbadu.com.np/posts/react-fundamentals-part-3/</id>
+    <content src="http://shivrajbadu.com.np/posts/react-fundamentals-part-3/" />
     <author>
       <name>Shivraj Badu</name>
     </author>
 
   
     
-    <category term="Cybersecurity" />
+    <category term="React" />
     
-    <category term="AI" />
-    
-    <category term="Development" />
+    <category term="Frontend" />
     
   
 
@@ -133,11 +141,11 @@ If you have been following the discourse, you have likely seen the “Karpathy P
 
 
 
-      The Silent Siege: How AI-Powered Supply Chain Attacks Are Reshaping Cyber Security
+      React Fundamentals: A Modern Guide - Part 3: Context API and Advanced State
 
 Introduction
 
-In the modern landscape of software development, we rely heavily on the vast ecosystems of open-source packages to build our applications efficiently. Whether it is npm for JavaScript or PyPI for Python, these repositories are the backbone of our digital infrastructure. However, this week has serve...
+In the previous parts of this series, we covered components, props, and the core hooks useState and useEffect. While these tools are sufficient for many applications, they can lead to “prop drilling”—the process of passing data through multiple layers of components that don’t need it. The Context API solv...
     </summary>
   
 
@@ -145,27 +153,23 @@ In the modern landscape of software development, we rely heavily on the vast eco
 
   
   <entry>
-    <title>Building AI Game Agents with Gymnasium and Pygame</title>
-    <link href="http://shivrajbadu.com.np/posts/building-ai-game-agents-with-gymnasium-and-pygame/" rel="alternate" type="text/html" title="Building AI Game Agents with Gymnasium and Pygame" />
-    <published>2026-01-04T11:50:00+05:45</published>
+    <title>React Fundamentals: A Modern Guide - Part 2: State and Hooks</title>
+    <link href="http://shivrajbadu.com.np/posts/react-fundamentals-part-2/" rel="alternate" type="text/html" title="React Fundamentals: A Modern Guide - Part 2: State and Hooks" />
+    <published>2026-04-05T21:00:00+05:45</published>
   
-    <updated>2026-01-04T11:50:00+05:45</updated>
+    <updated>2026-04-05T21:00:00+05:45</updated>
   
-    <id>http://shivrajbadu.com.np/posts/building-ai-game-agents-with-gymnasium-and-pygame/</id>
-    <content src="http://shivrajbadu.com.np/posts/building-ai-game-agents-with-gymnasium-and-pygame/" />
+    <id>http://shivrajbadu.com.np/posts/react-fundamentals-part-2/</id>
+    <content src="http://shivrajbadu.com.np/posts/react-fundamentals-part-2/" />
     <author>
       <name>Shivraj Badu</name>
     </author>
 
   
     
-    <category term="AI" />
+    <category term="React" />
     
-    <category term="Machine Learning" />
-    
-    <category term="Python" />
-    
-    <category term="Game Development" />
+    <category term="Frontend" />
     
   
 
@@ -177,11 +181,15 @@ In the modern landscape of software development, we rely heavily on the vast eco
 
 
 
-      Building AI Game Agents with Gymnasium and Pygame
+      React Fundamentals: A Modern Guide - Part 2: State and Hooks
 
 Introduction
 
-One of the most exciting frontiers in artificial intelligence is training agents to play games. From simple mazes to complex strategy games, this pursuit pushes the boundaries of machine learning and decision-making. To build and test these AI agents, we need two critical pieces of infrastructure: a standardized way to represent t...
+In the first part of this series, we covered the basics of React, components, JSX, and props. We established that components are the building blocks of any React application, but to make those components truly useful, they need to be interactive. This is where State comes in.
+
+What is State?
+
+State is an object that rep...
     </summary>
   
 
@@ -189,25 +197,23 @@ One of the most exciting frontiers in artificial intelligence is training agents
 
   
   <entry>
-    <title>LangChain Series: A Deep Dive into Chat Prompts</title>
-    <link href="http://shivrajbadu.com.np/posts/a-deep-dive-into-langchain-chat-prompts/" rel="alternate" type="text/html" title="LangChain Series: A Deep Dive into Chat Prompts" />
-    <published>2026-01-04T11:45:00+05:45</published>
+    <title>Go Mastery: A Comprehensive Guide - Part 2: Control Flow (If, Switch, Loops)</title>
+    <link href="http://shivrajbadu.com.np/posts/go-mastery-part-2/" rel="alternate" type="text/html" title="Go Mastery: A Comprehensive Guide - Part 2: Control Flow (If, Switch, Loops)" />
+    <published>2026-04-05T21:00:00+05:45</published>
   
-    <updated>2026-01-04T11:45:00+05:45</updated>
+    <updated>2026-04-05T21:00:00+05:45</updated>
   
-    <id>http://shivrajbadu.com.np/posts/a-deep-dive-into-langchain-chat-prompts/</id>
-    <content src="http://shivrajbadu.com.np/posts/a-deep-dive-into-langchain-chat-prompts/" />
+    <id>http://shivrajbadu.com.np/posts/go-mastery-part-2/</id>
+    <content src="http://shivrajbadu.com.np/posts/go-mastery-part-2/" />
     <author>
       <name>Shivraj Badu</name>
     </author>
 
   
     
-    <category term="AI" />
+    <category term="Go" />
     
-    <category term="Machine Learning" />
-    
-    <category term="LangChain" />
+    <category term="Backend" />
     
   
 
@@ -219,13 +225,20 @@ One of the most exciting frontiers in artificial intelligence is training agents
 
 
 
-      LangChain Series: A Deep Dive into Chat Prompts
+      Go Mastery: A Comprehensive Guide - Part 2: Control Flow (If, Switch, Loops)
 
 Introduction
 
-In our LangChain series, we’ve explored the high-level concepts of chains and agents. Now, let’s zoom in on one of the most fundamental components you’ll use in every application: Prompts.
+Control flow is how we dictate the execution path of our Go programs. Go keeps it simple, focusing on readability and maintainability.
 
-Modern chat models (like GPT-4 or Claude 3) don’t just take a single string of text as input. They expect a structured list of messages, each wi...
+If/Else Statements
+
+In Go, there are no parentheses around conditions, but curly braces are mandatory.
+
+if x &amp;gt; 10 {
+    fmt.Println("x is greater than 10")
+} else {
+ ...
     </summary>
   
 
