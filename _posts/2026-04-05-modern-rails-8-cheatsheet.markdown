@@ -1,7 +1,7 @@
 ---
 layout: post
-title: "Modern Rails 8: The Full-Stack Developer's Cheatsheet"
-date: 2026-04-05 22:10:00 +0545
+title: "Modern Rails 8: The Full-Stack Developer Cheatsheet"
+date: 2026-04-03 10:10:00 +0545
 categories: [Ruby on Rails]
 tags: [rails8, ruby, fullstack, turbo, stimulus, kamal]
 ---
@@ -71,3 +71,5 @@ As we enter the era of Rails 8, the framework has evolved significantly, focusin
 ---
 
 _This cheatsheet focuses on the "modern" way—prioritizing convention over configuration to ship features faster._
+
+{% include inarticle-adsense.html %}
