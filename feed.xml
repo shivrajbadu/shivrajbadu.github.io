@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2026-04-05T22:04:13+05:45</updated>
+  <updated>2026-04-12T22:20:38+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -17,6 +17,46 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Codex vs Claude Code: The AI Coding War Every Developer Is Watching</title>
+    <link href="http://shivrajbadu.com.np/posts/codex-vs-claude-code-the-ai-coding-war-every-developer-is-watching/" rel="alternate" type="text/html" title="Codex vs Claude Code: The AI Coding War Every Developer Is Watching" />
+    <published>2026-04-12T11:30:00+05:45</published>
+  
+    <updated>2026-04-12T11:30:00+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/codex-vs-claude-code-the-ai-coding-war-every-developer-is-watching/</id>
+    <content src="http://shivrajbadu.com.np/posts/codex-vs-claude-code-the-ai-coding-war-every-developer-is-watching/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="AI" />
+    
+    <category term="Developer Tools" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Codex vs Claude Code: The AI Coding War Every Developer Is Watching
+
+Introduction
+
+There is a reason developers keep talking about OpenAI Codex and Anthropic Claude Code as if they are rival operating systems for the future of programming. This is no longer just about autocomplete. It is about agency. The new question is not whether an AI can suggest a function, but whether it can understand a ...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -190,55 +230,6 @@ In the first part of this series, we covered the basics of React, components, JS
 What is State?
 
 State is an object that rep...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Go Mastery: A Comprehensive Guide - Part 2: Control Flow (If, Switch, Loops)</title>
-    <link href="http://shivrajbadu.com.np/posts/go-mastery-part-2/" rel="alternate" type="text/html" title="Go Mastery: A Comprehensive Guide - Part 2: Control Flow (If, Switch, Loops)" />
-    <published>2026-04-05T21:00:00+05:45</published>
-  
-    <updated>2026-04-05T21:00:00+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/go-mastery-part-2/</id>
-    <content src="http://shivrajbadu.com.np/posts/go-mastery-part-2/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="Go" />
-    
-    <category term="Backend" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Go Mastery: A Comprehensive Guide - Part 2: Control Flow (If, Switch, Loops)
-
-Introduction
-
-Control flow is how we dictate the execution path of our Go programs. Go keeps it simple, focusing on readability and maintainability.
-
-If/Else Statements
-
-In Go, there are no parentheses around conditions, but curly braces are mandatory.
-
-if x &amp;gt; 10 {
-    fmt.Println("x is greater than 10")
-} else {
- ...
     </summary>
   
 
