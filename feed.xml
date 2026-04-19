@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2026-04-12T22:20:38+05:45</updated>
+  <updated>2026-04-19T12:08:31+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -17,6 +17,46 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Efficient API Integration in Rails with GraphQL: Patterns, Setup, and Best Practices</title>
+    <link href="http://shivrajbadu.com.np/posts/graphql-api-integration-rails-best-practices/" rel="alternate" type="text/html" title="Efficient API Integration in Rails with GraphQL: Patterns, Setup, and Best Practices" />
+    <published>2026-04-19T11:58:30+05:45</published>
+  
+    <updated>2026-04-19T11:58:30+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/graphql-api-integration-rails-best-practices/</id>
+    <content src="http://shivrajbadu.com.np/posts/graphql-api-integration-rails-best-practices/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="graphql" />
+    
+    <category term="rails" />
+    
+    <category term="api" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Efficient API Integration in Rails with GraphQL: Patterns, Setup, and Best Practices
+
+GraphQL has become a practical choice for Rails teams that want more control over how data is requested and delivered. Instead of exposing many rigid REST endpoints, GraphQL allows clients to ask for exactly the fields they need through a single endpoint. That flexibility is powerful, but it also introduces de...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -186,50 +226,6 @@ React has transformed how we build web interfaces. By focusing on components, a 
 Introduction
 
 In the previous parts of this series, we covered components, props, and the core hooks useState and useEffect. While these tools are sufficient for many applications, they can lead to “prop drilling”—the process of passing data through multiple layers of components that don’t need it. The Context API solv...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>React Fundamentals: A Modern Guide - Part 2: State and Hooks</title>
-    <link href="http://shivrajbadu.com.np/posts/react-fundamentals-part-2/" rel="alternate" type="text/html" title="React Fundamentals: A Modern Guide - Part 2: State and Hooks" />
-    <published>2026-04-05T21:00:00+05:45</published>
-  
-    <updated>2026-04-05T21:00:00+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/react-fundamentals-part-2/</id>
-    <content src="http://shivrajbadu.com.np/posts/react-fundamentals-part-2/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="React" />
-    
-    <category term="Frontend" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      React Fundamentals: A Modern Guide - Part 2: State and Hooks
-
-Introduction
-
-In the first part of this series, we covered the basics of React, components, JSX, and props. We established that components are the building blocks of any React application, but to make those components truly useful, they need to be interactive. This is where State comes in.
-
-What is State?
-
-State is an object that rep...
     </summary>
   
 
