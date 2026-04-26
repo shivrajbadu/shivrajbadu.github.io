@@ -1,0 +1,95 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="760" viewBox="0 0 1280 760" role="img" aria-labelledby="title desc">
+  <title id="title">CircleCI full stack pipeline</title>
+  <desc id="desc">Original diagram showing a CircleCI workflow for Rails, React, and Python jobs with deploy gating.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#f6fbff"/>
+      <stop offset="100%" stop-color="#eef7f1"/>
+    </linearGradient>
+    <linearGradient id="blueBox" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#deedff"/>
+      <stop offset="100%" stop-color="#cde3ff"/>
+    </linearGradient>
+    <linearGradient id="greenBox" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#e6f8e9"/>
+      <stop offset="100%" stop-color="#d1efd7"/>
+    </linearGradient>
+    <linearGradient id="goldBox" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#fff3d9"/>
+      <stop offset="100%" stop-color="#ffe5aa"/>
+    </linearGradient>
+    <linearGradient id="redBox" x1="0" x2="1" y1="0" y2="1">
+      <stop offset="0%" stop-color="#ffe2de"/>
+      <stop offset="100%" stop-color="#ffd0ca"/>
+    </linearGradient>
+    <marker id="arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto">
+      <path d="M0,0 L0,6 L9,3 z" fill="#2d4f68"/>
+    </marker>
+    <style>
+      .title { font: 700 34px Arial, sans-serif; fill: #123047; }
+      .label { font: 700 24px Arial, sans-serif; fill: #173851; }
+      .text  { font: 400 19px Arial, sans-serif; fill: #30526a; }
+      .small { font: 400 17px Arial, sans-serif; fill: #30526a; }
+      .tiny  { font: 400 15px Arial, sans-serif; fill: #30526a; }
+      .box { stroke: #7aa1bf; stroke-width: 2; rx: 24; }
+      .line { stroke: #2d4f68; stroke-width: 4; fill: none; marker-end: url(#arrow); }
+    </style>
+  </defs>
+
+  <rect width="1280" height="760" fill="url(#bg)"/>
+  <text x="60" y="65" class="title">CircleCI for a mixed production stack: Rails + React + Python</text>
+
+  <rect x="80" y="120" width="250" height="110" class="box" fill="url(#blueBox)"/>
+  <text x="118" y="165" class="label">Git Push / Pull Request</text>
+  <text x="130" y="200" class="text">CircleCI starts the workflow</text>
+
+  <rect x="420" y="120" width="220" height="110" class="box" fill="url(#greenBox)"/>
+  <text x="472" y="165" class="label">setup_rails</text>
+  <text x="455" y="200" class="text">bundle install + DB prep</text>
+
+  <rect x="110" y="320" width="220" height="130" class="box" fill="url(#blueBox)"/>
+  <text x="150" y="365" class="label">rails_minitest</text>
+  <text x="140" y="400" class="text">Backend regression checks</text>
+  <text x="130" y="430" class="small">Runs in parallel</text>
+
+  <rect x="380" y="320" width="220" height="130" class="box" fill="url(#blueBox)"/>
+  <text x="445" y="365" class="label">rails_rspec</text>
+  <text x="430" y="400" class="text">Behavior and feature specs</text>
+  <text x="400" y="430" class="small">Runs in parallel</text>
+
+  <rect x="650" y="320" width="220" height="130" class="box" fill="url(#greenBox)"/>
+  <text x="710" y="365" class="label">react_jest</text>
+  <text x="690" y="400" class="text">Frontend unit testing</text>
+  <text x="670" y="430" class="small">Node environment</text>
+
+  <rect x="920" y="320" width="220" height="130" class="box" fill="url(#greenBox)"/>
+  <text x="970" y="365" class="label">python tests</text>
+  <text x="952" y="400" class="text">pytest + unittest</text>
+  <text x="965" y="430" class="small">Python environment</text>
+
+  <rect x="435" y="540" width="250" height="110" class="box" fill="url(#goldBox)"/>
+  <text x="485" y="585" class="label">build_release</text>
+  <text x="465" y="620" class="text">Assets, packaging, artifacts</text>
+
+  <rect x="760" y="540" width="190" height="110" class="box" fill="url(#redBox)"/>
+  <text x="793" y="585" class="label">Manual Approval</text>
+  <text x="800" y="620" class="text">main branch only</text>
+
+  <rect x="1010" y="540" width="180" height="110" class="box" fill="url(#greenBox)"/>
+  <text x="1060" y="585" class="label">Deploy</text>
+  <text x="1032" y="620" class="text">Production release</text>
+
+  <path d="M330 175 L420 175" class="line"/>
+  <path d="M530 230 L220 320" class="line"/>
+  <path d="M530 230 L490 320" class="line"/>
+  <path d="M560 230 L760 320" class="line"/>
+  <path d="M590 230 L1030 320" class="line"/>
+  <path d="M220 450 L560 540" class="line"/>
+  <path d="M490 450 L560 540" class="line"/>
+  <path d="M760 450 L560 540" class="line"/>
+  <path d="M1030 450 L560 540" class="line"/>
+  <path d="M685 595 L760 595" class="line"/>
+  <path d="M950 595 L1010 595" class="line"/>
+
+  <text x="80" y="705" class="tiny">Original diagram for this article. The key idea: backend, frontend, and Python validation fan out in parallel, then gate release and deployment.</text>
+</svg>
