@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2026-04-26T14:08:46+05:45</updated>
+  <updated>2026-04-26T14:38:07+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -17,6 +17,56 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>One Pipeline to Guard Them All: A Practical CircleCI Guide for Rails, React, and Python Teams</title>
+    <link href="http://shivrajbadu.com.np/posts/one-pipeline-to-guard-them-all-circleci-for-rails-react-and-python/" rel="alternate" type="text/html" title="One Pipeline to Guard Them All: A Practical CircleCI Guide for Rails, React, and Python Teams" />
+    <published>2026-04-26T02:30:00+05:45</published>
+  
+    <updated>2026-04-26T02:30:00+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/one-pipeline-to-guard-them-all-circleci-for-rails-react-and-python/</id>
+    <content src="http://shivrajbadu.com.np/posts/one-pipeline-to-guard-them-all-circleci-for-rails-react-and-python/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="DevOps" />
+    
+    <category term="Rails" />
+    
+    <category term="React" />
+    
+    <category term="Python" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      One Pipeline to Guard Them All: A Practical CircleCI Guide for Rails, React, and Python Teams
+
+Introduction
+
+At some point in a growing engineering team, the question is no longer whether you need CI/CD. The real question becomes:
+
+
+  How do we build one reliable pipeline that respects the reality of our stack?
+
+
+For many of us, that stack is not a clean single-language demo project. It is a re...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -196,46 +246,6 @@ brew install go
 
 
 Ot...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>React Fundamentals: A Modern Guide - Part 1: Getting Started</title>
-    <link href="http://shivrajbadu.com.np/posts/react-fundamentals-part-1/" rel="alternate" type="text/html" title="React Fundamentals: A Modern Guide - Part 1: Getting Started" />
-    <published>2026-04-05T21:05:00+05:45</published>
-  
-    <updated>2026-04-05T21:05:00+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/react-fundamentals-part-1/</id>
-    <content src="http://shivrajbadu.com.np/posts/react-fundamentals-part-1/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="React" />
-    
-    <category term="Frontend" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      React Fundamentals: A Modern Guide - Part 1: Getting Started
-
-Introduction
-
-React has transformed how we build web interfaces. By focusing on components, a declarative syntax, and a robust ecosystem, it allows developers to create complex, interactive user interfaces with predictability and ease. Whether you are coming from a traditional backend background or are new to modern JavaScript framew...
     </summary>
   
 
