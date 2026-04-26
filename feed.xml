@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2026-04-26T16:55:53+05:45</updated>
+  <updated>2026-04-26T18:29:18+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -17,6 +17,61 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>The Creative Machines Playbook: A Practical Guide to Generative AI</title>
+    <link href="http://shivrajbadu.com.np/posts/the-creative-machines-playbook-a-practical-guide-to-generative-ai/" rel="alternate" type="text/html" title="The Creative Machines Playbook: A Practical Guide to Generative AI" />
+    <published>2026-04-26T18:25:00+05:45</published>
+  
+    <updated>2026-04-26T18:25:00+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/the-creative-machines-playbook-a-practical-guide-to-generative-ai/</id>
+    <content src="http://shivrajbadu.com.np/posts/the-creative-machines-playbook-a-practical-guide-to-generative-ai/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="AI" />
+    
+    <category term="Machine Learning" />
+    
+    <category term="Deep Learning" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      The Creative Machines Playbook: A Practical Guide to Generative AI
+
+Introduction
+
+Generative AI is one of those rare technologies that feels both familiar and strange at the same time.
+
+It is familiar because we can see the outputs immediately:
+
+
+  a paragraph
+  an image
+  a summary
+  a song fragment
+  a code snippet
+  a chatbot response
+
+
+And it feels strange because the system is not just ret...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -197,46 +252,6 @@ Most humans can guess the missing word could be tree, stairs, sofa, or something
       Efficient API Integration in Rails with GraphQL: Patterns, Setup, and Best Practices
 
 GraphQL has become a practical choice for Rails teams that want more control over how data is requested and delivered. Instead of exposing many rigid REST endpoints, GraphQL allows clients to ask for exactly the fields they need through a single endpoint. That flexibility is powerful, but it also introduces de...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Codex vs Claude Code: The AI Coding War Every Developer Is Watching</title>
-    <link href="http://shivrajbadu.com.np/posts/codex-vs-claude-code-the-ai-coding-war-every-developer-is-watching/" rel="alternate" type="text/html" title="Codex vs Claude Code: The AI Coding War Every Developer Is Watching" />
-    <published>2026-04-12T11:30:00+05:45</published>
-  
-    <updated>2026-04-12T11:30:00+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/codex-vs-claude-code-the-ai-coding-war-every-developer-is-watching/</id>
-    <content src="http://shivrajbadu.com.np/posts/codex-vs-claude-code-the-ai-coding-war-every-developer-is-watching/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="AI" />
-    
-    <category term="Developer Tools" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Codex vs Claude Code: The AI Coding War Every Developer Is Watching
-
-Introduction
-
-There is a reason developers keep talking about OpenAI Codex and Anthropic Claude Code as if they are rival operating systems for the future of programming. This is no longer just about autocomplete. It is about agency. The new question is not whether an AI can suggest a function, but whether it can understand a ...
     </summary>
   
 

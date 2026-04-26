@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="680" viewBox="0 0 1200 680">
+  <rect width="1200" height="680" fill="#fbfcff"/>
+  <text x="60" y="65" font-size="36" font-family="Arial" font-weight="700" fill="#203b6f">Major model families in generative AI</text>
+  <rect x="90" y="140" width="240" height="120" rx="22" fill="#dce8ff" stroke="#8da6d4"/><text x="145" y="205" font-size="28" font-family="Arial" font-weight="700" fill="#203b6f">Transformers</text>
+  <rect x="370" y="140" width="200" height="120" rx="22" fill="#d7f0e6" stroke="#90b7a5"/><text x="438" y="205" font-size="28" font-family="Arial" font-weight="700" fill="#1d5a38">VAEs</text>
+  <rect x="610" y="140" width="200" height="120" rx="22" fill="#fff0c9" stroke="#d8b067"/><text x="679" y="205" font-size="28" font-family="Arial" font-weight="700" fill="#6c4b11">GANs</text>
+  <rect x="850" y="140" width="240" height="120" rx="22" fill="#ffe3de" stroke="#d29a90"/><text x="900" y="205" font-size="28" font-family="Arial" font-weight="700" fill="#7a2d25">Diffusion</text>
+  <rect x="150" y="380" width="220" height="110" rx="22" fill="#efe7ff" stroke="#b09ad5"/><text x="220" y="443" font-size="24" font-family="Arial" font-weight="700" fill="#503974">Embeddings</text>
+  <rect x="470" y="380" width="220" height="110" rx="22" fill="#e5f7f3" stroke="#99c3b7"/><text x="550" y="443" font-size="24" font-family="Arial" font-weight="700" fill="#0f5b50">RAG</text>
+  <rect x="790" y="380" width="220" height="110" rx="22" fill="#edf6df" stroke="#afc58e"/><text x="860" y="443" font-size="24" font-family="Arial" font-weight="700" fill="#48631a">NeRFs</text>
+  <text x="97" y="290" font-size="18" font-family="Arial" fill="#45627e">text, code, sequence modeling</text>
+  <text x="372" y="290" font-size="18" font-family="Arial" fill="#4a765c">latent representations</text>
+  <text x="620" y="290" font-size="18" font-family="Arial" fill="#8b6738">generator vs discriminator</text>
+  <text x="856" y="290" font-size="18" font-family="Arial" fill="#98534c">noise -> structure</text>
+  <text x="145" y="520" font-size="18" font-family="Arial" fill="#5b4f85">meaningful vector space</text>
+  <text x="440" y="520" font-size="18" font-family="Arial" fill="#39756d">retrieval before answering</text>
+  <text x="786" y="520" font-size="18" font-family="Arial" fill="#5b7237">3D scene reconstruction</text>
+</svg>
