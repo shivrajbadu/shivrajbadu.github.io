@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="340" viewBox="0 0 800 340">
+  <rect width="800" height="340" fill="#fff8f5"/>
+  <text x="40" y="55" font-size="30" font-family="Arial" font-weight="700" fill="#7a3f15">Temperature</text>
+  <text x="40" y="95" font-size="18" font-family="Arial" fill="#915d37">A dial between stable and more exploratory output</text>
+  <path d="M130 210 A170 170 0 0 1 470 210" stroke="#e7b087" stroke-width="24" fill="none"/>
+  <circle cx="300" cy="210" r="70" fill="#fff0e4" stroke="#d79a67" stroke-width="6"/>
+  <line x1="300" y1="210" x2="390" y2="165" stroke="#b96526" stroke-width="8" stroke-linecap="round"/>
+  <text x="110" y="265" font-size="20" font-family="Arial" fill="#7a3f15">predictable</text>
+  <text x="520" y="265" font-size="20" font-family="Arial" fill="#7a3f15">creative</text>
+  <text x="245" y="305" font-size="18" font-family="Arial" fill="#915d37">same model, different randomness</text>
+</svg>

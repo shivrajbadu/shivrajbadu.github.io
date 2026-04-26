@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="340" viewBox="0 0 800 340">
+  <rect width="800" height="340" fill="#fffaf2"/>
+  <text x="40" y="55" font-size="30" font-family="Arial" font-weight="700" fill="#5d3d00">Tokenization</text>
+  <text x="40" y="95" font-size="18" font-family="Arial" fill="#7a602f">Machines break text into smaller units before reasoning</text>
+  <rect x="60" y="150" width="680" height="56" rx="16" fill="#fff0c9" stroke="#d9b56b"/>
+  <text x="90" y="186" font-size="24" font-family="Courier New" fill="#5d3d00">unbelievable systems become understandable</text>
+  <rect x="90" y="235" width="105" height="45" rx="10" fill="#ffd66b"/><rect x="210" y="235" width="105" height="45" rx="10" fill="#ffd66b"/><rect x="330" y="235" width="105" height="45" rx="10" fill="#ffd66b"/><rect x="450" y="235" width="105" height="45" rx="10" fill="#ffd66b"/><rect x="570" y="235" width="125" height="45" rx="10" fill="#ffd66b"/>
+  <text x="112" y="264" font-size="20" font-family="Courier New" fill="#5d3d00">un</text>
+  <text x="242" y="264" font-size="20" font-family="Courier New" fill="#5d3d00">believ</text>
+  <text x="360" y="264" font-size="20" font-family="Courier New" fill="#5d3d00">able</text>
+  <text x="480" y="264" font-size="20" font-family="Courier New" fill="#5d3d00">systems</text>
+  <text x="590" y="264" font-size="20" font-family="Courier New" fill="#5d3d00">understand</text>
+</svg>

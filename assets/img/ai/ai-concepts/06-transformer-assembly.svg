@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="340" viewBox="0 0 800 340">
+  <rect width="800" height="340" fill="#f8faff"/>
+  <text x="40" y="55" font-size="30" font-family="Arial" font-weight="700" fill="#203e73">Transformers</text>
+  <text x="40" y="95" font-size="18" font-family="Arial" fill="#49628f">Attention plus scalable sequence processing</text>
+  <rect x="85" y="145" width="130" height="80" rx="18" fill="#dce8ff" stroke="#8aa3d6"/>
+  <rect x="260" y="145" width="130" height="80" rx="18" fill="#cbe0ff" stroke="#7d98cf"/>
+  <rect x="435" y="145" width="130" height="80" rx="18" fill="#b9d6ff" stroke="#6f90c6"/>
+  <rect x="610" y="145" width="130" height="80" rx="18" fill="#a6ccff" stroke="#5a82b6"/>
+  <text x="128" y="192" font-size="22" font-family="Arial" fill="#203e73">tokens</text>
+  <text x="287" y="192" font-size="22" font-family="Arial" fill="#203e73">attention</text>
+  <text x="476" y="192" font-size="22" font-family="Arial" fill="#203e73">layers</text>
+  <text x="654" y="192" font-size="22" font-family="Arial" fill="#203e73">output</text>
+  <path d="M215 185 L260 185 M390 185 L435 185 M565 185 L610 185" stroke="#5a82b6" stroke-width="5" marker-end="url(#a)"/>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#5a82b6"/></marker></defs>
+</svg>

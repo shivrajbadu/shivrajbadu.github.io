@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="340" viewBox="0 0 800 340">
+  <rect width="800" height="340" fill="#fff7f7"/>
+  <text x="40" y="55" font-size="30" font-family="Arial" font-weight="700" fill="#7c1f2b">Hallucination</text>
+  <text x="40" y="95" font-size="18" font-family="Arial" fill="#92505a">Fluent output can still be inaccurate or invented</text>
+  <rect x="80" y="130" width="640" height="140" rx="18" fill="#ffe2e5" stroke="#d48a95"/>
+  <text x="120" y="175" font-size="22" font-family="Arial" fill="#7c1f2b">"The Apollo 18 mission landed in 1974..."</text>
+  <text x="120" y="215" font-size="20" font-family="Arial" fill="#92505a">sounds polished</text>
+  <text x="300" y="215" font-size="20" font-family="Arial" fill="#92505a">but lacks grounding</text>
+  <circle cx="660" cy="200" r="32" fill="#ffb8c1"/>
+  <text x="648" y="209" font-size="28" font-family="Arial" font-weight="700" fill="#7c1f2b">?</text>
+</svg>

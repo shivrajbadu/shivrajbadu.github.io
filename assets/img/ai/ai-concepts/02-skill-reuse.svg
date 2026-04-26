@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="340" viewBox="0 0 800 340">
+  <rect width="800" height="340" fill="#f7fcf6"/>
+  <text x="40" y="55" font-size="30" font-family="Arial" font-weight="700" fill="#173b32">Transfer Learning</text>
+  <text x="40" y="95" font-size="18" font-family="Arial" fill="#46685d">General knowledge first, specialization second</text>
+  <rect x="70" y="140" width="240" height="120" rx="22" fill="#d8efe2" stroke="#8db7a5"/>
+  <rect x="490" y="140" width="240" height="120" rx="22" fill="#c7e7ff" stroke="#7baed0"/>
+  <text x="120" y="185" font-size="22" font-family="Arial" font-weight="700" fill="#173b32">pretrained model</text>
+  <text x="103" y="220" font-size="17" font-family="Arial" fill="#46685d">learns broad patterns from</text>
+  <text x="145" y="245" font-size="17" font-family="Arial" fill="#46685d">large diverse data</text>
+  <text x="540" y="185" font-size="22" font-family="Arial" font-weight="700" fill="#184a6d">task specialist</text>
+  <text x="530" y="220" font-size="17" font-family="Arial" fill="#3b647c">adapts to medicine, law,</text>
+  <text x="553" y="245" font-size="17" font-family="Arial" fill="#3b647c">support, or code</text>
+  <path d="M320 200 L470 200" stroke="#688c7b" stroke-width="5" marker-end="url(#a)"/>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#688c7b"/></marker></defs>
+</svg>

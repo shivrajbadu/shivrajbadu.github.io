@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="340" viewBox="0 0 800 340">
+  <rect width="800" height="340" fill="#f5fff9"/>
+  <text x="40" y="55" font-size="30" font-family="Arial" font-weight="700" fill="#1d5a38">Context Window</text>
+  <text x="40" y="95" font-size="18" font-family="Arial" fill="#42775b">How much information fits on the model's working table</text>
+  <rect x="80" y="150" width="220" height="110" rx="18" fill="#d8efe2" stroke="#8db79f"/>
+  <rect x="350" y="125" width="380" height="160" rx="18" fill="#c7ead5" stroke="#73ad89"/>
+  <text x="140" y="205" font-size="24" font-family="Arial" fill="#1d5a38">small context</text>
+  <text x="130" y="235" font-size="17" font-family="Arial" fill="#42775b">less room for history</text>
+  <text x="478" y="195" font-size="24" font-family="Arial" fill="#1d5a38">large context</text>
+  <text x="435" y="225" font-size="17" font-family="Arial" fill="#42775b">more instructions, files, and prior turns</text>
+  <rect x="385" y="150" width="65" height="22" rx="8" fill="#7ec49a"/><rect x="460" y="150" width="65" height="22" rx="8" fill="#7ec49a"/><rect x="535" y="150" width="65" height="22" rx="8" fill="#7ec49a"/><rect x="610" y="150" width="65" height="22" rx="8" fill="#7ec49a"/>
+</svg>

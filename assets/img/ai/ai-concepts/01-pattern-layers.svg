@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="340" viewBox="0 0 800 340">
+  <rect width="800" height="340" fill="#f5fbff"/>
+  <text x="40" y="55" font-size="30" font-family="Arial" font-weight="700" fill="#12344d">Neural Networks</text>
+  <text x="40" y="95" font-size="18" font-family="Arial" fill="#33556d">From raw signals to layered pattern detection</text>
+  <circle cx="150" cy="180" r="18" fill="#9bd1ff"/><circle cx="150" cy="240" r="18" fill="#9bd1ff"/>
+  <circle cx="300" cy="145" r="18" fill="#7bb6ff"/><circle cx="300" cy="205" r="18" fill="#7bb6ff"/><circle cx="300" cy="265" r="18" fill="#7bb6ff"/>
+  <circle cx="470" cy="180" r="18" fill="#53a0ff"/><circle cx="470" cy="240" r="18" fill="#53a0ff"/>
+  <circle cx="650" cy="210" r="24" fill="#2274d8"/>
+  <path d="M168 180 L282 145 M168 180 L282 205 M168 240 L282 205 M168 240 L282 265 M318 145 L452 180 M318 205 L452 180 M318 205 L452 240 M318 265 L452 240 M488 180 L626 210 M488 240 L626 210" stroke="#6b8ea6" stroke-width="3" fill="none"/>
+  <text x="110" y="290" font-size="16" font-family="Arial" fill="#33556d">input clues</text>
+  <text x="255" y="290" font-size="16" font-family="Arial" fill="#33556d">hidden patterns</text>
+  <text x="425" y="290" font-size="16" font-family="Arial" fill="#33556d">higher features</text>
+  <text x="618" y="290" font-size="16" font-family="Arial" fill="#33556d">decision</text>
+</svg>

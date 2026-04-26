@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="340" viewBox="0 0 800 340">
+  <rect width="800" height="340" fill="#f5fbff"/>
+  <text x="40" y="55" font-size="30" font-family="Arial" font-weight="700" fill="#114164">Prompt Engineering</text>
+  <text x="40" y="95" font-size="18" font-family="Arial" fill="#41667d">Clear instructions act like control levers for model behavior</text>
+  <rect x="100" y="140" width="170" height="100" rx="18" fill="#dbeeff" stroke="#8db7d2"/>
+  <rect x="315" y="140" width="170" height="100" rx="18" fill="#cbe4ff" stroke="#7ea8c8"/>
+  <rect x="530" y="140" width="170" height="100" rx="18" fill="#bad9ff" stroke="#6e99bf"/>
+  <text x="145" y="197" font-size="21" font-family="Arial" fill="#114164">role</text>
+  <text x="355" y="197" font-size="21" font-family="Arial" fill="#114164">constraints</text>
+  <text x="585" y="197" font-size="21" font-family="Arial" fill="#114164">examples</text>
+  <text x="225" y="290" font-size="18" font-family="Arial" fill="#41667d">good prompts reduce ambiguity before generation starts</text>
+</svg>

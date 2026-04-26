@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="340" viewBox="0 0 800 340">
+  <rect width="800" height="340" fill="#fff9f5"/>
+  <text x="40" y="55" font-size="30" font-family="Arial" font-weight="700" fill="#704611">Diffusion Models</text>
+  <text x="40" y="95" font-size="18" font-family="Arial" fill="#8b6738">Start from noise, then denoise toward a coherent image</text>
+  <rect x="90" y="130" width="150" height="150" rx="18" fill="#eee">
+  </rect>
+  <rect x="325" y="130" width="150" height="150" rx="18" fill="#ffe9b8"/>
+  <rect x="560" y="130" width="150" height="150" rx="18" fill="#ffd56e"/>
+  <circle cx="635" cy="210" r="28" fill="#ffb34d"/>
+  <path d="M665 190 Q690 180 690 205" stroke="#c77917" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M672 225 Q640 255 603 225" stroke="#c77917" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M250 205 L325 205 M475 205 L560 205" stroke="#c58b2c" stroke-width="5" marker-end="url(#a)"/>
+  <text x="118" y="305" font-size="18" font-family="Arial" fill="#8b6738">noise</text>
+  <text x="356" y="305" font-size="18" font-family="Arial" fill="#8b6738">structure</text>
+  <text x="600" y="305" font-size="18" font-family="Arial" fill="#8b6738">image</text>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#c58b2c"/></marker></defs>
+</svg>
