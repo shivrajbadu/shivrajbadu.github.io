@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="340" viewBox="0 0 800 340">
+  <rect width="800" height="340" fill="#f7f7ff"/>
+  <text x="40" y="55" font-size="30" font-family="Arial" font-weight="700" fill="#2e2d78">Embeddings</text>
+  <text x="40" y="95" font-size="18" font-family="Arial" fill="#55548b">Similar ideas end up nearer each other in vector space</text>
+  <circle cx="240" cy="190" r="18" fill="#7f7cff"/><circle cx="290" cy="160" r="18" fill="#7f7cff"/><circle cx="320" cy="210" r="18" fill="#7f7cff"/>
+  <circle cx="540" cy="175" r="18" fill="#59c3c3"/><circle cx="595" cy="205" r="18" fill="#59c3c3"/><circle cx="515" cy="225" r="18" fill="#59c3c3"/>
+  <circle cx="420" cy="100" r="18" fill="#f6a04d"/>
+  <text x="206" y="233" font-size="18" font-family="Arial" fill="#2e2d78">doctor</text>
+  <text x="280" y="145" font-size="18" font-family="Arial" fill="#2e2d78">nurse</text>
+  <text x="315" y="240" font-size="18" font-family="Arial" fill="#2e2d78">clinic</text>
+  <text x="520" y="160" font-size="18" font-family="Arial" fill="#245f5f">server</text>
+  <text x="595" y="232" font-size="18" font-family="Arial" fill="#245f5f">database</text>
+  <text x="486" y="255" font-size="18" font-family="Arial" fill="#245f5f">backend</text>
+  <text x="392" y="87" font-size="18" font-family="Arial" fill="#9b5a12">banana</text>
+</svg>

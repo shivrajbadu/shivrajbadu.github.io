@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="340" viewBox="0 0 800 340">
+  <rect width="800" height="340" fill="#f7fff7"/>
+  <text x="40" y="55" font-size="30" font-family="Arial" font-weight="700" fill="#22572c">Stepwise Reasoning</text>
+  <text x="40" y="95" font-size="18" font-family="Arial" fill="#4f7754">Better answers often emerge through intermediate steps</text>
+  <rect x="110" y="135" width="120" height="70" rx="16" fill="#d8efd8" stroke="#91b691"/><rect x="285" y="135" width="120" height="70" rx="16" fill="#c9e7c9" stroke="#82aa82"/><rect x="460" y="135" width="120" height="70" rx="16" fill="#b8ddb8" stroke="#739e73"/><rect x="635" y="135" width="120" height="70" rx="16" fill="#a5d2a5" stroke="#618f61"/>
+  <text x="145" y="177" font-size="20" font-family="Arial" fill="#22572c">read</text>
+  <text x="320" y="177" font-size="20" font-family="Arial" fill="#22572c">split</text>
+  <text x="497" y="177" font-size="20" font-family="Arial" fill="#22572c">check</text>
+  <text x="665" y="177" font-size="20" font-family="Arial" fill="#22572c">answer</text>
+  <path d="M230 170 L285 170 M405 170 L460 170 M580 170 L635 170" stroke="#739e73" stroke-width="5" marker-end="url(#a)"/>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#739e73"/></marker></defs>
+</svg>

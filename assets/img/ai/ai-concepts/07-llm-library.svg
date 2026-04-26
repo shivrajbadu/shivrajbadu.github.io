@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="340" viewBox="0 0 800 340">
+  <rect width="800" height="340" fill="#fcf8ff"/>
+  <text x="40" y="55" font-size="30" font-family="Arial" font-weight="700" fill="#4b2b70">Large Language Models</text>
+  <text x="40" y="95" font-size="18" font-family="Arial" fill="#6f4b95">Huge text-trained pattern engines</text>
+  <rect x="80" y="130" width="90" height="140" fill="#d7c6ff"/><rect x="180" y="115" width="90" height="155" fill="#c4adff"/><rect x="280" y="145" width="90" height="125" fill="#b393ff"/><rect x="390" y="100" width="100" height="170" fill="#9f7df8"/><rect x="505" y="135" width="95" height="135" fill="#8c6ee3"/><rect x="615" y="120" width="100" height="150" fill="#7b5bc9"/>
+  <text x="95" y="290" font-size="17" font-family="Arial" fill="#4b2b70">books</text>
+  <text x="195" y="290" font-size="17" font-family="Arial" fill="#4b2b70">code</text>
+  <text x="290" y="290" font-size="17" font-family="Arial" fill="#4b2b70">forums</text>
+  <text x="406" y="290" font-size="17" font-family="Arial" fill="#4b2b70">docs</text>
+  <text x="522" y="290" font-size="17" font-family="Arial" fill="#4b2b70">papers</text>
+  <text x="630" y="290" font-size="17" font-family="Arial" fill="#4b2b70">dialogue</text>
+</svg>

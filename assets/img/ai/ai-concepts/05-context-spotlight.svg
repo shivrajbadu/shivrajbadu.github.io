@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="340" viewBox="0 0 800 340">
+  <rect width="800" height="340" fill="#f4fbfb"/>
+  <text x="40" y="55" font-size="30" font-family="Arial" font-weight="700" fill="#134b4b">Attention</text>
+  <text x="40" y="95" font-size="18" font-family="Arial" fill="#396767">The model weighs which context matters most right now</text>
+  <text x="80" y="180" font-size="28" font-family="Georgia" fill="#134b4b">The trophy did not fit in the suitcase</text>
+  <text x="80" y="220" font-size="28" font-family="Georgia" fill="#134b4b">because it was too large.</text>
+  <ellipse cx="195" cy="170" rx="70" ry="28" fill="rgba(255,210,95,0.55)"/>
+  <ellipse cx="395" cy="170" rx="85" ry="28" fill="rgba(150,220,255,0.35)"/>
+  <path d="M620 140 L710 110 L710 250 Z" fill="#ffe08a" opacity="0.85"/>
+  <circle cx="660" cy="180" r="26" fill="#fff4c9" stroke="#cc9c1a"/>
+  <text x="615" y="298" font-size="18" font-family="Arial" fill="#396767">focus shifts with the question</text>
+</svg>

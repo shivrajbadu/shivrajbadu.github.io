@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2026-04-26T14:38:07+05:45</updated>
+  <updated>2026-04-26T16:55:53+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -17,6 +17,50 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>AI Without the Fog: 20 Ideas That Make Modern Models Click</title>
+    <link href="http://shivrajbadu.com.np/posts/ai-without-the-fog-20-ideas-that-make-modern-models-click/" rel="alternate" type="text/html" title="AI Without the Fog: 20 Ideas That Make Modern Models Click" />
+    <published>2026-04-26T16:10:00+05:45</published>
+  
+    <updated>2026-04-26T16:10:00+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/ai-without-the-fog-20-ideas-that-make-modern-models-click/</id>
+    <content src="http://shivrajbadu.com.np/posts/ai-without-the-fog-20-ideas-that-make-modern-models-click/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="AI" />
+    
+    <category term="Machine Learning" />
+    
+    <category term="Deep Learning" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      AI Without the Fog: 20 Ideas That Make Modern Models Click
+
+Introduction
+
+Modern AI can feel oddly split in public conversation. On one side, people talk about it as if it were magic. On the other, people reduce it to buzzwords and dashboards. Neither view is very helpful.
+
+What most developers, writers, students, and curious engineers actually need is a mental map. Not a PhD thesis. Not a hype...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -193,59 +237,6 @@ GraphQL has become a practical choice for Rails teams that want more control ove
 Introduction
 
 There is a reason developers keep talking about OpenAI Codex and Anthropic Claude Code as if they are rival operating systems for the future of programming. This is no longer just about autocomplete. It is about agency. The new question is not whether an AI can suggest a function, but whether it can understand a ...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>How to Install Go (Golang) on Your System</title>
-    <link href="http://shivrajbadu.com.np/posts/how-to-install-go/" rel="alternate" type="text/html" title="How to Install Go (Golang) on Your System" />
-    <published>2026-04-05T21:30:00+05:45</published>
-  
-    <updated>2026-04-05T21:30:00+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/how-to-install-go/</id>
-    <content src="http://shivrajbadu.com.np/posts/how-to-install-go/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="Go" />
-    
-    <category term="Setup" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      How to Install Go (Golang) on Your System
-
-Go is a powerful, efficient programming language. Here is a quick guide to getting it installed on your machine.
-
-1. Download Go
-
-Visit the official Go download page and download the installer appropriate for your operating system (Windows, macOS, or Linux).
-
-2. Installation
-
-For macOS
-
-If you use Homebrew, installation is simple:
-
-brew install go
-
-
-Ot...
     </summary>
   
 

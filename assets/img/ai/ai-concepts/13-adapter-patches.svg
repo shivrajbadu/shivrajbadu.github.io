@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="340" viewBox="0 0 800 340">
+  <rect width="800" height="340" fill="#f4fffc"/>
+  <text x="40" y="55" font-size="30" font-family="Arial" font-weight="700" fill="#0f5b50">LoRA</text>
+  <text x="40" y="95" font-size="18" font-family="Arial" fill="#39756d">Adapt a huge model with smaller trainable modules</text>
+  <rect x="110" y="130" width="580" height="150" rx="24" fill="#d6f3ec" stroke="#89b9af"/>
+  <rect x="150" y="165" width="120" height="80" rx="14" fill="#8dd3c7"/>
+  <rect x="340" y="165" width="120" height="80" rx="14" fill="#8dd3c7"/>
+  <rect x="530" y="165" width="120" height="80" rx="14" fill="#8dd3c7"/>
+  <rect x="185" y="150" width="50" height="25" rx="8" fill="#ffd166"/>
+  <rect x="375" y="150" width="50" height="25" rx="8" fill="#ffd166"/>
+  <rect x="565" y="150" width="50" height="25" rx="8" fill="#ffd166"/>
+  <text x="275" y="305" font-size="18" font-family="Arial" fill="#39756d">small adapters steer a much larger base model</text>
+</svg>

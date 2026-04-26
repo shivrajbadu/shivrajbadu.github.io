@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="340" viewBox="0 0 800 340">
+  <rect width="800" height="340" fill="#f8f7ff"/>
+  <text x="40" y="55" font-size="30" font-family="Arial" font-weight="700" fill="#392772">Vector Databases</text>
+  <text x="40" y="95" font-size="18" font-family="Arial" fill="#5e5291">Search by meaning, not only by exact words</text>
+  <circle cx="170" cy="200" r="16" fill="#8e7cff"/><circle cx="220" cy="170" r="16" fill="#8e7cff"/><circle cx="250" cy="220" r="16" fill="#8e7cff"/>
+  <circle cx="520" cy="190" r="16" fill="#5cc7c7"/><circle cx="570" cy="220" r="16" fill="#5cc7c7"/><circle cx="600" cy="165" r="16" fill="#5cc7c7"/>
+  <circle cx="360" cy="120" r="18" fill="#ffd166"/>
+  <path d="M360 120 L240 185 M360 120 L520 190" stroke="#8d88a9" stroke-width="3" stroke-dasharray="8 8"/>
+  <text x="105" y="270" font-size="18" font-family="Arial" fill="#392772">similar issue tickets</text>
+  <text x="500" y="270" font-size="18" font-family="Arial" fill="#245f5f">related docs</text>
+  <text x="327" y="104" font-size="18" font-family="Arial" fill="#7c6214">query</text>
+</svg>
