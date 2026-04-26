@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560">
+  <rect width="1200" height="560" fill="#fbfcff"/>
+  <text x="60" y="65" font-size="36" font-family="Arial" font-weight="700" fill="#1b3e73">How generative AI works</text>
+  <rect x="80" y="150" width="220" height="110" rx="22" fill="#dce8ff" stroke="#8ca4d6"/>
+  <rect x="360" y="150" width="220" height="110" rx="22" fill="#d4efe2" stroke="#8cb7a4"/>
+  <rect x="640" y="150" width="220" height="110" rx="22" fill="#fff0c9" stroke="#d8b267"/>
+  <rect x="920" y="150" width="200" height="110" rx="22" fill="#ffe3de" stroke="#d29a90"/>
+  <text x="135" y="215" font-size="26" font-family="Arial" font-weight="700" fill="#1b3e73">prompt</text>
+  <text x="390" y="215" font-size="26" font-family="Arial" font-weight="700" fill="#1d5a38">context</text>
+  <text x="680" y="215" font-size="26" font-family="Arial" font-weight="700" fill="#6b4d12">generation</text>
+  <text x="978" y="215" font-size="26" font-family="Arial" font-weight="700" fill="#7a2d25">review</text>
+  <path d="M300 205 L360 205 M580 205 L640 205 M860 205 L920 205" stroke="#6f89aa" stroke-width="5" marker-end="url(#a)"/>
+  <defs><marker id="a" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto"><path d="M0,0 L0,6 L9,3 z" fill="#6f89aa"/></marker></defs>
+  <text x="120" y="350" font-size="22" font-family="Arial" fill="#43627b">instruction or question</text>
+  <text x="360" y="350" font-size="22" font-family="Arial" fill="#4b765c">retrieved docs, history, files</text>
+  <text x="665" y="350" font-size="22" font-family="Arial" fill="#8b6738">text, image, code, summary</text>
+  <text x="920" y="350" font-size="22" font-family="Arial" fill="#975450">human check or automated guardrail</text>
+</svg>

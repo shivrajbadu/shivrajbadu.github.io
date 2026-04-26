@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="560" viewBox="0 0 1200 560">
+  <rect width="1200" height="560" fill="#f7fbff"/>
+  <text x="60" y="65" font-size="36" font-family="Arial" font-weight="700" fill="#143b57">Discriminative vs generative thinking</text>
+  <rect x="90" y="145" width="430" height="290" rx="28" fill="#dce8ff" stroke="#8eb7d4"/>
+  <rect x="680" y="145" width="430" height="290" rx="28" fill="#d8f0e5" stroke="#90b8a6"/>
+  <text x="205" y="205" font-size="28" font-family="Arial" font-weight="700" fill="#143b57">discriminative model</text>
+  <text x="196" y="255" font-size="22" font-family="Arial" fill="#41627a">asks: which class is this?</text>
+  <text x="165" y="305" font-size="22" font-family="Arial" fill="#41627a">spam vs not spam</text>
+  <text x="165" y="340" font-size="22" font-family="Arial" fill="#41627a">cat vs dog</text>
+  <text x="165" y="375" font-size="22" font-family="Arial" fill="#41627a">fraud vs valid</text>
+  <text x="800" y="205" font-size="28" font-family="Arial" font-weight="700" fill="#1d5a38">generative model</text>
+  <text x="785" y="255" font-size="22" font-family="Arial" fill="#4a765c">asks: what could I create?</text>
+  <text x="755" y="305" font-size="22" font-family="Arial" fill="#4a765c">draft a reply</text>
+  <text x="755" y="340" font-size="22" font-family="Arial" fill="#4a765c">generate an image</text>
+  <text x="755" y="375" font-size="22" font-family="Arial" fill="#4a765c">suggest code</text>
+</svg>
