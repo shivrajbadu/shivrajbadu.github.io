@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2026-04-19T12:08:31+05:45</updated>
+  <updated>2026-04-26T14:08:46+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -17,6 +17,56 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>How JEPA Learns World Models Without Predicting Every Pixel</title>
+    <link href="http://shivrajbadu.com.np/posts/how-jepa-learns-world-models-without-predicting-every-pixel/" rel="alternate" type="text/html" title="How JEPA Learns World Models Without Predicting Every Pixel" />
+    <published>2026-04-26T01:30:00+05:45</published>
+  
+    <updated>2026-04-26T01:30:00+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/how-jepa-learns-world-models-without-predicting-every-pixel/</id>
+    <content src="http://shivrajbadu.com.np/posts/how-jepa-learns-world-models-without-predicting-every-pixel/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="AI" />
+    
+    <category term="Machine Learning" />
+    
+    <category term="Deep Learning" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      How JEPA Learns World Models Without Predicting Every Pixel
+
+Introduction
+
+There is a simple intuition that makes JEPA feel less mysterious.
+
+Take this sentence:
+
+
+  The cat climbed up the __.
+
+
+Most humans can guess the missing word could be tree, stairs, sofa, or something structurally similar. We do not mentally generate every possible image of a cat, every texture of bark, every camera angl...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -186,46 +236,6 @@ Ot...
 Introduction
 
 React has transformed how we build web interfaces. By focusing on components, a declarative syntax, and a robust ecosystem, it allows developers to create complex, interactive user interfaces with predictability and ease. Whether you are coming from a traditional backend background or are new to modern JavaScript framew...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>React Fundamentals: A Modern Guide - Part 3: Context API and Advanced State</title>
-    <link href="http://shivrajbadu.com.np/posts/react-fundamentals-part-3/" rel="alternate" type="text/html" title="React Fundamentals: A Modern Guide - Part 3: Context API and Advanced State" />
-    <published>2026-04-05T21:00:00+05:45</published>
-  
-    <updated>2026-04-05T21:00:00+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/react-fundamentals-part-3/</id>
-    <content src="http://shivrajbadu.com.np/posts/react-fundamentals-part-3/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="React" />
-    
-    <category term="Frontend" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      React Fundamentals: A Modern Guide - Part 3: Context API and Advanced State
-
-Introduction
-
-In the previous parts of this series, we covered components, props, and the core hooks useState and useEffect. While these tools are sufficient for many applications, they can lead to “prop drilling”—the process of passing data through multiple layers of components that don’t need it. The Context API solv...
     </summary>
   
 
