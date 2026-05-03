@@ -4,24 +4,78 @@ icon: fas fa-lock
 order: 5
 ---
 
-Effective Date: December 26, 2023
+**Privacy Policy**
 
-This privacy policy applies to the website Let's Code (the "Website"), which is hosted on GitHub Pages.
+Effective Date: May 3, 2026
+Last Updated: May 3, 2026
 
-1. Information We Collect
+This Privacy Policy applies to the website **Let’s Code (shivrajbadu.com.np)** and the **Shivraj Dev mobile application**.
 
-We do not collect any personal data from visitors to our Website. We do not use cookies or other tracking mechanisms.
+---
 
-2. Third-Party Services
+### Information We Collect
 
-We use Google Adsense to display ads on our Website. Google Adsense may collect certain information about your browsing activity on our Website, such as your IP address, browser type, and the pages you visit. This information is used to personalize the ads that you see.
+We do not directly collect personal information from users.
 
-You can learn more about Google's privacy practices here: https://policies.google.com/privacy
+However, certain non-personal information may be automatically collected when you use the website or app, such as:
 
-3. Changes to This Policy
+- IP address
+- Browser type and device information
+- Pages visited and time spent
 
-We may update this privacy policy from time to time. If we make any material changes, we will notify you by posting the updated policy on our Website.
+---
 
-4. Contact Us
+### Third-Party Services
 
-If you have any questions about this privacy policy, please contact us at shivrajbadu@gmail.com.
+We use third-party services such as **Google AdSense** to display advertisements.
+
+These services may collect information such as:
+
+- IP address
+- Device and browser details
+- User interaction with ads
+
+This data is used to provide relevant advertisements.
+
+You can learn more about Google’s privacy practices here:
+https://policies.google.com/privacy
+
+---
+
+### How Information Is Used
+
+Collected information is used to:
+
+- Improve website and app performance
+- Provide relevant content and advertisements
+
+---
+
+### Data Sharing
+
+We do not sell or share personal data with third parties, except as required by third-party services mentioned above.
+
+---
+
+### Mobile Application
+
+The **Shivraj Dev mobile application** displays content from the website and follows the same privacy practices described in this policy.
+
+---
+
+### Changes to This Policy
+
+We may update this policy from time to time. Updates will be posted on this page.
+
+---
+
+### Contact Us
+
+If you have any questions, please contact:
+**[shivrajbadu@gmail.com](mailto:shivrajbadu@gmail.com)**
+
+---
+
+### Consent
+
+By using this website or mobile application, you agree to this Privacy Policy.
