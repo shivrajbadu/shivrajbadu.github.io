@@ -1,22 +1,237 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>http://localhost:4000/</id>
+  <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2026-05-06T19:35:48+05:45</updated>
+  <updated>2026-08-02T13:17:48+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
-    <uri>http://localhost:4000/</uri>
+    <uri>http://shivrajbadu.com.np/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="http://shivrajbadu.com.np/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
-    href="http://localhost:4000/"/>
+    href="http://shivrajbadu.com.np/"/>
   <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
   <rights> © 2026 Shivraj Badu </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>The Definitive Guide to Voice Agent &amp; SIP Testing Frameworks</title>
+    <link href="http://shivrajbadu.com.np/posts/voice-agent-and-sip-testing-frameworks/" rel="alternate" type="text/html" title="The Definitive Guide to Voice Agent &amp;amp; SIP Testing Frameworks" />
+    <published>2026-08-02T13:10:00+05:45</published>
+  
+    <updated>2026-08-02T13:10:00+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/voice-agent-and-sip-testing-frameworks/</id>
+    <content src="http://shivrajbadu.com.np/posts/voice-agent-and-sip-testing-frameworks/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="AI" />
+    
+    <category term="DevOps" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      The Definitive Guide to Voice Agent &amp;amp; SIP Testing Frameworks
+
+Introduction
+
+Building a voice AI agent is a multi-disciplinary challenge that pushes the boundaries of traditional software development. You aren’t just dealing with deterministic code; you are navigating the unpredictable nuances of human speech, the probabilistic nature of Large Language Models (LLMs), and the strict, real-tim...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Crafting Your First Conversational Voice AI Agent in Python</title>
+    <link href="http://shivrajbadu.com.np/posts/crafting-conversational-ai-voice-agent-python/" rel="alternate" type="text/html" title="Crafting Your First Conversational Voice AI Agent in Python" />
+    <published>2026-08-02T13:00:00+05:45</published>
+  
+    <updated>2026-08-02T13:00:00+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/crafting-conversational-ai-voice-agent-python/</id>
+    <content src="http://shivrajbadu.com.np/posts/crafting-conversational-ai-voice-agent-python/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="AI" />
+    
+    <category term="Python" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Crafting Your First Conversational Voice AI Agent in Python
+
+Introduction
+
+For years, our primary interaction with Large Language Models has been through text—typing prompts and waiting for paragraphs to stream back. But the frontier of artificial intelligence is rapidly shifting toward real-time voice. Building an AI that can listen, understand, and speak back to you with sub-second latency fe...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Building Voice AI Agents with Telnyx and Ruby on Rails</title>
+    <link href="http://shivrajbadu.com.np/posts/building-voice-ai-agents-with-telnyx/" rel="alternate" type="text/html" title="Building Voice AI Agents with Telnyx and Ruby on Rails" />
+    <published>2026-08-02T12:39:00+05:45</published>
+  
+    <updated>2026-08-02T12:39:00+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/building-voice-ai-agents-with-telnyx/</id>
+    <content src="http://shivrajbadu.com.np/posts/building-voice-ai-agents-with-telnyx/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="AI" />
+    
+    <category term="Rails" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Building Voice AI Agents with Telnyx and Ruby on Rails
+
+Introduction
+
+As AI continues to evolve, the integration of Large Language Models (LLMs) with global telecommunications infrastructure is unlocking incredible possibilities. Imagine a customer calling your business and speaking naturally with an AI agent that understands context, can look up order statuses in real-time, and responds with l...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Demystifying Session Initiation Protocol (SIP) with Ruby on Rails</title>
+    <link href="http://shivrajbadu.com.np/posts/demystifying-sip-with-ruby-on-rails/" rel="alternate" type="text/html" title="Demystifying Session Initiation Protocol (SIP) with Ruby on Rails" />
+    <published>2026-08-02T12:38:00+05:45</published>
+  
+    <updated>2026-08-02T12:38:00+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/demystifying-sip-with-ruby-on-rails/</id>
+    <content src="http://shivrajbadu.com.np/posts/demystifying-sip-with-ruby-on-rails/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="Rails" />
+    
+    <category term="Telephony" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Demystifying Session Initiation Protocol (SIP) with Ruby on Rails
+
+Introduction
+
+If you’ve ever wondered how modern internet calling, video conferencing, or instant messaging systems establish a connection before a single word is spoken, the answer is usually Session Initiation Protocol (SIP). It acts as the polite operator connecting two parties in the digital world. While the theory can get d...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>The Creative Machines Playbook: A Practical Guide to Generative AI</title>
+    <link href="http://shivrajbadu.com.np/posts/the-creative-machines-playbook-a-practical-guide-to-generative-ai/" rel="alternate" type="text/html" title="The Creative Machines Playbook: A Practical Guide to Generative AI" />
+    <published>2026-04-26T18:25:00+05:45</published>
+  
+    <updated>2026-04-26T18:25:00+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/the-creative-machines-playbook-a-practical-guide-to-generative-ai/</id>
+    <content src="http://shivrajbadu.com.np/posts/the-creative-machines-playbook-a-practical-guide-to-generative-ai/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="AI" />
+    
+    <category term="Machine Learning" />
+    
+    <category term="Deep Learning" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      The Creative Machines Playbook: A Practical Guide to Generative AI
+
+Introduction
+
+Generative AI is one of those rare technologies that feels both familiar and strange at the same time.
+
+It is familiar because we can see the outputs immediately:
+
+
+  a paragraph
+  an image
+  a summary
+  a song fragment
+  a code snippet
+  a chatbot response
+
+
+And it feels strange because the system is not just ret...
+    </summary>
+  
+
+  </entry>
 
 </feed>
 
