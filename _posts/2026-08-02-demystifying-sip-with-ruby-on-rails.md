@@ -2,7 +2,7 @@
 layout: post
 title: "Demystifying Session Initiation Protocol (SIP) with Ruby on Rails"
 date: 2026-08-02 12:38:00 +0545
-categories: [Rails, Telephony]
+categories: [AI, Rails, Telephony]
 tags: [ruby-on-rails, sip, voip, voice-ai]
 ---
 
