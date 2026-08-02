@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2026-08-02T13:17:48+05:45</updated>
+  <updated>2026-08-02T13:29:39+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -144,7 +144,7 @@ As AI continues to evolve, the integration of Large Language Models (LLMs) with 
     <link href="http://shivrajbadu.com.np/posts/demystifying-sip-with-ruby-on-rails/" rel="alternate" type="text/html" title="Demystifying Session Initiation Protocol (SIP) with Ruby on Rails" />
     <published>2026-08-02T12:38:00+05:45</published>
   
-    <updated>2026-08-02T12:38:00+05:45</updated>
+    <updated>2026-08-02T13:29:25+05:45</updated>
   
     <id>http://shivrajbadu.com.np/posts/demystifying-sip-with-ruby-on-rails/</id>
     <content src="http://shivrajbadu.com.np/posts/demystifying-sip-with-ruby-on-rails/" />
@@ -153,6 +153,8 @@ As AI continues to evolve, the integration of Large Language Models (LLMs) with 
     </author>
 
   
+    
+    <category term="AI" />
     
     <category term="Rails" />
     
