@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2026-08-02T13:29:39+05:45</updated>
+  <updated>2026-08-11T09:51:10+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -17,6 +17,172 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Mastering Jenkins for Enterprise Rails Applications: A Comprehensive CI/CD Guide</title>
+    <link href="http://shivrajbadu.com.np/posts/mastering-jenkins-for-enterprise-rails-applications/" rel="alternate" type="text/html" title="Mastering Jenkins for Enterprise Rails Applications: A Comprehensive CI/CD Guide" />
+    <published>2026-08-11T09:49:39+05:45</published>
+  
+    <updated>2026-08-11T09:49:39+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/mastering-jenkins-for-enterprise-rails-applications/</id>
+    <content src="http://shivrajbadu.com.np/posts/mastering-jenkins-for-enterprise-rails-applications/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="DevOps" />
+    
+    <category term="Jenkins" />
+    
+    <category term="Rails" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Mastering Jenkins for Enterprise Rails Applications: A Comprehensive CI/CD Guide
+
+Introduction
+
+In the landscape of Continuous Integration and Continuous Delivery (CI/CD), Jenkins remains an open-source juggernaut. While cloud-managed solutions like CircleCI or GitHub Actions offer turnkey simplicity, enterprise organizations—especially those operating in regulated industries, air-gapped networ...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Mastering CircleCI for Enterprise Rails Applications: The Ultimate CI/CD Architecture Guide</title>
+    <link href="http://shivrajbadu.com.np/posts/mastering-circleci-continuous-integration-for-rails-applications/" rel="alternate" type="text/html" title="Mastering CircleCI for Enterprise Rails Applications: The Ultimate CI/CD Architecture Guide" />
+    <published>2026-08-11T09:45:56+05:45</published>
+  
+    <updated>2026-08-11T09:45:56+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/mastering-circleci-continuous-integration-for-rails-applications/</id>
+    <content src="http://shivrajbadu.com.np/posts/mastering-circleci-continuous-integration-for-rails-applications/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="DevOps" />
+    
+    <category term="CircleCI" />
+    
+    <category term="Rails" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Mastering CircleCI for Enterprise Rails Applications: The Ultimate CI/CD Architecture Guide
+
+Introduction
+
+As software applications expand in complexity and team sizes scale, maintaining code quality and rapid delivery velocity becomes a central engineering challenge. For Ruby on Rails applications—especially enterprise monoliths carrying years of business logic, complex database schemas, and d...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Evaluating RAG Pipelines with Ragas: Moving Beyond Vibes</title>
+    <link href="http://shivrajbadu.com.np/posts/evaluating-rag-pipelines-with-ragas/" rel="alternate" type="text/html" title="Evaluating RAG Pipelines with Ragas: Moving Beyond Vibes" />
+    <published>2026-08-02T14:30:00+05:45</published>
+  
+    <updated>2026-08-02T14:30:00+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/evaluating-rag-pipelines-with-ragas/</id>
+    <content src="http://shivrajbadu.com.np/posts/evaluating-rag-pipelines-with-ragas/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="AI" />
+    
+    <category term="DevOps" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Evaluating RAG Pipelines with Ragas: Moving Beyond Vibes
+
+Introduction
+
+Retrieval-Augmented Generation (RAG) has become the de facto architecture for building AI applications that need to reason over proprietary data. Building a prototype RAG system takes an afternoon; making it production-ready takes months. The biggest hurdle? Evaluation.
+
+Most developers start by “vibes-based testing”—typing...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>Supercharging AI Agents with Unified API Integrations using Nango</title>
+    <link href="http://shivrajbadu.com.np/posts/unified-api-integrations-with-nango/" rel="alternate" type="text/html" title="Supercharging AI Agents with Unified API Integrations using Nango" />
+    <published>2026-08-02T14:00:00+05:45</published>
+  
+    <updated>2026-08-02T14:00:00+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/unified-api-integrations-with-nango/</id>
+    <content src="http://shivrajbadu.com.np/posts/unified-api-integrations-with-nango/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="AI" />
+    
+    <category term="Web Development" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Supercharging AI Agents with Unified API Integrations using Nango
+
+Introduction
+
+As AI agents become more sophisticated, their utility is increasingly defined by what they can do, rather than just what they can say. An LLM that knows how to write a Python script is useful; an LLM that can read your Jira tickets, update your Salesforce records, and draft a Google Doc is transformative. However, ...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -53,183 +219,6 @@
 Introduction
 
 Building a voice AI agent is a multi-disciplinary challenge that pushes the boundaries of traditional software development. You aren’t just dealing with deterministic code; you are navigating the unpredictable nuances of human speech, the probabilistic nature of Large Language Models (LLMs), and the strict, real-tim...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Crafting Your First Conversational Voice AI Agent in Python</title>
-    <link href="http://shivrajbadu.com.np/posts/crafting-conversational-ai-voice-agent-python/" rel="alternate" type="text/html" title="Crafting Your First Conversational Voice AI Agent in Python" />
-    <published>2026-08-02T13:00:00+05:45</published>
-  
-    <updated>2026-08-02T13:00:00+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/crafting-conversational-ai-voice-agent-python/</id>
-    <content src="http://shivrajbadu.com.np/posts/crafting-conversational-ai-voice-agent-python/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="AI" />
-    
-    <category term="Python" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Crafting Your First Conversational Voice AI Agent in Python
-
-Introduction
-
-For years, our primary interaction with Large Language Models has been through text—typing prompts and waiting for paragraphs to stream back. But the frontier of artificial intelligence is rapidly shifting toward real-time voice. Building an AI that can listen, understand, and speak back to you with sub-second latency fe...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Building Voice AI Agents with Telnyx and Ruby on Rails</title>
-    <link href="http://shivrajbadu.com.np/posts/building-voice-ai-agents-with-telnyx/" rel="alternate" type="text/html" title="Building Voice AI Agents with Telnyx and Ruby on Rails" />
-    <published>2026-08-02T12:39:00+05:45</published>
-  
-    <updated>2026-08-02T12:39:00+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/building-voice-ai-agents-with-telnyx/</id>
-    <content src="http://shivrajbadu.com.np/posts/building-voice-ai-agents-with-telnyx/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="AI" />
-    
-    <category term="Rails" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Building Voice AI Agents with Telnyx and Ruby on Rails
-
-Introduction
-
-As AI continues to evolve, the integration of Large Language Models (LLMs) with global telecommunications infrastructure is unlocking incredible possibilities. Imagine a customer calling your business and speaking naturally with an AI agent that understands context, can look up order statuses in real-time, and responds with l...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Demystifying Session Initiation Protocol (SIP) with Ruby on Rails</title>
-    <link href="http://shivrajbadu.com.np/posts/demystifying-sip-with-ruby-on-rails/" rel="alternate" type="text/html" title="Demystifying Session Initiation Protocol (SIP) with Ruby on Rails" />
-    <published>2026-08-02T12:38:00+05:45</published>
-  
-    <updated>2026-08-02T13:29:25+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/demystifying-sip-with-ruby-on-rails/</id>
-    <content src="http://shivrajbadu.com.np/posts/demystifying-sip-with-ruby-on-rails/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="AI" />
-    
-    <category term="Rails" />
-    
-    <category term="Telephony" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Demystifying Session Initiation Protocol (SIP) with Ruby on Rails
-
-Introduction
-
-If you’ve ever wondered how modern internet calling, video conferencing, or instant messaging systems establish a connection before a single word is spoken, the answer is usually Session Initiation Protocol (SIP). It acts as the polite operator connecting two parties in the digital world. While the theory can get d...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>The Creative Machines Playbook: A Practical Guide to Generative AI</title>
-    <link href="http://shivrajbadu.com.np/posts/the-creative-machines-playbook-a-practical-guide-to-generative-ai/" rel="alternate" type="text/html" title="The Creative Machines Playbook: A Practical Guide to Generative AI" />
-    <published>2026-04-26T18:25:00+05:45</published>
-  
-    <updated>2026-04-26T18:25:00+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/the-creative-machines-playbook-a-practical-guide-to-generative-ai/</id>
-    <content src="http://shivrajbadu.com.np/posts/the-creative-machines-playbook-a-practical-guide-to-generative-ai/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="AI" />
-    
-    <category term="Machine Learning" />
-    
-    <category term="Deep Learning" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      The Creative Machines Playbook: A Practical Guide to Generative AI
-
-Introduction
-
-Generative AI is one of those rare technologies that feels both familiar and strange at the same time.
-
-It is familiar because we can see the outputs immediately:
-
-
-  a paragraph
-  an image
-  a summary
-  a song fragment
-  a code snippet
-  a chatbot response
-
-
-And it feels strange because the system is not just ret...
     </summary>
   
 
