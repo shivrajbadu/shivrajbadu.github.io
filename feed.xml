@@ -1,17 +1,17 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>http://shivrajbadu.com.np/</id>
+  <id>http://localhost:4000/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2026-08-11T09:51:10+05:45</updated>
+  <updated>2026-08-18T10:02:48+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
-    <uri>http://shivrajbadu.com.np/</uri>
+    <uri>http://localhost:4000/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="http://shivrajbadu.com.np/feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
-    href="http://shivrajbadu.com.np/"/>
+    href="http://localhost:4000/"/>
   <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
   <rights> © 2026 Shivraj Badu </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
@@ -20,14 +20,56 @@
 
   
   <entry>
+    <title>Loop Engineering vs. Graph Engineering: The Evolution of Agentic Architectures</title>
+    <link href="http://localhost:4000/posts/loop-engineering-vs-graph-engineering/" rel="alternate" type="text/html" title="Loop Engineering vs. Graph Engineering: The Evolution of Agentic Architectures" />
+    <published>2026-08-18T09:51:47+05:45</published>
+  
+    <updated>2026-08-18T09:51:47+05:45</updated>
+  
+    <id>http://localhost:4000/posts/loop-engineering-vs-graph-engineering/</id>
+    <content src="http://localhost:4000/posts/loop-engineering-vs-graph-engineering/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="AI" />
+    
+    <category term="Architecture" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Loop Engineering vs. Graph Engineering: The Evolution of Agentic Architectures
+
+Introduction
+
+As artificial intelligence moves from static single-prompt interactions toward autonomous agentic workflows, software architects face a fundamental engineering challenge: how do we transform probabilistic language model outputs into deterministic, enterprise-grade software systems?
+
+In the early days o...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
     <title>Mastering Jenkins for Enterprise Rails Applications: A Comprehensive CI/CD Guide</title>
-    <link href="http://shivrajbadu.com.np/posts/mastering-jenkins-for-enterprise-rails-applications/" rel="alternate" type="text/html" title="Mastering Jenkins for Enterprise Rails Applications: A Comprehensive CI/CD Guide" />
+    <link href="http://localhost:4000/posts/mastering-jenkins-for-enterprise-rails-applications/" rel="alternate" type="text/html" title="Mastering Jenkins for Enterprise Rails Applications: A Comprehensive CI/CD Guide" />
     <published>2026-08-11T09:49:39+05:45</published>
   
     <updated>2026-08-11T09:49:39+05:45</updated>
   
-    <id>http://shivrajbadu.com.np/posts/mastering-jenkins-for-enterprise-rails-applications/</id>
-    <content src="http://shivrajbadu.com.np/posts/mastering-jenkins-for-enterprise-rails-applications/" />
+    <id>http://localhost:4000/posts/mastering-jenkins-for-enterprise-rails-applications/</id>
+    <content src="http://localhost:4000/posts/mastering-jenkins-for-enterprise-rails-applications/" />
     <author>
       <name>Shivraj Badu</name>
     </author>
@@ -63,13 +105,13 @@ In the landscape of Continuous Integration and Continuous Delivery (CI/CD), Jenk
   
   <entry>
     <title>Mastering CircleCI for Enterprise Rails Applications: The Ultimate CI/CD Architecture Guide</title>
-    <link href="http://shivrajbadu.com.np/posts/mastering-circleci-continuous-integration-for-rails-applications/" rel="alternate" type="text/html" title="Mastering CircleCI for Enterprise Rails Applications: The Ultimate CI/CD Architecture Guide" />
+    <link href="http://localhost:4000/posts/mastering-circleci-continuous-integration-for-rails-applications/" rel="alternate" type="text/html" title="Mastering CircleCI for Enterprise Rails Applications: The Ultimate CI/CD Architecture Guide" />
     <published>2026-08-11T09:45:56+05:45</published>
   
     <updated>2026-08-11T09:45:56+05:45</updated>
   
-    <id>http://shivrajbadu.com.np/posts/mastering-circleci-continuous-integration-for-rails-applications/</id>
-    <content src="http://shivrajbadu.com.np/posts/mastering-circleci-continuous-integration-for-rails-applications/" />
+    <id>http://localhost:4000/posts/mastering-circleci-continuous-integration-for-rails-applications/</id>
+    <content src="http://localhost:4000/posts/mastering-circleci-continuous-integration-for-rails-applications/" />
     <author>
       <name>Shivraj Badu</name>
     </author>
@@ -105,13 +147,13 @@ As software applications expand in complexity and team sizes scale, maintaining 
   
   <entry>
     <title>Evaluating RAG Pipelines with Ragas: Moving Beyond Vibes</title>
-    <link href="http://shivrajbadu.com.np/posts/evaluating-rag-pipelines-with-ragas/" rel="alternate" type="text/html" title="Evaluating RAG Pipelines with Ragas: Moving Beyond Vibes" />
+    <link href="http://localhost:4000/posts/evaluating-rag-pipelines-with-ragas/" rel="alternate" type="text/html" title="Evaluating RAG Pipelines with Ragas: Moving Beyond Vibes" />
     <published>2026-08-02T14:30:00+05:45</published>
   
     <updated>2026-08-02T14:30:00+05:45</updated>
   
-    <id>http://shivrajbadu.com.np/posts/evaluating-rag-pipelines-with-ragas/</id>
-    <content src="http://shivrajbadu.com.np/posts/evaluating-rag-pipelines-with-ragas/" />
+    <id>http://localhost:4000/posts/evaluating-rag-pipelines-with-ragas/</id>
+    <content src="http://localhost:4000/posts/evaluating-rag-pipelines-with-ragas/" />
     <author>
       <name>Shivraj Badu</name>
     </author>
@@ -147,13 +189,13 @@ Most developers start by “vibes-based testing”—typing...
   
   <entry>
     <title>Supercharging AI Agents with Unified API Integrations using Nango</title>
-    <link href="http://shivrajbadu.com.np/posts/unified-api-integrations-with-nango/" rel="alternate" type="text/html" title="Supercharging AI Agents with Unified API Integrations using Nango" />
+    <link href="http://localhost:4000/posts/unified-api-integrations-with-nango/" rel="alternate" type="text/html" title="Supercharging AI Agents with Unified API Integrations using Nango" />
     <published>2026-08-02T14:00:00+05:45</published>
   
     <updated>2026-08-02T14:00:00+05:45</updated>
   
-    <id>http://shivrajbadu.com.np/posts/unified-api-integrations-with-nango/</id>
-    <content src="http://shivrajbadu.com.np/posts/unified-api-integrations-with-nango/" />
+    <id>http://localhost:4000/posts/unified-api-integrations-with-nango/</id>
+    <content src="http://localhost:4000/posts/unified-api-integrations-with-nango/" />
     <author>
       <name>Shivraj Badu</name>
     </author>
@@ -179,46 +221,6 @@ Most developers start by “vibes-based testing”—typing...
 Introduction
 
 As AI agents become more sophisticated, their utility is increasingly defined by what they can do, rather than just what they can say. An LLM that knows how to write a Python script is useful; an LLM that can read your Jira tickets, update your Salesforce records, and draft a Google Doc is transformative. However, ...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>The Definitive Guide to Voice Agent &amp; SIP Testing Frameworks</title>
-    <link href="http://shivrajbadu.com.np/posts/voice-agent-and-sip-testing-frameworks/" rel="alternate" type="text/html" title="The Definitive Guide to Voice Agent &amp;amp; SIP Testing Frameworks" />
-    <published>2026-08-02T13:10:00+05:45</published>
-  
-    <updated>2026-08-02T13:10:00+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/voice-agent-and-sip-testing-frameworks/</id>
-    <content src="http://shivrajbadu.com.np/posts/voice-agent-and-sip-testing-frameworks/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="AI" />
-    
-    <category term="DevOps" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      The Definitive Guide to Voice Agent &amp;amp; SIP Testing Frameworks
-
-Introduction
-
-Building a voice AI agent is a multi-disciplinary challenge that pushes the boundaries of traditional software development. You aren’t just dealing with deterministic code; you are navigating the unpredictable nuances of human speech, the probabilistic nature of Large Language Models (LLMs), and the strict, real-tim...
     </summary>
   
 
