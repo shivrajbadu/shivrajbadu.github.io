@@ -2,8 +2,8 @@
 layout: post
 title: "Mastering CircleCI for Enterprise Rails Applications: The Ultimate CI/CD Architecture Guide"
 date: 2026-08-11 09:45:56 +0545
-categories: [DevOps, CircleCI, Rails]
-tags: [circleci, continuous-integration, ruby-on-rails, devops, rspec, jest]
+categories: [DevOps, Rails]
+tags: [circleci, ci-cd, ruby-on-rails, rspec, jest, devops, docker, pipelines]
 ---
 
 # Mastering CircleCI for Enterprise Rails Applications: The Ultimate CI/CD Architecture Guide

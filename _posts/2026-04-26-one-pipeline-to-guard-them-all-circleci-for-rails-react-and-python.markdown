@@ -3,18 +3,7 @@ layout: post
 title: "One Pipeline to Guard Them All: A Practical CircleCI Guide for Rails, React, and Python Teams"
 date: 2026-04-26 02:30:00 +0545
 categories: [DevOps, Rails, React, Python]
-tags:
-  [
-    circleci,
-    cicd,
-    ruby-on-rails,
-    reactjs,
-    rspec,
-    minitest,
-    jest,
-    pytest,
-    unittest,
-  ]
+tags: [circleci, ci-cd, ruby-on-rails, react, rspec, minitest, jest, pytest, unittest, pipelines]
 ---
 
 # One Pipeline to Guard Them All: A Practical CircleCI Guide for Rails, React, and Python Teams

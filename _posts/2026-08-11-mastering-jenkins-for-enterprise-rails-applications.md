@@ -2,8 +2,8 @@
 layout: post
 title: "Mastering Jenkins for Enterprise Rails Applications: A Comprehensive CI/CD Guide"
 date: 2026-08-11 09:49:39 +0545
-categories: [DevOps, Jenkins, Rails]
-tags: [jenkins, continuous-integration, ruby-on-rails, devops, rspec, docker]
+categories: [DevOps, Rails]
+tags: [jenkins, ci-cd, ruby-on-rails, rspec, docker, devops, pipelines]
 ---
 
 # Mastering Jenkins for Enterprise Rails Applications: A Comprehensive CI/CD Guide
