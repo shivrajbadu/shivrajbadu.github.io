@@ -4,7 +4,7 @@
   <id>http://localhost:4000/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2026-08-18T10:02:48+05:45</updated>
+  <updated>2026-08-23T15:13:20+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://localhost:4000/</uri>
@@ -17,6 +17,86 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>Idempotency Keys: Safe Retries and Preventing Duplicate Operations</title>
+    <link href="http://localhost:4000/posts/idempotency-keys-safe-retries-preventing-duplicate-operations/" rel="alternate" type="text/html" title="Idempotency Keys: Safe Retries and Preventing Duplicate Operations" />
+    <published>2026-08-23T14:30:00+05:45</published>
+  
+    <updated>2026-08-23T14:30:00+05:45</updated>
+  
+    <id>http://localhost:4000/posts/idempotency-keys-safe-retries-preventing-duplicate-operations/</id>
+    <content src="http://localhost:4000/posts/idempotency-keys-safe-retries-preventing-duplicate-operations/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="Backend" />
+    
+    <category term="API" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      Idempotency Keys: Safe Retries and Preventing Duplicate Operations
+
+Introduction
+
+Imagine this scenario: Your API receives the same request twice. The first request succeeded, but the response was lost due to a network timeout. The client retries without any protection mechanism—and now you’ve processed the operation twice. For a payment, that means charging the customer twice. For a ticket boo...
+    </summary>
+  
+
+  </entry>
+
+  
+  <entry>
+    <title>How Blacksmith Accelerates Docker Builds in CI/CD Pipelines</title>
+    <link href="http://localhost:4000/posts/how-blacksmith-accelerates-docker-builds-in-cicd-pipelines/" rel="alternate" type="text/html" title="How Blacksmith Accelerates Docker Builds in CI/CD Pipelines" />
+    <published>2026-08-23T14:30:00+05:45</published>
+  
+    <updated>2026-08-23T14:30:00+05:45</updated>
+  
+    <id>http://localhost:4000/posts/how-blacksmith-accelerates-docker-builds-in-cicd-pipelines/</id>
+    <content src="http://localhost:4000/posts/how-blacksmith-accelerates-docker-builds-in-cicd-pipelines/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="DevOps" />
+    
+    <category term="Docker" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      How Blacksmith Accelerates Docker Builds in CI/CD Pipelines
+
+Introduction
+
+Every developer knows the frustration: you push a minor code change, trigger your GitHub Actions workflow, and then wait. And wait. Your Docker build churns through layers it’s already built before, npm reinstalls packages that haven’t changed, and what should take seconds stretches into minutes. For teams deploying mult...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -66,7 +146,7 @@ In the early days o...
     <link href="http://localhost:4000/posts/mastering-jenkins-for-enterprise-rails-applications/" rel="alternate" type="text/html" title="Mastering Jenkins for Enterprise Rails Applications: A Comprehensive CI/CD Guide" />
     <published>2026-08-11T09:49:39+05:45</published>
   
-    <updated>2026-08-11T09:49:39+05:45</updated>
+    <updated>2026-08-23T15:12:15+05:45</updated>
   
     <id>http://localhost:4000/posts/mastering-jenkins-for-enterprise-rails-applications/</id>
     <content src="http://localhost:4000/posts/mastering-jenkins-for-enterprise-rails-applications/" />
@@ -77,8 +157,6 @@ In the early days o...
   
     
     <category term="DevOps" />
-    
-    <category term="Jenkins" />
     
     <category term="Rails" />
     
@@ -108,7 +186,7 @@ In the landscape of Continuous Integration and Continuous Delivery (CI/CD), Jenk
     <link href="http://localhost:4000/posts/mastering-circleci-continuous-integration-for-rails-applications/" rel="alternate" type="text/html" title="Mastering CircleCI for Enterprise Rails Applications: The Ultimate CI/CD Architecture Guide" />
     <published>2026-08-11T09:45:56+05:45</published>
   
-    <updated>2026-08-11T09:45:56+05:45</updated>
+    <updated>2026-08-23T15:12:15+05:45</updated>
   
     <id>http://localhost:4000/posts/mastering-circleci-continuous-integration-for-rails-applications/</id>
     <content src="http://localhost:4000/posts/mastering-circleci-continuous-integration-for-rails-applications/" />
@@ -119,8 +197,6 @@ In the landscape of Continuous Integration and Continuous Delivery (CI/CD), Jenk
   
     
     <category term="DevOps" />
-    
-    <category term="CircleCI" />
     
     <category term="Rails" />
     
@@ -139,88 +215,6 @@ In the landscape of Continuous Integration and Continuous Delivery (CI/CD), Jenk
 Introduction
 
 As software applications expand in complexity and team sizes scale, maintaining code quality and rapid delivery velocity becomes a central engineering challenge. For Ruby on Rails applications—especially enterprise monoliths carrying years of business logic, complex database schemas, and d...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Evaluating RAG Pipelines with Ragas: Moving Beyond Vibes</title>
-    <link href="http://localhost:4000/posts/evaluating-rag-pipelines-with-ragas/" rel="alternate" type="text/html" title="Evaluating RAG Pipelines with Ragas: Moving Beyond Vibes" />
-    <published>2026-08-02T14:30:00+05:45</published>
-  
-    <updated>2026-08-02T14:30:00+05:45</updated>
-  
-    <id>http://localhost:4000/posts/evaluating-rag-pipelines-with-ragas/</id>
-    <content src="http://localhost:4000/posts/evaluating-rag-pipelines-with-ragas/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="AI" />
-    
-    <category term="DevOps" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Evaluating RAG Pipelines with Ragas: Moving Beyond Vibes
-
-Introduction
-
-Retrieval-Augmented Generation (RAG) has become the de facto architecture for building AI applications that need to reason over proprietary data. Building a prototype RAG system takes an afternoon; making it production-ready takes months. The biggest hurdle? Evaluation.
-
-Most developers start by “vibes-based testing”—typing...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>Supercharging AI Agents with Unified API Integrations using Nango</title>
-    <link href="http://localhost:4000/posts/unified-api-integrations-with-nango/" rel="alternate" type="text/html" title="Supercharging AI Agents with Unified API Integrations using Nango" />
-    <published>2026-08-02T14:00:00+05:45</published>
-  
-    <updated>2026-08-02T14:00:00+05:45</updated>
-  
-    <id>http://localhost:4000/posts/unified-api-integrations-with-nango/</id>
-    <content src="http://localhost:4000/posts/unified-api-integrations-with-nango/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="AI" />
-    
-    <category term="Web Development" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      Supercharging AI Agents with Unified API Integrations using Nango
-
-Introduction
-
-As AI agents become more sophisticated, their utility is increasingly defined by what they can do, rather than just what they can say. An LLM that knows how to write a Python script is useful; an LLM that can read your Jira tickets, update your Salesforce records, and draft a Google Doc is transformative. However, ...
     </summary>
   
 
