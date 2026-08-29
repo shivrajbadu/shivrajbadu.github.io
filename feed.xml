@@ -1,17 +1,17 @@
 
 
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <id>http://localhost:4000/</id>
+  <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2026-08-23T15:13:20+05:45</updated>
+  <updated>2026-08-29T11:41:09+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
-    <uri>http://localhost:4000/</uri>
+    <uri>http://shivrajbadu.com.np/</uri>
   </author>
-  <link rel="self" type="application/atom+xml" href="http://localhost:4000/feed.xml"/>
+  <link rel="self" type="application/atom+xml" href="http://shivrajbadu.com.np/feed.xml"/>
   <link rel="alternate" type="text/html" hreflang="en"
-    href="http://localhost:4000/"/>
+    href="http://shivrajbadu.com.np/"/>
   <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
   <rights> © 2026 Shivraj Badu </rights>
   <icon>/assets/img/favicons/favicon.ico</icon>
@@ -20,23 +20,23 @@
 
   
   <entry>
-    <title>Idempotency Keys: Safe Retries and Preventing Duplicate Operations</title>
-    <link href="http://localhost:4000/posts/idempotency-keys-safe-retries-preventing-duplicate-operations/" rel="alternate" type="text/html" title="Idempotency Keys: Safe Retries and Preventing Duplicate Operations" />
-    <published>2026-08-23T14:30:00+05:45</published>
+    <title>AWS CloudWatch Mastery: Metrics, Logs, Alarms, and Dashboards</title>
+    <link href="http://shivrajbadu.com.np/posts/aws-cloudwatch-mastery-metrics-logs-alarms-dashboards/" rel="alternate" type="text/html" title="AWS CloudWatch Mastery: Metrics, Logs, Alarms, and Dashboards" />
+    <published>2026-08-25T15:00:00+05:45</published>
   
-    <updated>2026-08-23T14:30:00+05:45</updated>
+    <updated>2026-08-25T15:00:00+05:45</updated>
   
-    <id>http://localhost:4000/posts/idempotency-keys-safe-retries-preventing-duplicate-operations/</id>
-    <content src="http://localhost:4000/posts/idempotency-keys-safe-retries-preventing-duplicate-operations/" />
+    <id>http://shivrajbadu.com.np/posts/aws-cloudwatch-mastery-metrics-logs-alarms-dashboards/</id>
+    <content src="http://shivrajbadu.com.np/posts/aws-cloudwatch-mastery-metrics-logs-alarms-dashboards/" />
     <author>
       <name>Shivraj Badu</name>
     </author>
 
   
     
-    <category term="Backend" />
+    <category term="AWS" />
     
-    <category term="API" />
+    <category term="Monitoring" />
     
   
 
@@ -48,11 +48,11 @@
 
 
 
-      Idempotency Keys: Safe Retries and Preventing Duplicate Operations
+      AWS CloudWatch Mastery: Metrics, Logs, Alarms, and Dashboards
 
 Introduction
 
-Imagine this scenario: Your API receives the same request twice. The first request succeeded, but the response was lost due to a network timeout. The client retries without any protection mechanism—and now you’ve processed the operation twice. For a payment, that means charging the customer twice. For a ticket boo...
+Your production Rails application is down. Users report errors, but you don’t know when it started, what caused it, or which component failed. You SSH into EC2 instances, grep log files, check CPU usage manually. By the time you identify the issue—a database connection pool exhaustion—you’ve lost revenue and customer t...
     </summary>
   
 
@@ -60,23 +60,23 @@ Imagine this scenario: Your API receives the same request twice. The first reque
 
   
   <entry>
-    <title>How Blacksmith Accelerates Docker Builds in CI/CD Pipelines</title>
-    <link href="http://localhost:4000/posts/how-blacksmith-accelerates-docker-builds-in-cicd-pipelines/" rel="alternate" type="text/html" title="How Blacksmith Accelerates Docker Builds in CI/CD Pipelines" />
-    <published>2026-08-23T14:30:00+05:45</published>
+    <title>AWS SNS Mastery: Pub/Sub Messaging, Mobile and Event Driven Notifications at Scale</title>
+    <link href="http://shivrajbadu.com.np/posts/aws-sns-mastery-pub-sub-messaging-mobile-event-driven-notifications-scale/" rel="alternate" type="text/html" title="AWS SNS Mastery: Pub/Sub Messaging, Mobile and Event Driven Notifications at Scale" />
+    <published>2026-08-25T14:00:00+05:45</published>
   
-    <updated>2026-08-23T14:30:00+05:45</updated>
+    <updated>2026-08-25T14:00:00+05:45</updated>
   
-    <id>http://localhost:4000/posts/how-blacksmith-accelerates-docker-builds-in-cicd-pipelines/</id>
-    <content src="http://localhost:4000/posts/how-blacksmith-accelerates-docker-builds-in-cicd-pipelines/" />
+    <id>http://shivrajbadu.com.np/posts/aws-sns-mastery-pub-sub-messaging-mobile-event-driven-notifications-scale/</id>
+    <content src="http://shivrajbadu.com.np/posts/aws-sns-mastery-pub-sub-messaging-mobile-event-driven-notifications-scale/" />
     <author>
       <name>Shivraj Badu</name>
     </author>
 
   
     
-    <category term="DevOps" />
+    <category term="AWS" />
     
-    <category term="Docker" />
+    <category term="Messaging" />
     
   
 
@@ -88,11 +88,11 @@ Imagine this scenario: Your API receives the same request twice. The first reque
 
 
 
-      How Blacksmith Accelerates Docker Builds in CI/CD Pipelines
+      AWS SNS Mastery: Pub/Sub Messaging, Mobile and Event Driven Notifications at Scale
 
 Introduction
 
-Every developer knows the frustration: you push a minor code change, trigger your GitHub Actions workflow, and then wait. And wait. Your Docker build churns through layers it’s already built before, npm reinstalls packages that haven’t changed, and what should take seconds stretches into minutes. For teams deploying mult...
+Your application needs to notify users when orders complete. You send emails directly from your Rails controller. Then you add SMS notifications—another service call. Then mobile push notifications—another integration. Then you want to trigger Lambda functions and log to S3 when orders complete. Yo...
     </summary>
   
 
@@ -100,23 +100,23 @@ Every developer knows the frustration: you push a minor code change, trigger you
 
   
   <entry>
-    <title>Loop Engineering vs. Graph Engineering: The Evolution of Agentic Architectures</title>
-    <link href="http://localhost:4000/posts/loop-engineering-vs-graph-engineering/" rel="alternate" type="text/html" title="Loop Engineering vs. Graph Engineering: The Evolution of Agentic Architectures" />
-    <published>2026-08-18T09:51:47+05:45</published>
+    <title>AWS SQS Mastery: Standard vs FIFO Queues and Dead Letter Handling for Microservices and Distributed Systems</title>
+    <link href="http://shivrajbadu.com.np/posts/aws-sqs-mastery-standard-fifo-queues-dead-letter-handling-microservices/" rel="alternate" type="text/html" title="AWS SQS Mastery: Standard vs FIFO Queues and Dead Letter Handling for Microservices and Distributed Systems" />
+    <published>2026-08-25T13:00:00+05:45</published>
   
-    <updated>2026-08-18T09:51:47+05:45</updated>
+    <updated>2026-08-25T13:00:00+05:45</updated>
   
-    <id>http://localhost:4000/posts/loop-engineering-vs-graph-engineering/</id>
-    <content src="http://localhost:4000/posts/loop-engineering-vs-graph-engineering/" />
+    <id>http://shivrajbadu.com.np/posts/aws-sqs-mastery-standard-fifo-queues-dead-letter-handling-microservices/</id>
+    <content src="http://shivrajbadu.com.np/posts/aws-sqs-mastery-standard-fifo-queues-dead-letter-handling-microservices/" />
     <author>
       <name>Shivraj Badu</name>
     </author>
 
   
     
-    <category term="AI" />
+    <category term="AWS" />
     
-    <category term="Architecture" />
+    <category term="Messaging" />
     
   
 
@@ -128,13 +128,11 @@ Every developer knows the frustration: you push a minor code change, trigger you
 
 
 
-      Loop Engineering vs. Graph Engineering: The Evolution of Agentic Architectures
+      AWS SQS Mastery: Standard vs FIFO Queues and Dead Letter Handling for Microservices
 
 Introduction
 
-As artificial intelligence moves from static single-prompt interactions toward autonomous agentic workflows, software architects face a fundamental engineering challenge: how do we transform probabilistic language model outputs into deterministic, enterprise-grade software systems?
-
-In the early days o...
+Your Rails application processes orders synchronously. A user clicks “Purchase,” and your server charges the card, updates inventory, sends confirmation emails, and logs analytics—all before responding. One service is slow, the entire request times out. One service fails, the whole transaction fai...
     </summary>
   
 
@@ -142,23 +140,23 @@ In the early days o...
 
   
   <entry>
-    <title>Mastering Jenkins for Enterprise Rails Applications: A Comprehensive CI/CD Guide</title>
-    <link href="http://localhost:4000/posts/mastering-jenkins-for-enterprise-rails-applications/" rel="alternate" type="text/html" title="Mastering Jenkins for Enterprise Rails Applications: A Comprehensive CI/CD Guide" />
-    <published>2026-08-11T09:49:39+05:45</published>
+    <title>Build serverless Application with AWS Lambda: Functions, Triggers, and Cold Starts</title>
+    <link href="http://shivrajbadu.com.np/posts/aws-lambda-mastery-build-serverless-applications-functions-triggers-cold-starts/" rel="alternate" type="text/html" title="Build serverless Application with AWS Lambda: Functions, Triggers, and Cold Starts" />
+    <published>2026-08-25T12:00:00+05:45</published>
   
-    <updated>2026-08-23T15:12:15+05:45</updated>
+    <updated>2026-08-25T12:00:00+05:45</updated>
   
-    <id>http://localhost:4000/posts/mastering-jenkins-for-enterprise-rails-applications/</id>
-    <content src="http://localhost:4000/posts/mastering-jenkins-for-enterprise-rails-applications/" />
+    <id>http://shivrajbadu.com.np/posts/aws-lambda-mastery-build-serverless-applications-functions-triggers-cold-starts/</id>
+    <content src="http://shivrajbadu.com.np/posts/aws-lambda-mastery-build-serverless-applications-functions-triggers-cold-starts/" />
     <author>
       <name>Shivraj Badu</name>
     </author>
 
   
     
-    <category term="DevOps" />
+    <category term="AWS" />
     
-    <category term="Rails" />
+    <category term="Serverless" />
     
   
 
@@ -170,11 +168,11 @@ In the early days o...
 
 
 
-      Mastering Jenkins for Enterprise Rails Applications: A Comprehensive CI/CD Guide
+      Build Serverless Application with AWS Lambda: Functions, Triggers, and Cold Starts
 
 Introduction
 
-In the landscape of Continuous Integration and Continuous Delivery (CI/CD), Jenkins remains an open-source juggernaut. While cloud-managed solutions like CircleCI or GitHub Actions offer turnkey simplicity, enterprise organizations—especially those operating in regulated industries, air-gapped networ...
+Your Rails application needs to resize uploaded images, send welcome emails, process payment webhooks, and generate nightly reports. Traditionally, you’d spin up EC2 instances running background workers—Sidekiq, Delayed Job, or cron jobs. These instances run 24/7, consuming resources even when idle...
     </summary>
   
 
@@ -182,23 +180,23 @@ In the landscape of Continuous Integration and Continuous Delivery (CI/CD), Jenk
 
   
   <entry>
-    <title>Mastering CircleCI for Enterprise Rails Applications: The Ultimate CI/CD Architecture Guide</title>
-    <link href="http://localhost:4000/posts/mastering-circleci-continuous-integration-for-rails-applications/" rel="alternate" type="text/html" title="Mastering CircleCI for Enterprise Rails Applications: The Ultimate CI/CD Architecture Guide" />
-    <published>2026-08-11T09:45:56+05:45</published>
+    <title>AWS CloudFront Mastery: CDN, Caching, and Edge Locations</title>
+    <link href="http://shivrajbadu.com.np/posts/aws-cloudfront-mastery-cdn-caching-edge-locations/" rel="alternate" type="text/html" title="AWS CloudFront Mastery: CDN, Caching, and Edge Locations" />
+    <published>2026-08-25T11:00:00+05:45</published>
   
-    <updated>2026-08-23T15:12:15+05:45</updated>
+    <updated>2026-08-25T11:00:00+05:45</updated>
   
-    <id>http://localhost:4000/posts/mastering-circleci-continuous-integration-for-rails-applications/</id>
-    <content src="http://localhost:4000/posts/mastering-circleci-continuous-integration-for-rails-applications/" />
+    <id>http://shivrajbadu.com.np/posts/aws-cloudfront-mastery-cdn-caching-edge-locations/</id>
+    <content src="http://shivrajbadu.com.np/posts/aws-cloudfront-mastery-cdn-caching-edge-locations/" />
     <author>
       <name>Shivraj Badu</name>
     </author>
 
   
     
-    <category term="DevOps" />
+    <category term="AWS" />
     
-    <category term="Rails" />
+    <category term="CDN" />
     
   
 
@@ -210,11 +208,11 @@ In the landscape of Continuous Integration and Continuous Delivery (CI/CD), Jenk
 
 
 
-      Mastering CircleCI for Enterprise Rails Applications: The Ultimate CI/CD Architecture Guide
+      AWS CloudFront Mastery: CDN, Caching, and Edge Locations
 
 Introduction
 
-As software applications expand in complexity and team sizes scale, maintaining code quality and rapid delivery velocity becomes a central engineering challenge. For Ruby on Rails applications—especially enterprise monoliths carrying years of business logic, complex database schemas, and d...
+Your Rails application serves users globally. Someone in Tokyo requests your homepage. The request travels 10,000 kilometers to your us-east-1 server, waits for the response, and travels 10,000 kilometers back. Total latency: 300-500ms just for network round-trip, before your application even processes the request. Images, ...
     </summary>
   
 
