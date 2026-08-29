@@ -145,6 +145,7 @@ circleci config process .circleci/config.yml > processed_config.yml
 
 Below is a complete, real-world `.circleci/config.yml` designed for a enterprise Ruby on Rails application equipped with PostgreSQL, Redis, Yarn/Node dependencies, RSpec parallelism, Jest frontend specs, RuboCop, and security audits.
 
+{% raw %}
 ```yaml
 version: 2.1
 
@@ -278,6 +279,7 @@ workflows:
           requires:
             - static_analysis
 ```
+{% endraw %}
 
 ---
 

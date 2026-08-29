@@ -54,6 +54,7 @@ For a team with 20 developers pushing 5 times daily, that's **300-700 minutes of
 
 GitHub Actions provides built-in caching via `actions/cache`, but it has significant limitations:
 
+{% raw %}
 ```yaml
 # ⚠️ Limited: GitHub Actions cache
 - uses: actions/cache@v3
@@ -63,6 +64,7 @@ GitHub Actions provides built-in caching via `actions/cache`, but it has signifi
     restore-keys: |
       ${{ runner.os }}-buildx-
 ```
+{% endraw %}
 
 **Limitations:**
 - **Size restrictions:** 10GB cache limit per repository
@@ -177,6 +179,7 @@ Blacksmith analyzes your repository's dependency patterns and **pre-warms caches
 
 First, sign up for Blacksmith and obtain your cache endpoint URL and authentication token.
 
+{% raw %}
 ```yaml
 # .github/workflows/build.yml
 name: Build with Blacksmith
@@ -202,6 +205,7 @@ jobs:
           }
           EOF
 ```
+{% endraw %}
 
 ### Step 2: Docker Build with Blacksmith
 
@@ -269,6 +273,7 @@ CMD ["node", "dist/index.js"]
 
 Configure npm to use Blacksmith as a registry proxy:
 
+{% raw %}
 ```yaml
       - name: Setup Node.js with Blacksmith
         uses: actions/setup-node@v3
@@ -281,6 +286,7 @@ Configure npm to use Blacksmith as a registry proxy:
       - name: Install dependencies
         run: npm ci
 ```
+{% endraw %}
 
 **Before:** `npm ci` takes 90-120 seconds  
 **After:** `npm ci` takes 15-20 seconds on cache hit
@@ -387,6 +393,7 @@ dist
 
 **Problem:** Cache never hits because key is too specific.
 
+{% raw %}
 ```yaml
 # ❌ Bad: SHA changes every commit
 cache-key: ${{ github.sha }}
@@ -394,6 +401,7 @@ cache-key: ${{ github.sha }}
 # ✅ Good: Hash of dependency files
 cache-key: ${{ hashFiles('**/package-lock.json') }}
 ```
+{% endraw %}
 
 ## When to Use Blacksmith
 
@@ -416,6 +424,7 @@ cache-key: ${{ hashFiles('**/package-lock.json') }}
 
 For ultimate performance, combine Blacksmith with BuildKit's inline cache export:
 
+{% raw %}
 ```yaml
 - name: Build and push with inline cache
   uses: docker/build-push-action@v4
@@ -432,6 +441,7 @@ For ultimate performance, combine Blacksmith with BuildKit's inline cache export
     build-args: |
       BUILDKIT_INLINE_CACHE=1
 ```
+{% endraw %}
 
 This embeds cache metadata directly in the image, allowing any runner to benefit from previous builds without additional cache storage.
 
