@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2026-08-29T11:41:09+05:45</updated>
+  <updated>2026-08-30T13:38:26+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -20,23 +20,23 @@
 
   
   <entry>
-    <title>AWS CloudWatch Mastery: Metrics, Logs, Alarms, and Dashboards</title>
-    <link href="http://shivrajbadu.com.np/posts/aws-cloudwatch-mastery-metrics-logs-alarms-dashboards/" rel="alternate" type="text/html" title="AWS CloudWatch Mastery: Metrics, Logs, Alarms, and Dashboards" />
-    <published>2026-08-25T15:00:00+05:45</published>
+    <title>Infrastructure for Intelligence: The Modern AI Engineering Stack in Production</title>
+    <link href="http://shivrajbadu.com.np/posts/production-ai-engineering-stack-infrastructure-tools-patterns-2026/" rel="alternate" type="text/html" title="Infrastructure for Intelligence: The Modern AI Engineering Stack in Production" />
+    <published>2026-08-29T22:10:00+05:45</published>
   
-    <updated>2026-08-25T15:00:00+05:45</updated>
+    <updated>2026-08-29T22:10:00+05:45</updated>
   
-    <id>http://shivrajbadu.com.np/posts/aws-cloudwatch-mastery-metrics-logs-alarms-dashboards/</id>
-    <content src="http://shivrajbadu.com.np/posts/aws-cloudwatch-mastery-metrics-logs-alarms-dashboards/" />
+    <id>http://shivrajbadu.com.np/posts/production-ai-engineering-stack-infrastructure-tools-patterns-2026/</id>
+    <content src="http://shivrajbadu.com.np/posts/production-ai-engineering-stack-infrastructure-tools-patterns-2026/" />
     <author>
       <name>Shivraj Badu</name>
     </author>
 
   
     
-    <category term="AWS" />
+    <category term="AI" />
     
-    <category term="Monitoring" />
+    <category term="DevOps" />
     
   
 
@@ -48,11 +48,13 @@
 
 
 
-      AWS CloudWatch Mastery: Metrics, Logs, Alarms, and Dashboards
+      Infrastructure for Intelligence: The Modern AI Engineering Stack in Production
 
 Introduction
 
-Your production Rails application is down. Users report errors, but you don’t know when it started, what caused it, or which component failed. You SSH into EC2 instances, grep log files, check CPU usage manually. By the time you identify the issue—a database connection pool exhaustion—you’ve lost revenue and customer t...
+Building AI applications in 2026 requires more than calling an LLM API. Production AI systems demand infrastructure that handles non-deterministic outputs, manages costs at scale, ensures quality without traditional testing, and maintains reliability despite model dependencies beyond your control.
+
+The...
     </summary>
   
 
@@ -60,23 +62,23 @@ Your production Rails application is down. Users report errors, but you don’t 
 
   
   <entry>
-    <title>AWS SNS Mastery: Pub/Sub Messaging, Mobile and Event Driven Notifications at Scale</title>
-    <link href="http://shivrajbadu.com.np/posts/aws-sns-mastery-pub-sub-messaging-mobile-event-driven-notifications-scale/" rel="alternate" type="text/html" title="AWS SNS Mastery: Pub/Sub Messaging, Mobile and Event Driven Notifications at Scale" />
-    <published>2026-08-25T14:00:00+05:45</published>
+    <title>Beyond Relational: Data Modeling with Vectors, Graphs, and Hybrid Architectures</title>
+    <link href="http://shivrajbadu.com.np/posts/beyond-relational-data-modeling-vectors-graphs-hybrid-architectures/" rel="alternate" type="text/html" title="Beyond Relational: Data Modeling with Vectors, Graphs, and Hybrid Architectures" />
+    <published>2026-08-29T22:00:00+05:45</published>
   
-    <updated>2026-08-25T14:00:00+05:45</updated>
+    <updated>2026-08-29T22:00:00+05:45</updated>
   
-    <id>http://shivrajbadu.com.np/posts/aws-sns-mastery-pub-sub-messaging-mobile-event-driven-notifications-scale/</id>
-    <content src="http://shivrajbadu.com.np/posts/aws-sns-mastery-pub-sub-messaging-mobile-event-driven-notifications-scale/" />
+    <id>http://shivrajbadu.com.np/posts/beyond-relational-data-modeling-vectors-graphs-hybrid-architectures/</id>
+    <content src="http://shivrajbadu.com.np/posts/beyond-relational-data-modeling-vectors-graphs-hybrid-architectures/" />
     <author>
       <name>Shivraj Badu</name>
     </author>
 
   
     
-    <category term="AWS" />
+    <category term="Database" />
     
-    <category term="Messaging" />
+    <category term="AI" />
     
   
 
@@ -88,11 +90,13 @@ Your production Rails application is down. Users report errors, but you don’t 
 
 
 
-      AWS SNS Mastery: Pub/Sub Messaging, Mobile and Event Driven Notifications at Scale
+      Beyond Relational: Data Modeling with Vectors, Graphs, and Hybrid Architectures
 
 Introduction
 
-Your application needs to notify users when orders complete. You send emails directly from your Rails controller. Then you add SMS notifications—another service call. Then mobile push notifications—another integration. Then you want to trigger Lambda functions and log to S3 when orders complete. Yo...
+For decades, relational databases and their normalized table structures dominated data modeling. Rows, columns, foreign keys, and JOIN operations formed the mental model for how we organize information. This worked brilliantly for transactional systems, business applications, and structured data.
+
+The...
     </summary>
   
 
@@ -100,23 +104,23 @@ Your application needs to notify users when orders complete. You send emails dir
 
   
   <entry>
-    <title>AWS SQS Mastery: Standard vs FIFO Queues and Dead Letter Handling for Microservices and Distributed Systems</title>
-    <link href="http://shivrajbadu.com.np/posts/aws-sqs-mastery-standard-fifo-queues-dead-letter-handling-microservices/" rel="alternate" type="text/html" title="AWS SQS Mastery: Standard vs FIFO Queues and Dead Letter Handling for Microservices and Distributed Systems" />
-    <published>2026-08-25T13:00:00+05:45</published>
+    <title>Mastering System Design: 50 Real-World Scenarios from Rate Limiters to Distributed Systems</title>
+    <link href="http://shivrajbadu.com.np/posts/mastering-system-design-50-real-world-scenarios-distributed-systems/" rel="alternate" type="text/html" title="Mastering System Design: 50 Real-World Scenarios from Rate Limiters to Distributed Systems" />
+    <published>2026-08-29T09:20:00+05:45</published>
   
-    <updated>2026-08-25T13:00:00+05:45</updated>
+    <updated>2026-08-29T09:20:00+05:45</updated>
   
-    <id>http://shivrajbadu.com.np/posts/aws-sqs-mastery-standard-fifo-queues-dead-letter-handling-microservices/</id>
-    <content src="http://shivrajbadu.com.np/posts/aws-sqs-mastery-standard-fifo-queues-dead-letter-handling-microservices/" />
+    <id>http://shivrajbadu.com.np/posts/mastering-system-design-50-real-world-scenarios-distributed-systems/</id>
+    <content src="http://shivrajbadu.com.np/posts/mastering-system-design-50-real-world-scenarios-distributed-systems/" />
     <author>
       <name>Shivraj Badu</name>
     </author>
 
   
     
-    <category term="AWS" />
+    <category term="Backend" />
     
-    <category term="Messaging" />
+    <category term="System-Design" />
     
   
 
@@ -128,11 +132,11 @@ Your application needs to notify users when orders complete. You send emails dir
 
 
 
-      AWS SQS Mastery: Standard vs FIFO Queues and Dead Letter Handling for Microservices
+      Mastering System Design: 50 Real-World Scenarios from Rate Limiters to Distributed Systems
 
 Introduction
 
-Your Rails application processes orders synchronously. A user clicks “Purchase,” and your server charges the card, updates inventory, sends confirmation emails, and logs analytics—all before responding. One service is slow, the entire request times out. One service fails, the whole transaction fai...
+System design interviews and real-world architecture decisions share a common challenge: translating business requirements into scalable, reliable technical systems. Whether you’re designing a URL shortener for millions of users or architecting a real-time notification system, the patterns ...
     </summary>
   
 
@@ -140,23 +144,23 @@ Your Rails application processes orders synchronously. A user clicks “Purchase
 
   
   <entry>
-    <title>Build serverless Application with AWS Lambda: Functions, Triggers, and Cold Starts</title>
-    <link href="http://shivrajbadu.com.np/posts/aws-lambda-mastery-build-serverless-applications-functions-triggers-cold-starts/" rel="alternate" type="text/html" title="Build serverless Application with AWS Lambda: Functions, Triggers, and Cold Starts" />
-    <published>2026-08-25T12:00:00+05:45</published>
+    <title>The Architecture of Intelligent Systems: 15 Agentic AI Patterns for Production</title>
+    <link href="http://shivrajbadu.com.np/posts/architecture-intelligent-systems-15-agentic-ai-patterns-production/" rel="alternate" type="text/html" title="The Architecture of Intelligent Systems: 15 Agentic AI Patterns for Production" />
+    <published>2026-08-29T09:10:00+05:45</published>
   
-    <updated>2026-08-25T12:00:00+05:45</updated>
+    <updated>2026-08-29T09:10:00+05:45</updated>
   
-    <id>http://shivrajbadu.com.np/posts/aws-lambda-mastery-build-serverless-applications-functions-triggers-cold-starts/</id>
-    <content src="http://shivrajbadu.com.np/posts/aws-lambda-mastery-build-serverless-applications-functions-triggers-cold-starts/" />
+    <id>http://shivrajbadu.com.np/posts/architecture-intelligent-systems-15-agentic-ai-patterns-production/</id>
+    <content src="http://shivrajbadu.com.np/posts/architecture-intelligent-systems-15-agentic-ai-patterns-production/" />
     <author>
       <name>Shivraj Badu</name>
     </author>
 
   
     
-    <category term="AWS" />
+    <category term="AI" />
     
-    <category term="Serverless" />
+    <category term="Backend" />
     
   
 
@@ -168,11 +172,11 @@ Your Rails application processes orders synchronously. A user clicks “Purchase
 
 
 
-      Build Serverless Application with AWS Lambda: Functions, Triggers, and Cold Starts
+      The Architecture of Intelligent Systems: 15 Agentic AI Patterns for Production
 
 Introduction
 
-Your Rails application needs to resize uploaded images, send welcome emails, process payment webhooks, and generate nightly reports. Traditionally, you’d spin up EC2 instances running background workers—Sidekiq, Delayed Job, or cron jobs. These instances run 24/7, consuming resources even when idle...
+The evolution from prompt-based AI to autonomous agents represents one of the most significant shifts in software architecture since microservices. Unlike traditional applications where logic flows through deterministic code paths, agentic systems make decisions, use tools, reason through problems, and...
     </summary>
   
 
@@ -180,23 +184,23 @@ Your Rails application needs to resize uploaded images, send welcome emails, pro
 
   
   <entry>
-    <title>AWS CloudFront Mastery: CDN, Caching, and Edge Locations</title>
-    <link href="http://shivrajbadu.com.np/posts/aws-cloudfront-mastery-cdn-caching-edge-locations/" rel="alternate" type="text/html" title="AWS CloudFront Mastery: CDN, Caching, and Edge Locations" />
-    <published>2026-08-25T11:00:00+05:45</published>
+    <title>The Open Source AI Arsenal: 12 Essential Tools for Building Production Systems</title>
+    <link href="http://shivrajbadu.com.np/posts/open-source-ai-arsenal-12-essential-tools-production-systems/" rel="alternate" type="text/html" title="The Open Source AI Arsenal: 12 Essential Tools for Building Production Systems" />
+    <published>2026-08-29T08:50:00+05:45</published>
   
-    <updated>2026-08-25T11:00:00+05:45</updated>
+    <updated>2026-08-29T08:50:00+05:45</updated>
   
-    <id>http://shivrajbadu.com.np/posts/aws-cloudfront-mastery-cdn-caching-edge-locations/</id>
-    <content src="http://shivrajbadu.com.np/posts/aws-cloudfront-mastery-cdn-caching-edge-locations/" />
+    <id>http://shivrajbadu.com.np/posts/open-source-ai-arsenal-12-essential-tools-production-systems/</id>
+    <content src="http://shivrajbadu.com.np/posts/open-source-ai-arsenal-12-essential-tools-production-systems/" />
     <author>
       <name>Shivraj Badu</name>
     </author>
 
   
     
-    <category term="AWS" />
+    <category term="AI" />
     
-    <category term="CDN" />
+    <category term="Backend" />
     
   
 
@@ -208,11 +212,11 @@ Your Rails application needs to resize uploaded images, send welcome emails, pro
 
 
 
-      AWS CloudFront Mastery: CDN, Caching, and Edge Locations
+      The Open Source AI Arsenal: 12 Essential Tools for Building Production Systems
 
 Introduction
 
-Your Rails application serves users globally. Someone in Tokyo requests your homepage. The request travels 10,000 kilometers to your us-east-1 server, waits for the response, and travels 10,000 kilometers back. Total latency: 300-500ms just for network round-trip, before your application even processes the request. Images, ...
+The AI ecosystem in 2026 is defined not by proprietary platforms, but by a vibrant open-source community building production-grade infrastructure. From local LLM inference to vector databases, from orchestration frameworks to observability tools, the open-source AI stack rivals—and often surpasses—comm...
     </summary>
   
 
