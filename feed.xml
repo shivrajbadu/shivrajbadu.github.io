@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2026-08-30T13:38:26+05:45</updated>
+  <updated>2026-09-12T23:21:43+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -17,6 +17,46 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>'Gambling With Our Lives': Why an Ex-Anthropic Researcher Believes AI Could End Humanity</title>
+    <link href="http://shivrajbadu.com.np/posts/gambling-with-our-lives-ex-anthropic-researcher-ai-warning/" rel="alternate" type="text/html" title="&amp;apos;Gambling With Our Lives&amp;apos;: Why an Ex-Anthropic Researcher Believes AI Could End Humanity" />
+    <published>2026-09-12T14:30:00+05:45</published>
+  
+    <updated>2026-09-12T14:30:00+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/gambling-with-our-lives-ex-anthropic-researcher-ai-warning/</id>
+    <content src="http://shivrajbadu.com.np/posts/gambling-with-our-lives-ex-anthropic-researcher-ai-warning/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="AI" />
+    
+    <category term="Technology" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      ‘Gambling With Our Lives’: Why an Ex-Anthropic Researcher Believes AI Could End Humanity
+
+Introduction
+
+On September 9, 2026, a 27-year-old AI researcher named Jacob Coxon did something extraordinary: he publicly resigned from Anthropic with a warning that stopped the tech world in its tracks. His message wasn’t about job dissatisfaction or workplace culture—it was about what he believes could ...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -177,46 +217,6 @@ System design interviews and real-world architecture decisions share a common ch
 Introduction
 
 The evolution from prompt-based AI to autonomous agents represents one of the most significant shifts in software architecture since microservices. Unlike traditional applications where logic flows through deterministic code paths, agentic systems make decisions, use tools, reason through problems, and...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>The Open Source AI Arsenal: 12 Essential Tools for Building Production Systems</title>
-    <link href="http://shivrajbadu.com.np/posts/open-source-ai-arsenal-12-essential-tools-production-systems/" rel="alternate" type="text/html" title="The Open Source AI Arsenal: 12 Essential Tools for Building Production Systems" />
-    <published>2026-08-29T08:50:00+05:45</published>
-  
-    <updated>2026-08-29T08:50:00+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/open-source-ai-arsenal-12-essential-tools-production-systems/</id>
-    <content src="http://shivrajbadu.com.np/posts/open-source-ai-arsenal-12-essential-tools-production-systems/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="AI" />
-    
-    <category term="Backend" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      The Open Source AI Arsenal: 12 Essential Tools for Building Production Systems
-
-Introduction
-
-The AI ecosystem in 2026 is defined not by proprietary platforms, but by a vibrant open-source community building production-grade infrastructure. From local LLM inference to vector databases, from orchestration frameworks to observability tools, the open-source AI stack rivals—and often surpasses—comm...
     </summary>
   
 
