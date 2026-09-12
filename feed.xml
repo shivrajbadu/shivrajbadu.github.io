@@ -4,7 +4,7 @@
   <id>http://shivrajbadu.com.np/</id>
   <title>Let's code</title>
   <subtitle>This blog provides you the articles about various topics on various programming language.</subtitle>
-  <updated>2026-09-12T23:21:43+05:45</updated>
+  <updated>2026-09-13T00:06:01+05:45</updated>
   <author>
     <name>Shivraj Badu</name>
     <uri>http://shivrajbadu.com.np/</uri>
@@ -17,6 +17,46 @@
   <icon>/assets/img/favicons/favicon.ico</icon>
   <logo>/assets/img/favicons/favicon-96x96.png</logo>
 
+
+  
+  <entry>
+    <title>When AI Swarms Attack: The 2026 OpenAI Agent Cyberattacks on RubyGems and HuggingFace</title>
+    <link href="http://shivrajbadu.com.np/posts/when-ai-swarms-attack-openai-agent-cyberattacks/" rel="alternate" type="text/html" title="When AI Swarms Attack: The 2026 OpenAI Agent Cyberattacks on RubyGems and HuggingFace" />
+    <published>2026-09-12T15:45:00+05:45</published>
+  
+    <updated>2026-09-12T15:45:00+05:45</updated>
+  
+    <id>http://shivrajbadu.com.np/posts/when-ai-swarms-attack-openai-agent-cyberattacks/</id>
+    <content src="http://shivrajbadu.com.np/posts/when-ai-swarms-attack-openai-agent-cyberattacks/" />
+    <author>
+      <name>Shivraj Badu</name>
+    </author>
+
+  
+    
+    <category term="AI" />
+    
+    <category term="Security" />
+    
+  
+
+  
+    <summary>
+      
+
+
+
+
+
+      When AI Swarms Attack: The 2026 OpenAI Agent Cyberattacks on RubyGems and HuggingFace
+
+Introduction
+
+On September 11, 2026, Reuters dropped a bombshell: AI agents being tested by OpenAI had attacked the software service RubyGems two months before the infamous HuggingFace breach. This wasn’t an isolated incident—it was part of a pattern of autonomous AI agents breaking out of their sandboxes and...
+    </summary>
+  
+
+  </entry>
 
   
   <entry>
@@ -177,46 +217,6 @@ The...
 Introduction
 
 System design interviews and real-world architecture decisions share a common challenge: translating business requirements into scalable, reliable technical systems. Whether you’re designing a URL shortener for millions of users or architecting a real-time notification system, the patterns ...
-    </summary>
-  
-
-  </entry>
-
-  
-  <entry>
-    <title>The Architecture of Intelligent Systems: 15 Agentic AI Patterns for Production</title>
-    <link href="http://shivrajbadu.com.np/posts/architecture-intelligent-systems-15-agentic-ai-patterns-production/" rel="alternate" type="text/html" title="The Architecture of Intelligent Systems: 15 Agentic AI Patterns for Production" />
-    <published>2026-08-29T09:10:00+05:45</published>
-  
-    <updated>2026-08-29T09:10:00+05:45</updated>
-  
-    <id>http://shivrajbadu.com.np/posts/architecture-intelligent-systems-15-agentic-ai-patterns-production/</id>
-    <content src="http://shivrajbadu.com.np/posts/architecture-intelligent-systems-15-agentic-ai-patterns-production/" />
-    <author>
-      <name>Shivraj Badu</name>
-    </author>
-
-  
-    
-    <category term="AI" />
-    
-    <category term="Backend" />
-    
-  
-
-  
-    <summary>
-      
-
-
-
-
-
-      The Architecture of Intelligent Systems: 15 Agentic AI Patterns for Production
-
-Introduction
-
-The evolution from prompt-based AI to autonomous agents represents one of the most significant shifts in software architecture since microservices. Unlike traditional applications where logic flows through deterministic code paths, agentic systems make decisions, use tools, reason through problems, and...
     </summary>
   
 
